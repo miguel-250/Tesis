@@ -1,0 +1,395 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Al-Habal%
+\ \BBA {} Khattab%
+}{%
+Al-Habal%
+\ \BBA {} Khattab%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+ultraLowPowerConservacion}
+\APACinsertmetastar {%
+ultraLowPowerConservacion}%
+\begin{APACrefauthors}%
+Al-Habal, A.%
+\BCBT {}\ \BBA {} Khattab, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Ultra-Low Power Layered IoT Platform for Museum Content
+  Conservation} {Ultra-low power layered iot platform for museum content
+  conservation}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2019 31st International Conference on Microelectronics
+  (ICM)} {2019 31st international conference on microelectronics (icm)}\
+  (\BPG~86-89).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ICM48031.2019.9021866} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alletto%
+\ \protect \BOthers {.}}{%
+Alletto%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+museoItalia}
+\APACinsertmetastar {%
+museoItalia}%
+\begin{APACrefauthors}%
+Alletto, S.%
+, Cucchiara, R.%
+, Del~Fiore, G.%
+, Mainetti, L.%
+, Mighali, V.%
+, Patrono, L.%
+\BCBL {}\ \BBA {} Serra, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An Indoor Location-Aware System for an IoT-Based Smart
+  Museum} {An indoor location-aware system for an iot-based smart
+  museum}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Internet of Things Journal}{3}{2}{244-253}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/JIOT.2015.2506258} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chianese%
+, Piccialli%
+\BCBL {}\ \BBA {} Jung%
+}{%
+Chianese%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+monumentoSanDomenico}
+\APACinsertmetastar {%
+monumentoSanDomenico}%
+\begin{APACrefauthors}%
+Chianese, A.%
+, Piccialli, F.%
+\BCBL {}\ \BBA {} Jung, J\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Internet of Cultural Things: Towards a Smart
+  Cultural Heritage} {The internet of cultural things: Towards a smart cultural
+  heritage}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2016 12th International Conference on Signal-Image
+  Technology Internet-Based Systems (SITIS)} {2016 12th international
+  conference on signal-image technology internet-based systems (sitis)}\
+  (\BPG~493-496).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/SITIS.2016.83} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ciberseguridad%
+}{%
+Ciberseguridad%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+capasIoTciberseguridad}
+\APACinsertmetastar {%
+capasIoTciberseguridad}%
+\begin{APACrefauthors}%
+Ciberseguridad.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Capas de IoT que debes conocer} {Capas de iot que debes
+  conocer}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Noticias de ciberseguridad, ciberataques,
+  vulnerabilidades informáticas}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Corzo~Vargas%
+\ \protect \BOthers {.}}{%
+Corzo~Vargas%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+museoInterSalaLimpia}
+\APACinsertmetastar {%
+museoInterSalaLimpia}%
+\begin{APACrefauthors}%
+Corzo~Vargas, O\BPBI G.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2019}.
+\unskip\
+\newblock
+\APACrefbtitle {Dom{\'o}tica del Museo Interactivo de Sala Limpia}
+  {Dom{\'o}tica del museo interactivo de sala limpia}\ \APACtypeAddressSchool
+  {{B.S.} thesis}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Uniandes}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Diezma%
+}{%
+Diezma%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+revolucionDefinitiva}
+\APACinsertmetastar {%
+revolucionDefinitiva}%
+\begin{APACrefauthors}%
+Diezma, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internet of things: la revoluci{\'o}n definitiva del
+  arte, el ocio y la cultura en el siglo XXI} {Internet of things: la
+  revoluci{\'o}n definitiva del arte, el ocio y la cultura en el siglo
+  xxi}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Anuario AC/E}{4}{}{79--95}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Evans%
+}{%
+Evans%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+evolucionIoT}
+\APACinsertmetastar {%
+evolucionIoT}%
+\begin{APACrefauthors}%
+Evans, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {How the Next Evolution of the Internet Is Changing
+  Everything.} {How the next evolution of the internet is changing
+  everything.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{Cisco Internet of Things White Paper}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+García%
+}{%
+García%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+arquitecturaPaginaLuisGarcia}
+\APACinsertmetastar {%
+arquitecturaPaginaLuisGarcia}%
+\begin{APACrefauthors}%
+García, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cu\'ales son las arquitecturas y componentes de una red
+  IoT} {Cu\'ales son las arquitecturas y componentes de una red iot}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+L.~Hou%
+}{%
+L.~Hou%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+arquitecturaIEEE}
+\APACinsertmetastar {%
+arquitecturaIEEE}%
+\begin{APACrefauthors}%
+L.~Hou, X\BPBI X\BPBI \BPBI o., S.~Zhao.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internet of Things Cloud: Architecture and
+  Implementation} {Internet of things cloud: Architecture and
+  implementation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Communications Magazine}{}{54}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/MCOM.2016.1600398CM} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+, Wang%
+, Qi%
+\BCBL {}\ \BBA {} Yang%
+}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+chinaSistemaSeguridadRFID}
+\APACinsertmetastar {%
+chinaSistemaSeguridadRFID}%
+\begin{APACrefauthors}%
+Liu, Z.%
+, Wang, M.%
+, Qi, S.%
+\BCBL {}\ \BBA {} Yang, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Study on the Anti-Theft Technology of Museum Cultural
+  Relics Based on Internet of Things} {Study on the anti-theft technology of
+  museum cultural relics based on internet of things}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{7}{}{111387-111395}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2019.2933236} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pinz{\'o}n~Ortega%
+, Franco~Avellaneda%
+\BCBL {}\ \BBA {} Falla%
+}{%
+Pinz{\'o}n~Ortega%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+maloka}
+\APACinsertmetastar {%
+maloka}%
+\begin{APACrefauthors}%
+Pinz{\'o}n~Ortega, A\BPBI S.%
+, Franco~Avellaneda, M.%
+\BCBL {}\ \BBA {} Falla, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Condiciones que posibilitan el acceso a un museo de
+  ciencias: an{\'a}lisis del caso Maloka (Conditions that Make Possible the
+  Access to a Science Museum: Case Study of Maloka Science Center)}
+  {Condiciones que posibilitan el acceso a un museo de ciencias: an{\'a}lisis
+  del caso maloka (conditions that make possible the access to a science
+  museum: Case study of maloka science center)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Trilog{\'\i}a Ciencia Tecnolog{\'\i}a
+  Sociedad}{7}{12}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Quintero%
+}{%
+Quintero%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+oficinaHistoriadorRescatepatrimonio}
+\APACinsertmetastar {%
+oficinaHistoriadorRescatepatrimonio}%
+\begin{APACrefauthors}%
+Quintero, G\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {La Oficina del Historiador de La Habana al rescate del
+  patrimonio bibliogr{\'a}fico} {La oficina del historiador de la habana al
+  rescate del patrimonio bibliogr{\'a}fico}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Apuntes. Revista de estudios sobre patrimonio
+  cultural}{28}{2}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sornalatha%
+\ \BBA {} Kavitha%
+}{%
+Sornalatha%
+\ \BBA {} Kavitha%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+proyectoIotdispositivoPortatil}
+\APACinsertmetastar {%
+proyectoIotdispositivoPortatil}%
+\begin{APACrefauthors}%
+Sornalatha, K.%
+\BCBT {}\ \BBA {} Kavitha, V\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {IoT based smart museum using Bluetooth Low Energy} {Iot
+  based smart museum using bluetooth low energy}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2017 Third International Conference on Advances in
+  Electrical, Electronics, Information, Communication and Bio-Informatics
+  (AEEICB)} {2017 third international conference on advances in electrical,
+  electronics, information, communication and bio-informatics (aeeicb)}\
+  (\BPG~520-523).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/AEEICB.2017.7972368} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vald{\'e}s%
+}{%
+Vald{\'e}s%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+potencialidadProyectoMuseologico}
+\APACinsertmetastar {%
+potencialidadProyectoMuseologico}%
+\begin{APACrefauthors}%
+Vald{\'e}s, Y\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {La potencialidad de un proyecto museol{\'o}gico
+  vanguardista en Cuba: el centro de interpretaci{\'o}n del Palacio del Segundo
+  Cabo} {La potencialidad de un proyecto museol{\'o}gico vanguardista en cuba:
+  el centro de interpretaci{\'o}n del palacio del segundo cabo}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{RdM. Revista de Museolog{\'\i}a: Publicaci{\'o}n
+  cient{\'\i}fica al servicio de la comunidad museol{\'o}gica}{}{78}{44--54}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

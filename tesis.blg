@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tesis.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: caratula.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: capitulos/dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: capitulos/agradecimientos.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: capitulos/resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: capitulos/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: capitulos/indice.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: capitulos/introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: capitulos/capitulo1.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: capitulos/capitulo2.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: capitulos/conclusiones.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: capitulos/recomendaciones.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: capitulos/apendix.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: capitulos/bibliografia.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ref.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in evolucionIoT
+Warning--No journal in arquitecturaPaginaLuisGarcia
+You've used 14 entries,
+            6951 wiz_defined-function locations,
+            1375 strings with 14198 characters,
+and the built_in function-call counts, 28236 in all, are:
+= -- 3559
+> -- 219
+< -- 1403
++ -- 1405
+- -- 32
+* -- 1782
+:= -- 5272
+add.period$ -- 62
+call.type$ -- 14
+change.case$ -- 241
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 644
+empty$ -- 1043
+format.name$ -- 333
+if$ -- 5323
+int.to.chr$ -- 0
+int.to.str$ -- 42
+missing$ -- 0
+newline$ -- 352
+num.names$ -- 112
+pop$ -- 456
+preamble$ -- 1
+purify$ -- 56
+quote$ -- 0
+skip$ -- 1938
+stack$ -- 0
+substring$ -- 1548
+swap$ -- 402
+text.length$ -- 49
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1376
+warning$ -- 3
+while$ -- 116
+width$ -- 0
+write$ -- 422
+(There were 3 warnings)

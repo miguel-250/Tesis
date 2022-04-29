@@ -1,0 +1,90 @@
+\chapter{Estado del arte} \label{cap:aproxTeoricas}
+
+\addcontentsline{toc}{section}{Introducción}
+        \textbf{\Large Introducción}\newline
+
+        En este capítulo estaremos desglosando por secciones el análisis de la trascendencia de la aplicación del Internet de las Cosas en los museos en el ámbito internacional, así como la aplicación o no del mismo en los museos de nuestro país.
+        Se hace un análisis de las arquitecturas propuestas por otros autores y la proposición de una para este trabajo.
+        También se tienen en cuenta las variables que se miden en los museos para evitar el deterioro de los objetos y los posibles sensores a emplear para su control.
+        Además, se analiza el tipo de comunicación más viable y efectiva según el emplazamiento, y finalmente los posibles sistemas de seguridad a instalar en la muestra.
+    
+    \section{Internet de las Cosas en museos internacionales}\label{sec:iotMundo}
+        
+        Hoy en día existen museos líderes en el tema de interacción con el público, como es el caso de los museos Digital Art Museum TeamLab Borderless de Japón y el Atelier de Lumieres de Francia. El primero de estos es un espacio que posee 10 mil metros cuadrados de proyección 3D, acompañados de juegos de luces y efectos especiales que llevan a los visitantes en medio de paisajes surrealistas. El segundo museo realiza macro proyecciones 360° de las obras más importantes de artistas como Van Gogh, Picasso, Chagall, entre otros. \cite{museoInterSalaLimpia}.\\
+        
+        En Maloka \footnote{Maloka es un museo interactivo que fomenta la pasión por el aprendizaje a partir de los lazos entre ciencia, tecnología, innovación y sociedad.}, Bogotá, las exhibiciones ponen a prueba los 5 sentidos de los visitantes, haciendo que tanto niños, como adultos disfruten un tiempo en familia repleto de nuevos conocimientos, incluyendo recorridos por salas interactivas y funciones de proyección de cine. \cite{maloka}.\\
+
+        En el museo MUST en Lecce, Italia, se llevó a cabo la instalación de un dispositivo portátil que combina el reconocimiento de imágenes y las capacidades de localización para proporcionar automáticamente a los usuarios contenidos culturales relacionados con las obras de arte observadas. La información de localización se obtiene mediante una infraestructura Bluetooth Low Energy \footnote{Bluetooth Low Energy es una tecnología de red de área personal inalámbrica, diseñada y comercializada por Bluetooth SIG destinada a aplicaciones en el cuidado de la salud, fitness y beacons, seguridad y las industrias de entretenimiento en el hogar} instalada en el museo. Además, el sistema interactúa con la Nube para almacenar contenidos multimedia producidos por el usuario y compartir eventos generados por el entorno en sus redes sociales. Estos servicios interactúan con dispositivos físicos a través de un middleware multiprotocolo. \cite{museoItalia}.\\
+
+        En el caso del Conjunto Monumental de San Domenico Maggiore, ubicado en Nápoles (Italia), dentro del mismo se han transformado más de 270 esculturas en obras de arte parlantes. Equipado con un tablero de sensores, cada objeto puede proponerse automáticamente a los visitantes, compartiendo su historia en diferentes modalidades e idiomas, lo que permite un proceso de disfrute novedoso durante una experiencia cultural. \cite{monumentoSanDomenico}.\\
+        
+        Existen otros proyectos de utilización del Iot en museos, tal es el caso del proyecto propuesto en el III Congreso Internacional de Avances en Electricidad, Electrónica, Información, Comunicación y Bioinformática en el año 2017. El proyecto consiste en el montaje de un sistema que se basa en un dispositivo portátil que captura el movimiento del usuario, realiza el algoritmo de sustracción de fondo para realizar el procesamiento de imágenes y obtiene la información de localización de un Bluetooth Low Energy (BLE) que está fijo en el museo.\cite{proyectoIotdispositivoPortatil}.
+
+        En la Universidad de El Cairo, Egipto, desarrollaron un sistema para la conservación de las piezas en los museos, un sistema que no solo mide los atributos del entorno, sino que también mantiene la seguridad de los artefactos al detectar cualquier prueba de contacto o movimiento. También controla la intensidad de la luz en función de la ocupación de la sección del museo. Una característica diferenciadora del sistema es el diseño de energía ultrabaja de su nodo sensor que conduce a una larga vida útil de hasta 50 días. \cite{ultraLowPowerConservacion}.\\
+                
+        En agosto del 2019, entre la Escuela de Ingeniería Electrónica, Universidad de Jiujiang y la Escuela de Ciencias de la Computación, Universidad de Wuhan, ambas de China elaboraron un artículo donde propusieron un esquema antirrobo para museos basado en la tecnología Internet of Things (IoT), que identifica si las reliquias culturales están dentro del rango seguro a través de lectores/escritores RFID pasivos. Una vez robadas, las reliquias culturales saldrán del rango efectivo de identificación RFID, lo que da como resultado una alarma inmediata, luego el sistema inicia el plan antirrobo. \cite{chinaSistemaSeguridadRFID}.
+
+
+    \section{Internet de las Cosas en Cuba}\label{sec:iotCuba} 
+        En Cuba existen escasos ejemplos de la aplicación del Internet de las Cosas en los museos, no obstante, dentro de esos pocos se encuentra el Palacio del Segundo Cabo.\\
+        
+        Desde 2012 se venía proyectando una sala dedicada al libro cubano, con la cooperación de la Unión Europea y la Unesco. \cite{oficinaHistoriadorRescatepatrimonio}. Gracias a este Rescate Patrimonial y Desarrollo Cultural en La Habana, se propició la restauración del mismo para la creación del Centro. Esta iniciativa de cooperación internacional fue desarrollada por la Oficina del Historiador de la Ciudad de La Habana, con apoyo de la Unión Europea y de la Organización de Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO). \cite{potencialidadProyectoMuseologico}.\\
+        
+        El Centro cuenta con una sala monográfica que propone un audiovisual realizado por autores cubanos donde se relata la historia del inmueble donde está ubicada la institución. Además, de una sala introductoria que refleja la visión que se tenía antes del encuentro de las dos culturas con la llegada de Cristóbal Colón. Este relata en paralelo la historia de Cuba y de Europa interrelacionadas en un ambiente inmersivo y por fuera se puede recorrer desde la visión de las artes plásticas europeas y cubanas. Siempre están acompañados de cuatro audiovisuales que recorren líneas independientes como la historia de la esclavitud, la ciencia, los servicios públicos y la economía.\\
+        
+        Adosada a esta sala se encuentra la de llegada y migraciones donde en un espacio se reproduce una parte de un galeón \footnote{gale\'on: es una embarcación a vela utilizada desde principios del siglo XVI. Los galeones eran barcos de destrucción poderosos y muy lentos que podían ser igualmente usados para el comercio o la guerra.}, atractivo para el público pues puede sentirse una ligera «brisa de mar», una corriente de aire situada en la parte posterior del barco. Esto se complementa con dos pantallas y proyectores que permiten la visualización de un audiovisual que también habla de las llegadas de los aborígenes, los conquistadores; la migración forzada de los africanos y así sucesivamente con las diferentes olas migratorias que han formado la actual característica mestiza de nuestra identidad y nación.\\
+        
+        La Sala de Viajeros se soporta en un software que despliega una galería de imágenes ya sea de cubanos relevantes de visita por Europa o de europeos de visita en Cuba. Mediante el uso de pantallas táctiles, el visitante puede interactuar con las imágenes de las personalidades, leer una síntesis biográfica e incluso escuchar muestras de audio.
+    
+        
+    \section{Arquitectura IoT}\label{sec:arquitecturas}
+
+    Lo primero que debemos saber sobre la arquitectura de IoT, es que no existe una única definición universalmente adoptada. Diferentes propuestas han surgido durante su desarrollo entre las que podemos encontrar: la arquitectura de 3 capas, la arquitectura de 5 capas, la arquitectura de nube, la arquitectura de niebla y la arquitectura de computación de Borde entre muchas otras \cite{arquitecturaIEEE}.
+
+    En la figura \ref{imag:comparacionArquitecturas} se observa una comparación entre las arquitecturas de 3 capas, 5 capas y la arquitectura de nube.\\\\
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=10cm, height=6cm]{imagenes/Comparacion-arquitecturas-1024x535}
+        \caption{Comparación arquitecturas}
+            \subcaption*{Fuente: \cite{arquitecturaPaginaLuisGarcia}}
+        \label{imag:comparacionArquitecturas}
+    \end{figure}
+
+    Según \cite{capasIoTciberseguridad}, la mayoría de estas arquitecturas de IoT se basan en fundamentos básicos:
+    \begin{itemize}
+        \item Dispositivos más inteligentes en una forma diferente.
+        \item Red y puerta de enlace que permite que los dispositivos formen parte del IoT.
+        \item Middleware que incluye espacios de almacenamiento de datos y avances en las capacidades de predicción.
+        \item Aplicaciones de usuario final.\\
+    \end{itemize}
+
+    Las propuestas de arquitecturas pueden variar de autor en autor, en dependencia de la estructura del sistema IoT propuesto. Dichas arquitecturas son desarrolladas por capas en las que se agrupan los objetos, dispositivos, sensores, actuadores, etcétera.\\
+
+    Dentro de las capas más importantes del IoT podemos encontrar:
+
+    \begin{itemize}
+        \item \textit{La capa de percepción} (Objetos/ Dispositivos/ SensorActuador/ WSN/ Edge Computing/ Sensado), digitaliza y transfiere datos a la capa de red, a través de canales seguros [citar: Internet of things: State of the art]. Se localizan los objetos físicos, dispositivos sensores y actuadores utilizados para recopilar información del contexto.
+        \item \textit{La capa de acceso} (Adaptación/ Observador), comprueba la información que recibe de la capa de percepción, si está protegida o no contra intrusos y virus. Si hay algún ataque, no pasa los datos a la siguiente capa. También verifica la identidad y autenticación de los objetos [citar: Internet of things: State of the art] [IoT Elements, Layered Architectures and Security Issues: A Comprehensive Survey].
+        \item \textit{La capa de Red} (Abstracción de Objetos/ Transporte/ Fog computing), transporta y transmite los datos, recopilados de la capa de percepción, hacia la cloud. Se localizan componentes de red (switch, router, Gateway, etc.), medios de comunicación y protocolos. También es responsable de aspectos de seguridad y el control de ataques [citar: Internet of things: State of the art], [IoT Elements, Layered Architectures and Security Issues: A Comprehensive Survey].
+        \item \textit{La Capa Aplicación / Cloud Computing (CC)} en modelos de más de tres capas, puede dividirse en:
+            \begin{itemize}
+                \item \textit{Capa de procesamiento y almacenamiento, Soporte, o Middleware}. Permite a los programadores de aplicaciones IoT trabajar con objetos heterogéneos sin tener en cuenta una plataforma de hardware específica. Se encarga de integrar, almacenar, procesar y analizar datos, tomar decisiones y ofrecer servicios de protocolos de conexión de red [citar: Internet of things: State of the art].
+                \item \textit{La capa de aplicación}, define los servicios y funciones que proporciona la aplicación IoT implementada (hogar inteligente, ciudad inteligente, salud inteligente, etc.) a los clientes. Los servicios pueden variar para cada aplicación y depende de la información que se recopilan de los sensores. También se consideran aspectos de seguridad [citar: Internet of things: State of the art], [IoT Elements, Layered Architectures and Security Issues: A Comprehensive Survey].
+                \item \textit{La capa empresarial}, tiene la responsabilidad de administrar y controlar el comportamiento de las aplicaciones, modelos de negocios y ganancias de IoT. También tiene la capacidad de determinar cómo se puede crear, almacenar y cambiar la información. Administra la privacidad del usuario y evita vulnerabilidades [citar: Internet of things: State of the art], [IoT Elements, Layered Architectures and Security Issues: A Comprehensive Survey].
+            \end{itemize} 
+    \end{itemize}
+    
+    ...
+
+
+    \section{Análisis de variables y sensores}\label{sec: analisisVariables}
+
+    %\section{Sensores a emplear}\label{sec: sensoresEmplear}
+
+    \section{Sistema de comunicación}\label{sec: sistemaComunicación}
+
+    \section{Sistema de seguridad}\label{sec: sistemaSeguridad}
+
+    \addcontentsline{toc}{section}{Conclusiones}
+    \textbf{\Large Conclusiones}\newline

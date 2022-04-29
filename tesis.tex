@@ -1,0 +1,90 @@
+\documentclass[a4paper,12pt, openany]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumerate} %enumeraciones
+\usepackage{apacite}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{uarial}
+\renewcommand*\familydefault{\sfdefault}
+\renewcommand{\cftfigfont}{Figura}
+\renewcommand{\cfttabfont}{Tabla}
+\usepackage[left=2.54cm, right=2.54cm, top=2.54cm, bottom=3.0cm]{geometry} %Márgen
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parindent}{0pt} %Sangría
+    \renewcommand{\baselinestretch}{1.5} %Interliniado
+
+\addto\captionspanish{
+    \renewcommand{\chaptername}{}}
+
+\definecolor{azul}{rgb}{0.17, 0.4, 0.69} %Para las lineas horizontales de la portada
+
+\begin{document}
+
+\pagestyle{empty} %Numeracion de las paginas vacías
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Portada
+    \include{caratula}   
+
+%Dedicatoria
+    \include{capitulos/dedicatoria}
+    
+%Agradecimientos
+    \include{capitulos/agradecimientos}
+
+%Resumen
+    \include{capitulos/resumen}
+
+%Abstract
+    \include{capitulos/abstract}
+
+%Indice general
+    \include{capitulos/indice}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Introduccion
+    \include{capitulos/introduccion}
+
+%Capítulo primero
+    \include{capitulos/capitulo1}
+
+%Capítulo segundo
+    \include{capitulos/capitulo2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+%Conclusiones
+    \include{capitulos/conclusiones}
+
+    \appendix
+%Recomendaciones
+    \include{capitulos/recomendaciones}
+
+%Apéndice
+    \include{capitulos/apendix}
+
+%Bibliografía
+    \include{capitulos/bibliografia}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
