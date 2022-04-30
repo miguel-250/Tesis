@@ -13,6 +13,8 @@ Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: capitulos/abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: capitulos/indice.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: capitulos/indice2.aux
 Reallocating 'name_of_file' (item size: 1) to 27 items.
 A level-1 auxiliary file: capitulos/introduccion.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
@@ -44,45 +46,45 @@ apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in evolucionIoT
 Warning--No journal in arquitecturaPaginaLuisGarcia
-You've used 14 entries,
+You've used 15 entries,
             6951 wiz_defined-function locations,
-            1375 strings with 14198 characters,
-and the built_in function-call counts, 28236 in all, are:
-= -- 3559
-> -- 219
-< -- 1403
-+ -- 1405
-- -- 32
-* -- 1782
-:= -- 5272
-add.period$ -- 62
-call.type$ -- 14
-change.case$ -- 241
+            1384 strings with 14449 characters,
+and the built_in function-call counts, 30153 in all, are:
+= -- 3798
+> -- 229
+< -- 1505
++ -- 1515
+- -- 34
+* -- 1913
+:= -- 5656
+add.period$ -- 66
+call.type$ -- 15
+change.case$ -- 258
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 644
-empty$ -- 1043
-format.name$ -- 333
-if$ -- 5323
+cite$ -- 32
+duplicate$ -- 687
+empty$ -- 1112
+format.name$ -- 347
+if$ -- 5670
 int.to.chr$ -- 0
-int.to.str$ -- 42
+int.to.str$ -- 45
 missing$ -- 0
-newline$ -- 352
-num.names$ -- 112
-pop$ -- 456
+newline$ -- 376
+num.names$ -- 120
+pop$ -- 480
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 60
 quote$ -- 0
-skip$ -- 1938
+skip$ -- 2060
 stack$ -- 0
-substring$ -- 1548
-swap$ -- 402
-text.length$ -- 49
+substring$ -- 1667
+swap$ -- 427
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1376
+type$ -- 1456
 warning$ -- 3
-while$ -- 116
+while$ -- 121
 width$ -- 0
-write$ -- 422
+write$ -- 448
 (There were 3 warnings)

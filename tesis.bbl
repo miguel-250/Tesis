@@ -64,6 +64,32 @@ Alletto, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+B.~Mazon%
+}{%
+B.~Mazon%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+internetOfThingsStateOfTheArt}
+\APACinsertmetastar {%
+internetOfThingsStateOfTheArt}%
+\begin{APACrefauthors}%
+B.~Mazon, A\BPBI P\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internet ofThings: State-of-the-art, Computing Paradigms
+  and Reference Architectures} {Internet ofthings: State-of-the-art, computing
+  paradigms and reference architectures}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Latin America Transactions}{Vol. 20}{No.1}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TLA.2022.9662173} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chianese%
 , Piccialli%
 \BCBL {}\ \BBA {} Jung%

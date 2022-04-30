@@ -376,6 +376,9 @@ INPUT capitulos\abstract.aux
 INPUT .\capitulos\indice.aux
 INPUT capitulos\indice.aux
 INPUT capitulos\indice.aux
+INPUT .\capitulos\indice2.aux
+INPUT capitulos\indice2.aux
+INPUT capitulos\indice2.aux
 INPUT .\capitulos\introduccion.aux
 INPUT capitulos\introduccion.aux
 INPUT capitulos\introduccion.aux
@@ -431,39 +434,11 @@ INPUT .\caratula.tex
 INPUT caratula.tex
 INPUT .\caratula.tex
 INPUT caratula.tex
-INPUT .\imagenes\a1.jpg
-INPUT .\imagenes\a1.jpg
-INPUT imagenes\a1.jpg
-INPUT .\imagenes\a1.jpg
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
 OUTPUT tesis.pdf
-INPUT .\imagenes\a1.jpg
-INPUT .\imagenes\a1.jpg
-INPUT .\imagenes\a1.jpg
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\capitulos\dedicatoria.tex
 INPUT .\capitulos\dedicatoria.tex
 INPUT .\capitulos\dedicatoria.tex
@@ -479,7 +454,6 @@ INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1ri8t.tfm
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1ri8t.vf
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1ri8r.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\capitulos\agradecimientos.tex
 INPUT .\capitulos\agradecimientos.tex
 INPUT .\capitulos\agradecimientos.tex
@@ -529,16 +503,48 @@ INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua
 INPUT .\tesis.toc
 INPUT tesis.toc
 INPUT tesis.toc
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 OUTPUT tesis.toc
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT .\capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+OUTPUT capitulos\indice2.aux
+INPUT .\capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+INPUT capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+INPUT capitulos\indice2.tex
 INPUT .\tesis.lof
 INPUT tesis.lof
 INPUT tesis.lof
 OUTPUT tesis.lof
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\tesis.lot
 INPUT tesis.lot
 INPUT tesis.lot
@@ -554,6 +560,9 @@ INPUT capitulos\introduccion.tex
 INPUT .\capitulos\introduccion.tex
 INPUT capitulos\introduccion.tex
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\capitulos\capitulo1.tex
@@ -589,15 +598,15 @@ INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
@@ -671,6 +680,9 @@ INPUT capitulos\abstract.aux
 INPUT .\capitulos\indice.aux
 INPUT capitulos\indice.aux
 INPUT capitulos\indice.aux
+INPUT .\capitulos\indice2.aux
+INPUT capitulos\indice2.aux
+INPUT capitulos\indice2.aux
 INPUT .\capitulos\introduccion.aux
 INPUT capitulos\introduccion.aux
 INPUT capitulos\introduccion.aux
