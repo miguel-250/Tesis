@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  29 APR 2022 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  29 APR 2022 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -702,13 +702,13 @@ LaTeX Info: Redefining \% on input line 9.
 Here is how much of TeX's memory you used:
  7525 strings out of 478905
  118445 string characters out of 2848567
- 442514 words of memory out of 3000000
+ 441514 words of memory out of 3000000
  25176 multiletter control sequences out of 15000+600000
  486662 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,66p,1081b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (23 pages, 261662 bytes).
+Output written on tesis.pdf (23 pages, 261607 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
