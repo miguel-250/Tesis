@@ -3,16 +3,16 @@
 \contentsline {chapter}{\numberline {1}Estado del Arte del IoT en los museos}{4}{}%
 \contentsline {section}{Introducción}{4}{}%
 \contentsline {section}{\numberline {1.1}Internet de las Cosas en museos internacionales}{4}{}%
-\contentsline {section}{\numberline {1.2}Internet de las Cosas en Cuba}{6}{}%
+\contentsline {section}{\numberline {1.2}Internet de las Cosas en Cuba}{7}{}%
 \contentsline {section}{\numberline {1.3}Arquitectura IoT}{8}{}%
-\contentsline {section}{\numberline {1.4}Análisis de variables y sensores}{10}{}%
-\contentsline {section}{\numberline {1.5}Sistema de comunicación}{10}{}%
-\contentsline {section}{\numberline {1.6}Sistema de seguridad}{10}{}%
-\contentsline {section}{Conclusiones}{10}{}%
-\contentsline {chapter}{\numberline {2}Implementación}{11}{}%
-\contentsline {section}{Introducción}{11}{}%
+\contentsline {section}{\numberline {1.4}Análisis de variables y sensores}{11}{}%
+\contentsline {section}{\numberline {1.5}Sistema de comunicación}{11}{}%
+\contentsline {section}{\numberline {1.6}Sistema de seguridad}{11}{}%
 \contentsline {section}{Conclusiones}{11}{}%
-\contentsline {section}{CONCLUSIONES GENERALES}{12}{}%
-\contentsline {chapter}{Recomendaciones}{13}{}%
-\contentsline {chapter}{Apéndice}{14}{}%
-\contentsline {chapter}{Referencias}{15}{}%
+\contentsline {chapter}{\numberline {2}Implementación}{12}{}%
+\contentsline {section}{Introducción}{12}{}%
+\contentsline {section}{Conclusiones}{12}{}%
+\contentsline {section}{CONCLUSIONES GENERALES}{13}{}%
+\contentsline {chapter}{Recomendaciones}{14}{}%
+\contentsline {chapter}{Apéndice}{15}{}%
+\contentsline {chapter}{Referencias}{16}{}%
