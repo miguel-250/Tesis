@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  2 MAY 2022 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  2 MAY 2022 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -496,7 +496,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
@@ -506,11 +511,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
@@ -520,7 +530,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-) [3]
+[3]) [4]
 \openout2 = `capitulos/capitulo1.aux'.
 
  (capitulos/capitulo1.tex
@@ -552,7 +562,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[4
+[5
 
 
 
@@ -572,7 +582,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
@@ -592,7 +602,7 @@ LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -607,7 +617,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
@@ -622,7 +632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-<imagenes/Comparacion-arquitecturas-1024x535.png, id=49, 1027.84pt x 537.00626pt>
+<imagenes/Comparacion-arquitecturas-1024x535.png, id=52, 1027.84pt x 537.00626pt>
 File: imagenes/Comparacion-arquitecturas-1024x535.png Graphic file (type png)
 <use imagenes/Comparacion-arquitecturas-1024x535.png>
 Package pdftex.def Info: imagenes/Comparacion-arquitecturas-1024x535.png  used on input line 78.
@@ -637,7 +647,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 80.
 See the caption package documentation for explanation.
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
@@ -647,7 +657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[9 <./imagenes/Comparacion-arquitecturas-1024x535.png>]
+[10 <./imagenes/Comparacion-arquitecturas-1024x535.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
@@ -667,12 +677,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[10])
+[11])
 Underfull \hbox (badness 10000) in paragraph at lines 118--69
 
  []
 
-[11]
+[12]
 \openout2 = `capitulos/capitulo2.aux'.
 
  (capitulos/capitulo2.tex
@@ -687,7 +697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) [12
+) [13
 
 
 
@@ -695,48 +705,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 ]
 \openout2 = `capitulos/conclusiones.aux'.
 
- (capitulos/conclusiones.tex) [13
+ (capitulos/conclusiones.tex) [14
 
 
 
 ]
 \openout2 = `capitulos/recomendaciones.aux'.
 
- (capitulos/recomendaciones.tex) [14
+ (capitulos/recomendaciones.tex) [15
 
 
 
 ]
 \openout2 = `capitulos/apendix.aux'.
 
- (capitulos/apendix.tex) [15
+ (capitulos/apendix.tex) [16
 
 
 
 ]
 \openout2 = `capitulos/bibliografia.aux'.
 
- (capitulos/bibliografia.tex (tesis.bbl [16
+ (capitulos/bibliografia.tex (tesis.bbl [17
 
 
 
 
-])) [17] (tesis.aux (caratula.aux)
+])) [18] (tesis.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux)) ) 
 Here is how much of TeX's memory you used:
  7639 strings out of 478905
  120043 string characters out of 2848567
- 449745 words of memory out of 3000000
+ 449747 words of memory out of 3000000
  25285 multiletter control sequences out of 15000+600000
  480570 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,16n,66p,1081b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (24 pages, 263658 bytes).
+Output written on tesis.pdf (25 pages, 264621 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

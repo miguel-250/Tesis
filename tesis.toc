@@ -1,18 +1,18 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{INTRODUCCIÓN}{1}{}%
-\contentsline {chapter}{\numberline {1}Estado del Arte del IoT en los museos}{4}{}%
-\contentsline {section}{Introducción}{4}{}%
-\contentsline {section}{\numberline {1.1}Internet de las Cosas en museos internacionales}{4}{}%
-\contentsline {section}{\numberline {1.2}Internet de las Cosas en Cuba}{7}{}%
-\contentsline {section}{\numberline {1.3}Arquitectura IoT}{8}{}%
-\contentsline {section}{\numberline {1.4}Análisis de variables y sensores}{11}{}%
-\contentsline {section}{\numberline {1.5}Sistema de comunicación}{11}{}%
-\contentsline {section}{\numberline {1.6}Sistema de seguridad}{11}{}%
-\contentsline {section}{Conclusiones}{11}{}%
-\contentsline {chapter}{\numberline {2}Implementación}{12}{}%
-\contentsline {section}{Introducción}{12}{}%
+\contentsline {chapter}{\numberline {1}Estado del Arte del IoT en los museos}{5}{}%
+\contentsline {section}{Introducción}{5}{}%
+\contentsline {section}{\numberline {1.1}Internet de las Cosas en museos internacionales}{5}{}%
+\contentsline {section}{\numberline {1.2}Internet de las Cosas en Cuba}{8}{}%
+\contentsline {section}{\numberline {1.3}Arquitectura IoT}{9}{}%
+\contentsline {section}{\numberline {1.4}Análisis de variables y sensores}{12}{}%
+\contentsline {section}{\numberline {1.5}Sistema de comunicación}{12}{}%
+\contentsline {section}{\numberline {1.6}Sistema de seguridad}{12}{}%
 \contentsline {section}{Conclusiones}{12}{}%
-\contentsline {section}{CONCLUSIONES GENERALES}{13}{}%
-\contentsline {chapter}{Recomendaciones}{14}{}%
-\contentsline {chapter}{Apéndice}{15}{}%
-\contentsline {chapter}{Referencias}{16}{}%
+\contentsline {chapter}{\numberline {2}Implementación}{13}{}%
+\contentsline {section}{Introducción}{13}{}%
+\contentsline {section}{Conclusiones}{13}{}%
+\contentsline {section}{CONCLUSIONES GENERALES}{14}{}%
+\contentsline {chapter}{Recomendaciones}{15}{}%
+\contentsline {chapter}{Apéndice}{16}{}%
+\contentsline {chapter}{Referencias}{17}{}%
