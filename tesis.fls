@@ -584,9 +584,6 @@ INPUT capitulos\introduccion.tex
 INPUT .\capitulos\introduccion.tex
 INPUT capitulos\introduccion.tex
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\capitulos\capitulo1.tex
