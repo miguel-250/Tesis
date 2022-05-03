@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  2 MAY 2022 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  3 MAY 2022 07:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,7 +270,7 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 ) (tesis.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux))
+ (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice3.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -325,11 +325,11 @@ LaTeX Info: Redefining \BHBI on input line 139.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
-* v-part:(T,H,B)=(72.2698pt, 687.41878pt, 85.35826pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=452.96826pt
-* \textheight=687.41878pt
+* \textheight=700.50723pt
 * \oddsidemargin=-0.00018pt
 * \evensidemargin=-0.00018pt
 * \topmargin=-37.00018pt
@@ -420,23 +420,30 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
+\openout2 = `capitulos/indice3.aux'.
+
+ (capitulos/indice3.tex (tesis.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lot=\write4
+\openout4 = `tesis.lot'.
+
+) [6
+
+
+
+]
 \openout2 = `capitulos/indice2.aux'.
 
  (capitulos/indice2.tex (tesis.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lof=\write4
-\openout4 = `tesis.lof'.
+\tf@lof=\write5
+\openout5 = `tesis.lof'.
 
- (tesis.lot
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lot=\write5
-\openout5 = `tesis.lot'.
-
-) [6
+) [7
 
 
 
@@ -496,46 +503,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-[2]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-[3]) [4]
+) [3]
 \openout2 = `capitulos/capitulo1.aux'.
 
  (capitulos/capitulo1.tex
@@ -567,7 +544,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[5
+[4
 
 
 
@@ -582,13 +559,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 
-Overfull \hbox (8.54985pt too wide) in paragraph at lines 30--41
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[5]
+Overfull \hbox (8.54985pt too wide) in paragraph at lines 28--39
 [][] 
  []
 
@@ -609,7 +591,7 @@ See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 52.
-[7]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -624,7 +606,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[8]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
@@ -657,42 +639,87 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[8]
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 94.
+ [9 <./imagenes/Comparacion-arquitecturas-1024x535.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-[10 <./imagenes/Comparacion-arquitecturas-1024x535.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-[11])
-Underfull \hbox (badness 10000) in paragraph at lines 118--69
+[10]
+<imagenes/myArquitecture0.jpg, id=64, 946.28531pt x 639.13782pt>
+File: imagenes/myArquitecture0.jpg Graphic file (type jpg)
+<use imagenes/myArquitecture0.jpg>
+Package pdftex.def Info: imagenes/myArquitecture0.jpg  used on input line 116.
+(pdftex.def)             Requested size: 284.5231pt x 170.71655pt.
+
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 118.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 118.
+See the caption package documentation for explanation.
+
+<imagenes/myArquitecture.jpg, id=65, 1804.49156pt x 1039.63406pt>
+File: imagenes/myArquitecture.jpg Graphic file (type jpg)
+<use imagenes/myArquitecture.jpg>
+Package pdftex.def Info: imagenes/myArquitecture.jpg  used on input line 135.
+(pdftex.def)             Requested size: 284.5118pt x 170.7073pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 137.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 137.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[12]
+[11 <./imagenes/myArquitecture0.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 152--73
+
+ []
+
+[12 <./imagenes/myArquitecture.jpg>]
 \openout2 = `capitulos/capitulo2.aux'.
 
  (capitulos/capitulo2.tex
@@ -744,19 +771,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 ])) [18] (tesis.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux)) ) 
+ (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice3.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux)) ) 
 Here is how much of TeX's memory you used:
- 7639 strings out of 478905
- 120043 string characters out of 2848567
- 450747 words of memory out of 3000000
- 25285 multiletter control sequences out of 15000+600000
- 480570 words of font info for 77 fonts, out of 8000000 for 9000
+ 7673 strings out of 478905
+ 121023 string characters out of 2848567
+ 450128 words of memory out of 3000000
+ 25308 multiletter control sequences out of 15000+600000
+ 490768 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,16n,66p,1081b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,16n,66p,1235b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (25 pages, 264888 bytes).
+Output written on tesis.pdf (26 pages, 1274805 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

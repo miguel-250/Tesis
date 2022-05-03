@@ -18,7 +18,7 @@
 \renewcommand*\familydefault{\sfdefault}
 \renewcommand{\cftfigfont}{Figura}
 \renewcommand{\cfttabfont}{Tabla}
-\usepackage[left=2.54cm, right=2.54cm, top=2.54cm, bottom=3.0cm]{geometry} %Márgen
+\usepackage[left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm]{geometry} %Márgen
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -29,7 +29,7 @@
 \addto\captionspanish{
     \renewcommand{\chaptername}{}}
 
-\definecolor{azul}{rgb}{0.17, 0.4, 0.69} %Para las lineas horizontales de la portada
+% \definecolor{azul}{rgb}{0.17, 0.4, 0.69}
 
 \begin{document}
 
@@ -56,8 +56,12 @@
 %Indice general
     \include{capitulos/indice}
 
-% Indice de tablas y figuras
+% Indice de tablas
+    \include{capitulos/indice3}
+
+% Indice de figuras
     \include{capitulos/indice2}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

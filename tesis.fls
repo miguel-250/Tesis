@@ -400,6 +400,9 @@ INPUT capitulos\abstract.aux
 INPUT .\capitulos\indice.aux
 INPUT capitulos\indice.aux
 INPUT capitulos\indice.aux
+INPUT .\capitulos\indice3.aux
+INPUT capitulos\indice3.aux
+INPUT capitulos\indice3.aux
 INPUT .\capitulos\indice2.aux
 INPUT capitulos\indice2.aux
 INPUT capitulos\indice2.aux
@@ -555,6 +558,20 @@ INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfo
 OUTPUT tesis.toc
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT .\capitulos\indice3.tex
+INPUT .\capitulos\indice3.tex
+INPUT .\capitulos\indice3.tex
+OUTPUT capitulos\indice3.aux
+INPUT .\capitulos\indice3.tex
+INPUT .\capitulos\indice3.tex
+INPUT .\capitulos\indice3.tex
+INPUT capitulos\indice3.tex
+INPUT .\capitulos\indice3.tex
+INPUT capitulos\indice3.tex
+INPUT .\tesis.lot
+INPUT tesis.lot
+INPUT tesis.lot
+OUTPUT tesis.lot
 INPUT .\capitulos\indice2.tex
 INPUT .\capitulos\indice2.tex
 INPUT .\capitulos\indice2.tex
@@ -569,10 +586,6 @@ INPUT .\tesis.lof
 INPUT tesis.lof
 INPUT tesis.lof
 OUTPUT tesis.lof
-INPUT .\tesis.lot
-INPUT tesis.lot
-INPUT tesis.lot
-OUTPUT tesis.lot
 INPUT .\capitulos\introduccion.tex
 INPUT .\capitulos\introduccion.tex
 INPUT .\capitulos\introduccion.tex
@@ -628,6 +641,24 @@ INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Miguel Zayas\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT .\imagenes\myArquitecture0.jpg
+INPUT .\imagenes\myArquitecture0.jpg
+INPUT imagenes\myArquitecture0.jpg
+INPUT .\imagenes\myArquitecture0.jpg
+INPUT .\imagenes\myArquitecture0.jpg
+INPUT .\imagenes\myArquitecture0.jpg
+INPUT .\imagenes\myArquitecture0.jpg
+INPUT .\imagenes\myArquitecture.jpg
+INPUT .\imagenes\myArquitecture.jpg
+INPUT imagenes\myArquitecture.jpg
+INPUT .\imagenes\myArquitecture.jpg
+INPUT .\imagenes\myArquitecture.jpg
+INPUT .\imagenes\myArquitecture.jpg
+INPUT .\imagenes\myArquitecture.jpg
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
@@ -701,6 +732,9 @@ INPUT capitulos\abstract.aux
 INPUT .\capitulos\indice.aux
 INPUT capitulos\indice.aux
 INPUT capitulos\indice.aux
+INPUT .\capitulos\indice3.aux
+INPUT capitulos\indice3.aux
+INPUT capitulos\indice3.aux
 INPUT .\capitulos\indice2.aux
 INPUT capitulos\indice2.aux
 INPUT capitulos\indice2.aux

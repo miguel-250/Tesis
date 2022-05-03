@@ -14,6 +14,8 @@ A level-1 auxiliary file: capitulos/abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: capitulos/indice.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: capitulos/indice3.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: capitulos/indice2.aux
 Reallocating 'name_of_file' (item size: 1) to 27 items.
 A level-1 auxiliary file: capitulos/introduccion.aux
@@ -48,7 +50,7 @@ Warning--No journal in evolucionIoT
 Warning--No journal in arquitecturaPaginaLuisGarcia
 You've used 15 entries,
             6951 wiz_defined-function locations,
-            1384 strings with 14449 characters,
+            1385 strings with 14470 characters,
 and the built_in function-call counts, 30153 in all, are:
 = -- 3798
 > -- 229

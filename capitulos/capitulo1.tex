@@ -18,11 +18,9 @@
 
         En el caso del Conjunto Monumental de San Domenico Maggiore, ubicado en Nápoles (Italia), dentro del mismo se han transformado más de 270 esculturas en obras de arte parlantes. Equipado con un tablero de sensores, cada objeto puede proponerse automáticamente a los visitantes, compartiendo su historia en diferentes modalidades e idiomas, lo que permite un proceso de disfrute novedoso durante una experiencia cultural. \cite{monumentoSanDomenico}.\\
 
-        En la Universidad de El Cairo, Egipto, desarrollaron un sistema para la conservación de las piezas en los museos, un sistema que no solo mide los atributos del entorno, sino que también mantiene la seguridad de los artefactos al detectar cualquier prueba de contacto o movimiento. También controla la intensidad de la luz en función de la ocupación de la sección del museo. Una característica diferenciadora del sistema es el diseño de energía ultrabaja de su nodo sensor que conduce a una larga vida útil de hasta 50 días. \cite{ultraLowPowerConservacion}.
+        En la Universidad de El Cairo, Egipto, desarrollaron un sistema para la conservación de las piezas en los museos, un sistema que no solo mide los atributos del entorno, sino que también mantiene la seguridad de los artefactos al detectar cualquier prueba de contacto o movimiento. También controla la intensidad de la luz en función de la ocupación de la sección del museo. Una característica diferenciadora del sistema es el diseño de energía ultrabaja de su nodo sensor que conduce a una larga vida útil de hasta 50 días. \cite{ultraLowPowerConservacion}.\\
         
-        Existen otros proyectos de utilización del Iot en museos, tal es el caso del proyecto propuesto en el III Congreso Internacional de Avances en Electricidad, Electrónica, Información, Comunicación y Bioinformática en el año 2017. El proyecto consiste en el montaje de un sistema que se basa en un dispositivo portátil que captura el movimiento del usuario, realiza el algoritmo de sustracción de fondo para realizar el procesamiento de imágenes y obtiene la información de localización de un Bluetooth Low Energy (BLE) que está fijo en el museo.\cite{proyectoIotdispositivoPortatil}.
-
-        En agosto del 2019, entre la Escuela de Ingeniería Electrónica, Universidad de Jiujiang y la Escuela de Ciencias de la Computación, Universidad de Wuhan, ambas de China elaboraron un artículo donde propusieron un esquema antirrobo para museos basado en la tecnología Internet of Things (IoT), que identifica si las reliquias culturales están dentro del rango seguro a través de lectores/escritores RFID (identificación por radiofrecuencia del inglés Radio Frequency Identification) pasivos. Una vez robadas, las reliquias culturales saldrán del rango efectivo de identificación RFID, lo que da como resultado una alarma inmediata, luego el sistema inicia el plan antirrobo. \cite{chinaSistemaSeguridadRFID}.\\
+        Existen otros proyectos de utilización del Iot en museos, tal es el caso del proyecto propuesto en el III Congreso Internacional de Avances en Electricidad, Electrónica, Información, Comunicación y Bioinformática en el año 2017. El proyecto consiste en el montaje de un sistema que se basa en un dispositivo portátil que captura el movimiento del usuario, realiza el algoritmo de sustracción de fondo para realizar el procesamiento de imágenes y obtiene la información de localización de un Bluetooth Low Energy (BLE).\cite{proyectoIotdispositivoPortatil}. En agosto del 2019, entre la Escuela de Ingeniería Electrónica, Universidad de Jiujiang y la Escuela de Ciencias de la Computación, Universidad de Wuhan, ambas de China elaboraron un artículo donde propusieron un esquema antirrobo para museos basado en la tecnología Internet of Things (IoT), que identifica si las reliquias culturales están dentro del rango seguro a través de lectores/escritores RFID (identificación por radiofrecuencia del inglés Radio Frequency Identification) pasivos. \cite{chinaSistemaSeguridadRFID}.\\
 
         La siguiente tabla resume lo anterior expuesto.
 
@@ -39,6 +37,8 @@
                 \begin{tabular}[c]{@{}l@{}}Sistema para la conservación\\de las piezas en los museos\\en base a pruebas\\de contacto o movimiento,\\intensidad de la luz.\end{tabular}&Universidad de El Cairo, Egipto                                                                   & \begin{tabular}[c]{@{}l@{}}(Al-Habal\\y Khattab, 2019).\end{tabular}                             \\ \hline
             \end{tabular}
         \end{table}
+
+        \vspace{2cm}
 
         \begin{table}[h]
             \begin{tabular}{|lll|}
@@ -86,27 +86,61 @@
         \item Dispositivos más inteligentes en una forma diferente.
         \item Red y puerta de enlace que permite que los dispositivos formen parte del IoT.
         \item Middleware que incluye espacios de almacenamiento de datos y avances en las capacidades de predicción.
-        \item Aplicaciones de usuario final.\\
+        \item Aplicaciones de usuario final.
     \end{itemize}
 
-    Las propuestas de arquitecturas pueden variar de autor en autor, en dependencia de la estructura del sistema IoT propuesto. Dichas arquitecturas son desarrolladas por capas en las que se agrupan los objetos, dispositivos, sensores, actuadores, etcétera.\\
+    Las propuestas de arquitecturas pueden variar de autor en autor, en dependencia de la estructura del sistema IoT propuesto. Dichas arquitecturas son desarrolladas por capas en las que se agrupan los objetos, dispositivos, sensores, actuadores, etcétera.
 
-    Dentro de las capas más importantes del IoT podemos encontrar:
+    \subsection{Principales capas de la arquitectura del IoT}
+
+    Según  \cite{internetOfThingsStateOfTheArt}, dentro de las capas más importantes del IoT podemos encontrar:
 
     \begin{itemize}
-        \item \textit{La capa de percepción} (Objetos/ Dispositivos/ SensorActuador/ WSN/ Edge Computing/ Sensado), digitaliza y transfiere datos a la capa de red, a través de canales seguros \cite{internetOfThingsStateOfTheArt}. Se localizan los objetos físicos, dispositivos sensores y actuadores utilizados para recopilar información del contexto.
-        \item \textit{La capa de acceso} (Adaptación/ Observador), comprueba la información que recibe de la capa de percepción, si está protegida o no contra intrusos y virus. Si hay algún ataque, no pasa los datos a la siguiente capa. También verifica la identidad y autenticación de los objetos \cite{internetOfThingsStateOfTheArt}.
-        \item \textit{La capa de Red} (Abstracción de Objetos/ Transporte/ Fog computing), transporta y transmite los datos, recopilados de la capa de percepción, hacia la cloud. Se localizan componentes de red (switch, router, Gateway, etc.), medios de comunicación y protocolos. También es responsable de aspectos de seguridad y el control de ataques \cite{internetOfThingsStateOfTheArt}.
+        \item \textit{La capa de percepción} (Objetos/ Dispositivos/ SensorActuador/ WSN/ Edge Computing/ Sensado), digitaliza y transfiere datos a la capa de red, a través de canales seguros. Se localizan los objetos físicos, dispositivos sensores y actuadores utilizados para recopilar información del contexto.
+        \item \textit{La capa de acceso} (Adaptación/ Observador), comprueba la información que recibe de la capa de percepción, si está protegida o no contra intrusos y virus. Si hay algún ataque, no pasa los datos a la siguiente capa. También verifica la identidad y autenticación de los objetos.
+        \item \textit{La capa de Red} (Abstracción de Objetos/ Transporte/ Fog computing), transporta y transmite los datos, recopilados de la capa de percepción, hacia la cloud. Se localizan componentes de red (switch, router, Gateway, etc.), medios de comunicación y protocolos. También es responsable de aspectos de seguridad y el control de ataques.
         \item \textit{La Capa Aplicación / Cloud Computing (CC)} en modelos de más de tres capas, puede dividirse en:
             \begin{itemize}
-                \item \textit{Capa de procesamiento y almacenamiento, Soporte, o Middleware}. Permite a los programadores de aplicaciones IoT trabajar con objetos heterogéneos sin tener en cuenta una plataforma de hardware específica. Se encarga de integrar, almacenar, procesar y analizar datos, tomar decisiones y ofrecer servicios de protocolos de conexión de red \cite{internetOfThingsStateOfTheArt}.
-                \item \textit{La capa de aplicación}, define los servicios y funciones que proporciona la aplicación IoT implementada (hogar inteligente, ciudad inteligente, salud inteligente, etc.) a los clientes. Los servicios pueden variar para cada aplicación y depende de la información que se recopilan de los sensores. También se consideran aspectos de seguridad \cite{internetOfThingsStateOfTheArt}.
-                \item \textit{La capa empresarial}, tiene la responsabilidad de administrar y controlar el comportamiento de las aplicaciones, modelos de negocios y ganancias de IoT. También tiene la capacidad de determinar cómo se puede crear, almacenar y cambiar la información. Administra la privacidad del usuario y evita vulnerabilidades \cite{internetOfThingsStateOfTheArt}.\\\\\\\\
+                \item \textit{Capa de procesamiento y almacenamiento, Soporte, o Middleware}. Permite a los programadores de aplicaciones IoT trabajar con objetos heterogéneos sin tener en cuenta una plataforma de hardware específica. Se encarga de integrar, almacenar, procesar y analizar datos, tomar decisiones y ofrecer servicios de protocolos de conexión de red.
+                \item \textit{La capa de aplicación}, define los servicios y funciones que proporciona la aplicación IoT implementada (hogar inteligente, ciudad inteligente, salud inteligente, etc.) a los clientes. Los servicios pueden variar para cada aplicación y depende de la información que se recopilan de los sensores. También se consideran aspectos de seguridad.
+                \item \textit{La capa empresarial}, tiene la responsabilidad de administrar y controlar el comportamiento de las aplicaciones, modelos de negocios y ganancias de IoT. También tiene la capacidad de determinar cómo se puede crear, almacenar y cambiar la información. Administra la privacidad del usuario y evita vulnerabilidades.\\\\\\\\
             \end{itemize} 
     \end{itemize}
 
-    Continuar...
+    \subsection{Propuesta de la Arquitectura IoT del Sistema}
 
+    En base a los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas como son: La capa de percepción cuya función es la obtención de variables asociadas a la conservación de las piezas en la muestra, la capa de transporte con el destino de transportar la data recopilada por los sensores hacia la base de datos para su posterior procesamiento y análisis, la capa de procesamiento genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=10cm, height=6cm]{imagenes/myArquitecture0.jpg}
+        \caption{Vista funcional de la arquitectura}
+            \subcaption*{Fuente: Elaboración propia}
+        \label{imag:arquitecturaPropuesta}
+    \end{figure}
+
+    \subsection{Capa de percepción}
+    En la capa de percepción...
+
+
+    \subsection{Capa de transporte}
+
+    \subsection{Capa de procesamiento}
+    
+    \subsection{Capa de aplicación}
+
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=10cm, height=6cm]{imagenes/myArquitecture.jpg}
+        \caption{Vista de implementación}
+            \subcaption*{Fuente: Elaboración propia}
+        \label{imag:descripcionArquitectura}
+    \end{figure}
+
+    ...\\
+
+    Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos.\\
 
     \section{Análisis de variables y sensores}\label{sec: analisisVariables}
 
