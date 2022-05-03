@@ -109,7 +109,7 @@
 
     \subsection{Propuesta de la Arquitectura IoT del Sistema}
 
-    En base a los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas como son: La capa de percepción cuya función es la obtención de variables asociadas a la conservación de las piezas en la muestra, la capa de transporte con el destino de transportar la data recopilada por los sensores hacia la base de datos para su posterior procesamiento y análisis, la capa de procesamiento genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
+    En base a los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas como son: La capa de percepción cuya función es la obtención de variables asociadas a la conservación de las piezas en la muestra, la capa de transporte con el destino de transportar la data recopilada por los sensores para su posterior procesamiento y análisis, la capa de procesamiento genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
 
     \begin{figure}[h]
         \centering
@@ -120,14 +120,28 @@
     \end{figure}
 
     \subsection{Capa de percepción}
-    En la capa de percepción...
+    En esta capa de percepción se encuentran los sensores que, de manera general recopilarán los datos para luego ser enviados a su procesamiento. La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres locales. En estos locales las piezas se ubican dispuestas dentro de vitrinas, de ahí la necesidad de incorporar nodos en cada una de estas y el control de la habitación en general.\\\\
+    Los nodos están constituidos por un controlador, una serie de sensores y su correspondiente alimentación. El microcontrolador NodeMcu (Figura \ref{imag:nodemcu}) es el encargado de recibir los datos de los sensores.\\
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=5cm, height=6cm]{imagenes/nodemcu0.jpg}
+        \caption{Esquemático NodeMcu Vendor}
+        \label{imag:nodemcu}
+    \end{figure}
+
+    ...
+
 
 
     \subsection{Capa de transporte}
+    Entre las tres salas que componen la muestra existes una separación considerable por ello la necesidad de incorporar una comunicación inalámbrica. Este transporte de datos se realiza mediante ...
 
     \subsection{Capa de procesamiento}
+    El procesamiento de toda la data...
     
     \subsection{Capa de aplicación}
+    Pantalla TFT y Realidad Aumentada...\\\\\\\\
 
 
     \begin{figure}[h]
