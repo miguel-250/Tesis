@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  2 MAY 2022 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.8)  2 MAY 2022 20:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -510,11 +510,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
@@ -522,6 +517,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
@@ -588,20 +593,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
+Overfull \hbox (8.54985pt too wide) in paragraph at lines 30--41
+[][] 
+ []
+
+
+Overfull \hbox (8.26476pt too wide) in paragraph at lines 44--51
+[][] 
+ []
+
+
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 50.
+(caption)                outside box or environment on input line 52.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 50.
+(caption)                outside box or environment on input line 52.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 50.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(Font)              scaled to size 10.40245pt on input line 52.
 [7]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
@@ -647,6 +659,9 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 80.
 See the caption package documentation for explanation.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [9]
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
@@ -677,12 +692,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[11])
+)
 Underfull \hbox (badness 10000) in paragraph at lines 118--69
 
  []
 
-[12]
+[11] [12]
 \openout2 = `capitulos/capitulo2.aux'.
 
  (capitulos/capitulo2.tex
@@ -738,13 +753,13 @@ LaTeX Info: Redefining \% on input line 9.
 Here is how much of TeX's memory you used:
  7639 strings out of 478905
  120043 string characters out of 2848567
- 449747 words of memory out of 3000000
+ 450747 words of memory out of 3000000
  25285 multiletter control sequences out of 15000+600000
  480570 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,16n,66p,1081b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Miguel Zayas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (25 pages, 264621 bytes).
+Output written on tesis.pdf (25 pages, 264680 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
