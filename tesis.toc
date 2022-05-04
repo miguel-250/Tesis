@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{INTRODUCCIÓN}{1}{}%
-\contentsline {chapter}{\numberline {1}Estado del Arte del IoT en los museos}{4}{}%
+\contentsline {chapter}{\numberline {1}Internet de las Cosas en los museos}{4}{}%
 \contentsline {section}{Introducción}{4}{}%
 \contentsline {section}{\numberline {1.1}Internet de las Cosas en museos internacionales}{4}{}%
 \contentsline {section}{\numberline {1.2}Internet de las Cosas en Cuba}{7}{}%

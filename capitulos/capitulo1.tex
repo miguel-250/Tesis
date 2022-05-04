@@ -1,4 +1,4 @@
-\chapter{Estado del Arte del IoT en los museos} \label{cap:aproxTeoricas}
+\chapter{Internet de las Cosas en los museos} \label{cap:aproxTeoricas}
 
 \addcontentsline{toc}{section}{Introducción}
         \textbf{\Large Introducción}\newline
@@ -62,16 +62,16 @@
         
         El Centro cuenta con una sala monográfica que propone un audiovisual realizado por autores cubanos donde se relata la historia del inmueble donde está ubicada la institución. Además, de una sala introductoria que refleja la visión que se tenía antes del encuentro de las dos culturas con la llegada de Cristóbal Colón. Este relata en paralelo la historia de Cuba y de Europa interrelacionadas en un ambiente inmersivo y por fuera se puede recorrer desde la visión de las artes plásticas europeas y cubanas. Siempre están acompañados de cuatro audiovisuales que recorren líneas independientes como la historia de la esclavitud, la ciencia, los servicios públicos y la economía.\\
         
-        Adosada a esta sala se encuentra la de llegada y migraciones donde en un espacio se reproduce una parte de un galeón \footnote{gale\'on: es una embarcación a vela utilizada desde principios del siglo XVI. Los galeones eran barcos de destrucción poderosos y muy lentos que podían ser igualmente usados para el comercio o la guerra.}, atractivo para el público pues puede sentirse una ligera «brisa de mar», una corriente de aire situada en la parte posterior del barco. Esto se complementa con dos pantallas y proyectores que permiten la visualización de un audiovisual que también habla de las llegadas de los aborígenes, los conquistadores; la migración forzada de los africanos y así sucesivamente con las diferentes olas migratorias que han formado la actual característica mestiza de nuestra identidad y nación.\\
+        Adosada a esta sala se encuentra la de llegada y migraciones donde en un espacio se reproduce una parte de un galeón, atractivo para el público pues puede sentirse una ligera «brisa de mar», una corriente de aire situada en la parte posterior del barco. Esto se complementa con dos pantallas y proyectores que permiten la visualización de un audiovisual que también habla de las llegadas de los aborígenes, los conquistadores; la migración forzada de los africanos y así sucesivamente con las diferentes olas migratorias que han formado la actual característica mestiza de nuestra identidad y nación.\\
         
         La Sala de Viajeros se soporta en un software que despliega una galería de imágenes ya sea de cubanos relevantes de visita por Europa o de europeos de visita en Cuba. Mediante el uso de pantallas táctiles, el visitante puede interactuar con las imágenes de las personalidades, leer una síntesis biográfica e incluso escuchar muestras de audio.
     
         
     \section{Arquitectura IoT}\label{sec:arquitecturas}
 
-    Lo primero que debemos saber sobre la arquitectura de IoT, es que no existe una única definición universalmente adoptada. Diferentes propuestas han surgido durante su desarrollo entre las que podemos encontrar: la arquitectura de 3 capas, la arquitectura de 5 capas, la arquitectura de nube, la arquitectura de niebla y la arquitectura de computación de Borde entre muchas otras \cite{arquitecturaIEEE}.
+    Lo primero que debemos saber sobre la arquitectura de IoT, es que no existe una única definición universalmente adoptada. Diferentes propuestas han surgido durante su desarrollo entre las que podemos encontrar: la arquitectura de 3 capas, la arquitectura de 5 capas, la arquitectura de nube, la arquitectura de niebla y la arquitectura de computación de Borde entre muchas otras \cite{arquitecturaIEEE}.\\\\\\\\\\\\
 
-    En la figura \ref{imag:comparacionArquitecturas} se observa una comparación entre las arquitecturas de 3 capas, 5 capas y la arquitectura de nube.\\\\
+    En la figura \ref{imag:comparacionArquitecturas} se observa una comparación entre las arquitecturas de 3 capas, 5 capas y la arquitectura de nube.
 
     \begin{figure}[h]
         \centering
@@ -109,7 +109,7 @@
 
     \subsection{Propuesta de la Arquitectura IoT del Sistema}
 
-    En base a los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas como son: La capa de percepción cuya función es la obtención de variables asociadas a la conservación de las piezas en la muestra, la capa de transporte con el destino de transportar la data recopilada por los sensores para su posterior procesamiento y análisis, la capa de procesamiento genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
+    En base de los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas que son: La capa de percepción cuya función es la obtención de variables asociadas a la conservación de las piezas en la muestra, la capa de transporte con el propósito de transportar la data recopilada por los sensores para su posterior procesamiento y análisis, la capa de procesamiento que genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
 
     \begin{figure}[h]
         \centering
@@ -120,7 +120,7 @@
     \end{figure}
 
     \subsection{Capa de percepción}
-    En esta capa de percepción se encuentran los sensores que, de manera general recopilarán los datos para luego ser enviados a su procesamiento. La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres locales. En estos locales las piezas se ubican dispuestas dentro de vitrinas, de ahí la necesidad de incorporar nodos en cada una de estas y el control de la habitación en general.\\\\
+    En esta capa se encuentran los sensores que, de manera general recopilarán los datos para luego ser enviados a su procesamiento. La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres locales. En estos las piezas se ubican dispuestas dentro de vitrinas, de ahí la necesidad de incorporar nodos en cada una de estas y el control de la habitación en general.\\\\
     Los nodos están constituidos por un controlador, una serie de sensores y su correspondiente alimentación. El microcontrolador NodeMcu (Figura \ref{imag:nodemcu}) es el encargado de recibir los datos de los sensores.\\
 
     \begin{figure}[h]
@@ -130,7 +130,7 @@
         \label{imag:nodemcu}
     \end{figure}
 
-    NodeMCU es una pequeña placa Wifi compatible con Arduino lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
+    NodeMCU es una pequeña placa Wifi compatible con Arduino, lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
     Dispone de una extensa comunidad y documentación que permitirá conectar el proyecto mediante conexión Wifi.\\
 
     \textbf{Características}
@@ -157,7 +157,7 @@
 
 
     \subsection{Capa de transporte}
-    Entre las tres salas que componen la muestra existes una separación considerable por ello la necesidad de incorporar una comunicación inalámbrica. Este transporte de datos se realiza mediante ...
+    Entre las tres salas que componen la muestra existe una separación considerable, por ello la necesidad de incorporar una comunicación inalámbrica. Este transporte de datos se realiza mediante ...
 
     \subsection{Capa de procesamiento}
     El procesamiento de toda la data...
