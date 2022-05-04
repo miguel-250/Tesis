@@ -8,17 +8,17 @@
 \contentsline {subsection}{\numberline {1.3.1}Principales capas de la arquitectura del IoT}{9}{}%
 \contentsline {subsection}{\numberline {1.3.2}Propuesta de la Arquitectura IoT del Sistema}{11}{}%
 \contentsline {subsection}{\numberline {1.3.3}Capa de percepción}{11}{}%
-\contentsline {subsection}{\numberline {1.3.4}Capa de transporte}{12}{}%
-\contentsline {subsection}{\numberline {1.3.5}Capa de procesamiento}{12}{}%
-\contentsline {subsection}{\numberline {1.3.6}Capa de aplicación}{12}{}%
-\contentsline {section}{\numberline {1.4}Análisis de variables y sensores}{13}{}%
-\contentsline {section}{\numberline {1.5}Sistema de comunicación}{13}{}%
-\contentsline {section}{\numberline {1.6}Sistema de seguridad}{13}{}%
-\contentsline {section}{Conclusiones}{13}{}%
-\contentsline {chapter}{\numberline {2}Implementación del sistema IoT}{14}{}%
-\contentsline {section}{Introducción}{14}{}%
+\contentsline {subsection}{\numberline {1.3.4}Capa de transporte}{13}{}%
+\contentsline {subsection}{\numberline {1.3.5}Capa de procesamiento}{13}{}%
+\contentsline {subsection}{\numberline {1.3.6}Capa de aplicación}{13}{}%
+\contentsline {section}{\numberline {1.4}Análisis de variables y sensores}{14}{}%
+\contentsline {section}{\numberline {1.5}Sistema de comunicación}{14}{}%
+\contentsline {section}{\numberline {1.6}Sistema de seguridad}{14}{}%
 \contentsline {section}{Conclusiones}{14}{}%
-\contentsline {section}{CONCLUSIONES GENERALES}{15}{}%
-\contentsline {chapter}{Recomendaciones}{16}{}%
-\contentsline {chapter}{Apéndice}{17}{}%
-\contentsline {chapter}{Referencias}{18}{}%
+\contentsline {chapter}{\numberline {2}Implementación del sistema IoT}{15}{}%
+\contentsline {section}{Introducción}{15}{}%
+\contentsline {section}{Conclusiones}{15}{}%
+\contentsline {section}{CONCLUSIONES GENERALES}{16}{}%
+\contentsline {chapter}{Recomendaciones}{17}{}%
+\contentsline {chapter}{Apéndice}{18}{}%
+\contentsline {chapter}{Referencias}{19}{}%
