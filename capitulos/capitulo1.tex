@@ -148,10 +148,34 @@
         \item Entrada alimentación externa VIN (20V max).\\
     \end{itemize}
 
-    En el caso de los sensores....\\
-    \textbf{Hacer Tabla con características de los sensores a emplear}\\
-    Alimentación …
+    En el caso de los sensores, la siguiente tabla relaciona el sensor a emplear según la variable a controlar.
 
+    \begin{table}[h]
+        \begin{tabular}{|c|c|l|}
+        \hline
+        \rowcolor[HTML]{9698ED} 
+        \multicolumn{1}{|l|}{\cellcolor[HTML]{9698ED}Variable a controlar} & Sensor     & \multicolumn{1}{c|}{\cellcolor[HTML]{9698ED}Descripción}                                                                                    \\ \hline
+        Temperatura                                                        & DHT22      & \begin{tabular}[c]{@{}l@{}}Rango Temperatura: De - 40 a 80°C\\ Voltaje de alimentación: De 3V a 6V\\ Corriente: De 1mA a 1.5mA\end{tabular} \\ \hline
+        Humedad                                                            & DHT22      & \begin{tabular}[c]{@{}l@{}}Rango Humedad: De 0 a 100\%r\\ Voltaje de alimentación: De 3V a 6V\\ Corriente: De 1mA a 1.5mA\end{tabular}      \\ \hline
+        Polución                                                           & SDS011     & \begin{tabular}[c]{@{}l@{}}Rango: De 0.0 a 999.9ugm3\\ Voltaje de alimentación: 5V\\ Corriente: 100mA máxima\end{tabular}                   \\ \hline
+        Luminosidad                                                        & BH1750     & \begin{tabular}[c]{@{}l@{}}Rango: De 1 a 65535Lx\\ Voltaje de alimentación: 5V\\ Corriente: 10mA\end{tabular}                               \\ \hline
+        CO2                                                                & MH-Z19C    & \begin{tabular}[c]{@{}l@{}}Rango: De 400ppm a 5000ppm\\ Voltaje de alimentación:5V\\ Corriente: menor a los 40mA\end{tabular}               \\ \hline
+        Vibraciones                                                        & M0168(OEM) & \begin{tabular}[c]{@{}l@{}}Salida analógica\\ Voltaje de alimentación: De 3.3V a 5V\\ Corriente: 10mA\end{tabular}                          \\ \hline
+        Salitre                                                            & -          & Obtenida mediante análisis de nivel de humedad.                                                                                             \\ \hline
+        Xilófagos                                                          & -          & \begin{tabular}[c]{@{}l@{}}Son controlados por cálculo de las posibles causas\\ que provocan su aparición.\end{tabular}                     \\ \hline
+        \end{tabular}
+        \caption{Relación sensores}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{tab:relacion_sensores}
+    \end{table}
+
+    La medida del nivel de salitre, como se dice en la tabla \ref{tab:relacion_sensores}, es obtenida mediante el análisis del nivel de humedad presente en los locales de la muestra.\\
+
+    ...
+
+    Alimentación …\\
+
+    Esquema de conexiones de un nodo (Revisar las conexiones de los sensores al NodeMcu).
 
 
 
