@@ -120,8 +120,11 @@
     \end{figure}
 
     \subsection{Capa de percepción}
-    En esta capa se encuentran los sensores que, de manera general recopilarán los datos para luego ser enviados a su procesamiento. La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres locales. En estos las piezas se ubican dispuestas dentro de vitrinas, de ahí la necesidad de incorporar nodos en cada una de estas y el control de la habitación en general.\\\\
-    Los nodos están constituidos por un controlador, una serie de sensores y su correspondiente alimentación. El microcontrolador NodeMcu (Figura \ref{imag:nodemcu}) es el encargado de recibir los datos de los sensores.\\
+    En esta capa se encuentran los sensores que, de manera general recopilan los datos para luego ser enviados a su procesamiento. La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres locales. En estos las piezas se encuentran dispuestas dentro de vitrinas, de ahí la necesidad de incorporar nodos en cada una de estas y el control de la habitación en general.\\\\
+    Los nodos están constituidos por un controlador, una serie de sensores y su correspondiente alimentación.\\
+        
+    \textbf{Microcontrolador}\\
+    El microcontrolador NodeMcu (Figura \ref{imag:nodemcu}) es el encargado de recibir los datos de los sensores.\\
 
     \begin{figure}[h]
         \centering
@@ -129,13 +132,14 @@
         \caption{Esquemático NodeMcu Vendor}
         \label{imag:nodemcu}
     \end{figure}
-
+    
+    
     NodeMCU es una pequeña placa Wifi compatible con Arduino, lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
     Dispone de una extensa comunidad y documentación que permitirá conectar el proyecto mediante conexión Wifi.\\
 
     \textbf{Características}
     \begin{itemize}
-        \item Procesador: ESP8266 @ 80MHz (3.3V) (ESP-12E).
+        \item Procesador: ESP8266 a 80MHz (3.3V) (ESP-12E).
         \item 4MB de memoria FLASH (32 MBit).
         \item WiFi 802.11 b/g/n.
         \item Regulador 3.3V integrado (500mA).
@@ -148,6 +152,7 @@
         \item Entrada alimentación externa VIN (20V max).\\
     \end{itemize}
 
+    \textbf{Sensores}\\
     En el caso de los sensores, la siguiente tabla relaciona el sensor a emplear según la variable a controlar.
 
     \begin{table}[h]
@@ -170,11 +175,11 @@
     \end{table}
 
     La medida del nivel de salitre, como se dice en la tabla \ref{tab:relacion_sensores}, es obtenida mediante el análisis del nivel de humedad presente en los locales de la muestra.\\
-
     ...
 
-    Alimentación …\\
+    \textbf{Alimentación}\\
 
+    \textbf{Esquema de conexiones}\\
     Esquema de conexiones de un nodo (Revisar las conexiones de los sensores al NodeMcu).
 
 
@@ -202,7 +207,7 @@
 
     Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos.\\
 
-    \section{Análisis de variables y sensores}\label{sec: analisisVariables}
+    % \section{Análisis de variables y sensores}\label{sec: analisisVariables}
 
     \section{Sistema de comunicación}\label{sec: sistemaComunicación}
 

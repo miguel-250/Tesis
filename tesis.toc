@@ -11,9 +11,8 @@
 \contentsline {subsection}{\numberline {1.3.4}Capa de transporte}{14}{}%
 \contentsline {subsection}{\numberline {1.3.5}Capa de procesamiento}{14}{}%
 \contentsline {subsection}{\numberline {1.3.6}Capa de aplicación}{14}{}%
-\contentsline {section}{\numberline {1.4}Análisis de variables y sensores}{15}{}%
-\contentsline {section}{\numberline {1.5}Sistema de comunicación}{15}{}%
-\contentsline {section}{\numberline {1.6}Sistema de seguridad}{15}{}%
+\contentsline {section}{\numberline {1.4}Sistema de comunicación}{15}{}%
+\contentsline {section}{\numberline {1.5}Sistema de seguridad}{15}{}%
 \contentsline {section}{Conclusiones}{15}{}%
 \contentsline {chapter}{\numberline {2}Implementación del sistema IoT}{16}{}%
 \contentsline {section}{Introducción}{16}{}%
