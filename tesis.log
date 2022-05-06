@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.6)  6 MAY 2022 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.6)  6 MAY 2022 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,21 +765,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
 <imagenes/myArquitecture.jpg, id=76, 1804.49156pt x 1039.63406pt>
 File: imagenes/myArquitecture.jpg Graphic file (type jpg)
 <use imagenes/myArquitecture.jpg>
@@ -796,14 +781,11 @@ Package caption Warning: \subcaption
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-
+[14 <./imagenes/myArquitecture.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
@@ -813,7 +795,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--74
 
  []
 
-[14] [15 <./imagenes/myArquitecture.jpg>]
+[15]
 \openout2 = `capitulos/capitulo2.aux'.
 
  (capitulos/capitulo2.tex
@@ -875,7 +857,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,17n,63p,1235b,462s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (29 pages, 1547076 bytes).
+Output written on tesis.pdf (29 pages, 1547103 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
