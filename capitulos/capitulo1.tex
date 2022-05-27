@@ -119,12 +119,55 @@
         \label{imag:arquitecturaPropuesta}
     \end{figure}
 
-    \subsection{Capa de percepción}
-    En esta capa se encuentran los sensores que, de manera general recopilan los datos para luego ser enviados a su procesamiento. La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres locales. En estos las piezas se encuentran dispuestas dentro de vitrinas, de ahí la necesidad de incorporar nodos en cada una de estas y el control de la habitación en general.\\\\
-    Los nodos están constituidos por un controlador, una serie de sensores y su correspondiente alimentación.\\
-        
-    \textbf{Microcontrolador}\\
-    El microcontrolador NodeMcu (Figura \ref{imag:nodemcu}) es el encargado de recibir los datos de los sensores.\\
+    \subsection{Capa de percepción}\label{subsec:capa_percepcion}
+    En esta capa de percepción se encuentran los sensores que, de manera general recopilarán los datos para luego ser enviados a su procesamiento. La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres salas expositivas. Enumerándolas: sala 1, sala 2 y sala 3.\\\\
+
+    La sala 1 (Exposición permanente) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan varios objetos de cerámica, marfil, metal, piedra, madera etcétera.\newline
+    [Imagen de la sala 1]\newline
+    
+    En la sala 2 solamente se encuentran tres pinturas pertenecientes a la colección, éstas poseen también condiciones de deterioro notables por el efecto de la humedad y del nivel de luz dentro del local. La humedad provoca la aparición de hongos en el lienzo deteriorándolo y dañando también el color.\newline
+    [Imagen de uno de los cuadros donde se sea el hongo] (Nombre || Fuente).\newline
+    
+    Dentro de la sala 3 se localizan también varios objetos ubicados en pedestales mostrando colecciones de medallas y objetos personales del mismo Prat Puig y, además, vitrinas donde se hallan, principalmente, objetos de cerámica como platos, jarrones y cántaros.\newline
+    [Imagen sala 3]\newline
+    
+    En la siguiente tabla se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
+
+
+        \begin{table}[h]
+            \begin{center}
+            \begin{tabular}{|l|r|}
+            \hline
+            \rowcolor[HTML]{9698ED} 
+            \multicolumn{1}{|r|}{\cellcolor[HTML]{9698ED}Ubicación} & Cantidad \\ \hline
+            Vitrinas                                                & 12       \\ \hline
+            Mesas                                                   & 2        \\ \hline
+            Estantes                                                & 1        \\ \hline
+            Colgados                                                & 23       \\ \hline
+            Pedestales                                              & 3        \\ \hline
+            \end{tabular}
+            \caption{Ubicación piezas}
+            \subsection*{Fuente: Elaboración propia}
+            \label{tab:valor_cuantitativo}
+        \end{center}
+        \end{table}
+
+    \vspace{3cm}
+
+    Según la tabla \ref{tab:valor_cuantitativo}, varios objetos están dispuestos dentro de vitrinas por lo que la condición ambiental en estas es diferente a la condición ambiental del local, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\
+
+    \textbf{Nodos}\\
+    Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
+
+    En la tabla que se muestra a continuación se hace una analogía de las características de los nodos que estarán presentes:\\
+
+    [Insertar tabla]\\
+
+    Estos nodos estarán constituidos por un controlador, una serie de sensores y su correspondiente alimentación.\\
+
+    \textbf{Microcontrolador}
+
+    Dentro de la familia de los ESP (significado) se encuentra el NodeMcu (Imagen \ref{imag:nodemcu}). Este microcontrolador (referenciar figura) será el encargado de recibir los datos de los sensores y organizarlos en función de su continua transmisión hacia el concentrador.\\
 
     \begin{figure}[h]
         \centering
@@ -135,6 +178,7 @@
     
     
     NodeMCU es una pequeña placa Wifi compatible con Arduino, lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
+
     Dispone de una extensa comunidad y documentación que permitirá conectar el proyecto mediante conexión Wifi.\\
 
     \textbf{Características}
@@ -156,6 +200,7 @@
     En el caso de los sensores, la siguiente tabla relaciona el sensor a emplear según la variable a controlar.
 
     \begin{table}[h]
+        \begin{center}
         \begin{tabular}{|c|c|l|}
         \hline
         \rowcolor[HTML]{9698ED} 
@@ -166,30 +211,34 @@
         Luminosidad                                                        & BH1750     & \begin{tabular}[c]{@{}l@{}}Rango: De 1 a 65535Lx\\ Voltaje de alimentación: 5V\\ Corriente: 10mA\end{tabular}                               \\ \hline
         CO2                                                                & MH-Z19C    & \begin{tabular}[c]{@{}l@{}}Rango: De 400ppm a 5000ppm\\ Voltaje de alimentación:5V\\ Corriente: menor a los 40mA\end{tabular}               \\ \hline
         Vibraciones                                                        & M0168(OEM) & \begin{tabular}[c]{@{}l@{}}Salida analógica\\ Voltaje de alimentación: De 3.3V a 5V\\ Corriente: 10mA\end{tabular}                          \\ \hline
-        Salitre                                                            & -          & Obtenida mediante análisis de nivel de humedad.                                                                                             \\ \hline
-        Xilófagos                                                          & -          & \begin{tabular}[c]{@{}l@{}}Son controlados por cálculo de las posibles causas\\ que provocan su aparición.\end{tabular}                     \\ \hline
+        Salitre                                                            & -          & Obtenida por predicciones.                                                                                                                  \\ \hline
+        Xilófagos                                                          & -          & Obtenida por predicciones.                                                                                                                  \\ \hline
         \end{tabular}
         \caption{Relación sensores}
         \subcaption*{Fuente: Elaboración propia}
         \label{tab:relacion_sensores}
+    \end{center}
     \end{table}
 
-    La medida del nivel de salitre, como se dice en la tabla \ref{tab:relacion_sensores}, es obtenida mediante el análisis del nivel de humedad presente en los locales de la muestra.\\
-    ...
+    La medida del nivel de salitre, como se muestra en la tabla (ref), es obtenida mediante el análisis del nivel de humedad presente en los locales de la muestra.\\
+    …
+
+    En el caso del control de la aparición de los xilófagos, esta es obtenida a partir del análisis de las condiciones óptimas para la aparición de los mismos. Normalmente estos aparecen cuando la madera se encuentra con un porcentaje de humedad excesivo (por encima del 20 por ciento. Según \cite{monitoringMoisture} el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55 por ciento mientras que \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50 por ciento. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 20 por ciento.\\
+
+    La temperatura también influye en la aparición de los xilófagos a tal nivel …\\
+
+
+    \textbf{Alimentación} 
+
+
+    \subsection{Capa de transporte}\label{subsec:capa_transporte}
+    Entre las tres salas que componen la muestra existes una separación considerable por ello la necesidad de incorporar una comunicación inalámbrica.
+
+    \subsection{Capa de procesamiento}\label{subsec:capa_procesamiento}
+    El procesamiento de toda la data ...
     
-
-    \textbf{Alimentación}\\
-
-    \textbf{Esquema de conexiones}\\
-
-    \subsection{Capa de transporte}
-    Entre las tres salas que componen la muestra existe una separación considerable, por ello la necesidad de incorporar una comunicación inalámbrica. Este transporte de datos se realiza mediante ...
-
-    \subsection{Capa de procesamiento}
-    El procesamiento de toda la data...
-    
-    \subsection{Capa de aplicación}
-    Pantalla TFT y Realidad Aumentada...\\
+    \subsection{Capa de aplicación}\label{subsec:capa_aplicacion}
+    Pantalla TFT y Realidad Aumentada ...\newline
 
 
     \begin{figure}[h]
@@ -200,15 +249,16 @@
         \label{imag:descripcionArquitectura}
     \end{figure}
 
-    ...\\
+    ...\newline
 
-    Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos.\\
+    Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos o instituciones con vista al desarrollo de entornos inteligentes.\\
 
-    % \section{Análisis de variables y sensores}\label{sec: analisisVariables}
+    %\section{Análisis de variables y sensores}\label{sec: analisisVariables}
 
-    \section{Sistema de comunicación}\label{sec: sistemaComunicación}
+    %\section{Sistema de comunicación}\label{sec: sistemaComunicación}
 
     \section{Sistema de seguridad}\label{sec: sistemaSeguridad}
+    Sensores PIR y ESP32-CAM.\\
 
     \addcontentsline{toc}{section}{Conclusiones}
     \textbf{\Large Conclusiones}\newline

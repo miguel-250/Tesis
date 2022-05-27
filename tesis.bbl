@@ -246,6 +246,30 @@ García, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ivan~Araquistain%
+}{%
+Ivan~Araquistain%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+monitoringMoisture}
+\APACinsertmetastar {%
+monitoringMoisture}%
+\begin{APACrefauthors}%
+Ivan~Araquistain, O\BPBI M., Jose Miguel~Abascal.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {WIRELESS SENSOR NETWORK TECHNOLOGY FOR MONITORING
+  MOISTURE CONTENT OF WOOD} {Wireless sensor network technology for monitoring
+  moisture content of wood}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Tecnalia Research and Innovation}{}{nº 5 20730}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 L.~Hou%
 }{%
 L.~Hou%
@@ -301,6 +325,30 @@ Liu, Z.%
 \APACjournalVolNumPages{IEEE Access}{7}{}{111387-111395}.
 \newblock
 \begin{APACrefDOI} \doi{10.1109/ACCESS.2019.2933236} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Margarita~Kisternaya%
+}{%
+Margarita~Kisternaya%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+woodPreservation}
+\APACinsertmetastar {%
+woodPreservation}%
+\begin{APACrefauthors}%
+Margarita~Kisternaya, V\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Wood science approach for the preservation of historic
+  timber structures} {Wood science approach for the preservation of historic
+  timber structures}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Russian Academy of Sciences}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
