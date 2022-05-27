@@ -124,13 +124,10 @@
 
     La sala 1 (Exposición permanente) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan varios objetos de cerámica, marfil, metal, piedra, madera etcétera.\newline
     [Imagen de la sala 1]\newline
-    
     En la sala 2 solamente se encuentran tres pinturas pertenecientes a la colección, éstas poseen también condiciones de deterioro notables por el efecto de la humedad y del nivel de luz dentro del local. La humedad provoca la aparición de hongos en el lienzo deteriorándolo y dañando también el color.\newline
     [Imagen de uno de los cuadros donde se sea el hongo] (Nombre || Fuente).\newline
-    
     Dentro de la sala 3 se localizan también varios objetos ubicados en pedestales mostrando colecciones de medallas y objetos personales del mismo Prat Puig y, además, vitrinas donde se hallan, principalmente, objetos de cerámica como platos, jarrones y cántaros.\newline
     [Imagen sala 3]\newline
-    
     En la siguiente tabla se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
 
 
@@ -152,18 +149,40 @@
         \end{center}
         \end{table}
 
-    \vspace{3cm}
-
-    Según la tabla \ref{tab:valor_cuantitativo}, varios objetos están dispuestos dentro de vitrinas por lo que la condición ambiental en estas es diferente a la condición ambiental del local, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\
+    Según la tabla \ref{tab:valor_cuantitativo}, varios objetos están dispuestos dentro de vitrinas por lo que la condición ambiental en estas es diferente a la condición ambiental del local, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\\\
 
     \textbf{Nodos}\\
     Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
 
     En la tabla que se muestra a continuación se hace una analogía de las características de los nodos que estarán presentes:\\
 
-    [Insertar tabla]\\
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|c|l|c|}
+        \hline
+        \rowcolor[HTML]{9698ED} 
+        \multicolumn{1}{|r|}{\cellcolor[HTML]{9698ED}Nodo} & \multicolumn{1}{r|}{\cellcolor[HTML]{9698ED}Cantidad}                       & Meterial objetos                                                                            & \multicolumn{1}{l|}{\cellcolor[HTML]{9698ED}Variable a medir}                                                                    \\ \hline
+        1                                                  & \begin{tabular}[c]{@{}c@{}}General\\ Sala 1\end{tabular}                    & \multicolumn{1}{c|}{porcelana, barro, marfil}                                               & \begin{tabular}[c]{@{}c@{}}temperatura, humedad,\\ polución, luminosidad,\\ CO2, vibraciones, salitre,\\ xilófagos\end{tabular}  \\ \hline
+        2                                                  &                                                                             & bronce, barro, arcilla, piedra                                                              &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
+        3                                                  &                                                                             & colección numismática                                                                       &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
+        4                                                  &                                                                             & cerámica, madera, barro, bronce                                                             &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
+        5                                                  &                                                                             & \begin{tabular}[c]{@{}l@{}}madera, bronce, plata, cerámica,\\ porcelana, cuero\end{tabular} &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
+        6                                                  &                                                                             & barro, cerámica, plata                                                                      &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
+        7                                                  &                                                                             & bronce, marfil, madera                                                                      &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
+        8                                                  & \multirow{-7}{*}{\begin{tabular}[c]{@{}c@{}}Vitrinas\\ Sala 1\end{tabular}} & porcelana, barro policromado                                                                & \multirow{-7}{*}{\begin{tabular}[c]{@{}c@{}}temperatura, humedad,\\ luminosidad, vibraciones.\end{tabular}}                      \\ \hline
+        9                                                  & \begin{tabular}[c]{@{}c@{}}General\\ Sala 2\end{tabular}                    & tela, madera                                                                                & \begin{tabular}[c]{@{}c@{}}temperatura, humedad,\\ polución, luminosidad,\\ CO2, salitre, xilófagos.\end{tabular}                \\ \hline
+        10                                                 & \begin{tabular}[c]{@{}c@{}}General\\ Sala 3\end{tabular}                    & metal, plástico, tela, cuero, madera                                                        & \begin{tabular}[c]{@{}c@{}}temperatura, humedad,\\ polución, luminosidad,\\ CO2, vibraciones, salitre,\\ xilófagos.\end{tabular} \\ \hline
+        11                                                 &                                                                             &                                                                                             &                                                                                                                                  \\ \cline{1-1}
+        12                                                 &                                                                             &                                                                                             &                                                                                                                                  \\ \cline{1-1}
+        13                                                 &                                                                             &                                                                                             &                                                                                                                                  \\ \cline{1-1}
+        14                                                 & \multirow{-4}{*}{\begin{tabular}[c]{@{}c@{}}Vitrinas\\ Sala 3\end{tabular}} & \multirow{-4}{*}{cerámica (barro)}                                                          & \multirow{-4}{*}{\begin{tabular}[c]{@{}c@{}}temperatura, humedad,\\ luminosidad, vibraciones.\end{tabular}}                      \\ \hline
+        \end{tabular}
+        \caption{Correlación de los nodos}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{tab:correlacion_nodos}
+    \end{table}
 
-    Estos nodos estarán constituidos por un controlador, una serie de sensores y su correspondiente alimentación.\\
+    Estos nodos estarán constituidos por un controlador, una serie de sensores y su correspondiente alimentación.\\\\
 
     \textbf{Microcontrolador}
 
@@ -200,7 +219,7 @@
     En el caso de los sensores, la siguiente tabla relaciona el sensor a emplear según la variable a controlar.
 
     \begin{table}[h]
-        \begin{center}
+        \centering
         \begin{tabular}{|c|c|l|}
         \hline
         \rowcolor[HTML]{9698ED} 
@@ -217,7 +236,6 @@
         \caption{Relación sensores}
         \subcaption*{Fuente: Elaboración propia}
         \label{tab:relacion_sensores}
-    \end{center}
     \end{table}
 
     La medida del nivel de salitre, como se muestra en la tabla (ref), es obtenida mediante el análisis del nivel de humedad presente en los locales de la muestra.\\
