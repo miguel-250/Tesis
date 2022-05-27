@@ -128,28 +128,17 @@
     [Imagen de uno de los cuadros donde se sea el hongo] (Nombre || Fuente).\newline
     Dentro de la sala 3 se localizan también varios objetos ubicados en pedestales mostrando colecciones de medallas y objetos personales del mismo Prat Puig y, además, vitrinas donde se hallan, principalmente, objetos de cerámica como platos, jarrones y cántaros.\newline
     [Imagen sala 3]\newline
-    En la siguiente tabla se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
+    En el siguiente gráfico se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
 
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=10cm, height=5.3cm]{imagenes/formas expositivas.jpg}
+        \caption{Ubicación piezas}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{imag:ubicacion_piezas}
+    \end{figure}
 
-        \begin{table}[h]
-            \centering
-            \begin{tabular}{|l|r|}
-            \hline
-            \rowcolor[HTML]{9698ED} 
-            \multicolumn{1}{|r|}{\cellcolor[HTML]{9698ED}Ubicación} & Cantidad \\ \hline
-            Vitrinas                                                & 12       \\ \hline
-            Mesas                                                   & 2        \\ \hline
-            Estantes                                                & 1        \\ \hline
-            Colgados                                                & 23       \\ \hline
-            Pedestales                                              & 3        \\ \hline
-            \end{tabular}
-            \caption{Ubicación piezas}
-            \subcaption*{Fuente: Elaboración propia}
-            \label{tab:valor_cuantitativo}
-        \end{table}
-        
-
-    Según la tabla \ref{tab:valor_cuantitativo}, varios objetos están dispuestos dentro de vitrinas por lo que la condición ambiental en estas es diferente a la condición ambiental del local, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\\\\\\\
+    Según la figura \ref{imag:ubicacion_piezas}, varios objetos están dispuestos dentro de vitrinas por lo que la condición ambiental en estas es diferente a la condición ambiental del local, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.
 
     \textbf{Nodos}\\
     Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
@@ -206,7 +195,7 @@
         \item 4MB de memoria FLASH (32 MBit).
         \item WiFi 802.11 b/g/n.
         \item Regulador 3.3V integrado (500mA).
-        \item Conversor USB-Serial CH340G / CH340G.
+        \item Conversor USB-Serial CH340G.
         \item Función Auto-reset.
         \item 9 pines GPIO con I2C y SPI.
         \item 1 entrada analógica (1.0V max).
@@ -243,7 +232,7 @@
 
     En el caso del control de la aparición de los xilófagos, esta es obtenida a partir del análisis de las condiciones óptimas para la aparición de los mismos. Normalmente estos aparecen cuando la madera se encuentra con un porcentaje de humedad excesivo (por encima del 20 por ciento. Según \cite{monitoringMoisture} el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55 por ciento mientras que \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50 por ciento. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 20 por ciento.\\
 
-    La temperatura también influye en la aparición de los xilófagos a tal nivel …\\
+    La temperatura también influye en la aparición de los xilófagos a tal nivel ...\\
 
 
     \textbf{Alimentación} 
