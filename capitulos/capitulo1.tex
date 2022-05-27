@@ -132,7 +132,7 @@
 
 
         \begin{table}[h]
-            \begin{center}
+            \centering
             \begin{tabular}{|l|r|}
             \hline
             \rowcolor[HTML]{9698ED} 
@@ -144,12 +144,12 @@
             Pedestales                                              & 3        \\ \hline
             \end{tabular}
             \caption{Ubicación piezas}
-            \subsection*{Fuente: Elaboración propia}
+            \subcaption*{Fuente: Elaboración propia}
             \label{tab:valor_cuantitativo}
-        \end{center}
         \end{table}
+        
 
-    Según la tabla \ref{tab:valor_cuantitativo}, varios objetos están dispuestos dentro de vitrinas por lo que la condición ambiental en estas es diferente a la condición ambiental del local, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\\\
+    Según la tabla \ref{tab:valor_cuantitativo}, varios objetos están dispuestos dentro de vitrinas por lo que la condición ambiental en estas es diferente a la condición ambiental del local, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\\\\\\\
 
     \textbf{Nodos}\\
     Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
@@ -162,7 +162,7 @@
         \hline
         \rowcolor[HTML]{9698ED} 
         \multicolumn{1}{|r|}{\cellcolor[HTML]{9698ED}Nodo} & \multicolumn{1}{r|}{\cellcolor[HTML]{9698ED}Cantidad}                       & Meterial objetos                                                                            & \multicolumn{1}{l|}{\cellcolor[HTML]{9698ED}Variable a medir}                                                                    \\ \hline
-        1                                                  & \begin{tabular}[c]{@{}c@{}}General\\ Sala 1\end{tabular}                    & \multicolumn{1}{c|}{porcelana, barro, marfil}                                               & \begin{tabular}[c]{@{}c@{}}temperatura, humedad,\\ polución, luminosidad,\\ CO2, vibraciones, salitre,\\ xilófagos\end{tabular}  \\ \hline
+        1                                                  & \begin{tabular}[c]{@{}c@{}}General\\ Sala 1\end{tabular}                    & porcelana, barro, marfil                                                                    & \begin{tabular}[c]{@{}c@{}}temperatura, humedad,\\ polución, luminosidad,\\ CO2, vibraciones, salitre,\\ xilófagos\end{tabular}  \\ \hline
         2                                                  &                                                                             & bronce, barro, arcilla, piedra                                                              &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
         3                                                  &                                                                             & colección numismática                                                                       &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
         4                                                  &                                                                             & cerámica, madera, barro, bronce                                                             &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
@@ -186,7 +186,7 @@
 
     \textbf{Microcontrolador}
 
-    Dentro de la familia de los ESP (significado) se encuentra el NodeMcu (Imagen \ref{imag:nodemcu}). Este microcontrolador (referenciar figura) será el encargado de recibir los datos de los sensores y organizarlos en función de su continua transmisión hacia el concentrador.\\
+    Dentro de la familia de los ESP se encuentra el NodeMCU. Este microcontrolador (Imagen \ref{imag:nodemcu}) será el encargado de recibir los datos de los sensores y organizarlos en función de su continua transmisión hacia el concentrador.\\
 
     \begin{figure}[h]
         \centering
