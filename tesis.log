@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.25)  27 MAY 2022 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.25)  27 MAY 2022 15:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -814,50 +814,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--234
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 <imagenes/myArquitecture.jpg, id=83, 1804.49156pt x 1039.63406pt>
 File: imagenes/myArquitecture.jpg Graphic file (type jpg)
 <use imagenes/myArquitecture.jpg>
-Package pdftex.def Info: imagenes/myArquitecture.jpg  used on input line 253.
+Package pdftex.def Info: imagenes/myArquitecture.jpg  used on input line 251.
 (pdftex.def)             Requested size: 284.5118pt x 170.7073pt.
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 255.
+(caption)                outside box or environment on input line 253.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 255.
+(caption)                outside box or environment on input line 253.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-[16])
-Underfull \hbox (badness 10000) in paragraph at lines 271--74
+)
+Underfull \hbox (badness 10000) in paragraph at lines 267--74
 
  []
 
@@ -915,15 +905,15 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice3.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux)) ) 
 Here is how much of TeX's memory you used:
- 8331 strings out of 478614
- 144668 string characters out of 2843122
- 455395 words of memory out of 3000000
- 26254 multiletter control sequences out of 15000+600000
+ 8334 strings out of 478614
+ 144722 string characters out of 2843122
+ 455546 words of memory out of 3000000
+ 26257 multiletter control sequences out of 15000+600000
  556597 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,63p,1235b,462s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (31 pages, 1565492 bytes).
+Output written on tesis.pdf (31 pages, 1565734 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -409,6 +409,39 @@ Quintero, G\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rodr{\'\i}guez%
+, Vivas%
+, Vega%
+\BCBL {}\ \BBA {} Ba{\~n}o%
+}{%
+Rodr{\'\i}guez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+rodriguezcodigo}
+\APACinsertmetastar {%
+rodriguezcodigo}%
+\begin{APACrefauthors}%
+Rodr{\'\i}guez, S.%
+, Vivas, J.%
+, Vega, A.%
+\BCBL {}\ \BBA {} Ba{\~n}o, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {C{\'O}DIGO: 1.7 METODOLOG{\'I}A PARA LA INSPECCI{\'O}N,
+  EVALUACI{\'O}N Y DIAGN{\'O}STICO MEDIANTE T{\'E}CNICAS NO DESTRUCTIVAS DEL
+  ESTADO ESTRUCTURALDE PUENTES DE MADERA EN ESPA{\~N}A} {C{\'o}digo: 1.7
+  metodolog{\'i}a para la inspecci{\'o}n, evaluaci{\'o}n y diagn{\'o}stico
+  mediante t{\'e}cnicas no destructivas del estado estructuralde puentes de
+  madera en espa{\~n}a}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Sornalatha%
 \ \BBA {} Kavitha%
 }{%
