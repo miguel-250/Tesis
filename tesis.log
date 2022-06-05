@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.25)  27 MAY 2022 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.5)  5 JUN 2022 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,7 +24,7 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2022/04/30 3.74 The Babel package
+Package: babel 2022/05/22 3.75 The Babel package
 \babel@savecnt=\count194
 \U@D=\dimen139
 \l@unhyphenated=\language79
@@ -45,7 +45,10 @@ Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
-)) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+)) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip49
 \multirow@cntb=\count197
@@ -726,11 +729,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--134
  []
 
 [11 <./imagenes/myArquitecture0.jpg>]
-<imagenes/formas expositivas.jpg, id=69, 465.23813pt x 246.9225pt>
+<imagenes/formas expositivas.jpg, id=69, 362.85562pt x 218.31563pt>
 File: imagenes/formas expositivas.jpg Graphic file (type jpg)
 <use imagenes/formas expositivas.jpg>
 Package pdftex.def Info: imagenes/formas expositivas.jpg  used on input line 137.
-(pdftex.def)             Requested size: 284.53313pt x 150.79958pt.
+(pdftex.def)             Requested size: 284.53223pt x 170.71521pt.
 
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
@@ -772,82 +775,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-[13]
-<imagenes/nodemcu0.jpg, id=76, 303.38344pt x 382.42876pt>
-File: imagenes/nodemcu0.jpg Graphic file (type jpg)
-<use imagenes/nodemcu0.jpg>
-Package pdftex.def Info: imagenes/nodemcu0.jpg  used on input line 184.
-(pdftex.def)             Requested size: 142.26617pt x 170.71419pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
+<imagenes/nodemcu0.jpg, id=76, 303.38344pt x 382.42876pt>
+File: imagenes/nodemcu0.jpg Graphic file (type jpg)
+<use imagenes/nodemcu0.jpg>
+Package pdftex.def Info: imagenes/nodemcu0.jpg  used on input line 186.
+(pdftex.def)             Requested size: 142.26617pt x 170.71419pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
 [14 <./imagenes/nodemcu0.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-
- []
-
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 228.
+(caption)                outside box or environment on input line 230.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 228.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
-
- []
-
-<imagenes/myArquitecture.jpg, id=83, 1804.49156pt x 1039.63406pt>
-File: imagenes/myArquitecture.jpg Graphic file (type jpg)
-<use imagenes/myArquitecture.jpg>
-Package pdftex.def Info: imagenes/myArquitecture.jpg  used on input line 253.
-(pdftex.def)             Requested size: 284.5118pt x 170.7073pt.
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 255.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 255.
+(caption)                outside box or environment on input line 230.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+<imagenes/myArquitecture.jpg, id=83, 1804.49156pt x 1039.63406pt>
+File: imagenes/myArquitecture.jpg Graphic file (type jpg)
+<use imagenes/myArquitecture.jpg>
+Package pdftex.def Info: imagenes/myArquitecture.jpg  used on input line 256.
+(pdftex.def)             Requested size: 284.5118pt x 170.7073pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 258.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 258.
+See the caption package documentation for explanation.
+
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 269--74
+Underfull \hbox (badness 10000) in paragraph at lines 270--74
 
  []
 
@@ -905,15 +918,15 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice3.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux)) ) 
 Here is how much of TeX's memory you used:
- 8334 strings out of 478614
- 144722 string characters out of 2843122
- 455546 words of memory out of 3000000
- 26257 multiletter control sequences out of 15000+600000
+ 8381 strings out of 478614
+ 146038 string characters out of 2843123
+ 455764 words of memory out of 3000000
+ 26299 multiletter control sequences out of 15000+600000
  556597 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,63p,1235b,462s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (31 pages, 1577324 bytes).
+Output written on tesis.pdf (31 pages, 1573618 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
