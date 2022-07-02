@@ -113,18 +113,39 @@
 
     En base de los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas que son: La capa de percepción cuya función es la obtención de variables asociadas a la conservación de las piezas en la muestra, la capa de transporte con el propósito de transportar la data recopilada por los sensores para su posterior procesamiento y análisis, la capa de procesamiento que genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
 
-    Analizar la estructura definitiva de la arquitectura IoT y diseñar la imágen.
+    \begin{figure}[h]
+        \hspace{4.6cm}
+        \includegraphics[width=10cm, height=5.4cm]{imagenes/myArquitecture2.jpg}
+        \caption{Arquitectura IoT}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{imag:arquitectura_iot}
+    \end{figure}
+
+    El alcance de este trabajo va dirigido a la explicación detallada de la capa de percepción, enfocándonos en las características del microcontrolador y sensores a emplear, así como la capa de transporte donde se hace un análisis del o de los métodos empleados para el traspaso de la data recopilada hacia el concentrador.\\\\
 
     \subsection{Capa de percepción}\label{subsec:capa_percepcion}
-    En esta capa de percepción se encuentran los sensores que, de manera general recopilarán los datos para luego ser enviados a su procesamiento. La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres salas expositivas. Enumerándolas: sala 1, sala 2 y sala 3.\\
+    En esta etapa es en la que interactúan los sensores directamente con el medio ambiente, recopilan los datos para ser enviados a su posterior procesamiento.\\
+    
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=10cm, height=5cm]{imagenes/perception_image.jpg}
+        \caption{Esquema capa de percepción}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{imag:capa_percepcion}
+    \end{figure}
+
+    Como se puede observar en la figura \ref{imag:capa_percepcion}, en esta capa se encuentran implícitos una sucesión de sensores y un microcontrolador, juntos componen la estructura general de los nodos que serán incorporados a las salas pertenecientes a la exposición.\\
+
+    La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres salas expositivas. Enumerándolas: sala 1, sala 2 y sala 3.\\
     La sala 1 (Exposición permanente) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan varios objetos de cerámica, marfil, metal, piedra, madera etcétera.\newline
     [Imagen de la sala 1]\newline
-    En la sala 2 solamente se encuentran tres pinturas pertenecientes a la colección (ver imágen ... ), éstas poseen también condiciones de deterioro notables por el efecto de la humedad y del nivel de luz dentro del local. La humedad provoca la aparición de hongos en el lienzo deteriorándolo y dañando también el color.\newline
+    En la sala 2 solamente se encuentran pinturas pertenecientes a la colección, éstas poseen también condiciones de deterioro notables por el efecto de la humedad y del nivel de luz dentro del local. La humedad provoca la aparición de hongos en el lienzo deteriorándolo y dañando también el color.\newline
     [Imagen de la sala 2]\newline
     [Imagen de uno de los cuadros donde se vea el hongo] (Nombre || Fuente).\newline
     Dentro de la sala 3 se localizan también varios objetos ubicados en pedestales mostrando colecciones de medallas y objetos personales del mismo Prat Puig y, además, vitrinas donde se hallan, principalmente, objetos de cerámica como platos, jarrones y cántaros.\newline
     [Imagen sala 3]\newline
-    En la siguiente gráfica se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
+
+    En el gráfico que se muestra a continuación se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
 
     \begin{figure}[h]
         \centering
@@ -166,8 +187,6 @@
         \subcaption*{Fuente: Elaboración propia}
         \label{tab:correlacion_nodos}
     \end{table}
-
-    Estos nodos estarán constituidos por un controlador, una serie de sensores y su correspondiente alimentación.\\\\
 
     \textbf{Microcontrolador}
 
@@ -236,31 +255,16 @@
 
     La revolución de las baterías de litio viene dando pasos agigantados...\\ 
 
-    \subsection{Capa de comunicación}\label{subsec:capa_transporte}
-    Entre las tres salas que componen la muestra existes una separación considerable por ello la necesidad de incorporar una comunicación inalámbrica.
-
-    \subsection{Capa de procesamiento}\label{subsec:capa_procesamiento}
-    El procesamiento de toda la data ...
-    
-    \subsection{Capa de actuación}\label{subsec:capa_aplicacion}
-    Pantalla TFT y Realidad Aumentada ...\\
+    \subsection{Capa de transporte}\label{subsec:capa_transporte}
 
     \vspace{6cm}
-
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=10cm, height=6cm]{imagenes/myArquitecture.jpg}
-        \caption{Vista de implementación}
-            \subcaption*{Fuente: Elaboración propia}
-        \label{imag:descripcionArquitectura}
-    \end{figure}
 
     Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos o instituciones con vista al desarrollo de entornos inteligentes.\\
 
     %\section{Sistema de comunicación}\label{sec: sistemaComunicación}
 
-    \section{Sistema de seguridad}\label{sec: sistemaSeguridad}
-    Sensores PIR y ESP32-CAM.\\
+    \section{Sistema de control de población}\label{sec: sistemaSeguridad}
+    Sensores PIR\\
 
     \addcontentsline{toc}{section}{Conclusiones}
     \textbf{\Large Conclusiones}\newline
