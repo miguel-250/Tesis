@@ -103,11 +103,12 @@
             \begin{itemize}
                 \item \textit{Capa de procesamiento y almacenamiento, Soporte, o Middleware}. Permite a los programadores de aplicaciones IoT trabajar con objetos heterogéneos sin tener en cuenta una plataforma de hardware específica. Se encarga de integrar, almacenar, procesar y analizar datos, tomar decisiones y ofrecer servicios de protocolos de conexión de red.
                 \item \textit{La capa de aplicación}, define los servicios y funciones que proporciona la aplicación IoT implementada (hogar inteligente, ciudad inteligente, salud inteligente, etc.) a los clientes. Los servicios pueden variar para cada aplicación y depende de la información que se recopilan de los sensores. También se consideran aspectos de seguridad.
-                \item \textit{La capa empresarial}, tiene la responsabilidad de administrar y controlar el comportamiento de las aplicaciones, modelos de negocios y ganancias de IoT. También tiene la capacidad de determinar cómo se puede crear, almacenar y cambiar la información. Administra la privacidad del usuario y evita vulnerabilidades.\\\\\\\\
+                \item \textit{La capa empresarial}, tiene la responsabilidad de administrar y controlar el comportamiento de las aplicaciones, modelos de negocios y ganancias de IoT. También tiene la capacidad de determinar cómo se puede crear, almacenar y cambiar la información. Administra la privacidad del usuario y evita vulnerabilidades.
             \end{itemize} 
     \end{itemize}
 
-    \textbf{Argumentar más ...}
+    \vspace{1cm}
+    Desde el punto de vista de ...\\\\
 
     \subsection{Propuesta de la Arquitectura IoT del Sistema}
 
@@ -158,9 +159,46 @@
     Según la figura \ref{imag:ubicacion_piezas}, varios objetos están dispuestos dentro de vitrinas donde existe un microclima\footnote{microclima: según el diccionario Oxford, es el conjunto de las condiciones climáticas particulares de un lugar determinado, resultado de una modificación más o menos acusada y puntual del clima de la zona en que se encuentra influido por diferentes factores ecológicos y medioambientales.}, por lo que la condición ambiental en estas es diferente a la del local en general, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\
 
     \textbf{Nodos}\\
-    Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\\\
+    Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
 
-    En la tabla que se muestra a continuación se hace una analogía de las características de los nodos que estarán presentes:\\
+    \textbf{Microcontrolador}
+
+    Un microcontrolador (abreviado: MCU) es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales, los cuales cumplen una tarea específica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y periféricos de entrada/salida.
+
+    Dentro de la familia de los ESP se encuentra el NodeMCU. Este microcontrolador (Imagen \ref{imag:nodemcu}) será el encargado de recibir los datos de los sensores y organizarlos en función de su continua transmisión hacia el concentrador.\\
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=5cm, height=6cm]{imagenes/nodemcu0.jpg}
+        \caption{Esquemático NodeMcu Vendor}
+        \label{imag:nodemcu}
+    \end{figure}
+    
+    
+    NodeMCU es una pequeña placa Wifi compatible con Arduino, lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
+
+    Dispone de una extensa comunidad y documentación que permitirá conectar el proyecto mediante conexión Wifi.\\\\\\\\
+
+    \textbf{Características}
+    \begin{itemize}
+        \item Procesador: ESP8266 a 80MHz (3.3V) (ESP-12E).
+        \item 4MB de memoria FLASH (32 MBit).
+        \item WiFi 802.11 b/g/n.
+        \item Regulador 3.3V integrado (500mA).
+        \item Conversor USB-Serial CH340G.
+        \item Función Auto-reset.
+        \item 9 pines GPIO con I2C y SPI.
+        \item 1 entrada analógica (1.0V max).
+        \item 4 agujeros de montaje (3mm).
+        \item Entrada alimentación externa VIN (20V max).
+    \end{itemize}
+
+    \textbf{Sensores}\\
+    En el caso de los sensores, la tabla \ref{tab:correlacion_nodos} relaciona el sensor a emplear según la variable a controlar.
+
+    El nivel de salitre, como se muestra en la tabla, es obtenida mediante el análisis del nivel de humedad presente en los locales de la muestra.
+    
+    ...
 
     \begin{table}[h]
         \centering
@@ -188,65 +226,6 @@
         \label{tab:correlacion_nodos}
     \end{table}
 
-    \textbf{Microcontrolador}
-
-    Un microcontrolador (abreviado: MCU) es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales, los cuales cumplen una tarea específica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y periféricos de entrada/salida.
-
-    Dentro de la familia de los ESP se encuentra el NodeMCU. Este microcontrolador (Imagen \ref{imag:nodemcu}) será el encargado de recibir los datos de los sensores y organizarlos en función de su continua transmisión hacia el concentrador.\\
-
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=5cm, height=6cm]{imagenes/nodemcu0.jpg}
-        \caption{Esquemático NodeMcu Vendor}
-        \label{imag:nodemcu}
-    \end{figure}
-    
-    
-    NodeMCU es una pequeña placa Wifi compatible con Arduino, lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
-
-    Dispone de una extensa comunidad y documentación que permitirá conectar el proyecto mediante conexión Wifi.\\
-
-    \textbf{Características}
-    \begin{itemize}
-        \item Procesador: ESP8266 a 80MHz (3.3V) (ESP-12E).
-        \item 4MB de memoria FLASH (32 MBit).
-        \item WiFi 802.11 b/g/n.
-        \item Regulador 3.3V integrado (500mA).
-        \item Conversor USB-Serial CH340G.
-        \item Función Auto-reset.
-        \item 9 pines GPIO con I2C y SPI.
-        \item 1 entrada analógica (1.0V max).
-        \item 4 agujeros de montaje (3mm).
-        \item Pulsador de RESET.
-        \item Entrada alimentación externa VIN (20V max).
-    \end{itemize}
-
-    \textbf{Sensores}\\
-    En el caso de los sensores, la tabla \ref{tab:relacion_sensores} relaciona el sensor a emplear según la variable a controlar.
-
-    \begin{table}[h]
-        \centering
-        \begin{tabular}{|c|c|l|}
-        \hline
-        \rowcolor[HTML]{9698ED} 
-        \multicolumn{1}{|l|}{\cellcolor[HTML]{9698ED}Variable a controlar} & Sensor     & \multicolumn{1}{c|}{\cellcolor[HTML]{9698ED}Descripción}                                                                                    \\ \hline
-        Temperatura                                                        & DHT22      & \begin{tabular}[c]{@{}l@{}}Rango Temperatura: De - 40 a 80°C\\ Voltaje de alimentación: De 3V a 6V\\ Corriente: De 1mA a 1.5mA\end{tabular} \\ \hline
-        Humedad                                                            & DHT22      & \begin{tabular}[c]{@{}l@{}}Rango Humedad: De 0 a 100\%r\\ Voltaje de alimentación: De 3V a 6V\\ Corriente: De 1mA a 1.5mA\end{tabular}      \\ \hline
-        Polución                                                           & SDS011     & \begin{tabular}[c]{@{}l@{}}Rango: De 0.0 a 999.9ugm3\\ Voltaje de alimentación: 5V\\ Corriente: 100mA máxima\end{tabular}                   \\ \hline
-        Luminosidad                                                        & BH1750     & \begin{tabular}[c]{@{}l@{}}Rango: De 1 a 65535Lx\\ Voltaje de alimentación: 5V\\ Corriente: 10mA\end{tabular}                               \\ \hline
-        CO2                                                                & MH-Z19C    & \begin{tabular}[c]{@{}l@{}}Rango: De 400ppm a 5000ppm\\ Voltaje de alimentación:5V\\ Corriente: menor a los 40mA\end{tabular}               \\ \hline
-        Vibraciones                                                        & M0168(OEM) & \begin{tabular}[c]{@{}l@{}}Salida analógica\\ Voltaje de alimentación: De 3.3V a 5V\\ Corriente: 10mA\end{tabular}                          \\ \hline
-        Salitre                                                            & -          & Obtenida por predicciones.                                                                                                                  \\ \hline
-        Xilófagos                                                          & -          & Obtenida por predicciones.                                                                                                                  \\ \hline
-        \end{tabular}
-        \caption{Relación sensores}
-        \subcaption*{Fuente: Elaboración propia}
-        \label{tab:relacion_sensores}
-    \end{table}
-
-    La medida del nivel de salitre, como se muestra en la tabla, es obtenida mediante el análisis del nivel de humedad presente en los locales de la muestra.\\
-    …
-
     En el caso del control de la aparición de los xilófagos, como daño de origen biótico, se realiza el análisis de las condiciones óptimas para la aparición de los mismos. Normalmente estos aparecen cuando la madera se encuentra con un porcentaje de humedad excesivo (por encima del 20 por ciento). Según \cite{monitoringMoisture} \cite{rodriguezcodigo} el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55 por ciento mientras que \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50 por ciento. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 20 por ciento.\\
 
     Valores de temperatura idóneos para la aparición de xilófagos...\\
@@ -255,7 +234,18 @@
 
     La revolución de las baterías de litio viene dando pasos agigantados...\\ 
 
+    \textbf{Composición nodos según ubicación}
+
     \subsection{Capa de transporte}\label{subsec:capa_transporte}
+
+    Esta es la capa responsable del traslado de la data a través de los demás componentes del sistema. Se promueven los datos a través de comunicaciones vía wifi con el empleo de protocolos mqtt. El microcontrolador Nodemcu posee incorporado wifi ... facilitando el trabajo del traspaso de dicha data.\\
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=7cm, height=4cm]{imagenes/wifi_nodemcu.jpg}
+        \caption{Wifi del NodeMcu}
+        \label{imag:wifi_nodemcu}
+    \end{figure}
 
     \vspace{6cm}
 
