@@ -47,47 +47,48 @@ Database file #1: ref.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in evolucionIoT
+Warning--No journal in tcp/ip
 Warning--No journal in arquitecturaPaginaLuisGarcia
 Warning--No journal in rodriguezcodigo
-You've used 18 entries,
+You've used 20 entries,
             6951 wiz_defined-function locations,
-            1400 strings with 15117 characters,
-and the built_in function-call counts, 36521 in all, are:
-= -- 4569
-> -- 272
-< -- 1890
-+ -- 1892
-- -- 40
-* -- 2351
-:= -- 6979
-add.period$ -- 78
-call.type$ -- 18
-change.case$ -- 309
+            1408 strings with 15267 characters,
+and the built_in function-call counts, 39323 in all, are:
+= -- 4926
+> -- 292
+< -- 1998
++ -- 1998
+- -- 44
+* -- 2513
+:= -- 7454
+add.period$ -- 86
+call.type$ -- 20
+change.case$ -- 343
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 820
-empty$ -- 1320
-format.name$ -- 416
-if$ -- 6802
+cite$ -- 44
+duplicate$ -- 889
+empty$ -- 1448
+format.name$ -- 444
+if$ -- 7369
 int.to.chr$ -- 0
-int.to.str$ -- 54
+int.to.str$ -- 60
 missing$ -- 0
-newline$ -- 448
-num.names$ -- 144
-pop$ -- 550
+newline$ -- 492
+num.names$ -- 160
+pop$ -- 590
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 80
 quote$ -- 0
-skip$ -- 2454
+skip$ -- 2685
 stack$ -- 0
-substring$ -- 2063
-swap$ -- 502
-text.length$ -- 57
+substring$ -- 2180
+swap$ -- 546
+text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1696
-warning$ -- 4
-while$ -- 145
+type$ -- 1856
+warning$ -- 5
+while$ -- 155
 width$ -- 0
-write$ -- 535
-(There were 4 warnings)
+write$ -- 583
+(There were 5 warnings)

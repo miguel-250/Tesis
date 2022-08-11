@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.5)  21 JUL 2022 06:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.5)  11 AUG 2022 10:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,163 +775,328 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
-[13 <./imagenes/formas expositivas.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-
- []
-
-<imagenes/nodemcu0.jpg, id=77, 303.38344pt x 382.42876pt>
-File: imagenes/nodemcu0.jpg Graphic file (type jpg)
-<use imagenes/nodemcu0.jpg>
-Package pdftex.def Info: imagenes/nodemcu0.jpg  used on input line 172.
-(pdftex.def)             Requested size: 142.26617pt x 170.71419pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-[14 <./imagenes/nodemcu0.jpg>]
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 225.
+(caption)                outside box or environment on input line 188.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 225.
+(caption)                outside box or environment on input line 188.
 See the caption package documentation for explanation.
 
+[13 <./imagenes/formas expositivas.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-
- []
-
-<imagenes/wifi_nodemcu.jpg, id=84, 302.63063pt x 184.43906pt>
-File: imagenes/wifi_nodemcu.jpg Graphic file (type jpg)
-<use imagenes/wifi_nodemcu.jpg>
-Package pdftex.def Info: imagenes/wifi_nodemcu.jpg  used on input line 245.
-(pdftex.def)             Requested size: 199.16884pt x 113.81067pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 260--74
+Underfull \hbox (badness 10000) in paragraph at lines 251--74
 
  []
 
-[17 <./imagenes/wifi_nodemcu.jpg>]
+[17]
 \openout2 = `capitulos/capitulo2.aux'.
 
  (capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-) [18
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[18
 
 
 
 
 ]
+<imagenes/esp-12F.jpeg, id=93, 179.16937pt x 152.06813pt>
+File: imagenes/esp-12F.jpeg Graphic file (type jpg)
+<use imagenes/esp-12F.jpeg>
+Package pdftex.def Info: imagenes/esp-12F.jpeg  used on input line 17.
+(pdftex.def)             Requested size: 199.18108pt x 199.17589pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+<imagenes/nodemcu0.jpg, id=94, 303.38344pt x 382.42876pt>
+File: imagenes/nodemcu0.jpg Graphic file (type jpg)
+<use imagenes/nodemcu0.jpg>
+Package pdftex.def Info: imagenes/nodemcu0.jpg  used on input line 30.
+(pdftex.def)             Requested size: 156.49187pt x 170.71419pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+[19 <./imagenes/esp-12F.jpeg>] [20 <./imagenes/nodemcu0.jpg>]
+<imagenes/dht22.jpg, id=101, 459.7175pt x 459.7175pt>
+File: imagenes/dht22.jpg Graphic file (type jpg)
+<use imagenes/dht22.jpg>
+Package pdftex.def Info: imagenes/dht22.jpg  used on input line 80.
+(pdftex.def)             Requested size: 142.26543pt x 142.26543pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[21 <./imagenes/dht22.jpg>]
+<imagenes/dht22 dimensiones.jpg, id=105, 377.15906pt x 317.68687pt>
+File: imagenes/dht22 dimensiones.jpg Graphic file (type jpg)
+<use imagenes/dht22 dimensiones.jpg>
+Package pdftex.def Info: imagenes/dht22 dimensiones.jpg  used on input line 93.
+(pdftex.def)             Requested size: 284.52603pt x 227.62912pt.
+<imagenes/mh-z19c.png, id=106, 347.79938pt x 225.09094pt>
+File: imagenes/mh-z19c.png Graphic file (type png)
+<use imagenes/mh-z19c.png>
+Package pdftex.def Info: imagenes/mh-z19c.png  used on input line 103.
+(pdftex.def)             Requested size: 170.71506pt x 113.81255pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+<imagenes/sensor-piezoelectrico.jpg, id=107, 286.06876pt x 190.46156pt>
+File: imagenes/sensor-piezoelectrico.jpg Graphic file (type jpg)
+<use imagenes/sensor-piezoelectrico.jpg>
+Package pdftex.def Info: imagenes/sensor-piezoelectrico.jpg  used on input line 118.
+(pdftex.def)             Requested size: 184.94289pt x 142.26746pt.
+[22 <./imagenes/dht22 dimensiones.jpg> <./imagenes/mh-z19c.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+<imagenes/Sensor SDS011.jpg, id=111, 416.55624pt x 451.6875pt>
+File: imagenes/Sensor SDS011.jpg Graphic file (type jpg)
+<use imagenes/Sensor SDS011.jpg>
+Package pdftex.def Info: imagenes/Sensor SDS011.jpg  used on input line 139.
+(pdftex.def)             Requested size: 142.26285pt x 142.26163pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+[23 <./imagenes/sensor-piezoelectrico.jpg> <./imagenes/Sensor SDS011.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+<imagenes/sensor LDR.png, id=116, 1479.5275pt x 1100.11pt>
+File: imagenes/sensor LDR.png Graphic file (type png)
+<use imagenes/sensor LDR.png>
+Package pdftex.def Info: imagenes/sensor LDR.png  used on input line 154.
+(pdftex.def)             Requested size: 184.94048pt x 142.26393pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+<imagenes/Sensor BH1750.jpg, id=117, 1505.625pt x 1505.625pt>
+File: imagenes/Sensor BH1750.jpg Graphic file (type jpg)
+<use imagenes/Sensor BH1750.jpg>
+Package pdftex.def Info: imagenes/Sensor BH1750.jpg  used on input line 171.
+(pdftex.def)             Requested size: 170.6965pt x 142.25475pt.
+[24 <./imagenes/sensor LDR.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+<imagenes/esquematico nodo.jpg, id=122, 967.615pt x 662.475pt>
+File: imagenes/esquematico nodo.jpg Graphic file (type jpg)
+<use imagenes/esquematico nodo.jpg>
+Package pdftex.def Info: imagenes/esquematico nodo.jpg  used on input line 186.
+(pdftex.def)             Requested size: 227.61102pt x 153.63972pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 188.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 188.
+See the caption package documentation for explanation.
+
+<imagenes/vista superior.jpg, id=123, 1014.79124pt x 687.56876pt>
+File: imagenes/vista superior.jpg Graphic file (type jpg)
+<use imagenes/vista superior.jpg>
+Package pdftex.def Info: imagenes/vista superior.jpg  used on input line 194.
+(pdftex.def)             Requested size: 227.62137pt x 153.63666pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 196.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 196.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagenes/vista 3D.jpg, id=124, 1191.45125pt x 762.85pt>
+File: imagenes/vista 3D.jpg Graphic file (type jpg)
+<use imagenes/vista 3D.jpg>
+Package pdftex.def Info: imagenes/vista 3D.jpg  used on input line 202.
+(pdftex.def)             Requested size: 227.61433pt x 153.63818pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 204.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 204.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+) [25 <./imagenes/Sensor BH1750.jpg> <./imagenes/esquematico nodo.jpg>] [26 <./imagenes/vista superior.jpg> <./imagenes/vista 3D.jpg>]
 \openout2 = `capitulos/conclusiones.aux'.
 
- (capitulos/conclusiones.tex) [19
+ (capitulos/conclusiones.tex) [27
 
 
 
 ]
 \openout2 = `capitulos/recomendaciones.aux'.
 
- (capitulos/recomendaciones.tex) [20
+ (capitulos/recomendaciones.tex) [28
 
 
 
 ]
 \openout2 = `capitulos/apendix.aux'.
 
- (capitulos/apendix.tex) [21
+ (capitulos/apendix.tex) [29
 
 
 
 ]
 \openout2 = `capitulos/bibliografia.aux'.
 
- (capitulos/bibliografia.tex (tesis.bbl [22
+ (capitulos/bibliografia.tex (tesis.bbl [30
 
 
 
 
-])) [23] (tesis.aux (caratula.aux)
+])) [31] (tesis.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice3.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux)) ) 
 Here is how much of TeX's memory you used:
- 8384 strings out of 478614
- 146126 string characters out of 2843123
- 456724 words of memory out of 3000000
- 26301 multiletter control sequences out of 15000+600000
+ 8480 strings out of 478614
+ 148530 string characters out of 2843123
+ 456125 words of memory out of 3000000
+ 26386 multiletter control sequences out of 15000+600000
  556597 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,63p,1235b,462s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (31 pages, 577947 bytes).
+Output written on tesis.pdf (39 pages, 1634980 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
