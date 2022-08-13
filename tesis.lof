@@ -6,14 +6,13 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Ubicación piezas\relax }}{13}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces ESP-12F\relax }}{19}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces NodeMcu Vendor\relax }}{20}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces NodeMcu Vendor\relax }}{19}{}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Sensor DHT22\relax }}{21}{}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Dimensiones sensor DHT22\relax }}{22}{}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Sensor MH-Z19C\relax }}{22}{}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Sensor piezoeléctrico M0168\relax }}{23}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor SDS011\relax }}{23}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor SDS011\relax }}{24}{}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Sensor LDR\relax }}{24}{}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Sensor BH1750\relax }}{25}{}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Esquemático conexiones\relax }}{25}{}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Vista superior impreso\relax }}{26}{}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Vista 3D impreso\relax }}{26}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Sensor LDR\relax }}{25}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Sensor BH1750\relax }}{25}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{26}{}%

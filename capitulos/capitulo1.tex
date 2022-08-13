@@ -158,7 +158,9 @@
 
     Según la figura \ref{imag:ubicacion_piezas}, varios objetos están dispuestos dentro de vitrinas donde existe un microclima\footnote{microclima: según el diccionario Oxford, es el conjunto de las condiciones climáticas particulares de un lugar determinado, resultado de una modificación más o menos acusada y puntual del clima de la zona en que se encuentra influido por diferentes factores ecológicos y medioambientales.}, por lo que la condición ambiental en estas es diferente a la del local en general, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\
 
-    \textbf{Nodos}\\
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.3.1\hspace{5mm}Nodos}
+        \textbf{\large 1.3.3.1\hspace{5mm}Nodos}
+
     Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
 
     La siguiente tabla relaciona la variable a medir según la ubicación del nodo.
@@ -189,7 +191,8 @@
         \label{tab:correlacion_nodos}
     \end{table}
 
-    \textbf{Composición nodos según ubicación}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.3.2\hspace{5mm}Composición nodos según ubicación}
+        \textbf{\large 1.3.3.2\hspace{5mm}Composición nodos según ubicación}
 
     Ya que existe más de una ubicación para los nodos (ver tabla \ref{tab:correlacion_nodos}), dígase en vitrinas o ubicados en la habitación, vale mencionar que influye en la composición de dicho nodo.\\
     
@@ -205,17 +208,20 @@
     
     Los datos se promueven a través de protocolos MQTT, HTTP y TCP/IP.\\
     
-    \textbf{Protocolo MQTT}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.4.1\hspace{5mm}Protocolo MQTT}
+        \textbf{\large 1.3.4.1\hspace{5mm}Protocolo MQTT}
 
     MQTT son las siglas MQ Telemetry Transport, aunque en primer lugar fue conocido como Message Queing Telemetry Transport. Es un protocolo de comunicación M2M (machine-to-machine) de tipo message queue. Está basado en la pila TCP/IP como base para la comunicación. En el caso de MQTT cada conexión se mantiene abierta y se “reutiliza” en cada comunicación. Es una diferencia, por ejemplo, a una petición HTTP 1.0 donde cada transmisión se realiza a través de conexión.
     MQTT fue creado por el Dr. Andy Stanford-Clark de IBM y Arlen Nipper de Arcom (ahora Eurotech) en 1999 como un mecanismo para conectar dispositivos empleados en la industria petrolera.
     Aunque inicialmente era un formato propietario, en 2010 fue liberado y pasó a ser un estándar en 2014 según la OASIS (Organization for the Advancement of Structured Information Standards). \cite{mqtt}\\
 
-    \textbf{Protocolo HTTP}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.4.2\hspace{5mm}Protocolo HTTP}
+        \textbf{\large 1.3.4.2\hspace{5mm}Protocolo HTTP}
 
     HTTP de sus siglas en inglés: “Hypertext Transfer Protocol”, es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página Web completa resulta de la unión de distintos sub-documentos recibidos, como, por ejemplo: un documento que especifique el estilo de maquetación de la página Web (CSS), el texto, las imágenes, videos, scrips, etcétera.
 
-    \textbf{Protocolo TCP/IP}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.4.3\hspace{5mm}Protocolo TCP/IP}
+        \textbf{\large 1.3.4.3\hspace{5mm}Protocolo TCP/IP}
 
     La definición de TCP/IP es la identificación del grupo de protocolos de red que hacen posible la transferencia de datos en redes, entre equipos informáticos e internet. Las siglas TCP/IP hacen referencia a este grupo de protocolos:
 
@@ -234,7 +240,7 @@
 
     %\section{Sistema de comunicación}\label{sec: sistemaComunicación}
 
-    \section{Obtención de niveles de salitre y causas para la aparición de xilófagos}
+    \section{Obtención de niveles de salitre y condiciones para la aparición de xilófagos}
 
     El nivel de salitre, como se muestra en la tabla, es obtenida mediante el análisis del nivel de humedad presente en los locales de la muestra.
     
