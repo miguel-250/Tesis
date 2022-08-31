@@ -4,32 +4,33 @@
 \contentsline {section}{Introducción}{4}{}%
 \contentsline {section}{\numberline {1.1}Internet de las Cosas en museos internacionales}{4}{}%
 \contentsline {section}{\numberline {1.2}Internet de las Cosas en Cuba}{7}{}%
-\contentsline {section}{\numberline {1.3}Arquitectura IoT}{8}{}%
-\contentsline {subsection}{\numberline {1.3.1}Principales capas de la arquitectura del IoT}{9}{}%
-\contentsline {subsection}{\numberline {1.3.2}Propuesta de la Arquitectura IoT del Sistema}{11}{}%
-\contentsline {subsection}{\numberline {1.3.3}Capa de percepción}{12}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.3.1\hspace {5mm}Nodos}{13}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.3.2\hspace {5mm}Composición nodos según ubicación}{14}{}%
-\contentsline {subsection}{\numberline {1.3.4}Capa de transporte}{15}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.4.1\hspace {5mm}Protocolo MQTT}{15}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.4.2\hspace {5mm}Protocolo HTTP}{15}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.4.3\hspace {5mm}Protocolo TCP/IP}{15}{}%
-\contentsline {section}{\numberline {1.4}Obtención de niveles de salitre y condiciones para la aparición de xilófagos}{17}{}%
-\contentsline {section}{\numberline {1.5}Sistema de control de población}{17}{}%
-\contentsline {section}{Conclusiones}{17}{}%
-\contentsline {chapter}{\numberline {2}Implementación del sistema IoT}{18}{}%
-\contentsline {section}{Introducción}{18}{}%
-\contentsline {section}{\numberline {2.1}Microcontrolador [Puede ser que halla que cambiar a ESP 12F]}{18}{}%
-\contentsline {section}{\numberline {2.2}Sensores}{20}{}%
-\contentsline {subsection}{\numberline {2.2.1}Descripción sensores}{21}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.1\hspace {5mm}Sensor DHT22}{21}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.2\hspace {5mm}Sensor MZ-Z19C}{21}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.3\hspace {5mm}Sensor M0168}{23}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.4\hspace {5mm}Sensor SDS011}{23}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.5\hspace {5mm}Sensor LDR}{24}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.6\hspace {5mm}Sensor BH1750}{25}{}%
-\contentsline {section}{Conclusiones}{26}{}%
-\contentsline {section}{CONCLUSIONES GENERALES}{27}{}%
-\contentsline {chapter}{Recomendaciones}{28}{}%
-\contentsline {chapter}{Apéndice}{29}{}%
-\contentsline {chapter}{Referencias}{30}{}%
+\contentsline {section}{\numberline {1.3}Arquitectura IoT y sus principales capas}{8}{}%
+\contentsline {subsection}{\numberline {1.3.1}Propuesta de la Arquitectura IoT del Sistema}{12}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.1.1\hspace {5mm}Vista funcional}{12}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.1.2\hspace {5mm}Vista de implementación}{13}{}%
+\contentsline {subsection}{\numberline {1.3.2}Capa de percepción}{14}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.3.1\hspace {5mm}Nodos}{16}{}%
+\contentsline {subsection}{\numberline {1.3.3}Capa de transporte}{16}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.4.1\hspace {5mm}Protocolo MQTT}{17}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.4.2\hspace {5mm}Protocolo HTTP}{18}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.4.3\hspace {5mm}Protocolo TCP/IP}{18}{}%
+\contentsline {section}{\numberline {1.4}Obtención de niveles de salitre y condiciones para la aparición de xilófagos}{19}{}%
+\contentsline {section}{Conclusiones}{19}{}%
+\contentsline {chapter}{\numberline {2}Implementación del sistema basado en IoT}{20}{}%
+\contentsline {section}{Introducción}{20}{}%
+\contentsline {section}{\numberline {2.1}Descripción técnica capa de percepción}{20}{}%
+\contentsline {subsection}{\numberline {2.1.1}Microcontrolador}{21}{}%
+\contentsline {subsection}{\numberline {2.1.2}Sensores}{24}{}%
+\contentsline {subsection}{\numberline {2.1.3}Descripción sensores}{25}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.1\hspace {5mm}Sensor DHT22}{25}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.2\hspace {5mm}Sensor MZ-Z19C}{26}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.3\hspace {5mm}Sensor M0168}{27}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.4\hspace {5mm}Sensor SDS011}{28}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.5\hspace {5mm}Sensor LDR}{28}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.6\hspace {5mm}Sensor BH1750}{29}{}%
+\contentsline {subsection}{\numberline {2.1.4}Alimentación}{31}{}%
+\contentsline {section}{Conclusiones}{32}{}%
+\contentsline {section}{CONCLUSIONES GENERALES}{33}{}%
+\contentsline {chapter}{Recomendaciones}{34}{}%
+\contentsline {chapter}{Apéndice}{35}{}%
+\contentsline {chapter}{Referencias}{36}{}%

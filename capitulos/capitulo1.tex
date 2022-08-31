@@ -3,10 +3,9 @@
 \addcontentsline{toc}{section}{Introducción}
         \textbf{\Large Introducción}\newline
 
-        En este capítulo estaremos desglosando por secciones el análisis de la trascendencia de la aplicación del Internet de las Cosas en los museos en el ámbito internacional, así como la aplicación o no del mismo en los museos de nuestro país.
-        Se hace un análisis de las arquitecturas propuestas por otros autores y la proposición de una para este trabajo.
-        También se tienen en cuenta las variables que se miden en los museos para evitar el deterioro de los objetos y los posibles sensores a emplear para su control.
-        Además, se analiza el tipo de comunicación más viable y efectiva según el emplazamiento, y finalmente los posibles sistemas de seguridad a instalar en la muestra.
+        En este capítulo estaremos desglosando por secciones el análisis de la trascendencia de la aplicación del Internet de las Cosas en los museos en el ámbito internacional, así como la aplicación en los museos de nuestro país.
+        Se hace un análisis de las arquitecturas propuestas por otros autores y la proposición de una para el proyecto tomando como base la arquitectura descentralizada.
+        También se tienen en cuenta las variables que se miden en los museos para evitar el deterioro de los objetos y los sensores a emplear para la captura de los datos y se analiza el medio de comunicación más viable y efectiva de traspaso de datos desde un punto a otro de la arquitectura del sistema.
     
     \section{Internet de las Cosas en museos internacionales}\label{sec:iotMundo}
         
@@ -25,6 +24,7 @@
         La siguiente tabla resume lo anterior expuesto.
 
         \begin{table}[h]
+            \centering
             \begin{tabular}{|l|l|l|}
                 \hline
                 \rowcolor[HTML]{9698ED} 
@@ -41,6 +41,7 @@
         \vspace{2cm}
 
         \begin{table}[h]
+            \centering
             \begin{tabular}{|lll|}
                 \hline
                 \multicolumn{3}{|c|}{Continuación Tabla \ref{tab: iotInternacional}}                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
@@ -67,19 +68,23 @@
         La Sala de Viajeros se soporta en un software que despliega una galería de imágenes ya sea de cubanos relevantes de visita por Europa o de europeos de visita en Cuba. Mediante el uso de pantallas táctiles, el visitante puede interactuar con las imágenes de las personalidades, leer una síntesis biográfica e incluso escuchar muestras de audio.
     
         
-    \section{Arquitectura IoT}\label{sec:arquitecturas}
+    \section{Arquitectura IoT y sus principales capas}\label{sec:arquitecturas}
 
-    Lo primero que debemos saber sobre la arquitectura de IoT, es que no existe una única definición universalmente adoptada. Diferentes propuestas han surgido durante su desarrollo entre las que podemos encontrar: la arquitectura de 3 capas, la arquitectura de 5 capas, la arquitectura de nube, la arquitectura de niebla y la arquitectura de computación de Borde entre muchas otras \cite{arquitecturaIEEE}.\\\\\\\\\\\\
+    No existe una única definición universalmente adoptada, estándar, de Arquitectura de IoT; diferentes propuestas han surgido durante su desarrollo. Se abarcan tecnologías de comunicación, dispositivos de cómputo, sensores y actuadores \cite{ioT_en_Cosas_de_salud}.
 
-    En la figura \ref{imag:comparacionArquitecturas} se observa una comparación entre las arquitecturas de 3 capas, 5 capas y la arquitectura de nube.
+
+    
+    La arquitectura de IoT es principalmente desarrollada por capas, dígase, la arquitectura de 3 capas, la arquitectura de 5 capas, la arquitectura de Nube, la arquitectura de niebla y la arquitectura de computación de Borde, solo por mencionar algunas \cite{arquitecturaIEEE}.\\
 
     \begin{figure}[h]
         \centering
-        \includegraphics[width=10cm, height=6cm]{imagenes/Comparacion-arquitecturas-1024x535}
+        \includegraphics[width=9cm, height=5cm]{imagenes/Comparacion-arquitecturas-1024x535}
         \caption{Comparación arquitecturas}
             \subcaption*{Fuente: \cite{arquitecturaPaginaLuisGarcia}}
         \label{imag:comparacionArquitecturas}
     \end{figure}
+
+    En la figura \ref{imag:comparacionArquitecturas} se desarrolla una comparación entre las arquitecturas de 3 capas, 5 capas y la arquitectura niebla.\\\\
 
     Según \cite{capasIoTciberseguridad}, la mayoría de estas arquitecturas de IoT se basan en fundamentos básicos:
     \begin{itemize}
@@ -89,53 +94,124 @@
         \item Aplicaciones de usuario final.
     \end{itemize}
 
-    Las propuestas de arquitecturas pueden variar de autor en autor, en dependencia de la estructura del sistema IoT propuesto. Dichas arquitecturas son desarrolladas por capas en las que se agrupan los objetos, dispositivos, sensores, actuadores, etcétera.
+    Existen varias arquitecturas, marcos de referencia o modelos conceptuales para IoT propuestos por organizaciones, comunidad académica y el sector empresarial. Las propuestas de arquitecturas pueden variar de autor en autor, en dependencia de la estructura del sistema IoT propuesto. Dichas arquitecturas son desarrolladas por capas en las que se agrupan los objetos, dispositivos, sensores, actuadores, entre otros. \cite{internetOfThingsStateOfTheArt} \cite{capasIoTciberseguridad}.\\
 
-    \subsection{Principales capas de la arquitectura del IoT}
+    En la figura \ref{imag:modelos_arquitecturas_iot} se presenta una comparativa de algunos modelos basados en capas.\\
 
-    Según  \cite{internetOfThingsStateOfTheArt}, dentro de las capas más importantes del IoT podemos encontrar:
+    \vspace{5cm}
 
-    \begin{itemize}
-        \item \textit{La capa de percepción} (Objetos/ Dispositivos/ SensorActuador/ WSN/ Edge Computing/ Sensado), digitaliza y transfiere datos a la capa de red, a través de canales seguros. Se localizan los objetos físicos, dispositivos sensores y actuadores utilizados para recopilar información del contexto.
-        \item \textit{La capa de acceso} (Adaptación/ Observador), comprueba la información que recibe de la capa de percepción, si está protegida o no contra intrusos y virus. Si hay algún ataque, no pasa los datos a la siguiente capa. También verifica la identidad y autenticación de los objetos.
-        \item \textit{La capa de Red} (Abstracción de Objetos/ Transporte/ Fog computing), transporta y transmite los datos, recopilados de la capa de percepción, hacia la cloud. Se localizan componentes de red (switch, router, Gateway, etc.), medios de comunicación y protocolos. También es responsable de aspectos de seguridad y el control de ataques.
-        \item \textit{La Capa Aplicación / Cloud Computing (CC)} en modelos de más de tres capas, puede dividirse en:
-            \begin{itemize}
-                \item \textit{Capa de procesamiento y almacenamiento, Soporte, o Middleware}. Permite a los programadores de aplicaciones IoT trabajar con objetos heterogéneos sin tener en cuenta una plataforma de hardware específica. Se encarga de integrar, almacenar, procesar y analizar datos, tomar decisiones y ofrecer servicios de protocolos de conexión de red.
-                \item \textit{La capa de aplicación}, define los servicios y funciones que proporciona la aplicación IoT implementada (hogar inteligente, ciudad inteligente, salud inteligente, etc.) a los clientes. Los servicios pueden variar para cada aplicación y depende de la información que se recopilan de los sensores. También se consideran aspectos de seguridad.
-                \item \textit{La capa empresarial}, tiene la responsabilidad de administrar y controlar el comportamiento de las aplicaciones, modelos de negocios y ganancias de IoT. También tiene la capacidad de determinar cómo se puede crear, almacenar y cambiar la información. Administra la privacidad del usuario y evita vulnerabilidades.
-            \end{itemize} 
-    \end{itemize}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=15.6cm, height=9cm]{imagenes/capas.jpg}
+        \caption{Modelos de arquitecturas IoT basados en capas}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{imag:modelos_arquitecturas_iot}
+    \end{figure}
+
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|l|}
+        \hline
+        \textbf{No. de Capas}    & \textbf{Referencias}                                                                                                                                              \\ \hline
+        \multirow{2}{*}{3 capas} & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}\cite{ref10} \cite{ref13} \cite{ref15}\\ \cite{ref16} \cite{ref19} \cite{ref25}\end{tabular}} \\
+                                 &                                                                                                                                                                   \\ \hline
+        4 capas                  & \begin{tabular}[c]{@{}l@{}}\cite{ref10} \cite{ref12} \cite{ref13}\\ \cite{ref19} \cite{ref16}\end{tabular}                          \\ \hline
+        5 capas                  & \begin{tabular}[c]{@{}l@{}}\cite{ref9} \cite{ref10} \cite{ref13}\\ \cite{ref19} \cite{ref16}\end{tabular}                          \\ \hline
+        Basado en SOA            & \begin{tabular}[c]{@{}l@{}}\cite{ref4} \cite{ref8} \cite{ref9}\\ \cite{ref15}\end{tabular}                                                        \\ \hline
+        Basado en Middleware     & \cite{ref9}                                                                                                                                                \\ \hline
+        6 capas                  & \cite{ref19}                                                                                                                                                        \\ \hline
+        \end{tabular}
+        \caption{Referencias figura \ref{imag:modelos_arquitecturas_iot}}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{tab: referencias_capas}
+    \end{table}
 
     \vspace{1cm}
-    Desde el punto de vista de ....\\\\
+
+    Desde el punto de vista de \cite{capasIoTciberseguridad} existen capas fundamentales dentro de la esctructura de IoT. En la tabla \ref{tab: capas_IoT} se detallan estas capas:
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|l|}
+        \hline
+        \rowcolor[HTML]{9698ED} 
+        \textbf{Capas}                                                             & \textbf{Descripción}                                                                                                                                                         \\ \hline
+                                                                                   &                                                                                                                                                                              \\
+        \multirow{-2}{*}{Capa de percepción}                                       & \multirow{-2}{*}{Administra dispositivos inteligentes en todo el sistema.}                                                                                                   \\ \hline
+        \begin{tabular}[c]{@{}l@{}}Capa de conectividad/\\ transporte\end{tabular} & \begin{tabular}[c]{@{}l@{}}Permite transferir datos desde la nube a los dispositivos\\ y viceversa, diferentes aspectos de las puertas de enlace\\ y las redes.\end{tabular} \\ \hline
+        Capa de procesamiento                                                      & \begin{tabular}[c]{@{}l@{}}Controla y administra los niveles de IoT para optimizar\\ los datos en todo el sistema.\end{tabular}                                              \\ \hline
+        Capa de aplicación                                                         & \begin{tabular}[c]{@{}l@{}}Ayuda en los procedimientos de análisis, control de\\ dispositivos e informes a los usuarios finales.\end{tabular}                                \\ \hline
+        Capa empresarial                                                           & \begin{tabular}[c]{@{}l@{}}Deriva información y análisis de toma de decisiones\\ a partir de datos.\end{tabular}                                                             \\ \hline
+        Capa de seguridad                                                          & \begin{tabular}[c]{@{}l@{}}Cubre todos los aspectos de protección de toda la\\ arquitectura de IoT.\end{tabular}                                                             \\ \hline
+        Capa de borde                                                              & \begin{tabular}[c]{@{}l@{}}Funciona en un bode o cerca de la recopilación\\ de información del dispositivo.\end{tabular}                                                     \\ \hline
+        \end{tabular}
+        \caption{Capas de IoT}
+        \subcaption*{Fuente: \cite{capasIoTciberseguridad}}
+        \label{tab: capas_IoT}
+        \end{table}
+
+    \vspace{3cm}
+
+    No obstante, según \cite{internetOfThingsStateOfTheArt}, dentro de las capas más importantes del IoT podemos encontrar:
+
+    \begin{itemize}
+        \item \textit{La capa de percepción} (Objetos/ Dispositivos/ SensorActuador/ WSN/ Edge Computing/ Sensado), digitaliza y transfiere datos a la capa de red, a través de canales seguros. Se localizan los objetos físicos, dispositivos sensores y actuadores utilizados para recopilar información del contexto. \cite{ref9}.
+        \item \textit{La capa de acceso} (Adaptación/ Observador), comprueba la información que recibe de la capa de percepción, si está protegida o no contra intrusos y virus. Si hay algún ataque, no pasa los datos a la siguiente capa. También verifica la identidad y autenticación de los objetos. \cite{ref9} \cite{ref10}.
+        \item \textit{La capa de Red} (Abstracción de Objetos/ Transporte/ Fog computing), transporta y transmite los datos, recopilados de la capa de percepción, hacia la cloud. Se localizan componentes de red (switch, router, Gateway, etc.), medios de comunicación y protocolos. También es responsable de aspectos de seguridad y el control de ataques. \cite{ref9} \cite{ref10}.
+        \item \textit{La Capa Aplicación / Cloud Computing (CC)} en modelos de más de tres capas, puede dividirse en:
+            \begin{itemize}
+                \item \textit{Capa de procesamiento y almacenamiento, Soporte, o Middleware}. Permite a los programadores de aplicaciones IoT trabajar con objetos heterogéneos sin tener en cuenta una plataforma de hardware específica. Se encarga de integrar, almacenar, procesar y analizar datos, tomar decisiones y ofrecer servicios de protocolos de conexión de red. \cite{ref9}.
+                \item \textit{La capa de aplicación}, define los servicios y funciones que proporciona la aplicación IoT implementada (hogar inteligente, ciudad inteligente, salud inteligente, etc.) a los clientes. Los servicios pueden variar para cada aplicación y depende de la información que se recopilan de los sensores. También se consideran aspectos de seguridad. \cite{ref9} \cite{ref10}.
+                \item \textit{La capa empresarial}, tiene la responsabilidad de administrar y controlar el comportamiento de las aplicaciones, modelos de negocios y ganancias de IoT. También tiene la capacidad de determinar cómo se puede crear, almacenar y cambiar la información. Administra la privacidad del usuario y evita vulnerabilidades. \cite{ref9} \cite{ref10}.
+            \end{itemize}
+    \end{itemize} 
 
     \subsection{Propuesta de la Arquitectura IoT del Sistema}
 
-    En base de los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas que son: La capa de percepción cuya función es la obtención de variables asociadas a la conservación de las piezas en la muestra, la capa de transporte con el propósito de transportar la data recopilada por los sensores para su posterior procesamiento y análisis, la capa de procesamiento que genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
+    En base de los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas.\\
+    
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.1.1\hspace{5mm}Vista funcional}
+        \textbf{1.3.1.1\hspace{5mm}Vista funcional}
+
+    En la figura \ref{imag:vista_funcional_arquitectura_iot} se observan los diferentes módulos funcionales que componen las capas de la propuesta arquitectónica. La capa de percepción se encarga de la obtención de variables asociadas a la conservación de las piezas en la muestra (sensores-microcontroladores), la capa de transporte con el propósito de transportar la data recopilada por los sensores para su posterior procesamiento y análisis, la capa de procesamiento que genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
 
     \begin{figure}[h]
-        \hspace{4.6cm}
-        \includegraphics[width=10cm, height=5.4cm]{imagenes/myArquitecture2.jpg}
-        \caption{Arquitectura IoT}
+        \hspace{5cm}
+        \includegraphics[width=9cm, height=4.4cm]{imagenes/myArquitecture2.jpg}
+        \caption{Vista funcional de la arquitectura}
         \subcaption*{Fuente: Elaboración propia}
-        \label{imag:arquitectura_iot}
+        \label{imag:vista_funcional_arquitectura_iot}
     \end{figure}
 
-    El alcance de este trabajo va dirigido a la explicación detallada de la capa de percepción, enfocándonos en las características del microcontrolador y sensores a emplear, así como la capa de transporte donde se hace un análisis del o de los métodos empleados para el traspaso de la data recopilada hacia el concentrador.\\\\
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.1.2\hspace{5mm}Vista de implementación}
+        \textbf{1.3.1.2\hspace{5mm}Vista de implementación}
+
+    En la vista de implementación se muestran los componentes de hardware y software del sistema propuesto, en los cuales se presenta la interfaz de usuario esperada a través del empleo de Realidad Aumentada y el circuito perteneciente a la capa de percepción
+    así como la muestra del empleo de comunicaciones wifi y de RED en la capa de transporte y el concentrador RaspberryPi perteneciente a la capa de procesamiento donde se trabaja además, sobre la plataforma perteneciente al patrimonio universitario.
+    En la figura \ref{imag:vista_implementacion_arquitectura_iot}, se observan las tecnologías empleadas en cada una de las capas propuestas en la arquitectura descrita.
+    
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=8cm, height=5.4cm]{imagenes/vista de implementación.jpg}
+        \caption{Vista de implementación}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{imag:vista_implementacion_arquitectura_iot}
+    \end{figure}
+
+    El alcance de este trabajo va dirigido a la explicación detallada de la capa de percepción, enfocándonos en las características del microcontrolador y sensores a emplear, así como la capa de transporte donde se hace un análisis de los métodos y protocolos de comunicación empleados en el sistema.
 
     \subsection{Capa de percepción}\label{subsec:capa_percepcion}
-    En esta etapa es en la que interactúan los sensores directamente con el medio ambiente, recopilan los datos para ser enviados a su posterior procesamiento.\\
+    En esta capa es donde se ubican los microcontroladores encargados de comunicarse con los sensores interactuando directamente con el medio recolectando los datos.\\
     
     \begin{figure}[h]
         \centering
         \includegraphics[width=10cm, height=5cm]{imagenes/perception_image.jpg}
-        \caption{Esquema capa de percepción}
+        \caption{Diagrama funcional de captura de datos}
         \subcaption*{Fuente: Elaboración propia}
         \label{imag:capa_percepcion}
     \end{figure}
 
     Como se puede observar en la figura \ref{imag:capa_percepcion}, en esta capa se encuentran implícitos una sucesión de sensores y un microcontrolador, juntos componen la estructura general de los nodos que serán incorporados a las salas pertenecientes a la exposición.\\
+
 
     La muestra Prat está distribuida de tal modo que las piezas están ubicadas en tres salas expositivas. Enumerándolas: sala 1, sala 2 y sala 3.\\
     La sala 1 (Exposición permanente) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan varios objetos de cerámica, marfil, metal, piedra, madera etcétera.\newline
@@ -145,6 +221,8 @@
     [Imagen de uno de los cuadros donde se vea el hongo] (Nombre || Fuente).\newline
     Dentro de la sala 3 se localizan también varios objetos ubicados en pedestales mostrando colecciones de medallas y objetos personales del mismo Prat Puig y, además, vitrinas donde se hallan, principalmente, objetos de cerámica como platos, jarrones y cántaros.\newline
     [Imagen sala 3]\newline
+
+    \vspace{8cm}
 
     En el gráfico que se muestra a continuación se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
 
@@ -159,9 +237,12 @@
     Según la figura \ref{imag:ubicacion_piezas}, varios objetos están dispuestos dentro de vitrinas donde existe un microclima\footnote{microclima: según el diccionario Oxford, es el conjunto de las condiciones climáticas particulares de un lugar determinado, resultado de una modificación más o menos acusada y puntual del clima de la zona en que se encuentra influido por diferentes factores ecológicos y medioambientales.}, por lo que la condición ambiental en estas es diferente a la del local en general, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo general para el caso de las piezas que se encuentran fuera.\\
 
     \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.3.1\hspace{5mm}Nodos}
-        \textbf{\large 1.3.3.1\hspace{5mm}Nodos}
+        \textbf{1.3.3.1\hspace{5mm}Nodos}
 
     Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
+    ...\\\\\\\\
+
+    \vspace{3cm}
 
     La siguiente tabla relaciona la variable a medir según la ubicación del nodo.
 
@@ -191,37 +272,27 @@
         \label{tab:correlacion_nodos}
     \end{table}
 
-    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.3.2\hspace{5mm}Composición nodos según ubicación}
-        \textbf{\large 1.3.3.2\hspace{5mm}Composición nodos según ubicación}
-
-    Ya que existe más de una ubicación para los nodos (ver tabla \ref{tab:correlacion_nodos}), dígase en vitrinas o ubicados en la habitación, vale mencionar que influye en la composición de dicho nodo.\\
-    
-    Esta composición viene dada 
-    ...
-
-    \vspace{4cm}
-
     \subsection{Capa de transporte}\label{subsec:capa_transporte}
 
     Esta es la capa responsable del traslado de la data a través de los demás componentes del sistema estableciendo la comunicación necesaria desde la toma de valores ambientales hasta su análisis y muestreo.    
     Según \cite{internetOfThingsStateOfTheArt}, la capa de transporte es la que se encarga de transportar y transmitir los datos, recopilados de la capa de percepción, hacia la cloud. Se localizan componentes de red (switch, router, Gateway, etc.), medios de comunicación y protocolos. También es responsable de aspectos de seguridad y el control de ataques.
     
-    Los datos se promueven a través de protocolos MQTT, HTTP y TCP/IP.\\
+    Los datos se promueven a través de protocolos MQTT, HTTP y TCP/IP.\\\\
     
     \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.4.1\hspace{5mm}Protocolo MQTT}
-        \textbf{\large 1.3.4.1\hspace{5mm}Protocolo MQTT}
+        \textbf{1.3.4.1\hspace{5mm}Protocolo MQTT}
 
     MQTT son las siglas MQ Telemetry Transport, aunque en primer lugar fue conocido como Message Queing Telemetry Transport. Es un protocolo de comunicación M2M (machine-to-machine) de tipo message queue. Está basado en la pila TCP/IP como base para la comunicación. En el caso de MQTT cada conexión se mantiene abierta y se “reutiliza” en cada comunicación. Es una diferencia, por ejemplo, a una petición HTTP 1.0 donde cada transmisión se realiza a través de conexión.
     MQTT fue creado por el Dr. Andy Stanford-Clark de IBM y Arlen Nipper de Arcom (ahora Eurotech) en 1999 como un mecanismo para conectar dispositivos empleados en la industria petrolera.
     Aunque inicialmente era un formato propietario, en 2010 fue liberado y pasó a ser un estándar en 2014 según la OASIS (Organization for the Advancement of Structured Information Standards). \cite{mqtt}\\
 
     \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.4.2\hspace{5mm}Protocolo HTTP}
-        \textbf{\large 1.3.4.2\hspace{5mm}Protocolo HTTP}
+        \textbf{1.3.4.2\hspace{5mm}Protocolo HTTP}
 
     HTTP de sus siglas en inglés: “Hypertext Transfer Protocol”, es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página Web completa resulta de la unión de distintos sub-documentos recibidos, como, por ejemplo: un documento que especifique el estilo de maquetación de la página Web (CSS), el texto, las imágenes, videos, scrips, etcétera.
 
     \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.4.3\hspace{5mm}Protocolo TCP/IP}
-        \textbf{\large 1.3.4.3\hspace{5mm}Protocolo TCP/IP}
+        \textbf{1.3.4.3\hspace{5mm}Protocolo TCP/IP}
 
     La definición de TCP/IP es la identificación del grupo de protocolos de red que hacen posible la transferencia de datos en redes, entre equipos informáticos e internet. Las siglas TCP/IP hacen referencia a este grupo de protocolos:
 
@@ -230,13 +301,9 @@
         \item IP o protocolo de internet, utiliza direcciones series de cuatro octetos con formato de punto decimal (como por ejemplo 75.4.160.25). Este protocolo lleva los datos a otras máquinas de la red.
     \end{itemize}
 
-    El modelo TCP/IP permite un intercambio de datos fiable dentro de una red, definiendo los pasos a seguir desde que se envían los datos (en paquetes) hasta que son recibidos. Para lograrlo utiliza un sistema de capas con jerarquías (se construye una capa a continuación de la anterior) que se comunican únicamente con su capa superior (a la que envía resultados) y su capa inferior (a la que solicita servicios). \cite{tcp/ip}\\
+    El modelo TCP/IP permite un intercambio de datos fiable dentro de una red, definiendo los pasos a seguir desde que se envían los datos (en paquetes) hasta que son recibidos. Para lograrlo utiliza un sistema de capas con jerarquías (se construye una capa a continuación de la anterior) que se comunican únicamente con su capa superior (a la que envía resultados) y su capa inferior (a la que solicita servicios) \cite{tcp/ip}.
 
-
-
-    \vspace{6cm}
-
-    Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos o instituciones con vista al desarrollo de entornos inteligentes.\\
+    %Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos o instituciones con vista al desarrollo de entornos inteligentes.\\
 
     %\section{Sistema de comunicación}\label{sec: sistemaComunicación}
 
@@ -248,10 +315,10 @@
 
     En el caso del control de la aparición de los xilófagos, como daño de origen biótico, se realiza el análisis de las condiciones óptimas para la aparición de los mismos. Normalmente estos aparecen cuando la madera se encuentra con un porcentaje de humedad excesivo (por encima del 20 por ciento). Según \cite{monitoringMoisture} \cite{rodriguezcodigo} el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55 por ciento mientras que \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50 por ciento. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 20 por ciento.\\
 
-    Valores de temperatura idóneos para la aparición de xilófagos...\\
+    Valores de temperatura idóneos para la aparición de xilófagos...\\\\
 
-    \section{Sistema de control de población}\label{sec: sistemaPoblacion}
-    Sensores PIR\\
+    %\section{Sistema de control de población}\label{sec: sistemaPoblacion}
+    %Sensores PIR\\
 
     \addcontentsline{toc}{section}{Conclusiones}
     \textbf{\Large Conclusiones}\newline

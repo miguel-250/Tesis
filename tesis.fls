@@ -657,6 +657,13 @@ INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
+INPUT .\imagenes\capas.jpg
+INPUT .\imagenes\capas.jpg
+INPUT imagenes\capas.jpg
+INPUT .\imagenes\capas.jpg
+INPUT .\imagenes\capas.jpg
+INPUT .\imagenes\capas.jpg
+INPUT .\imagenes\capas.jpg
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
@@ -668,6 +675,13 @@ INPUT .\imagenes\myArquitecture2.jpg
 INPUT .\imagenes\myArquitecture2.jpg
 INPUT .\imagenes\myArquitecture2.jpg
 INPUT .\imagenes\myArquitecture2.jpg
+INPUT .\imagenes\vista de implementación.jpg
+INPUT .\imagenes\vista de implementación.jpg
+INPUT imagenes\vista de implementación.jpg
+INPUT .\imagenes\vista de implementación.jpg
+INPUT .\imagenes\vista de implementación.jpg
+INPUT .\imagenes\vista de implementación.jpg
+INPUT .\imagenes\vista de implementación.jpg
 INPUT .\imagenes\perception_image.jpg
 INPUT .\imagenes\perception_image.jpg
 INPUT imagenes\perception_image.jpg
@@ -692,6 +706,20 @@ INPUT .\capitulos\capitulo2.tex
 INPUT capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
 INPUT capitulos\capitulo2.tex
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
 INPUT .\imagenes\esp-12F.jpeg
 INPUT .\imagenes\esp-12F.jpeg
 INPUT imagenes\esp-12F.jpeg
@@ -699,13 +727,27 @@ INPUT .\imagenes\esp-12F.jpeg
 INPUT .\imagenes\esp-12F.jpeg
 INPUT .\imagenes\esp-12F.jpeg
 INPUT .\imagenes\esp-12F.jpeg
-INPUT .\imagenes\nodemcu0.jpg
-INPUT .\imagenes\nodemcu0.jpg
-INPUT imagenes\nodemcu0.jpg
-INPUT .\imagenes\nodemcu0.jpg
-INPUT .\imagenes\nodemcu0.jpg
-INPUT .\imagenes\nodemcu0.jpg
-INPUT .\imagenes\nodemcu0.jpg
+INPUT .\imagenes\esp-12F especificaciones.jpg
+INPUT .\imagenes\esp-12F especificaciones.jpg
+INPUT imagenes\esp-12F especificaciones.jpg
+INPUT .\imagenes\esp-12F especificaciones.jpg
+INPUT .\imagenes\esp-12F especificaciones.jpg
+INPUT .\imagenes\esp-12F especificaciones.jpg
+INPUT .\imagenes\esp-12F especificaciones.jpg
+INPUT .\imagenes\esp-12F pinout.jpg
+INPUT .\imagenes\esp-12F pinout.jpg
+INPUT imagenes\esp-12F pinout.jpg
+INPUT .\imagenes\esp-12F pinout.jpg
+INPUT .\imagenes\esp-12F pinout.jpg
+INPUT .\imagenes\esp-12F pinout.jpg
+INPUT .\imagenes\esp-12F pinout.jpg
+INPUT .\imagenes\esp-12F dimensiones.jpg
+INPUT .\imagenes\esp-12F dimensiones.jpg
+INPUT imagenes\esp-12F dimensiones.jpg
+INPUT .\imagenes\esp-12F dimensiones.jpg
+INPUT .\imagenes\esp-12F dimensiones.jpg
+INPUT .\imagenes\esp-12F dimensiones.jpg
+INPUT .\imagenes\esp-12F dimensiones.jpg
 INPUT .\imagenes\dht22.jpg
 INPUT .\imagenes\dht22.jpg
 INPUT imagenes\dht22.jpg
@@ -769,6 +811,19 @@ INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
+INPUT .\imagenes\esquematico RT9013.pdf
+INPUT .\imagenes\esquematico RT9013.pdf
+INPUT imagenes\esquematico RT9013.pdf
+INPUT .\imagenes\esquematico RT9013.pdf
+INPUT .\imagenes\esquematico RT9013.pdf
+INPUT .\imagenes\esquematico RT9013.pdf
+INPUT .\imagenes\acondicionamiento RT9013.jpg
+INPUT .\imagenes\acondicionamiento RT9013.jpg
+INPUT imagenes\acondicionamiento RT9013.jpg
+INPUT .\imagenes\acondicionamiento RT9013.jpg
+INPUT .\imagenes\acondicionamiento RT9013.jpg
+INPUT .\imagenes\acondicionamiento RT9013.jpg
+INPUT .\imagenes\acondicionamiento RT9013.jpg
 INPUT .\capitulos\conclusiones.tex
 INPUT .\capitulos\conclusiones.tex
 INPUT .\capitulos\conclusiones.tex

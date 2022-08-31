@@ -50,45 +50,45 @@ Warning--No journal in evolucionIoT
 Warning--No journal in tcp/ip
 Warning--No journal in arquitecturaPaginaLuisGarcia
 Warning--No journal in rodriguezcodigo
-You've used 20 entries,
+You've used 33 entries,
             6951 wiz_defined-function locations,
-            1408 strings with 15267 characters,
-and the built_in function-call counts, 39323 in all, are:
-= -- 4926
-> -- 292
-< -- 1998
-+ -- 1998
-- -- 44
-* -- 2513
-:= -- 7454
-add.period$ -- 86
-call.type$ -- 20
-change.case$ -- 343
+            1487 strings with 17424 characters,
+and the built_in function-call counts, 63428 in all, are:
+= -- 8001
+> -- 422
+< -- 3219
++ -- 3362
+- -- 72
+* -- 4067
+:= -- 12005
+add.period$ -- 138
+call.type$ -- 33
+change.case$ -- 551
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 889
-empty$ -- 1448
-format.name$ -- 444
-if$ -- 7369
+cite$ -- 70
+duplicate$ -- 1483
+empty$ -- 2338
+format.name$ -- 626
+if$ -- 11894
 int.to.chr$ -- 0
-int.to.str$ -- 60
+int.to.str$ -- 99
 missing$ -- 0
-newline$ -- 492
-num.names$ -- 160
-pop$ -- 590
+newline$ -- 792
+num.names$ -- 264
+pop$ -- 942
 preamble$ -- 1
-purify$ -- 80
+purify$ -- 131
 quote$ -- 0
-skip$ -- 2685
+skip$ -- 4252
 stack$ -- 0
-substring$ -- 2180
-swap$ -- 546
-text.length$ -- 61
+substring$ -- 3663
+swap$ -- 886
+text.length$ -- 87
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1856
+type$ -- 2896
 warning$ -- 5
-while$ -- 155
+while$ -- 219
 width$ -- 0
-write$ -- 583
+write$ -- 909
 (There were 5 warnings)

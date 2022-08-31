@@ -1,6 +1,54 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+A.%
+}{%
+A.%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+ref15}
+\APACinsertmetastar {%
+ref15}%
+\begin{APACrefauthors}%
+A., K\BPBI W\BPBI \BPBI D\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A-Z survey of Internet of Things: Architectures,
+  protocols, applications, recent advances, future directions and
+  recommendations} {A-z survey of internet of things: Architectures, protocols,
+  applications, recent advances, future directions and recommendations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Netw. Comput. Appl.}{163}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jnca.2020.102663} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ai-Thinker%
+}{%
+Ai-Thinker%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+esp12}
+\APACinsertmetastar {%
+esp12}%
+\begin{APACrefauthors}%
+Ai-Thinker.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {ESP-12F Datasheet, Versión 1, 2018} {Esp-12f datasheet,
+  versión 1, 2018}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Al-Habal%
 \ \BBA {} Khattab%
 }{%
@@ -64,6 +112,56 @@ Alletto, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Atzori~L.%
+}{%
+Atzori~L.%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+ref4}
+\APACinsertmetastar {%
+ref4}%
+\begin{APACrefauthors}%
+Atzori~L., I\BPBI A\BPBI \BPBI M\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Internet of Things: A survey} {The internet of
+  things: A survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Comput. Netw.}{54}{15}{2787--2805}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.comnet.2010.05.010.} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Berru~J.%
+}{%
+Berru~J.%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+ref25}
+\APACinsertmetastar {%
+ref25}%
+\begin{APACrefauthors}%
+Berru~J., P\BPBI A\BPBI \BPBI O., Mazon Olivo~B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SCADA System Based on IoT for Intelligent Control of
+  Banana Crop Irrigation} {Scada system based on iot for intelligent control of
+  banana crop irrigation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Appl. Technol. ICAT 2019 Commun. Comput. Inf.
+  Sci.}{1193}{}{243--256}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 B.~Mazon%
 }{%
 B.~Mazon%
@@ -87,6 +185,81 @@ B.~Mazon, A\BPBI P\BPBI O.%
 \APACjournalVolNumPages{IEEE Latin America Transactions}{Vol. 20}{No.1}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.1109/TLA.2022.9662173} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Botta~A.%
+}{%
+Botta~A.%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+ref8}
+\APACinsertmetastar {%
+ref8}%
+\begin{APACrefauthors}%
+Botta~A., P\BPBI V\BPBI \BPBI P\BPBI A., De Donato~W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Integration of Cloud computing and Internet of Things: A
+  survey} {Integration of cloud computing and internet of things: A
+  survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Future Gener. Comput. Syst.}{56}{}{684--700}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.future.2015.09.021.} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Burhan~M.%
+}{%
+Burhan~M.%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+ref10}
+\APACinsertmetastar {%
+ref10}%
+\begin{APACrefauthors}%
+Burhan~M., K\BPBI B\BPBI \BPBI K\BPBI B\BHBI S., Rehman~R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {IoT Elements, Layered Architectures and Security Issues:
+  A Comprehensive Survey} {Iot elements, layered architectures and security
+  issues: A comprehensive survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sensors}{18}{9}{2796}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/s18092796.} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cera~J.%
+}{%
+Cera~J.%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+ioT_en_Cosas_de_salud}
+\APACinsertmetastar {%
+ioT_en_Cosas_de_salud}%
+\begin{APACrefauthors}%
+Cera~J., R\BPBI J\BPBI \BPBI o., Martínez~L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Apoyo al estado del arte del internet de las cosas en
+  salud} {Apoyo al estado del arte del internet de las cosas en salud}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Revista I+D en TIC}{6}{1}{14-25}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -223,9 +396,9 @@ Evans, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-FERNÁNDEZ~BARCELL%
+Fernández~Barcell%
 }{%
-FERNÁNDEZ~BARCELL%
+Fernández~Barcell%
 }{%
 {\protect \APACyear {2014}}%
 }]{%
@@ -233,7 +406,7 @@ tcp/ip}
 \APACinsertmetastar {%
 tcp/ip}%
 \begin{APACrefauthors}%
-FERNÁNDEZ~BARCELL, M.%
+Fernández~Barcell, M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -265,6 +438,58 @@ García, L.%
   IoT} {Cu\'ales son las arquitecturas y componentes de una red iot}.{\BBCQ}
 \newblock
 
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guizani~M.%
+}{%
+Guizani~M.%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+ref9}
+\APACinsertmetastar {%
+ref9}%
+\begin{APACrefauthors}%
+Guizani~M., A\BPBI M\BPBI \BPBI A\BPBI M., Mohammadi~M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internet of Things: A Survey on Enabling Technologies,
+  Protocols, and Applications} {Internet of things: A survey on enabling
+  technologies, protocols, and applications}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Commun. Surv. Tutor}{17}{4}{2347--2376}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/COMST.2015.2444095.} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hassija~V.%
+}{%
+Hassija~V.%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+ref12}
+\APACinsertmetastar {%
+ref12}%
+\begin{APACrefauthors}%
+Hassija~V., S\BPBI V\BPBI \BPBI O., Chamola~V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Survey on IoT Security: Application Areas, Security
+  Threats, and Solution Architectures} {A survey on iot security: Application
+  areas, security threats, and solution architectures}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{7}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2019.2924045} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -344,7 +569,7 @@ Liu, Z.%
   Relics Based on Internet of Things} {Study on the anti-theft technology of
   museum cultural relics based on internet of things}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{IEEE Access}{7}{}{111387-111395}.
+\APACjournalVolNumPages{IEEE Access}{7}{}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.1109/ACCESS.2019.2933236} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -371,6 +596,32 @@ Margarita~Kisternaya, V\BPBI K.%
   timber structures}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Russian Academy of Sciences}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Omoniwa~B.%
+}{%
+Omoniwa~B.%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+ref13}
+\APACinsertmetastar {%
+ref13}%
+\begin{APACrefauthors}%
+Omoniwa~B., B\BPBI S\BPBI H\BPBI \BPBI O., Javed M.~A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fog/Edge Computing-Based IoT (FECIoT): Architecture,
+  Applications, and Research Issues} {Fog/edge computing-based iot (feciot):
+  Architecture, applications, and research issues}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Internet Things J.}{6}{3}{4118--4149}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/JIOT.2018.2875544.} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -455,6 +706,30 @@ Quintero, G\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Quiroga~E.%
+}{%
+Quiroga~E.%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+agriculturaPrecision}
+\APACinsertmetastar {%
+agriculturaPrecision}%
+\begin{APACrefauthors}%
+Quiroga~E., C\BPBI M\BPBI \BPBI C\BPBI G., Jaramillo~S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Propuesta de una Arquitectura para Agricultura de
+  Precisión Soportada en IoT} {Propuesta de una arquitectura para agricultura
+  de precisión soportada en iot}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Revista RISTI}{}{24}{39-56}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rodr{\'\i}guez%
 , Vivas%
 , Vega%
@@ -520,6 +795,30 @@ Sornalatha, K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+T.%
+}{%
+T.%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+ref19}
+\APACinsertmetastar {%
+ref19}%
+\begin{APACrefauthors}%
+T., M\BPBI H\BPBI \BPBI M\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {IoT Architectural Styles: A Systematic Mapping Study}
+  {Iot architectural styles: A systematic mapping study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{in Software Architecture}{11048}{Cuesta C. E., Garlan
+  D., and Pérez J., Cham Eds.: Springer International Publishing}{68-85}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Vald{\'e}s%
 }{%
 Vald{\'e}s%
@@ -543,6 +842,32 @@ Vald{\'e}s, Y\BPBI H.%
 \newblock
 \APACjournalVolNumPages{RdM. Revista de Museolog{\'\i}a: Publicaci{\'o}n
   cient{\'\i}fica al servicio de la comunidad museol{\'o}gica}{}{78}{44--54}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yadegaridehkordi~E.%
+}{%
+Yadegaridehkordi~E.%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+ref16}
+\APACinsertmetastar {%
+ref16}%
+\begin{APACrefauthors}%
+Yadegaridehkordi~E., H\BPBI R\BPBI \BPBI O., Attarbashi Z.~S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Survey on Trend and Classification of Internet of
+  Things Reviews} {A survey on trend and classification of internet of things
+  reviews}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{8}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2020.3002932} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

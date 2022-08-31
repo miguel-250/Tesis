@@ -1,55 +1,150 @@
-\chapter{Implementación del sistema IoT}\label{cap: }
+\chapter{Implementación del sistema basado en IoT}\label{cap: }
 
 \addcontentsline{toc}{section}{Introducción}
         \textbf{\Large Introducción}\newline
-        ...\\
+        ...
 
-\section{Microcontrolador [Puede ser que halla que cambiar a ESP 12F]} \label{sec: microcontrolador}
+\section{Descripción técnica capa de percepción}
+
+Como se analizaba en el epígrafe \ref{subsec:capa_percepcion} la capa de percepción va caracterizada por la presencia del microcontrolador y los sensores que, en conjunto forman los nodos, siendo estos los
+encargados de la captura de los datos del medio.\\
+
+Los nodos están diseñados sobre una placa de circuito impreso PCB (figura \ref{imag:pcb_nodo}) en la que se hizo el montaje de los componentes.
+El diseño está pensado para con el menor consumo posible recopilar la mayor cantidad de información.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=6cm, height=4cm]{imagenes/vista 3D.jpg}
+    \caption{PCB Nodo}
+    \subcaption*{Fuente: Elavoración propia}
+    \label{imag:pcb_nodo}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=12cm, height=8cm]{imagenes/esquematico nodo.jpg}
+    \caption{Esquematico del circuito}
+    \subcaption*{Fuente: Elavoración propia}
+    \label{imag:esquematico_nodo}
+\end{figure}
+
+A continuación se describen por partes los elementos que componen dichos nodos.
+
+
+\subsection{Microcontrolador} \label{sec: microcontrolador}
 
     Un microcontrolador (abreviado: MCU) es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales, los cuales cumplen una tarea específica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y periféricos de entrada/salida.\\
 
-    El microcontrolador ESP-12F (Figura \ref{imag:esp-12F}), basado en ESP8266, posee dentro de sus características la posibilidad del empleo de la wifi como medio de comunicación.\\
+The ESP-12F WiFi module was developed by Ai-Thinker Technology. The core processor
+ESP8266 integrates the industry-leading Tensilica L106 ultra-low-power 32-bit micro MCU in
+a small package with 16-bit Lite mode, clocked at Supports 80 MHz and 160 MHz, supports
+RTOS, and integrates Wi-Fi MAC/BB/RF/PA/LNA.
+
+The ESP-12F WiFi module supports the standard IEEE802.11 b/g/n protocol, a complete
+TCP/IP protocol stack. Users can use this module to add networking capabilities to existing
+devices or to build separate network controllers.
+
+The ESP8266 is a high-performance wireless SOC that offers maximum utility at the lowest
+cost and unlimited possibilities for embedding WiFi functionality into other systems.
+
+The ESP8266 is a complete and self-contained WiFi network solution that can operate
+independently or as a slave running on other host MCUs. The ESP8266 is capable of booting
+directly from an external flash memory when it is powered by an application and is the only
+application processor in the device. The built-in cache helps improve system performance and
+reduce memory requirements.
+
+In another case, the ESP8266 is responsible for wireless Internet access. When it comes to
+the task of the WiFi adapter, it can be added to any micro controller-based design. The connection
+is simple and easy, just by SPI / SDIO interface or I2C / UART port. Just fine.
+
+The ESP8266's powerful on-chip processing and storage capabilities allow it to integrate
+sensors and other application-specific devices through the GPIO port, minimizing system
+resources during minimal up-front development and operation. \cite{esp12}.\\
+
+    El microcontrolador ESP-12F de Ai-Thinker (Figura \ref{imag:esp-12F}), basado en ESP8266.
 
     \begin{figure}[h]
         \centering
-        \includegraphics[width=6cm, height=6cm]{imagenes/esp-12F.jpeg}
+        \includegraphics[width=4cm, height=4cm]{imagenes/esp-12F.jpeg}
         \caption{ESP-12F}
         \label{imag:esp-12F}
     \end{figure}
 
-    [...]
+    \textbf{Características}
 
-    \vspace{4cm}
-
-    Dentro de la familia de los ESP se encuentra el NodeMCU. Este microcontrolador (Imagen \ref{imag:nodemcu}) será el encargado de recibir los datos de los sensores y organizarlos en función de su continua transmisión hacia el concentrador.\\
+    \begin{itemize}
+        \item The smallest 802.11b/g/n Wi-Fi SOC module
+        \item Low power 32-bit CPU, can also serve as the application processor
+        \item Up to 160MHz clock speed
+        \item Built-in 10 bit high precision ADC
+        \item Supports UART/GPIO/IIC/PWM/ADC
+        \item SMD-22 package for easy welding
+        \item Integrated Wi-Fi MAC/BB/RF/PA/LNA
+        \item Support multiple sleep patterns. Deep sleep current as low as 20uA
+        \item UART baud rate up to 4Mbps
+        \item Embedded LWIP protocol stack
+        \item Supports STA/AP/STA + AP operation mode
+        \item Support Smart Config/AirKiss technology
+        \item Supports remote firmware upgrade (FOTA)
+        \item General AT commands can be used quickly
+    \end{itemize}
 
     \begin{figure}[h]
         \centering
-        \includegraphics[width=5.5cm, height=6cm]{imagenes/nodemcu0.jpg}
-        \caption{NodeMcu Vendor}
-        \label{imag:nodemcu}
+        \includegraphics[width=10cm, height=13cm]{imagenes/esp-12F especificaciones.jpg}
+        \caption{Especificaciones ESP-12F}
+        \subcaption*{Fuente: Datasheet fabricante}
+        \label{imag:esp-12F_especificaciones}
     \end{figure}
+
+    
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=6cm, height=4cm]{imagenes/esp-12F pinout.jpg}
+        \caption{ESP-12F Pinout}
+        \subcaption*{Fuente: Datasheet fabricante}
+        \label{imag:esp-12F_pinout}
+    \end{figure}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=10cm, height=7cm]{imagenes/esp-12F dimensiones.jpg}
+        \caption{ESP-12F Dimensiones}
+        \subcaption*{Fuente: Datasheet fabricante}
+        \label{imag:esp-12F_dimensiones}
+    \end{figure}
+
+    \vspace{4cm}
+
+    %Dentro de la familia de los ESP se encuentra el NodeMCU. Este microcontrolador (Imagen \ref{imag:nodemcu}) será el encargado de recibir los datos de los sensores y organizarlos en función de su continua transmisión hacia el concentrador.\\
+
+    %\begin{figure}[h]
+    %    \centering
+    %    \includegraphics[width=5.5cm, height=6cm]{imagenes/nodemcu0.jpg}
+    %    \caption{NodeMcu Vendor}
+    %    \label{imag:nodemcu}
+    %\end{figure}
     
     
-    NodeMCU es una pequeña placa Wifi compatible con Arduino, lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
+    %NodeMCU es una pequeña placa Wifi compatible con Arduino, lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
 
-    Dispone de una extensa comunidad y documentación que permitirá conectar el proyecto mediante conexión Wifi.
+    %Dispone de una extensa comunidad y documentación que permitirá conectar el proyecto mediante conexión Wifi.
 
-    \textbf{Características}
-    \begin{itemize}
-        \item Procesador: ESP8266 a 80MHz (3.3V) (ESP-12E).
-        \item 4MB de memoria FLASH (32 MBit).
-        \item WiFi 802.11 b/g/n.
-        \item Regulador 3.3V integrado (500mA).
-        \item Conversor USB-Serial CH340G.
-        \item Función Auto-reset.
-        \item 9 pines GPIO con I2C y SPI.
-        \item 1 entrada analógica (1.0V max).
-        \item 4 agujeros de montaje (3mm).
-        \item Entrada alimentación externa VIN (20V max).
-    \end{itemize}
+    %\textbf{Características}
+    %\begin{itemize}
+    %    \item Procesador: ESP8266 a 80MHz (3.3V) (ESP-12E).
+    %    \item 4MB de memoria FLASH (32 MBit).
+    %    \item WiFi 802.11 b/g/n.
+    %    \item Regulador 3.3V integrado (500mA).
+    %    \item Conversor USB-Serial CH340G.
+    %    \item Función Auto-reset.
+    %    \item 9 pines GPIO con I2C y SPI.
+    %    \item 1 entrada analógica (1.0V max).
+    %    \item 4 agujeros de montaje (3mm).
+    %    \item Entrada alimentación externa VIN (20V max).
+    %\end{itemize}
 
-\section{Sensores} \label{sec: sensores}
+\subsection{Sensores} \label{sec: sensores}
 
     La secuencia de sensores pertenecientes al sistema es selecta, puesto que se tomaron los sensores teniendo en cuenta varios factores:
 
@@ -67,6 +162,7 @@
 En la siguiente tabla se relacionan los mismos.
 
 \begin{table}[h]
+    \centering
     \begin{tabular}{|c|c|c|cccc|}
     \hline
     \rowcolor[HTML]{9698ED} 
@@ -85,10 +181,29 @@ En la siguiente tabla se relacionan los mismos.
     \label{tab:relacion_sensores}
 \end{table}
 
+Se tomaron precios de referencia de los sensores de las páginas oficiales de compras online Amazon y Aliexpress para tener una idea del coste de montaje de los nodos.\\
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Sensor} & \textbf{Precio Amazon (U)} & \textbf{Precio Aliexpress (U)} \\ \hline
+    DHT22           & 13.69 – 16.99 \$           & 2 – 4 \$                       \\ \hline
+    MH-Z19C         & -                          & 16.99 \$                       \\ \hline
+    M0168           & -                          & 0.31 – 1.34 \$                 \\ \hline
+    SDS011          & 14.62 \$                   & 17.64 \$                       \\ \hline
+    LDR             & 14.50 \$                   & 0.82 \$                        \\ \hline
+    BH1750          & -                          & 8.46 \$                        \\ \hline
+    \end{tabular}
+    \caption{Relación precios de referencia}
+    \subcaption*{Fuente: Elavoración propia}
+    \label{tab: precios_referencia}
+\end{table}
+
 \subsection{Descripción sensores} \label{subsec: descripcion_sensores}
 
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.1\hspace{5mm}Sensor DHT22}
-        \textbf{\large 2.2.1.1\hspace{5mm}Sensor DHT22}
+        \textbf{2.2.1.1\hspace{5mm}Sensor DHT22}
 
   \begin{figure}[h]
       \centering
@@ -104,13 +219,14 @@ El DHT22 (AM2302) es un sensor digital de temperatura y humedad relativa de buen
     \centering
     \includegraphics[width=8cm, height=6cm]{imagenes/dht22 dimensiones.jpg}
     \caption{Dimensiones sensor DHT22}
+    \subcaption*{Fuente: Datasheet fabricante}
     \label{imag:dimensiones_dht22}
 \end{figure}
 
 \vspace{1cm}
 
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.2\hspace{5mm}Sensor MZ-Z19C}
-        \textbf{\large 2.2.1.2\hspace{5mm}Sensor MZ-Z19C}
+        \textbf{2.2.1.2\hspace{5mm}Sensor MZ-Z19C}
 
 \begin{figure}[h]
       \centering
@@ -119,7 +235,7 @@ El DHT22 (AM2302) es un sensor digital de temperatura y humedad relativa de buen
       \label{imag:mh-z19c}
    \end{figure}
 
-El sensor de gas de dióxido de carbono MH-Z19C es un pequeño sensor inteligente de uso general que utiliza el principio del infrarrojo no disperso (NDIR) para detectar la presencia de CO2 en el aire.\\
+El sensor de gas de dióxido de carbono MH-Z19C es un pequeño sensor inteligente de uso general que utiliza el principio del infrarrojo no disperso (NDIR) para detectar la presencia de CO2 en el aire.\\\\
 
 \textbf{Otros datos}
 \begin{itemize}
@@ -131,10 +247,10 @@ El sensor de gas de dióxido de carbono MH-Z19C es un pequeño sensor inteligent
     \item Tipo de conector: JST ZH de 7 pines
 \end{itemize}
 
-\vspace{2cm}
+\vspace{0.5cm}
 
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.3\hspace{5mm}Sensor M0168}
-        \textbf{\large 2.2.1.3\hspace{5mm}Sensor M0168}
+        \textbf{2.2.1.3\hspace{5mm}Sensor M0168}
 
 \begin{figure}[h]
       \centering
@@ -155,10 +271,10 @@ En este sensor piezoeléctrico cuando el choque de la cerámica con la lámina m
     \item Tamaño del artículo: 30mm x 23mm
 \end{itemize}
 
-\vspace*{1cm}
-
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.4\hspace{5mm}Sensor SDS011}
-        \textbf{\large 2.2.1.4\hspace{5mm}Sensor SDS011}
+        \textbf{2.2.1.4\hspace{5mm}Sensor SDS011}
+
+\vspace{1cm}
 
 \begin{figure}[h]
       \centering
@@ -168,8 +284,6 @@ En este sensor piezoeléctrico cuando el choque de la cerámica con la lámina m
    \end{figure}
 
 Se basa en el principio de dispersión láser: se puede inducir la dispersión de la luz cuando las partículas atraviesan el área de detección. La luz dispersa se transforma en señales eléctricas, después estas señales serán amplificadas y procesadas. El número y el diámetro de las partículas se pueden obtener mediante análisis porque la forma de onda tiene ciertas relaciones con el diámetro de las partículas.\\
-
-\vspace{2cm}
 
 \textbf{Otros datos}
 
@@ -181,10 +295,10 @@ Se basa en el principio de dispersión láser: se puede inducir la dispersión d
     \item Tamaño físico: 71mm x 70mm x 23mm 
 \end{itemize}
 
-\vspace{1cm}
+\vspace{5cm}
 
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.5\hspace{5mm}Sensor LDR}
-        \textbf{\large 2.2.1.5\hspace{5mm}Sensor LDR}\newline
+        \textbf{2.2.1.5\hspace{5mm}Sensor LDR}\newline
 
 \begin{figure}[h]
       \centering
@@ -203,19 +317,19 @@ Una fotorresistencia es un componente electrónico cuya resistencia disminuye co
     \label{imag:dimensiones LDR}
  \end{figure}
 
-\vspace{1cm}
+\vspace{0.5cm}
 
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.6\hspace{5mm}Sensor BH1750}
-        \textbf{\large 2.2.1.6\hspace{5mm}Sensor BH1750}\newline
-
-\begin{figure}[h]
-      \centering
-      \includegraphics[width=5cm, height=4cm]{imagenes/Sensor BH1750.jpg}
-      \caption{Sensor BH1750}
-      \label{imag:BH1750}
-   \end{figure}
+        \textbf{2.2.1.6\hspace{5mm}Sensor BH1750}\newline
 
 El Módulo BH1750 es un sensor de iluminación digital para medición de flujo luminoso (iluminancia) de la empresa Rohm Semiconductor. Componente que posee dentro de su arquitectura interna, un conversor análogo digital (ADC) de 16 bits con una salida digital de formato I2C, que facilita la integración con microcontroladores o sistemas embebidos diversos. Este módulo entrega la intensidad luminosa directamente en unidades de Lux que es equivalente a Lumen/m2.\\
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=5cm, height=4cm]{imagenes/Sensor BH1750.jpg}
+    \caption{Sensor BH1750}
+    \label{imag:BH1750}
+ \end{figure}
 
 \textbf{Otros datos}
 
@@ -224,8 +338,6 @@ El Módulo BH1750 es un sensor de iluminación digital para medición de flujo l
     \item Frecuencia máxima de transmisión: 400kHZ
     \item Temperatura de operación: Desde -40°C hasta 85°C
 \end{itemize}
-
-\vspace{2cm}
 
 Para su correcto funcionamiento, este sensor debe ir acompañado de una serie de componentes electrónicos para su acondicionamiento.
 En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicionamiento brindado por el fabricante.
@@ -238,5 +350,52 @@ En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicion
     \label{imag:acondicionamiento_BH1750}
 \end{figure}
 
+\vspace{1cm}
+
+\subsection{Alimentación}
+
+\textbf{Regulador LDO RT9013.}\newline
+
+Información obtenida del Datasheet que ofrece el fabricante...\\
+
+The RT9013 is a high-performance, 500mA LDO regulator, offering extremely high PSRR and ultra-low dropout. Ideal for portable RF and wireless applications with demanding performance and space requirements.\\
+
+The RT9013 quiescent current as low as 25uA, further prolonging the battery life. The RT9013 also works with low-ESR ceramic capacitors, reducing the amount of board space necessary for power applications, critical in handheld wireless devices.\\
+
+The RT9013 consumes typical 0.7uA in shutdown mode and has fast turn-on time less than 40us. The other features include ultra-low dropout voltage, high output accuracy, current limiting protection, and high ripple rejection ratio. Available in the SC-82, SOT-23-5, SC-70-5 and WDFN-6L 2x2 package.\\
+
+\textbf{Características}
+
+\begin{itemize}
+    \item Wide Operating Voltage Ranges : 2.2V to 5.5V
+    \item Low Dropout : 250mV at 500mA
+    \item Ultra-Low-Noise for RF Application
+    \item Ultra-Fast Response in Line/Load Transient
+    \item Current Limiting Protection
+    \item Thermal Shutdown Protection
+    \item High Power Supply Rejection Ratio
+    \item Output Only 1 uF Capacitor Required for Stability
+    \item TTL-Logic-Controlled Shutdown Input
+\end{itemize}
+
+\vspace{1cm}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=5.5cm, height=6cm]{imagenes/esquematico RT9013.pdf}
+    \caption{Configuración de pines}
+    \subcaption*{Fuente: Datasheet fabricante}
+    \label{imag:pines_RT9013}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=12cm, height=7cm]{imagenes/acondicionamiento RT9013.jpg}
+    \caption{Acondicionamiento}
+    \subcaption*{Fuente: Datasheet fabricante}
+    \label{imag:acondicionamiento_RT9013}
+\end{figure}
+
+
 \addcontentsline{toc}{section}{Conclusiones}
-        \textbf{\Large Conclusiones}\newline
+        \textbf{\Large Conclusiones... parciales}\newline
