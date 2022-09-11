@@ -14,9 +14,9 @@
 \usepackage{subcaption}
 \usepackage{enumerate} %enumeraciones
 \usepackage{apacite}
-%\usepackage{geometry}
-%\usepackage{float}
-%\usepackage{wrapfig}
+% \usepackage{geometry}
+\usepackage{float}
+\usepackage{wrapfig}
 \usepackage[T1]{fontenc}
 \usepackage[scaled]{uarial}
 \renewcommand*\familydefault{\sfdefault}
@@ -45,11 +45,26 @@
 %Portada
     \include{caratula}   
 
+%Portada 2
+    \include{capitulos/carátula2}
+
+%Página de firmas
+    \include{capitulos/pagina_firmas}
+
 %Dedicatoria
     \include{capitulos/dedicatoria}
     
 %Agradecimientos
     \include{capitulos/agradecimientos}
+
+%Listado de símbolos, términos especiales y abreviaturas no normalizadas
+    \include{capitulos/listado}
+
+% Indice de figuras
+    \include{capitulos/indice2}
+
+% Indice de tablas
+    \include{capitulos/indice3}
 
 %Resumen
     \include{capitulos/resumen}
@@ -59,13 +74,6 @@
 
 %Indice general
     \include{capitulos/indice}
-
-% Indice de tablas
-    \include{capitulos/indice3}
-
-% Indice de figuras
-    \include{capitulos/indice2}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -3,20 +3,26 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: tesis.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: caratula.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: capitulos/carátula2.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: capitulos/pagina_firmas.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: capitulos/dedicatoria.aux
 Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: capitulos/agradecimientos.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: capitulos/listado.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: capitulos/indice2.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: capitulos/indice3.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: capitulos/resumen.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: capitulos/abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: capitulos/indice.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: capitulos/indice3.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: capitulos/indice2.aux
 Reallocating 'name_of_file' (item size: 1) to 27 items.
 A level-1 auxiliary file: capitulos/introduccion.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
@@ -52,7 +58,7 @@ Warning--No journal in arquitecturaPaginaLuisGarcia
 Warning--No journal in rodriguezcodigo
 You've used 33 entries,
             6951 wiz_defined-function locations,
-            1487 strings with 17424 characters,
+            1490 strings with 17496 characters,
 and the built_in function-call counts, 63428 in all, are:
 = -- 8001
 > -- 422

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.5)  30 AUG 2022 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  11 SEP 2022 12:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **"d:/AAA INFO Universidad/Tesis/Tesis/tesis.tex"
 (d:/AAA INFO Universidad/Tesis/Tesis/tesis.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-05-04> (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-08-30> (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
@@ -24,7 +24,7 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2022/05/22 3.75 The Babel package
+Package: babel 2022/08/29 3.79 The Babel package
 \babel@savecnt=\count194
 \U@D=\dimen139
 \l@unhyphenated=\language79
@@ -55,7 +55,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@dima=\skip50
 \bigstrutjot=\dimen140
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
@@ -63,36 +63,36 @@ Package xcolor Info: Driver file: pdftex.def on input line 227.
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen141
-\ar@mcellbox=\box50
+\ar@mcellbox=\box51
 \extrarowheight=\dimen142
 \NC@list=\toks17
 \extratabsurround=\skip51
 \backup@length=\skip52
-\ar@cellbox=\box51
+\ar@cellbox=\box52
 )
 \everycr=\toks18
 \minrowclearance=\skip53
-)
 \rownum=\count198
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
@@ -106,24 +106,34 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen144
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count199
 LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count266
 \leftroot@=\count267
 LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
 \classnum@=\count268
 \DOTSCASE@=\count269
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count270
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
 \c@MaxMatrixCols=\count271
 \dotsspace@=\muskip16
 \c@parentequation=\count272
@@ -143,8 +153,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \multlinegap=\skip55
 \multlinetaggap=\skip56
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
@@ -198,10 +208,10 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
@@ -242,6 +252,20 @@ Package: apacite 2013/07/21 v6.03 APA citation
 \bibparsep=\skip93
 \bibitemsep=\skip94
 \biblabelsep=\skip95
+) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count284
+\float@exts=\toks28
+\float@box=\box55
+\@float@everytoks=\toks29
+\@floatcapt=\box56
+) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen162
+\WF@size=\dimen163
+\c@WF@wrappedlines=\count285
+\WF@box=\box57
+\WF@everypar=\toks30
+Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/arial\uarial.sty
@@ -253,18 +277,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count284
-\Gm@cntv=\count285
-\c@Gm@tempcnt=\count286
-\Gm@bindingoffset=\dimen162
-\Gm@wd@mp=\dimen163
-\Gm@odd@mp=\dimen164
-\Gm@even@mp=\dimen165
-\Gm@layoutwidth=\dimen166
-\Gm@layoutheight=\dimen167
-\Gm@layouthoffset=\dimen168
-\Gm@layoutvoffset=\dimen169
-\Gm@dimlist=\toks28
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
+\Gm@dimlist=\toks31
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 LaTeX Font Info:    Trying to load font information for T1+ua1 on input line 38.
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/arial\t1ua1.fd
@@ -273,13 +297,13 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 38.
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count287
-\l__pdf_internal_box=\box54
+File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count289
+\l__pdf_internal_box=\box58
 ) (tesis.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice3.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux))
+ (capitulos/carátula2.aux) (capitulos/pagina_firmas.aux) (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/listado.aux) (capitulos/indice2.aux) (capitulos/indice3.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -300,17 +324,17 @@ LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
-\scratchdimen=\dimen170
-\scratchbox=\box55
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count291
-\MPscratchDim=\dimen171
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count290
+\scratchdimen=\dimen172
+\scratchbox=\box59
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen173
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks33
 ) (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -318,8 +342,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@maskedRefs=\count294
+\c@maskedRefs=\count296
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/apacite\spanish.apc
 File: spanish.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 138.
@@ -363,11 +389,53 @@ LaTeX Info: Redefining \BHBI on input line 139.
 
 (caratula.tex
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 9.
+(Font)              scaled to size 11.39996pt on input line 12.
  [1
 
 
 {C:/Users/Migue/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+\openout2 = `capitulos/carátula2.aux'.
+
+ (capitulos/carátula2.tex
+<imagenes/identidad en blanco y negro.jpg, id=6, 383.18156pt x 48.18pt>
+File: imagenes/identidad en blanco y negro.jpg Graphic file (type jpg)
+<use imagenes/identidad en blanco y negro.jpg>
+Package pdftex.def Info: imagenes/identidad en blanco y negro.jpg  used on input line 5.
+(pdftex.def)             Requested size: 426.81581pt x 56.90553pt.
+<imagenes/trabajo de diploma.jpg, id=7, 335.00156pt x 29.35968pt>
+File: imagenes/trabajo de diploma.jpg Graphic file (type jpg)
+<use imagenes/trabajo de diploma.jpg>
+Package pdftex.def Info: imagenes/trabajo de diploma.jpg  used on input line 12.
+(pdftex.def)             Requested size: 398.33476pt x 42.67928pt.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 20.
+) [0
+
+
+
+ <./imagenes/identidad en blanco y negro.jpg> <./imagenes/trabajo de diploma.jpg>]
+\openout2 = `capitulos/pagina_firmas.aux'.
+
+ (capitulos/pagina_firmas.tex
+File: imagenes/identidad en blanco y negro.jpg Graphic file (type jpg)
+<use imagenes/identidad en blanco y negro.jpg>
+Package pdftex.def Info: imagenes/identidad en blanco y negro.jpg  used on input line 5.
+(pdftex.def)             Requested size: 426.81581pt x 56.90553pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+) [1
+
+
+
+]
 \openout2 = `capitulos/dedicatoria.aux'.
 
  (capitulos/dedicatoria.tex
@@ -376,59 +444,57 @@ LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 16.41594pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 12.
-) [1
+(Font)              scaled to size 11.39996pt on input line 11.
+) [2
 
 
 
 ]
 \openout2 = `capitulos/agradecimientos.aux'.
 
- (capitulos/agradecimientos.tex) [2
+ (capitulos/agradecimientos.tex) [3
 
 
 
 ]
-\openout2 = `capitulos/resumen.aux'.
+\openout2 = `capitulos/listado.aux'.
 
- (capitulos/resumen.tex) [3
+ (capitulos/listado.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
+ []
 
-
-]
-\openout2 = `capitulos/abstract.aux'.
-
- (capitulos/abstract.tex) [4
+) [1
 
 
 
 ]
-\openout2 = `capitulos/indice.aux'.
+\openout2 = `capitulos/indice2.aux'.
 
- (capitulos/indice.tex
+ (capitulos/indice2.tex
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 23.63593pt on input line 1.
- (tesis.toc
+ (tesis.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5
+))
+\tf@lof=\write3
+\openout3 = `tesis.lof'.
+
+) [2
 
 
 
-])
-\tf@toc=\write3
-\openout3 = `tesis.toc'.
-
-) [6]
+]
 \openout2 = `capitulos/indice3.aux'.
 
  (capitulos/indice3.tex (tesis.lot
@@ -438,57 +504,81 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write4
 \openout4 = `tesis.lot'.
 
-) [7
+) [3
 
 
 
 ]
-\openout2 = `capitulos/indice2.aux'.
+\openout2 = `capitulos/resumen.aux'.
 
- (capitulos/indice2.tex (tesis.lof
+ (capitulos/resumen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+) [4
+
+
+
+]
+\openout2 = `capitulos/abstract.aux'.
+
+ (capitulos/abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+) [5
+
+
+
+]
+\openout2 = `capitulos/indice.aux'.
+
+ (capitulos/indice.tex (tesis.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lof=\write5
-\openout5 = `tesis.lof'.
-
-) [8
+ [0
 
 
 
-]
+])
+\tf@toc=\write5
+\openout5 = `tesis.toc'.
+
+) [1]
 \openout2 = `capitulos/introduccion.aux'.
 
  (capitulos/introduccion.tex
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 2.
+(Font)              scaled to size 19.70294pt on input line 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
@@ -497,27 +587,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
@@ -625,7 +715,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<imagenes/Comparacion-arquitecturas-1024x535.png, id=55, 1027.84pt x 537.00626pt>
+<imagenes/Comparacion-arquitecturas-1024x535.png, id=67, 1027.84pt x 537.00626pt>
 File: imagenes/Comparacion-arquitecturas-1024x535.png Graphic file (type png)
 <use imagenes/Comparacion-arquitecturas-1024x535.png>
 Package pdftex.def Info: imagenes/Comparacion-arquitecturas-1024x535.png  used on input line 81.
@@ -663,7 +753,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<imagenes/capas.jpg, id=60, 2150.78531pt x 1331.72531pt>
+<imagenes/capas.jpg, id=72, 2150.78531pt x 1331.72531pt>
 File: imagenes/capas.jpg Graphic file (type jpg)
 <use imagenes/capas.jpg>
 Package pdftex.def Info: imagenes/capas.jpg  used on input line 105.
@@ -705,8 +795,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [10 <./imagenes/capas.jpg>] [11]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 168.
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 168.
 
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
@@ -723,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
  []
 
 [12]
-<imagenes/myArquitecture2.jpg, id=75, 588.69937pt x 307.90031pt>
+<imagenes/myArquitecture2.jpg, id=86, 588.69937pt x 307.90031pt>
 File: imagenes/myArquitecture2.jpg Graphic file (type jpg)
 <use imagenes/myArquitecture2.jpg>
 Package pdftex.def Info: imagenes/myArquitecture2.jpg  used on input line 179.
@@ -739,7 +827,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 181.
 See the caption package documentation for explanation.
 
-<imagenes/vista de implementación.jpg, id=76, 344.03531pt x 268.00125pt>
+<imagenes/vista de implementación.jpg, id=87, 344.03531pt x 268.00125pt>
 File: imagenes/vista de implementación.jpg Graphic file (type jpg)
 <use imagenes/vista de implementación.jpg>
 Package pdftex.def Info: imagenes/vista de implementación.jpg  used on input line 194.
@@ -759,7 +847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
-<imagenes/perception_image.jpg, id=80, 908.39375pt x 483.8075pt>
+<imagenes/perception_image.jpg, id=92, 908.39375pt x 483.8075pt>
 File: imagenes/perception_image.jpg Graphic file (type jpg)
 <use imagenes/perception_image.jpg>
 Package pdftex.def Info: imagenes/perception_image.jpg  used on input line 207.
@@ -789,7 +877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-<imagenes/formas expositivas.jpg, id=84, 362.85562pt x 218.31563pt>
+<imagenes/formas expositivas.jpg, id=96, 362.85562pt x 218.31563pt>
 File: imagenes/formas expositivas.jpg Graphic file (type jpg)
 <use imagenes/formas expositivas.jpg>
 Package pdftex.def Info: imagenes/formas expositivas.jpg  used on input line 231.
@@ -862,22 +950,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
+<imagenes/gráfica_comparativa_variables_medioambientales.png, id=109, 623.32875pt x 200.24812pt>
+File: imagenes/gráfica_comparativa_variables_medioambientales.png Graphic file (type png)
+<use imagenes/gráfica_comparativa_variables_medioambientales.png>
+Package pdftex.def Info: imagenes/gráfica_comparativa_variables_medioambientales.png  used on input line 325.
+(pdftex.def)             Requested size: 455.25447pt x 142.27188pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-
+Overfull \hbox (2.28621pt too wide) in paragraph at lines 325--326
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 327.
+See the caption package documentation for explanation.
 
- []
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 327.
+See the caption package documentation for explanation.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 324--77
+Underfull \hbox (badness 10000) in paragraph at lines 336--85
 
  []
 
-[19]
+[19 <./imagenes/gráfica_comparativa_variables_medioambientales.png>]
 \openout2 = `capitulos/capitulo2.aux'.
 
  (capitulos/capitulo2.tex
@@ -887,7 +985,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-<imagenes/vista 3D.jpg, id=101, 1191.45125pt x 762.85pt>
+<imagenes/vista 3D.jpg, id=114, 1191.45125pt x 762.85pt>
 File: imagenes/vista 3D.jpg Graphic file (type jpg)
 <use imagenes/vista 3D.jpg>
 Package pdftex.def Info: imagenes/vista 3D.jpg  used on input line 17.
@@ -902,7 +1000,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 19.
 See the caption package documentation for explanation.
 
-<imagenes/esquematico nodo.jpg, id=102, 967.615pt x 662.475pt>
+<imagenes/esquematico nodo.jpg, id=115, 967.615pt x 662.475pt>
 File: imagenes/esquematico nodo.jpg Graphic file (type jpg)
 <use imagenes/esquematico nodo.jpg>
 Package pdftex.def Info: imagenes/esquematico nodo.jpg  used on input line 25.
@@ -935,13 +1033,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
  []
 
-<imagenes/esp-12F.jpeg, id=109, 179.16937pt x 152.06813pt>
+<imagenes/esp-12F.jpeg, id=122, 179.16937pt x 152.06813pt>
 File: imagenes/esp-12F.jpeg Graphic file (type jpg)
 <use imagenes/esp-12F.jpeg>
 Package pdftex.def Info: imagenes/esp-12F.jpeg  used on input line 68.
 (pdftex.def)             Requested size: 113.81229pt x 113.81413pt.
 [22 <./imagenes/esp-12F.jpeg>]
-<imagenes/esp-12F especificaciones.jpg, id=114, 342.5297pt x 462.97969pt>
+<imagenes/esp-12F especificaciones.jpg, id=126, 342.5297pt x 462.97969pt>
 File: imagenes/esp-12F especificaciones.jpg Graphic file (type jpg)
 <use imagenes/esp-12F especificaciones.jpg>
 Package pdftex.def Info: imagenes/esp-12F especificaciones.jpg  used on input line 94.
@@ -957,7 +1055,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 96.
 See the caption package documentation for explanation.
 
-<imagenes/esp-12F pinout.jpg, id=115, 395.22656pt x 254.45062pt>
+<imagenes/esp-12F pinout.jpg, id=127, 395.22656pt x 254.45062pt>
 File: imagenes/esp-12F pinout.jpg Graphic file (type jpg)
 <use imagenes/esp-12F pinout.jpg>
 Package pdftex.def Info: imagenes/esp-12F pinout.jpg  used on input line 103.
@@ -975,7 +1073,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imagenes/esp-12F dimensiones.jpg, id=116, 491.58656pt x 365.11406pt>
+<imagenes/esp-12F dimensiones.jpg, id=128, 491.58656pt x 365.11406pt>
 File: imagenes/esp-12F dimensiones.jpg Graphic file (type jpg)
 <use imagenes/esp-12F dimensiones.jpg>
 Package pdftex.def Info: imagenes/esp-12F dimensiones.jpg  used on input line 111.
@@ -1023,7 +1121,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 199.
 See the caption package documentation for explanation.
 
-<imagenes/dht22.jpg, id=123, 459.7175pt x 459.7175pt>
+<imagenes/dht22.jpg, id=135, 459.7175pt x 459.7175pt>
 File: imagenes/dht22.jpg Graphic file (type jpg)
 <use imagenes/dht22.jpg>
 Package pdftex.def Info: imagenes/dht22.jpg  used on input line 210.
@@ -1046,7 +1144,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-<imagenes/dht22 dimensiones.jpg, id=124, 377.15906pt x 317.68687pt>
+<imagenes/dht22 dimensiones.jpg, id=136, 377.15906pt x 317.68687pt>
 File: imagenes/dht22 dimensiones.jpg Graphic file (type jpg)
 <use imagenes/dht22 dimensiones.jpg>
 Package pdftex.def Info: imagenes/dht22 dimensiones.jpg  used on input line 220.
@@ -1065,7 +1163,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [25]
-<imagenes/mh-z19c.png, id=128, 347.79938pt x 225.09094pt>
+<imagenes/mh-z19c.png, id=141, 347.79938pt x 225.09094pt>
 File: imagenes/mh-z19c.png Graphic file (type png)
 <use imagenes/mh-z19c.png>
 Package pdftex.def Info: imagenes/mh-z19c.png  used on input line 233.
@@ -1081,7 +1179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
  []
 
 [26 <./imagenes/dht22.jpg> <./imagenes/dht22 dimensiones.jpg> <./imagenes/mh-z19c.png>]
-<imagenes/sensor-piezoelectrico.jpg, id=132, 286.06876pt x 190.46156pt>
+<imagenes/sensor-piezoelectrico.jpg, id=145, 286.06876pt x 190.46156pt>
 File: imagenes/sensor-piezoelectrico.jpg Graphic file (type jpg)
 <use imagenes/sensor-piezoelectrico.jpg>
 Package pdftex.def Info: imagenes/sensor-piezoelectrico.jpg  used on input line 257.
@@ -1091,7 +1189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
-<imagenes/Sensor SDS011.jpg, id=133, 416.55624pt x 451.6875pt>
+<imagenes/Sensor SDS011.jpg, id=146, 416.55624pt x 451.6875pt>
 File: imagenes/Sensor SDS011.jpg Graphic file (type jpg)
 <use imagenes/Sensor SDS011.jpg>
 Package pdftex.def Info: imagenes/Sensor SDS011.jpg  used on input line 281.
@@ -1106,7 +1204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-<imagenes/sensor LDR.png, id=137, 1479.5275pt x 1100.11pt>
+<imagenes/sensor LDR.png, id=150, 1479.5275pt x 1100.11pt>
 File: imagenes/sensor LDR.png Graphic file (type png)
 <use imagenes/sensor LDR.png>
 Package pdftex.def Info: imagenes/sensor LDR.png  used on input line 305.
@@ -1116,7 +1214,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
-<imagenes/ldr.jpg, id=142, 237.13594pt x 204.765pt>
+<imagenes/ldr.jpg, id=154, 237.13594pt x 204.765pt>
 File: imagenes/ldr.jpg Graphic file (type jpg)
 <use imagenes/ldr.jpg>
 Package pdftex.def Info: imagenes/ldr.jpg  used on input line 314.
@@ -1141,7 +1239,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
-<imagenes/Sensor BH1750.jpg, id=143, 1505.625pt x 1505.625pt>
+<imagenes/Sensor BH1750.jpg, id=155, 1505.625pt x 1505.625pt>
 File: imagenes/Sensor BH1750.jpg Graphic file (type jpg)
 <use imagenes/Sensor BH1750.jpg>
 Package pdftex.def Info: imagenes/Sensor BH1750.jpg  used on input line 329.
@@ -1150,7 +1248,7 @@ Package pdftex.def Info: imagenes/Sensor BH1750.jpg  used on input line 329.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 <./imagenes/sensor LDR.png> <./imagenes/ldr.jpg>]
-<imagenes/acondicionamientos sensor BH1750.jpg, id=148, 527.72156pt x 293.59688pt>
+<imagenes/acondicionamientos sensor BH1750.jpg, id=160, 527.72156pt x 293.59688pt>
 File: imagenes/acondicionamientos sensor BH1750.jpg Graphic file (type jpg)
 <use imagenes/acondicionamientos sensor BH1750.jpg>
 Package pdftex.def Info: imagenes/acondicionamientos sensor BH1750.jpg  used on input line 347.
@@ -1191,7 +1289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
-<imagenes/esquematico RT9013.pdf, id=152, 368.37625pt x 392.46625pt>
+<imagenes/esquematico RT9013.pdf, id=164, 368.37625pt x 392.46625pt>
 File: imagenes/esquematico RT9013.pdf Graphic file (type pdf)
 <use imagenes/esquematico RT9013.pdf>
 Package pdftex.def Info: imagenes/esquematico RT9013.pdf  used on input line 385.
@@ -1207,7 +1305,7 @@ Package caption Warning: \subcaption
 See the caption package documentation for explanation.
 
 [31]
-<imagenes/acondicionamiento RT9013.jpg, id=156, 280.79906pt x 155.83218pt>
+<imagenes/acondicionamiento RT9013.jpg, id=169, 280.79906pt x 155.83218pt>
 File: imagenes/acondicionamiento RT9013.jpg Graphic file (type jpg)
 <use imagenes/acondicionamiento RT9013.jpg>
 Package pdftex.def Info: imagenes/acondicionamiento RT9013.jpg  used on input line 393.
@@ -1224,7 +1322,7 @@ Package caption Warning: \subcaption
 See the caption package documentation for explanation.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 401--80
+Underfull \hbox (badness 10000) in paragraph at lines 401--88
 
  []
 
@@ -1260,19 +1358,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--80
 ] [37])) [38] (tesis.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/indice3.aux) (capitulos/indice2.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux)) ) 
+ (capitulos/carátula2.aux) (capitulos/pagina_firmas.aux) (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/listado.aux) (capitulos/indice2.aux) (capitulos/indice3.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/apendix.aux) (capitulos/bibliografia.aux)) ) 
 Here is how much of TeX's memory you used:
- 8600 strings out of 478614
- 151554 string characters out of 2843123
- 459415 words of memory out of 3000000
- 26499 multiletter control sequences out of 15000+600000
+ 8896 strings out of 475389
+ 159710 string characters out of 2777000
+ 514798 words of memory out of 3000000
+ 29981 multiletter control sequences out of 15000+600000
  556597 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,19n,63p,1235b,462s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,19n,63p,1235b,464s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (47 pages, 3126583 bytes).
+Output written on tesis.pdf (50 pages, 3165596 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 217 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -96,6 +96,10 @@ INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex-dev\graphics\mathcolor.ltx
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex-dev\graphics\mathcolor.ltx
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex-dev\graphics\mathcolor.ltx
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex-dev\graphics\mathcolor.ltx
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
@@ -317,6 +321,28 @@ INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\apacite\apacite.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\apacite\apacite.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\apacite\apacite.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\apacite\apacite.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
@@ -401,12 +427,27 @@ INPUT tesis.aux
 INPUT .\caratula.aux
 INPUT caratula.aux
 INPUT caratula.aux
+INPUT .\capitulos\carátula2.aux
+INPUT capitulos\carátula2.aux
+INPUT capitulos\carátula2.aux
+INPUT .\capitulos\pagina_firmas.aux
+INPUT capitulos\pagina_firmas.aux
+INPUT capitulos\pagina_firmas.aux
 INPUT .\capitulos\dedicatoria.aux
 INPUT capitulos\dedicatoria.aux
 INPUT capitulos\dedicatoria.aux
 INPUT .\capitulos\agradecimientos.aux
 INPUT capitulos\agradecimientos.aux
 INPUT capitulos\agradecimientos.aux
+INPUT .\capitulos\listado.aux
+INPUT capitulos\listado.aux
+INPUT capitulos\listado.aux
+INPUT .\capitulos\indice2.aux
+INPUT capitulos\indice2.aux
+INPUT capitulos\indice2.aux
+INPUT .\capitulos\indice3.aux
+INPUT capitulos\indice3.aux
+INPUT capitulos\indice3.aux
 INPUT .\capitulos\resumen.aux
 INPUT capitulos\resumen.aux
 INPUT capitulos\resumen.aux
@@ -416,12 +457,6 @@ INPUT capitulos\abstract.aux
 INPUT .\capitulos\indice.aux
 INPUT capitulos\indice.aux
 INPUT capitulos\indice.aux
-INPUT .\capitulos\indice3.aux
-INPUT capitulos\indice3.aux
-INPUT capitulos\indice3.aux
-INPUT .\capitulos\indice2.aux
-INPUT capitulos\indice2.aux
-INPUT capitulos\indice2.aux
 INPUT .\capitulos\introduccion.aux
 INPUT capitulos\introduccion.aux
 INPUT capitulos\introduccion.aux
@@ -482,6 +517,48 @@ OUTPUT tesis.pdf
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\Migue\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\capitulos\carátula2.tex
+INPUT .\capitulos\carátula2.tex
+INPUT .\capitulos\carátula2.tex
+OUTPUT capitulos\carátula2.aux
+INPUT .\capitulos\carátula2.tex
+INPUT .\capitulos\carátula2.tex
+INPUT .\capitulos\carátula2.tex
+INPUT capitulos\carátula2.tex
+INPUT .\capitulos\carátula2.tex
+INPUT capitulos\carátula2.tex
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT imagenes\identidad en blanco y negro.jpg
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT .\capitulos\pagina_firmas.tex
+INPUT .\capitulos\pagina_firmas.tex
+INPUT .\capitulos\pagina_firmas.tex
+OUTPUT capitulos\pagina_firmas.aux
+INPUT .\capitulos\pagina_firmas.tex
+INPUT .\capitulos\pagina_firmas.tex
+INPUT .\capitulos\pagina_firmas.tex
+INPUT capitulos\pagina_firmas.tex
+INPUT .\capitulos\pagina_firmas.tex
+INPUT capitulos\pagina_firmas.tex
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT imagenes\identidad en blanco y negro.jpg
+INPUT .\imagenes\identidad en blanco y negro.jpg
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT .\capitulos\dedicatoria.tex
 INPUT .\capitulos\dedicatoria.tex
 INPUT .\capitulos\dedicatoria.tex
@@ -509,43 +586,31 @@ INPUT .\capitulos\agradecimientos.tex
 INPUT capitulos\agradecimientos.tex
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
-INPUT .\capitulos\resumen.tex
-INPUT .\capitulos\resumen.tex
-INPUT .\capitulos\resumen.tex
-OUTPUT capitulos\resumen.aux
-INPUT .\capitulos\resumen.tex
-INPUT .\capitulos\resumen.tex
-INPUT .\capitulos\resumen.tex
-INPUT capitulos\resumen.tex
-INPUT .\capitulos\resumen.tex
-INPUT capitulos\resumen.tex
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
-INPUT .\capitulos\abstract.tex
-INPUT .\capitulos\abstract.tex
-INPUT .\capitulos\abstract.tex
-OUTPUT capitulos\abstract.aux
-INPUT .\capitulos\abstract.tex
-INPUT .\capitulos\abstract.tex
-INPUT .\capitulos\abstract.tex
-INPUT capitulos\abstract.tex
-INPUT .\capitulos\abstract.tex
-INPUT capitulos\abstract.tex
-INPUT .\capitulos\indice.tex
-INPUT .\capitulos\indice.tex
-INPUT .\capitulos\indice.tex
-OUTPUT capitulos\indice.aux
-INPUT .\capitulos\indice.tex
-INPUT .\capitulos\indice.tex
-INPUT .\capitulos\indice.tex
-INPUT capitulos\indice.tex
-INPUT .\capitulos\indice.tex
-INPUT capitulos\indice.tex
+INPUT .\capitulos\listado.tex
+INPUT .\capitulos\listado.tex
+INPUT .\capitulos\listado.tex
+OUTPUT capitulos\listado.aux
+INPUT .\capitulos\listado.tex
+INPUT .\capitulos\listado.tex
+INPUT .\capitulos\listado.tex
+INPUT capitulos\listado.tex
+INPUT .\capitulos\listado.tex
+INPUT capitulos\listado.tex
+INPUT .\capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+OUTPUT capitulos\indice2.aux
+INPUT .\capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+INPUT capitulos\indice2.tex
+INPUT .\capitulos\indice2.tex
+INPUT capitulos\indice2.tex
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT .\tesis.toc
-INPUT tesis.toc
-INPUT tesis.toc
+INPUT .\tesis.lof
+INPUT tesis.lof
+INPUT tesis.lof
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -571,9 +636,9 @@ INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+OUTPUT tesis.lof
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
-OUTPUT tesis.toc
 INPUT .\capitulos\indice3.tex
 INPUT .\capitulos\indice3.tex
 INPUT .\capitulos\indice3.tex
@@ -588,20 +653,40 @@ INPUT .\tesis.lot
 INPUT tesis.lot
 INPUT tesis.lot
 OUTPUT tesis.lot
-INPUT .\capitulos\indice2.tex
-INPUT .\capitulos\indice2.tex
-INPUT .\capitulos\indice2.tex
-OUTPUT capitulos\indice2.aux
-INPUT .\capitulos\indice2.tex
-INPUT .\capitulos\indice2.tex
-INPUT .\capitulos\indice2.tex
-INPUT capitulos\indice2.tex
-INPUT .\capitulos\indice2.tex
-INPUT capitulos\indice2.tex
-INPUT .\tesis.lof
-INPUT tesis.lof
-INPUT tesis.lof
-OUTPUT tesis.lof
+INPUT .\capitulos\resumen.tex
+INPUT .\capitulos\resumen.tex
+INPUT .\capitulos\resumen.tex
+OUTPUT capitulos\resumen.aux
+INPUT .\capitulos\resumen.tex
+INPUT .\capitulos\resumen.tex
+INPUT .\capitulos\resumen.tex
+INPUT capitulos\resumen.tex
+INPUT .\capitulos\resumen.tex
+INPUT capitulos\resumen.tex
+INPUT .\capitulos\abstract.tex
+INPUT .\capitulos\abstract.tex
+INPUT .\capitulos\abstract.tex
+OUTPUT capitulos\abstract.aux
+INPUT .\capitulos\abstract.tex
+INPUT .\capitulos\abstract.tex
+INPUT .\capitulos\abstract.tex
+INPUT capitulos\abstract.tex
+INPUT .\capitulos\abstract.tex
+INPUT capitulos\abstract.tex
+INPUT .\capitulos\indice.tex
+INPUT .\capitulos\indice.tex
+INPUT .\capitulos\indice.tex
+OUTPUT capitulos\indice.aux
+INPUT .\capitulos\indice.tex
+INPUT .\capitulos\indice.tex
+INPUT .\capitulos\indice.tex
+INPUT capitulos\indice.tex
+INPUT .\capitulos\indice.tex
+INPUT capitulos\indice.tex
+INPUT .\tesis.toc
+INPUT tesis.toc
+INPUT tesis.toc
+OUTPUT tesis.toc
 INPUT .\capitulos\introduccion.tex
 INPUT .\capitulos\introduccion.tex
 INPUT .\capitulos\introduccion.tex
@@ -665,9 +750,6 @@ INPUT .\imagenes\capas.jpg
 INPUT .\imagenes\capas.jpg
 INPUT .\imagenes\capas.jpg
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\imagenes\myArquitecture2.jpg
 INPUT .\imagenes\myArquitecture2.jpg
 INPUT imagenes\myArquitecture2.jpg
@@ -696,6 +778,13 @@ INPUT .\imagenes\formas expositivas.jpg
 INPUT .\imagenes\formas expositivas.jpg
 INPUT .\imagenes\formas expositivas.jpg
 INPUT .\imagenes\formas expositivas.jpg
+INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
+INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
+INPUT imagenes\gráfica_comparativa_variables_medioambientales.png
+INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
+INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
+INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
+INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
@@ -872,12 +961,27 @@ INPUT tesis.aux
 INPUT .\caratula.aux
 INPUT caratula.aux
 INPUT caratula.aux
+INPUT .\capitulos\carátula2.aux
+INPUT capitulos\carátula2.aux
+INPUT capitulos\carátula2.aux
+INPUT .\capitulos\pagina_firmas.aux
+INPUT capitulos\pagina_firmas.aux
+INPUT capitulos\pagina_firmas.aux
 INPUT .\capitulos\dedicatoria.aux
 INPUT capitulos\dedicatoria.aux
 INPUT capitulos\dedicatoria.aux
 INPUT .\capitulos\agradecimientos.aux
 INPUT capitulos\agradecimientos.aux
 INPUT capitulos\agradecimientos.aux
+INPUT .\capitulos\listado.aux
+INPUT capitulos\listado.aux
+INPUT capitulos\listado.aux
+INPUT .\capitulos\indice2.aux
+INPUT capitulos\indice2.aux
+INPUT capitulos\indice2.aux
+INPUT .\capitulos\indice3.aux
+INPUT capitulos\indice3.aux
+INPUT capitulos\indice3.aux
 INPUT .\capitulos\resumen.aux
 INPUT capitulos\resumen.aux
 INPUT capitulos\resumen.aux
@@ -887,12 +991,6 @@ INPUT capitulos\abstract.aux
 INPUT .\capitulos\indice.aux
 INPUT capitulos\indice.aux
 INPUT capitulos\indice.aux
-INPUT .\capitulos\indice3.aux
-INPUT capitulos\indice3.aux
-INPUT capitulos\indice3.aux
-INPUT .\capitulos\indice2.aux
-INPUT capitulos\indice2.aux
-INPUT capitulos\indice2.aux
 INPUT .\capitulos\introduccion.aux
 INPUT capitulos\introduccion.aux
 INPUT capitulos\introduccion.aux
