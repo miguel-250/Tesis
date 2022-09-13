@@ -14,7 +14,7 @@
 \usepackage{subcaption}
 \usepackage{enumerate} %enumeraciones
 \usepackage{apacite}
-\usepackage{geometry}
+% \usepackage{geometry}
 \usepackage{float}
 \usepackage{anysize}
 \usepackage{wrapfig}
@@ -24,12 +24,12 @@
 \renewcommand{\cftfigfont}{Figura}
 \renewcommand{\cfttabfont}{Tabla}
 
-% \usepackage[left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm]{geometry} %Márgen
+\usepackage[left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm]{geometry} %Márgen
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\setlength{\parindent}{0pt} %Sangría
+\setlength{\parindent}{0cm} %Sangría
     \renewcommand{\baselinestretch}{1.5} %Interliniado
 
 \addto\captionspanish{
@@ -99,14 +99,13 @@
 %Recomendaciones
     \include{capitulos/recomendaciones}
 
-%Apéndice
-    \include{capitulos/apendix}
-
 %Bibliografía
     \include{capitulos/bibliografia}
+
+%Apéndice
+    \include{capitulos/apendix}
     
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \end{document}
