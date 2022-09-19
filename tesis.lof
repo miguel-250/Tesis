@@ -3,25 +3,25 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Comparación arquitecturas\relax }}{9}{}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Modelos de arquitecturas IoT basados en capas\relax }}{10}{}%
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Vista funcional de la arquitectura\relax }}{13}{}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Vista de implementación\relax }}{13}{}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Vista de implementación\relax }}{14}{}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Diagrama funcional de captura de datos\relax }}{14}{}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Ubicación piezas\relax }}{15}{}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Correlación de valores medioambientales\relax }}{19}{}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Ubicación piezas\relax }}{16}{}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Correlación de valores medioambientales\relax }}{20}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces PCB Nodo\relax }}{20}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquematico del circuito\relax }}{21}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ESP-12F\relax }}{22}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Especificaciones ESP-12F\relax }}{23}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ESP-12F Pinout\relax }}{24}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces ESP-12F Dimensiones\relax }}{24}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor DHT22\relax }}{26}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Dimensiones sensor DHT22\relax }}{26}{}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Sensor MH-Z19C\relax }}{26}{}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Sensor piezoeléctrico M0168\relax }}{27}{}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Sensor SDS011\relax }}{28}{}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Sensor LDR\relax }}{29}{}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Sensor LDR\relax }}{29}{}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Sensor BH1750\relax }}{30}{}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{30}{}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Configuración de pines\relax }}{32}{}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Acondicionamiento\relax }}{32}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces PCB Nodo\relax }}{21}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquematico del circuito\relax }}{22}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces ESP-12F\relax }}{23}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Especificaciones ESP-12F\relax }}{24}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ESP-12F Pinout\relax }}{25}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces ESP-12F Dimensiones\relax }}{25}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor DHT22\relax }}{27}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Dimensiones sensor DHT22\relax }}{28}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Sensor MH-Z19C\relax }}{28}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Sensor piezoeléctrico M0168\relax }}{29}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Sensor SDS011\relax }}{30}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Sensor LDR\relax }}{31}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Sensor LDR\relax }}{31}{}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Sensor BH1750\relax }}{32}{}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{32}{}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Configuración de pines\relax }}{34}{}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Acondicionamiento\relax }}{34}{}%

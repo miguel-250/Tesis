@@ -12,7 +12,7 @@ encargados de la captura de los datos del medio.\\
 Los nodos están diseñados sobre una placa de circuito impreso PCB (figura \ref{imag:pcb_nodo}) en la que se hizo el montaje de los componentes.
 El diseño está pensado para con el menor consumo posible recopilar la mayor cantidad de información.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=6cm, height=4cm]{imagenes/vista 3D.jpg}
     \caption{PCB Nodo}
@@ -20,7 +20,7 @@ El diseño está pensado para con el menor consumo posible recopilar la mayor ca
     \label{imag:pcb_nodo}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=12cm, height=8cm]{imagenes/esquematico nodo.jpg}
     \caption{Esquematico del circuito}
@@ -63,7 +63,7 @@ resources during minimal up-front development and operation. \cite{esp12}.\\
 
     El microcontrolador ESP-12F de Ai-Thinker (Figura \ref{imag:esp-12F}), basado en ESP8266.
 
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=4cm, height=4cm]{imagenes/esp-12F.jpeg}
         \caption{ESP-12F}
@@ -89,7 +89,7 @@ resources during minimal up-front development and operation. \cite{esp12}.\\
         \item General AT commands can be used quickly
     \end{itemize}
 
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=10cm, height=13cm]{imagenes/esp-12F especificaciones.jpg}
         \caption{Especificaciones ESP-12F}
@@ -98,7 +98,7 @@ resources during minimal up-front development and operation. \cite{esp12}.\\
     \end{figure}
 
     
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=6cm, height=4cm]{imagenes/esp-12F pinout.jpg}
         \caption{ESP-12F Pinout}
@@ -106,7 +106,7 @@ resources during minimal up-front development and operation. \cite{esp12}.\\
         \label{imag:esp-12F_pinout}
     \end{figure}
 
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=10cm, height=7cm]{imagenes/esp-12F dimensiones.jpg}
         \caption{ESP-12F Dimensiones}
@@ -161,8 +161,10 @@ resources during minimal up-front development and operation. \cite{esp12}.\\
 
 En la siguiente tabla se relacionan los mismos.
 
-\begin{table}[h]
+\begin{table}[H]
     \centering
+    \caption{Relación sensores}
+    \subcaption*{Fuente: Elaboración propia}
     \begin{tabular}{|c|c|c|cccc|}
     \hline
     \rowcolor[HTML]{9698ED} 
@@ -176,15 +178,15 @@ En la siguiente tabla se relacionan los mismos.
                                                   &                                                                 & LDR                                              & \multicolumn{1}{c|}{}                                                                        & \multicolumn{1}{c|}{}                                  & \multicolumn{1}{c|}{5v}                                                                                     & 10mA            \\ \cline{3-7} 
     \multirow{-2}{*}{5}                           & \multirow{-2}{*}{Luz}                                           & BH1750                                           & \multicolumn{1}{c|}{De 1 a 65535 lx}                                                         & \multicolumn{1}{c|}{20\%}                              & \multicolumn{1}{c|}{De 2.4v a 3.6v}                                                                         & 0.12mA          \\ \hline
     \end{tabular}
-    \caption{Relación sensores}
-    \subcaption*{Fuente: Elaboración propia}
     \label{tab:relacion_sensores}
 \end{table}
 
 Se tomaron precios de referencia de los sensores de las páginas oficiales de compras online Amazon y Aliexpress para tener una idea del coste de montaje de los nodos.\\
 
-\begin{table}[h]
+\begin{table}[H]
     \centering
+    \caption{Relación precios de referencia}
+    \subcaption*{Fuente: Elavoración propia}
     \begin{tabular}{|c|c|c|}
     \hline
     \textbf{Sensor} & \textbf{Precio Amazon (U)} & \textbf{Precio Aliexpress (U)} \\ \hline
@@ -195,8 +197,6 @@ Se tomaron precios de referencia de los sensores de las páginas oficiales de co
     LDR             & 14.50 \$                   & 0.82 \$                        \\ \hline
     BH1750          & -                          & 8.46 \$                        \\ \hline
     \end{tabular}
-    \caption{Relación precios de referencia}
-    \subcaption*{Fuente: Elavoración propia}
     \label{tab: precios_referencia}
 \end{table}
 
@@ -205,7 +205,7 @@ Se tomaron precios de referencia de los sensores de las páginas oficiales de co
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.1\hspace{5mm}Sensor DHT22}
         \textbf{2.2.1.1\hspace{5mm}Sensor DHT22}
 
-  \begin{figure}[h]
+  \begin{figure}[H]
       \centering
       \includegraphics[width=5cm, height=5cm]{imagenes/dht22.jpg}
       \caption{Sensor DHT22}
@@ -215,7 +215,7 @@ Se tomaron precios de referencia de los sensores de las páginas oficiales de co
    
 El DHT22 (AM2302) es un sensor digital de temperatura y humedad relativa de buen rendimiento y de bajo costo. Integra un sensor capacitivo de humedad y un termistor para medir el aire circundante, y muestra los datos mediante una señal digital en el pin de datos (no posee salida analógica).\\
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=8cm, height=6cm]{imagenes/dht22 dimensiones.jpg}
     \caption{Dimensiones sensor DHT22}
@@ -228,7 +228,7 @@ El DHT22 (AM2302) es un sensor digital de temperatura y humedad relativa de buen
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.2\hspace{5mm}Sensor MZ-Z19C}
         \textbf{2.2.1.2\hspace{5mm}Sensor MZ-Z19C}
 
-\begin{figure}[h]
+\begin{figure}[H]
       \centering
       \includegraphics[width=5cm, height=3cm]{imagenes/mh-z19c.png}
       \caption{Sensor MH-Z19C}
@@ -252,7 +252,7 @@ El sensor de gas de dióxido de carbono MH-Z19C es un pequeño sensor inteligent
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.3\hspace{5mm}Sensor M0168}
         \textbf{2.2.1.3\hspace{5mm}Sensor M0168}
 
-\begin{figure}[h]
+\begin{figure}[H]
       \centering
       \includegraphics[width=6.5cm, height=5cm]{imagenes/sensor-piezoelectrico.jpg}
       \caption{Sensor piezoeléctrico M0168}
@@ -276,7 +276,7 @@ En este sensor piezoeléctrico cuando el choque de la cerámica con la lámina m
 
 \vspace{1cm}
 
-\begin{figure}[h]
+\begin{figure}[H]
       \centering
       \includegraphics[width=4.5cm, height=4.5cm]{imagenes/Sensor SDS011.jpg}
       \caption{Sensor SDS011}
@@ -300,7 +300,7 @@ Se basa en el principio de dispersión láser: se puede inducir la dispersión d
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.5\hspace{5mm}Sensor LDR}
         \textbf{2.2.1.5\hspace{5mm}Sensor LDR}\newline
 
-\begin{figure}[h]
+\begin{figure}[H]
       \centering
       \includegraphics[width=5.5cm, height=4cm]{imagenes/sensor LDR.png}
       \caption{Sensor LDR}
@@ -309,7 +309,7 @@ Se basa en el principio de dispersión láser: se puede inducir la dispersión d
 
 Una fotorresistencia es un componente electrónico cuya resistencia disminuye con el aumento de la intensidad de la luz incidente. Puede también ser llamado fotorresistor, fotoconductor, célula fotoeléctrica o resistor dependiente de la luz, cuyas siglas, LDR, se originan de su nombre en inglés light-dependent resistor.\\
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=4.5cm, height=4cm]{imagenes/ldr.jpg}
     \caption{Sensor LDR}
@@ -324,7 +324,7 @@ Una fotorresistencia es un componente electrónico cuya resistencia disminuye co
 
 El Módulo BH1750 es un sensor de iluminación digital para medición de flujo luminoso (iluminancia) de la empresa Rohm Semiconductor. Componente que posee dentro de su arquitectura interna, un conversor análogo digital (ADC) de 16 bits con una salida digital de formato I2C, que facilita la integración con microcontroladores o sistemas embebidos diversos. Este módulo entrega la intensidad luminosa directamente en unidades de Lux que es equivalente a Lumen/m2.\\
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=5cm, height=4cm]{imagenes/Sensor BH1750.jpg}
     \caption{Sensor BH1750}
@@ -342,7 +342,7 @@ El Módulo BH1750 es un sensor de iluminación digital para medición de flujo l
 Para su correcto funcionamiento, este sensor debe ir acompañado de una serie de componentes electrónicos para su acondicionamiento.
 En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicionamiento brindado por el fabricante.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=11cm, height=7cm]{imagenes/acondicionamientos sensor BH1750.jpg}
     \caption{Acondicionamiento sensor BH1750}
@@ -380,7 +380,7 @@ The RT9013 consumes typical 0.7uA in shutdown mode and has fast turn-on time les
 
 \vspace{1cm}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=5.5cm, height=6cm]{imagenes/esquematico RT9013.pdf}
     \caption{Configuración de pines}
@@ -388,7 +388,7 @@ The RT9013 consumes typical 0.7uA in shutdown mode and has fast turn-on time les
     \label{imag:pines_RT9013}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=12cm, height=7cm]{imagenes/acondicionamiento RT9013.jpg}
     \caption{Acondicionamiento}
