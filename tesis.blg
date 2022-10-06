@@ -36,65 +36,64 @@ A level-1 auxiliary file: capitulos/recomendaciones.aux
 Reallocating 'name_of_file' (item size: 1) to 27 items.
 A level-1 auxiliary file: capitulos/bibliografia.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
-Reallocating 'name_of_file' (item size: 1) to 8 items.
-The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: ieeetran.bst
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: capitulos/apendix.aux
-Reallocating 'glb_str_end' (item size: 4) to 20 items.
-Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
-Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: ref.bib
-apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--`others' not consistent with 6th ed. of the APA Manual
-Warning--No journal in evolucionIoT
-Warning--No journal in tcp/ip
-Warning--No journal in arquitecturaPaginaLuisGarcia
-Warning--No journal in rodriguezcodigo
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in evolucionIoT
+Warning--empty journal in arquitecturaPaginaLuisGarcia
+Warning--empty journal in tcp/ip
+Warning--empty journal in rodriguezcodigo
+
+Done.
 You've used 33 entries,
-            6951 wiz_defined-function locations,
-            1490 strings with 17496 characters,
-and the built_in function-call counts, 63428 in all, are:
-= -- 8001
-> -- 422
-< -- 3219
-+ -- 3362
-- -- 72
-* -- 4067
-:= -- 12005
-add.period$ -- 138
+            4087 wiz_defined-function locations,
+            1026 strings with 13748 characters,
+and the built_in function-call counts, 19313 in all, are:
+= -- 1651
+> -- 314
+< -- 148
++ -- 182
+- -- 52
+* -- 865
+:= -- 3220
+add.period$ -- 65
 call.type$ -- 33
-change.case$ -- 551
-chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 1483
-empty$ -- 2338
-format.name$ -- 626
-if$ -- 11894
+change.case$ -- 32
+chr.to.int$ -- 297
+cite$ -- 37
+duplicate$ -- 1499
+empty$ -- 1560
+format.name$ -- 60
+if$ -- 4432
 int.to.chr$ -- 0
-int.to.str$ -- 99
-missing$ -- 0
-newline$ -- 792
-num.names$ -- 264
-pop$ -- 942
+int.to.str$ -- 33
+missing$ -- 243
+newline$ -- 122
+num.names$ -- 33
+pop$ -- 490
 preamble$ -- 1
-purify$ -- 131
-quote$ -- 0
-skip$ -- 4252
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1548
 stack$ -- 0
-substring$ -- 3663
-swap$ -- 886
-text.length$ -- 87
+substring$ -- 733
+swap$ -- 1122
+text.length$ -- 49
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 2896
-warning$ -- 5
-while$ -- 219
-width$ -- 0
-write$ -- 909
-(There were 5 warnings)
+top$ -- 5
+type$ -- 33
+warning$ -- 4
+while$ -- 83
+width$ -- 35
+write$ -- 330
+(There were 4 warnings)

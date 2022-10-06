@@ -35,31 +35,17 @@ A continuación se describen por partes los elementos que componen dichos nodos.
 
     Un microcontrolador (abreviado: MCU) es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales, los cuales cumplen una tarea específica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y periféricos de entrada/salida.\\
 
-The ESP-12F WiFi module was developed by Ai-Thinker Technology. The core processor
-ESP8266 integrates the industry-leading Tensilica L106 ultra-low-power 32-bit micro MCU in
-a small package with 16-bit Lite mode, clocked at Supports 80 MHz and 160 MHz, supports
-RTOS, and integrates Wi-Fi MAC/BB/RF/PA/LNA.
+    El módulo WiFi ESP-12F fue desarrollado por Ai-Thinker Technology. El procesador central ESP8266 integra el micro MCU de 32 bits de potencia ultrabaja Tensilica L106 líder en la industria en un paquete pequeño con modo Lite de 16 bits, velocidad de reloj Admite 80 MHz y 160 MHz, admite RTOS e integra Wi-Fi MAC /BB/RF/PA/LNA.\\
 
-The ESP-12F WiFi module supports the standard IEEE802.11 b/g/n protocol, a complete
-TCP/IP protocol stack. Users can use this module to add networking capabilities to existing
-devices or to build separate network controllers.
+    El módulo WiFi ESP-12F es compatible con el protocolo estándar IEEE802.11 b/g/n, una pila completa de protocolos TCP/IP. Los usuarios pueden usar este módulo para agregar capacidades de red a los dispositivos existentes o para construir controladores de red separados.
 
-The ESP8266 is a high-performance wireless SOC that offers maximum utility at the lowest
-cost and unlimited possibilities for embedding WiFi functionality into other systems.
+    El ESP8266 es un SOC inalámbrico de alto rendimiento que ofrece la máxima utilidad al menor costo y posibilidades ilimitadas para integrar la funcionalidad WiFi en otros sistemas.
+    
+    El ESP8266 es una solución de red Wi-Fi completa y autónoma que puede funcionar de forma independiente o como un esclavo que se ejecuta en otras MCU anfitrionas. El ESP8266 es capaz de arrancar directamente desde una memoria flash externa cuando está alimentado por una aplicación y es el único procesador de aplicaciones en el dispositivo. El caché incorporado ayuda a mejorar el rendimiento del sistema y reduce los requisitos de memoria.\\
 
-The ESP8266 is a complete and self-contained WiFi network solution that can operate
-independently or as a slave running on other host MCUs. The ESP8266 is capable of booting
-directly from an external flash memory when it is powered by an application and is the only
-application processor in the device. The built-in cache helps improve system performance and
-reduce memory requirements.
+    En otro caso, el ESP8266 se encarga del acceso inalámbrico a Internet. Cuando se trata de la tarea del adaptador WiFi, se puede agregar a cualquier diseño basado en un microcontrolador. La conexión es simple y fácil, solo por interfaz SPI/SDIO o puerto I2C/UART.
 
-In another case, the ESP8266 is responsible for wireless Internet access. When it comes to
-the task of the WiFi adapter, it can be added to any micro controller-based design. The connection
-is simple and easy, just by SPI / SDIO interface or I2C / UART port. Just fine.
-
-The ESP8266's powerful on-chip processing and storage capabilities allow it to integrate
-sensors and other application-specific devices through the GPIO port, minimizing system
-resources during minimal up-front development and operation. \cite{esp12}.\\
+    Las potentes capacidades de almacenamiento y procesamiento en chip del ESP8266 le permiten integrar sensores y otros dispositivos específicos de la aplicación a través del puerto GPIO, lo que minimiza los recursos del sistema durante un desarrollo y una operación iniciales mínimos \cite{esp12}.\\
 
     El microcontrolador ESP-12F de Ai-Thinker (Figura \ref{imag:esp-12F}), basado en ESP8266.
 
@@ -144,6 +130,8 @@ resources during minimal up-front development and operation. \cite{esp12}.\\
     %    \item Entrada alimentación externa VIN (20V max).
     %\end{itemize}
 
+    \newpage
+
 \subsection{Sensores} \label{sec: sensores}
 
     La secuencia de sensores pertenecientes al sistema es selecta, puesto que se tomaron los sensores teniendo en cuenta varios factores:
@@ -157,7 +145,7 @@ resources during minimal up-front development and operation. \cite{esp12}.\\
         \item Precio
     \end{itemize}
 
-    \vspace{3cm}
+    \vspace{1cm}
 
 En la siguiente tabla se relacionan los mismos.
 
@@ -235,7 +223,7 @@ El DHT22 (AM2302) es un sensor digital de temperatura y humedad relativa de buen
       \label{imag:mh-z19c}
    \end{figure}
 
-El sensor de gas de dióxido de carbono MH-Z19C es un pequeño sensor inteligente de uso general que utiliza el principio del infrarrojo no disperso (NDIR) para detectar la presencia de CO2 en el aire.\\\\
+El sensor de gas de dióxido de carbono MH-Z19C es un pequeño sensor inteligente de uso general que utiliza el principio del infrarrojo no disperso (NDIR) para detectar la presencia de CO2 en el aire.\\
 
 \textbf{Otros datos}
 \begin{itemize}
@@ -270,6 +258,8 @@ En este sensor piezoeléctrico cuando el choque de la cerámica con la lámina m
     \item Interfaz Tipo: salida analógica
     \item Tamaño del artículo: 30mm x 23mm
 \end{itemize}
+
+\newpage
 
 \addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.4\hspace{5mm}Sensor SDS011}
         \textbf{2.2.1.4\hspace{5mm}Sensor SDS011}
@@ -358,24 +348,24 @@ En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicion
 
 Información obtenida del Datasheet que ofrece el fabricante...\\
 
-The RT9013 is a high-performance, 500mA LDO regulator, offering extremely high PSRR and ultra-low dropout. Ideal for portable RF and wireless applications with demanding performance and space requirements.\\
+El RT9013 es un regulador LDO de 500 mA de alto rendimiento que ofrece PSRR extremadamente alto y caída ultrabaja. Ideal para aplicaciones inalámbricas y de RF portátiles con requisitos exigentes de rendimiento y espacio.\\
 
-The RT9013 quiescent current as low as 25uA, further prolonging the battery life. The RT9013 also works with low-ESR ceramic capacitors, reducing the amount of board space necessary for power applications, critical in handheld wireless devices.\\
+La corriente de reposo RT9013 es tan baja como 25uA, lo que prolonga aún más la vida útil de la batería. El RT9013 también funciona con condensadores cerámicos de baja ESR, lo que reduce la cantidad de espacio de placa necesario para las aplicaciones de energía, lo que es fundamental en los dispositivos inalámbricos de mano.\\
 
-The RT9013 consumes typical 0.7uA in shutdown mode and has fast turn-on time less than 40us. The other features include ultra-low dropout voltage, high output accuracy, current limiting protection, and high ripple rejection ratio. Available in the SC-82, SOT-23-5, SC-70-5 and WDFN-6L 2x2 package.\\
+El RT9013 consume 0.7uA típicos en modo de apagado y tiene un tiempo de encendido rápido de menos de 40us. Las otras características incluyen voltaje de caída ultrabajo, alta precisión de salida, protección de limitación de corriente y alta relación de rechazo de ondulación. Disponible en el paquete SC-82, SOT-23-5, SC-70-5 y WDFN-6L 2x2.\\
 
 \textbf{Características}
 
 \begin{itemize}
-    \item Wide Operating Voltage Ranges : 2.2V to 5.5V
-    \item Low Dropout : 250mV at 500mA
-    \item Ultra-Low-Noise for RF Application
-    \item Ultra-Fast Response in Line/Load Transient
-    \item Current Limiting Protection
-    \item Thermal Shutdown Protection
-    \item High Power Supply Rejection Ratio
-    \item Output Only 1 uF Capacitor Required for Stability
-    \item TTL-Logic-Controlled Shutdown Input
+    \item Amplios rangos de voltaje de operación: 2.2V a 5.5V
+    \item Caída baja: 250mV a 500mA
+    \item Ruido ultrabajo para aplicaciones de RF
+    \item Respuesta ultrarrápida en transitorios de línea/carga
+    \item Protección de limitación de corriente
+    \item Protección de apagado térmico
+    \item Tasa de rechazo de fuente de alimentación alta
+    \item A la salida solo se requiere 1 uF de condensador para la estabilidad
+    \item Entrada de apagado controlado por lógica TTL
 \end{itemize}
 
 \vspace{1cm}
@@ -395,6 +385,19 @@ The RT9013 consumes typical 0.7uA in shutdown mode and has fast turn-on time les
     \subcaption*{Fuente: Datasheet fabricante}
     \label{imag:acondicionamiento_RT9013}
 \end{figure}
+
+\newpage
+
+\section{Condiciones medioambientales...} \label{sec: condiciones_medioambientales}
+
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=16cm, height=5cm]{imagenes/gráfica_comparativa_variables_medioambientales.png}
+        \caption{Correlación de valores medioambientales}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{imag:grafica_condiciones_medioambientales}
+    \end{figure}
 
 
 \addcontentsline{toc}{section}{Conclusiones}
