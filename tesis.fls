@@ -496,9 +496,6 @@ INPUT capitulos\recomendaciones.aux
 INPUT .\capitulos\bibliografia.aux
 INPUT capitulos\bibliografia.aux
 INPUT capitulos\bibliografia.aux
-INPUT .\capitulos\apendix.aux
-INPUT capitulos\apendix.aux
-INPUT capitulos\apendix.aux
 OUTPUT tesis.aux
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -970,16 +967,6 @@ INPUT .\tesis.bbl
 INPUT tesis.bbl
 INPUT .\tesis.bbl
 INPUT tesis.bbl
-INPUT .\capitulos\apendix.tex
-INPUT .\capitulos\apendix.tex
-INPUT .\capitulos\apendix.tex
-OUTPUT capitulos\apendix.aux
-INPUT .\capitulos\apendix.tex
-INPUT .\capitulos\apendix.tex
-INPUT .\capitulos\apendix.tex
-INPUT capitulos\apendix.tex
-INPUT .\capitulos\apendix.tex
-INPUT capitulos\apendix.tex
 INPUT tesis.aux
 INPUT .\caratula.aux
 INPUT caratula.aux
@@ -1032,9 +1019,6 @@ INPUT capitulos\recomendaciones.aux
 INPUT .\capitulos\bibliografia.aux
 INPUT capitulos\bibliografia.aux
 INPUT capitulos\bibliografia.aux
-INPUT .\capitulos\apendix.aux
-INPUT capitulos\apendix.aux
-INPUT capitulos\apendix.aux
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\type1\urw\arial\ua1b8a.pfb
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\type1\urw\arial\ua1b8a.pfb

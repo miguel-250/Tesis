@@ -21,10 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{evolucionIoT}
-D.~Evans, ``How the next evolution of the internet is changing everything.''
-  vol. Cisco Internet of Things White Paper, 2012.
-
 \bibitem{agriculturaPrecision}
 C.~M. . C.~G. Quiroga~E., Jaramillo~S., ``Propuesta de una arquitectura para
   agricultura de precisión soportada en iot,'' \emph{Revista RISTI}, no.~24,

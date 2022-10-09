@@ -38,8 +38,6 @@ A level-1 auxiliary file: capitulos/bibliografia.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: ieeetran.bst
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: capitulos/apendix.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -49,51 +47,50 @@ Database file #1: ref.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in evolucionIoT
 Warning--empty journal in arquitecturaPaginaLuisGarcia
 Warning--empty journal in tcp/ip
 Warning--empty journal in rodriguezcodigo
 
 Done.
-You've used 33 entries,
+You've used 32 entries,
             4087 wiz_defined-function locations,
-            1026 strings with 13748 characters,
-and the built_in function-call counts, 19313 in all, are:
-= -- 1651
-> -- 314
-< -- 148
-+ -- 182
-- -- 52
-* -- 865
-:= -- 3220
-add.period$ -- 65
-call.type$ -- 33
-change.case$ -- 32
+            1019 strings with 13591 characters,
+and the built_in function-call counts, 18957 in all, are:
+= -- 1622
+> -- 310
+< -- 147
++ -- 180
+- -- 51
+* -- 851
+:= -- 3151
+add.period$ -- 63
+call.type$ -- 32
+change.case$ -- 31
 chr.to.int$ -- 297
-cite$ -- 37
-duplicate$ -- 1499
-empty$ -- 1560
-format.name$ -- 60
-if$ -- 4432
+cite$ -- 35
+duplicate$ -- 1466
+empty$ -- 1528
+format.name$ -- 59
+if$ -- 4355
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 243
-newline$ -- 122
-num.names$ -- 33
-pop$ -- 490
+int.to.str$ -- 32
+missing$ -- 237
+newline$ -- 119
+num.names$ -- 32
+pop$ -- 476
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1548
+skip$ -- 1518
 stack$ -- 0
-substring$ -- 733
-swap$ -- 1122
-text.length$ -- 49
+substring$ -- 732
+swap$ -- 1104
+text.length$ -- 48
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 33
-warning$ -- 4
-while$ -- 83
-width$ -- 35
-write$ -- 330
-(There were 4 warnings)
+type$ -- 32
+warning$ -- 3
+while$ -- 82
+width$ -- 34
+write$ -- 322
+(There were 3 warnings)
