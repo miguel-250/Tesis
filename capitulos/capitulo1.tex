@@ -3,10 +3,7 @@
 \addcontentsline{toc}{section}{Introducción}
         \textbf{\Large Introducción}\newline
 
-        En este capítulo estaremos desglosando por secciones el análisis de la trascendencia de la aplicación del Internet de las Cosas en los museos en el ámbito internacional, así como la aplicación en los museos de nuestro país.
-        Se hace un análisis de las arquitecturas propuestas por otros autores y la proposición de una para el proyecto tomando como base la arquitectura descentralizada.
-        También se tienen en cuenta las variables que se miden en los museos para evitar el deterioro de los objetos y los sensores a emplear para la captura de los datos y se analiza el medio de comunicación más viable y efectiva de traspaso de datos desde un punto a otro de la arquitectura del sistema.
-    
+            
     \section{Internet de las Cosas en museos internacionales}\label{sec:iotMundo}
         
         En la actualidad existen museos líderes en el tema de interacción con el público, como es el caso de los museos Digital Art Museum TeamLab Borderless de Japón y el Atelier de Lumieres de Francia. El primero de estos es un espacio que posee 10 mil metros cuadrados de proyección 3D, acompañados de juegos de luces y efectos especiales que llevan a los visitantes en medio de paisajes surrealistas. El segundo museo realiza macro proyecciones 360° de las obras más importantes de artistas como Van Gogh, Picasso, Chagall, entre otros. \cite{museoInterSalaLimpia}.\\
@@ -78,13 +75,13 @@
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=9cm, height=5cm]{imagenes/Comparacion-arquitecturas-1024x535}
+        \includegraphics[width=8cm, height=5cm]{imagenes/Comparacion-arquitecturas-1024x535}
         \caption{Comparación arquitecturas}
             \subcaption*{Fuente: \cite{arquitecturaPaginaLuisGarcia}}
         \label{imag:comparacionArquitecturas}
     \end{figure}
 
-    En la figura \ref{imag:comparacionArquitecturas} se desarrolla una comparación entre las arquitecturas de 3 capas, 5 capas y la arquitectura niebla.\\
+    En la figura \ref{imag:comparacionArquitecturas} se desarrolla una comparación entre las arquitecturas de 3 capas, 5 capas y la arquitectura niebla.
 
     Según \cite{capasIoTciberseguridad}, la mayoría de estas arquitecturas de IoT se basan en fundamentos básicos:
     \begin{itemize}
@@ -94,11 +91,9 @@
         \item Aplicaciones de usuario final.
     \end{itemize}
 
-    Existen varias arquitecturas, marcos de referencia o modelos conceptuales para IoT propuestos por organizaciones, comunidad académica y el sector empresarial. Las propuestas de arquitecturas pueden variar de autor en autor, en dependencia de la estructura del sistema IoT propuesto. Dichas arquitecturas son desarrolladas por capas en las que se agrupan los objetos, dispositivos, sensores, actuadores, entre otros. \cite{internetOfThingsStateOfTheArt} \cite{capasIoTciberseguridad}.
+    Existen varias arquitecturas, marcos de referencia o modelos conceptuales para IoT propuestos por organizaciones, comunidad académica y el sector empresarial. Las propuestas de arquitecturas pueden variar de autor en autor, en dependencia de la estructura del sistema IoT propuesto. Dichas arquitecturas son desarrolladas por capas en las que se agrupan los objetos, dispositivos, sensores, actuadores, entre otros. \cite{internetOfThingsStateOfTheArt} \cite{capasIoTciberseguridad}.\\
 
-    \newpage
-
-    En la figura \ref{imag:modelos_arquitecturas_iot} se presenta una comparativa de algunos modelos basados en capas.
+    En la figura \ref{imag:modelos_arquitecturas_iot} se representa una comparativa de algunos modelos basados en capas.
 
     \begin{figure}[H]
         \centering
@@ -107,6 +102,8 @@
         \subcaption*{Fuente: Elaboración propia}
         \label{imag:modelos_arquitecturas_iot}
     \end{figure}
+
+    En la tabla \ref{tab: referencias_capas} se muestra la relación de las referencias correspondientes a la figura \ref{imag:modelos_arquitecturas_iot}
 
     \begin{table}[H]
         \centering
@@ -241,7 +238,7 @@
         \begin{tabular}{|l|c|l|c|}
         \hline
         \rowcolor[HTML]{9698ED} 
-        \multicolumn{1}{|r|}{\cellcolor[HTML]{9698ED}Nodo} & \multicolumn{1}{r|}{\cellcolor[HTML]{9698ED}Ubicación}                      & Meterial objetos                                                                            & \multicolumn{1}{l|}{\cellcolor[HTML]{9698ED}Variable a medir}                                                                    \\ \hline
+        \multicolumn{1}{|r|}{\cellcolor[HTML]{9698ED}Nodo} & \multicolumn{1}{r|}{\cellcolor[HTML]{9698ED}Ubicación}                      & Material objetos                                                                            & \multicolumn{1}{l|}{\cellcolor[HTML]{9698ED}Variable a medir}                                                                    \\ \hline
         1                                                  & \begin{tabular}[c]{@{}c@{}}General\\ Sala 1\end{tabular}                    & porcelana, barro, marfil                                                                    & \begin{tabular}[c]{@{}c@{}}temperatura, humedad,\\ polución, luminosidad,\\ CO2, vibraciones, salitre,\\ xilófagos\end{tabular}  \\ \hline
         2                                                  &                                                                             & bronce, barro, arcilla, piedra                                                              &                                                                                                                                  \\ \cline{1-1} \cline{3-3}
         3                                                  &                                                                             & colección numismática                                                                       &                                                                                                                                  \\ \cline{1-1} \cline{3-3}

@@ -9,16 +9,23 @@
 Como se analizaba en el epígrafe \ref{subsec:capa_percepcion} la capa de percepción va caracterizada por la presencia del microcontrolador y los sensores que, en conjunto forman los nodos, siendo estos los
 encargados de la captura de los datos del medio.\\
 
-Los nodos están diseñados sobre una placa de circuito impreso PCB (figura \ref{imag:pcb_nodo}) en la que se hizo el montaje de los componentes.
-El diseño está pensado para con el menor consumo posible recopilar la mayor cantidad de información.
+Los nodos están diseñados sobre una placa de circuito impreso PCB (figura \ref{imag:pcb_nodo}).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=6cm, height=4cm]{imagenes/vista 3D.jpg}
+    \includegraphics[width=7cm, height=5cm]{imagenes/vista 3D.jpg}
     \caption{PCB Nodo}
     \subcaption*{Fuente: Elavoración propia}
     \label{imag:pcb_nodo}
 \end{figure}
+
+\textbf{¿Por qué esta placa y no un Arduino o un NodeMcu?}
+
+Al hablar de un microcontrolador como Arduino o NodeMcu se hace referencia a las posibilidades que brindan en cuanto a disponibilidad de pines GPIO. 
+
+En el caso de un microcontrolador Arduino, dígase Arduino UNO, NANO, Arduino Micro ... 
+
+Ahora, ¿por qué no se tomó ninguno de estos?
 
 \begin{figure}[H]
     \centering
@@ -345,8 +352,6 @@ En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicion
 \subsection{Alimentación}
 
 \textbf{Regulador LDO RT9013.}\newline
-
-Información obtenida del Datasheet que ofrece el fabricante...\\
 
 El RT9013 es un regulador LDO de 500 mA de alto rendimiento que ofrece PSRR extremadamente alto y caída ultrabaja. Ideal para aplicaciones inalámbricas y de RF portátiles con requisitos exigentes de rendimiento y espacio.\\
 
