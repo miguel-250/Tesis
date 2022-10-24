@@ -49,48 +49,49 @@ Database file #1: ref.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in arquitecturaPaginaLuisGarcia
 Warning--empty journal in tcp/ip
+Warning--empty journal in ripa2004termitas
 Warning--empty journal in rodriguezcodigo
 
 Done.
-You've used 32 entries,
+You've used 38 entries,
             4087 wiz_defined-function locations,
-            1019 strings with 13591 characters,
-and the built_in function-call counts, 18957 in all, are:
-= -- 1622
-> -- 310
-< -- 147
-+ -- 180
-- -- 51
-* -- 851
-:= -- 3151
-add.period$ -- 63
-call.type$ -- 32
-change.case$ -- 31
-chr.to.int$ -- 297
-cite$ -- 35
-duplicate$ -- 1466
-empty$ -- 1528
-format.name$ -- 59
-if$ -- 4355
+            1049 strings with 14391 characters,
+and the built_in function-call counts, 22986 in all, are:
+= -- 1977
+> -- 339
+< -- 196
++ -- 210
+- -- 49
+* -- 998
+:= -- 3791
+add.period$ -- 75
+call.type$ -- 38
+change.case$ -- 37
+chr.to.int$ -- 420
+cite$ -- 42
+duplicate$ -- 1762
+empty$ -- 1841
+format.name$ -- 53
+if$ -- 5311
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 237
-newline$ -- 119
-num.names$ -- 32
-pop$ -- 476
+int.to.str$ -- 38
+missing$ -- 263
+newline$ -- 137
+num.names$ -- 38
+pop$ -- 522
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1518
+skip$ -- 1850
 stack$ -- 0
-substring$ -- 732
-swap$ -- 1104
-text.length$ -- 48
+substring$ -- 1025
+swap$ -- 1343
+text.length$ -- 56
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 32
-warning$ -- 3
-while$ -- 82
-width$ -- 34
-write$ -- 322
-(There were 3 warnings)
+type$ -- 38
+warning$ -- 4
+while$ -- 109
+width$ -- 40
+write$ -- 376
+(There were 4 warnings)

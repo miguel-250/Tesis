@@ -31,22 +31,9 @@ P.~Diezma, ``Internet of things: la revoluci{\'o}n definitiva del arte, el ocio
   y la cultura en el siglo xxi,'' \emph{Anuario AC/E}, vol.~4, pp. 79--95,
   2017.
 
-\bibitem{museoInterSalaLimpia}
-O.~G. Corzo~Vargas \emph{et~al.}, ``Dom{\'o}tica del museo interactivo de sala
-  limpia,'' {B.S.} thesis, Uniandes, 2019.
-
-\bibitem{maloka}
-A.~S. Pinz{\'o}n~Ortega, M.~Franco~Avellaneda, and S.~Falla, ``Condiciones que
-  posibilitan el acceso a un museo de ciencias: an{\'a}lisis del caso maloka
-  (conditions that make possible the access to a science museum: Case study of
-  maloka science center),'' \emph{Trilog{\'\i}a Ciencia Tecnolog{\'\i}a
-  Sociedad}, vol.~7, no.~12, 2015.
-
-\bibitem{museoItalia}
-S.~Alletto, R.~Cucchiara, G.~Del~Fiore, L.~Mainetti, V.~Mighali, L.~Patrono,
-  and G.~Serra, ``An indoor location-aware system for an iot-based smart
-  museum,'' \emph{IEEE Internet of Things Journal}, vol.~3, no.~2, pp.
-  244--253, 2016.
+\bibitem{weber}
+R.~H. Weber, ``Internet of things-new security and privacy challenges,''
+  \emph{Computer law and security review}, vol.~1, no.~26, 2010.
 
 \bibitem{monumentoSanDomenico}
 A.~Chianese, F.~Piccialli, and J.~E. Jung, ``The internet of cultural things:
@@ -59,16 +46,52 @@ A.~Al-Habal and A.~Khattab, ``Ultra-low power layered iot platform for museum
   content conservation,'' in \emph{2019 31st International Conference on
   Microelectronics (ICM)}, 2019, pp. 86--89.
 
-\bibitem{proyectoIotdispositivoPortatil}
-K.~Sornalatha and V.~R. Kavitha, ``Iot based smart museum using bluetooth low
-  energy,'' in \emph{2017 Third International Conference on Advances in
-  Electrical, Electronics, Information, Communication and Bio-Informatics
-  (AEEICB)}, 2017, pp. 520--523.
+\bibitem{maksimovic}
+M.~M. y~M.~Cosovic, ``Preservation of cultural heritage sites using iot,''
+  \emph{18th International symposium infoteh-jahorina (infoteh)}, pp. 1--4,
+  2019.
 
-\bibitem{chinaSistemaSeguridadRFID}
-Z.~Liu, M.~Wang, S.~Qi, and C.~Yang, ``Study on the anti-theft technology of
-  museum cultural relics based on internet of things,'' \emph{IEEE Access},
-  vol.~7, 2019.
+\bibitem{shan}
+J.~S. y~B.~Mishra, ``Customized iot enabled wireless sensing and monitoring
+  platform for preservation of artwork in heritage buildings.''
+  \emph{International conference on wireless communications, signal processing
+  and networking (wispnet)}, pp. 361--366, 2016.
+
+\bibitem{marshall}
+M.~T. Marshall, ``Interacting with heritage: On the use and potential of iot
+  within the cultural heritage sector,'' \emph{Fith international conference on
+  internet of things: Systems, management and security}, pp. 15--22, 2018.
+
+\bibitem{ghosh}
+A.~R. y. S.~S. S.~Ghosh, ``A low cost virtual guide for next generation smart
+  museums.'' \emph{International conference on recent trends on electronics,
+  information, communication and technology (rteict)}, pp. 845--849, 2021.
+
+\bibitem{rao}
+y.~C. S.~N. A.~S.~Rao, A. V.~Sharma, ``A context aware system for an iot-based
+  smart museum.'' \emph{2nd International multidisciplinary conference on
+  computer and energy science (splitech)}, pp. 1--5, 2017.
+
+\bibitem{alletto}
+S.~A. y~cols., ``An indoor location-aware system for an iot-based smart
+  museum.'' \emph{IEEE Internet of Things Journal}, vol.~2, no.~3, pp.
+  244--253, 2015.
+
+\bibitem{alsuhly}
+G.~A. y~A.~Khattab, ``An iot monitoring and control platform for museum content
+  conservation.'' \emph{International conference on computer and applications
+  (icca)}, pp. 196--201, 2018.
+
+\bibitem{spachos}
+P.~S. y~K.~N.~Plataniotis, ``Ble beacons for indoor positioning at an
+  interactive iot-based smart museum.'' \emph{IEEE Systems Journal}, vol.~3,
+  no.~14, pp. 3483--3493, 2020.
+
+\bibitem{lopezmartinez}
+C.~A. I. y. A.~C. A.~Lopez-Martínez, ``Gamifid smart objects for museums based
+  on automatically generated quizzes exploting linked data.'' \emph{16th
+  international conference on intelligent environments (ie)}, pp. 132--139,
+  2020.
 
 \bibitem{oficinaHistoriadorRescatepatrimonio}
 G.~T. Quintero, ``La oficina del historiador de la habana al rescate del
@@ -160,6 +183,11 @@ P.~V. . P.~A. Botta~A., De Donato~W., ``Integration of cloud computing and
 
 \bibitem{tcp/ip}
 M.~Fernández~Barcell, ``Protocolo tcp/ip,'' 2014.
+
+\bibitem{ripa2004termitas}
+R.~Ripa, P.~Luppichini, J.~Krecek, M.~Lenz, J.~W. Creffield \emph{et~al.},
+  ``Termitas y otros insectos xil{\'o}fagos en chile: especies, biolog{\'\i}a y
+  manejo.'' 2004.
 
 \bibitem{monitoringMoisture}
 O.~M. Ivan~Araquistain, Jose Miguel~Abascal, ``Wireless sensor network

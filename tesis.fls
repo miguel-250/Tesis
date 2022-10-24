@@ -730,38 +730,22 @@ INPUT .\capitulos\capitulo1.tex
 INPUT capitulos\capitulo1.tex
 INPUT .\capitulos\capitulo1.tex
 INPUT capitulos\capitulo1.tex
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\arial\ts1ua1.fd
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\arial\ts1ua1.fd
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\arial\ts1ua1.fd
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\arial\ts1ua1.fd
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8c.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8c.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
 INPUT .\imagenes\Comparacion-arquitecturas-1024x535.png
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT .\imagenes\capas.jpg
 INPUT .\imagenes\capas.jpg
 INPUT imagenes\capas.jpg
@@ -769,7 +753,6 @@ INPUT .\imagenes\capas.jpg
 INPUT .\imagenes\capas.jpg
 INPUT .\imagenes\capas.jpg
 INPUT .\imagenes\capas.jpg
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
 INPUT .\imagenes\myArquitecture2.jpg
 INPUT .\imagenes\myArquitecture2.jpg
 INPUT imagenes\myArquitecture2.jpg
@@ -791,6 +774,13 @@ INPUT .\imagenes\perception_image.jpg
 INPUT .\imagenes\perception_image.jpg
 INPUT .\imagenes\perception_image.jpg
 INPUT .\imagenes\perception_image.jpg
+INPUT .\imagenes\sala_1.jpg
+INPUT .\imagenes\sala_1.jpg
+INPUT imagenes\sala_1.jpg
+INPUT .\imagenes\sala_1.jpg
+INPUT .\imagenes\sala_1.jpg
+INPUT .\imagenes\sala_1.jpg
+INPUT .\imagenes\sala_1.jpg
 INPUT .\imagenes\formas expositivas.jpg
 INPUT .\imagenes\formas expositivas.jpg
 INPUT imagenes\formas expositivas.jpg
@@ -798,6 +788,23 @@ INPUT .\imagenes\formas expositivas.jpg
 INPUT .\imagenes\formas expositivas.jpg
 INPUT .\imagenes\formas expositivas.jpg
 INPUT .\imagenes\formas expositivas.jpg
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1r8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8r.tfm
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex

@@ -1,58 +1,69 @@
-\chapter{Internet de las Cosas en los museos} \label{cap:aproxTeoricas}
+\chapter{Análisis Teórico de la Aplicación del Internet de las Cosas en los Museos} \label{cap:analisis_teorico}
 
 \addcontentsline{toc}{section}{Introducción}
         \textbf{\Large Introducción}\newline
 
-            
-    \section{Internet de las Cosas en museos internacionales}\label{sec:iotMundo}
+           
+    % \section{Patrimonio Cultural}
+
+    % Hay diversas perspectivas desde las que se puede afrontar una reflexión sobre el patrimonio. Podría comenzarse, por ejemplo, con un análisis formal del concepto; un enfoque que atienda no solo a su sentido etimológico o semántico, sino también al modo en que ha sido tratado en la literatura antropológica reciente. En este sentido, hablar de patrimonio es hablar de lo que se posee, de la hacienda y bienes -espirituales o materiales, muebles o inmuebles- de una persona, de una familia o de un grupo. De este concepto general se pueden seguir otras nociones derivadas, tales como patrimonio económico, patrimonio histórico o patrimonio cultural.
+
+    % El patrimonio cultural es la suma de todos los bienes culturales acumulados voluntariamente por una comunidad dada. Un bien cultural es determinado como tal, solo cuando la comunidad lo selecciona como elemento que debe ser conservado por poseer valores que trascienden su uso o función primitiva \cite{patrimonioCultural_Identidad}. Por su parte la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) define que lo comprenden las obras de sus artistas, arquitectos, músicos, escritores y sabios, así como las creaciones anónimas, surgidas del alma popular, y el conjunto de valores que dan sentido a la vida, es decir, las obras materiales y no materiales que expresan la creatividad de ese pueblo; la lengua, los ritos, las creencias, los lugares y monumentos históricos, la literatura, las obras de arte y los archivos y bibliotecas.
+
+    % El concepto que se define en Cuba en el Decreto No. 118 de la Ley No. 1, Ley de Protección al Patrimonio Cultural (1983), establece en su artículo 1 que: El patrimonio cultural de la nación está integrado por aquellos bienes, muebles e inmuebles, que son la expresión o el testimonio de la creación humana o de la evolución de la naturaleza y que tienen especial relevancia en relación con la arqueología, la prehistoria, la historia, la literatura, la educación, el arte, la ciencia y la cultura en general.
+ 
+    \section{Internet de las Cosas}
+
+    El IoT como arquitectura emergente basada en la Internet global presta la posibilidad de intercambio de bienes y servicios entre redes de la cadena de suministro y que tiene un impacto importante en la seguridad y privacidad de los actores involucrados \cite{weber}. 
+
+    \subsection{IoT en los museos internacionales}\label{sec:iotMundo}
         
-        En la actualidad existen museos líderes en el tema de interacción con el público, como es el caso de los museos Digital Art Museum TeamLab Borderless de Japón y el Atelier de Lumieres de Francia. El primero de estos es un espacio que posee 10 mil metros cuadrados de proyección 3D, acompañados de juegos de luces y efectos especiales que llevan a los visitantes en medio de paisajes surrealistas. El segundo museo realiza macro proyecciones 360° de las obras más importantes de artistas como Van Gogh, Picasso, Chagall, entre otros. \cite{museoInterSalaLimpia}.\\
-
-        En Maloka \footnote{Maloka es un museo interactivo que fomenta la pasión por el aprendizaje a partir de los lazos entre ciencia, tecnología, innovación y sociedad.}, Bogotá, las exhibiciones ponen a prueba los 5 sentidos de los visitantes, haciendo que tanto niños, como adultos disfruten un tiempo en familia repleto de nuevos conocimientos, incluyendo recorridos por salas interactivas y funciones de proyección de cine. \cite{maloka}.
-
-        En el museo MUST en Lecce, Italia, se llevó a cabo la instalación de un dispositivo portátil que combina el reconocimiento de imágenes y las capacidades de localización para proporcionar automáticamente a los usuarios contenidos culturales relacionados con las obras de arte observadas. La información de localización se obtiene mediante una infraestructura Bluetooth Low Energy \footnote{Bluetooth Low Energy es una tecnología de red de área personal inalámbrica, diseñada y comercializada por Bluetooth SIG destinada a aplicaciones en el cuidado de la salud, fitness y beacons, seguridad y las industrias de entretenimiento en el hogar} instalada en el museo. Además, el sistema interactúa con la Nube para almacenar contenidos multimedia producidos por el usuario y compartir eventos generados por el entorno en sus redes sociales. Estos servicios interactúan con dispositivos físicos a través de un middleware multiprotocolo. \cite{museoItalia}.
+        En el grupo de las bibliografías consultadas existen diversos ejemplos del empleo del IoT en los museos.
 
         En el caso del Conjunto Monumental de San Domenico Maggiore, ubicado en Nápoles (Italia), dentro del mismo se han transformado más de 270 esculturas en obras de arte parlantes. Equipado con un tablero de sensores, cada objeto puede proponerse automáticamente a los visitantes, compartiendo su historia en diferentes modalidades e idiomas, lo que permite un proceso de disfrute novedoso durante una experiencia cultural. \cite{monumentoSanDomenico}.
+    
+        En la Universidad de El Cairo, Egipto, desarrollaron un sistema para la conservación de las piezas en los museos, un sistema que no solo mide los atributos del entorno, sino que también mantiene la seguridad de los artefactos al detectar cualquier prueba de contacto o movimiento. También controla la intensidad de la luz en función de la ocupación de la sección del museo. Una característica diferenciadora del sistema es el diseño de energía ultrabaja de su nodo sensor que conduce a una larga vida útil de hasta 50 días. \cite{ultraLowPowerConservacion}.\\
+    
+        Estos son solo dos de los ejemplos. La tabla 1.2 muestra una relación de otros autores que emplean el IoT en los museos. Pero antes, para poder comprender la tabla 1.2 debemos definir una primera tabla en la que se le otorga a cada autor un número de manera tal que se entienda quien es cada autor. Por lo que se define la tabla 1.1:
 
-        En la Universidad de El Cairo, Egipto, desarrollaron un sistema para la conservación de las piezas en los museos, un sistema que no solo mide los atributos del entorno, sino que también mantiene la seguridad de los artefactos al detectar cualquier prueba de contacto o movimiento. También controla la intensidad de la luz en función de la ocupación de la sección del museo. Una característica diferenciadora del sistema es el diseño de energía ultrabaja de su nodo sensor que conduce a una larga vida útil de hasta 50 días. \cite{ultraLowPowerConservacion}.
-        
-        Existen otros proyectos de utilización del IoT en museos, tal es el caso del proyecto propuesto en el III Congreso Internacional de Avances en Electricidad, Electrónica, Información, Comunicación y Bioinformática en el año 2017. El proyecto consiste en el montaje de un sistema que se basa en un dispositivo portátil que captura el movimiento del usuario, realiza el algoritmo de sustracción de fondo para realizar el procesamiento de imágenes y obtiene la información de localización de un Bluetooth Low Energy (BLE).\cite{proyectoIotdispositivoPortatil}. En agosto del 2019, entre la Escuela de Ingeniería Electrónica, Universidad de Jiujiang y la Escuela de Ciencias de la Computación, Universidad de Wuhan, ambas de China elaboraron un artículo donde propusieron un esquema antirrobo para museos basado en la tecnología Internet of Things, que identifica si las reliquias culturales están dentro del rango seguro a través de lectores/escritores RFID (identificación por radiofrecuencia del inglés Radio Frequency Identification) pasivos \cite{chinaSistemaSeguridadRFID}.
+    \begin{table}[H]
+        \centering
+        \caption{Numeración autores}
+        \begin{tabular}{|c|c|}
+        \hline
+        \rowcolor[HTML]{9698ED} 
+        Autor & Numeración Asociada \\ \hline
+        Maksimovic y Cosovic \cite{maksimovic}     & 1                   \\ \hline
+        Shah y Mishra \cite{shan}     & 2                   \\ \hline
+        Marshall \cite{marshall}     & 3                   \\ \hline
+        Ghosh, Roy, y Saha \cite{ghosh}     & 4                   \\ \hline
+        Rao, Sharma, y Narayan \cite{rao}     & 5                   \\ \hline
+        Alletto y cols. \cite{alletto}     & 6                   \\ \hline
+        Alsuhly y Khattab \cite{alsuhly}     & 7                   \\ \hline
+        Spachos y Plataniotis \cite{spachos}     & 8                   \\ \hline
+        (Lopez-Martínez, Iglesias, y Carrera \cite{lopezmartinez}     & 9                   \\ \hline
+        \end{tabular}
+        \label{tab:numeracion_autores}
+    \end{table}
 
-        La siguiente tabla resume lo anterior expuesto.
-
-        \begin{table}[h!]
-            \centering
-            \caption{IoT Internacional}
-            \subcaption*{Fuente: Elaboración propia}
-            \begin{tabular}{|l|l|l|}
-                \hline
-                \rowcolor[HTML]{9698ED} 
-                Aplicación IoT                                                                                                                                                        & Lugar                                                                                            & Referencia                                                                                       \\ \hline
-                \begin{tabular}[c]{@{}l@{}}Proyección 3D y efectos\\ especiales\end{tabular}                                                                                          & \begin{tabular}[c]{@{}l@{}}Digital Art Museum TeamLab \\ Borderless de Japón\end{tabular}        & \begin{tabular}[c]{@{}l@{}}(Corzo Vargas\\ y cols., 2019)\end{tabular}                           \\ \hline
-                \begin{tabular}[c]{@{}l@{}}Proyecciones 360° de obras\\ importantes de artistas.\end{tabular}                                                                         & \begin{tabular}[c]{@{}l@{}}Atelier de Lumieres de \\ Francia.\end{tabular}                       & \begin{tabular}[c]{@{}l@{}}(Corzo Vargas\\ y cols., 2019).\end{tabular}                          \\ \hline
-                \begin{tabular}[c]{@{}l@{}}Recorridos por salas \\ interactivas y proyecciones\\ de cine.\end{tabular}                                                                & Maloka, Bogotá.                                                                                  & \begin{tabular}[c]{@{}l@{}}(Pinzón Ortega, \\ Franco Avellaneda, \\ y Falla, 2015).\end{tabular} \\ \hline
-                \begin{tabular}[c]{@{}l@{}}Reconocimiento de\\ imágenes y capacidades de\\ localización proporcionando\\ contenido cultural.\end{tabular}                             & Museo MUST en Lecce, Italia.                                                                     & (Alletto y cols., 2016).                                                                         \\ \hline
-                \begin{tabular}[c]{@{}l@{}}Obras de arte parlantes\\ equipadas con tableros de\\ sensores. Cada obra de arte\\ comparte su historia.\end{tabular}                     & \begin{tabular}[c]{@{}l@{}}Conjunto Monumental de San \\ Domenico Maggiore, Italia.\end{tabular} & \begin{tabular}[c]{@{}l@{}}(Chianese,\\ Piccialli, y Jung, 2016).\end{tabular}                   \\ \hline
-                \begin{tabular}[c]{@{}l@{}}Sistema para la conservación\\de las piezas en los museos\\en base a pruebas\\de contacto o movimiento,\\intensidad de la luz.\end{tabular}&Universidad de El Cairo, Egipto                                                                   & \begin{tabular}[c]{@{}l@{}}(Al-Habal\\y Khattab, 2019).\end{tabular}                             \\ \hline
-            \end{tabular}
-            \label{tab:iotInternacional1}
-        \end{table}
-
-        \vspace{2cm}
-
-        \begin{table}[H]
-            \centering
-            \begin{tabular}{|lll|}
-                \hline
-                \multicolumn{3}{|c|}{Continuación Tabla \ref{tab:iotInternacional1}}                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
-                \multicolumn{3}{|c|}{Proyectos}                                                                                                                                                                                                                                                                                                                                                                                                 \\ \hline
-                \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Captura el movimiento del\\ usuario, procesamiento de\\ imágenes.\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}III Congreso Internacional de\\ Avances en Electricidad,\\ Electrónica, Información,\\ Comunicación y\\ Bioinformática en el año 2017\end{tabular}}                & \begin{tabular}[c]{@{}l@{}}(Sornalatha y \\ Kavitha, 2017).\end{tabular}  \\ \hline
-                \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Propuesta de esquema\\ antirrobo para museos\\ basados en IoT.\end{tabular}}    & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Escuela de Ingeniería Electrónica,\\ Universidad de Jiujiang\\ y la Escuela de Ciencias de\\ la Computación, Universidad de\\ Wuhan, ambas de China.\end{tabular}} & \begin{tabular}[c]{@{}l@{}}(Liu, Wang, Qi, y Yang, \\ 2019).\end{tabular} \\ \hline
-                \end{tabular}
-            \label{tab:iotInternacional}
-        \end{table}
-                
-    Como se observa en la tabla \ref{tab:iotInternacional1} existen disímiles ejemplos de aplicación del Internet de las Cosas a nivel internacional; de ahí que se enfatizará en la aplicación de sistemas de conservación de las piezas en los museos tomando como referencia los ejemplos anteriormente expuestos.
+    \begin{table}[H]
+        \centering
+        \caption{IoT en los museos internacionales}
+        \begin{tabular}{|l|l|l|}
+        \hline
+        \rowcolor[HTML]{9698ED} 
+        Manifestación       & Mediciones                                                                                                                                                     & Tecnología                                                                                                                                              \\ \hline
+        Temperatura         & {(}1,2,7{)} Temperatura °C                                                                                                                                     & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones),\\ {(}2{)} IoT-WSMP,\\ {(}7{)} RPI, ESP32, Node-Red.\end{tabular} \\ \hline
+        Humedad             & {(}1,2,7{)} Humedad \%                                                                                                                                         & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones),\\ {(}2{)} IoT-WSMP,\\ {(}7{)} RPI, ESP32, Node-Red.\end{tabular} \\ \hline
+        Intensidad luminosa & {(}2,7{)} Lumens                                                                                                                                               & \begin{tabular}[c]{@{}l@{}}{(}2{)} IoT-WSMP,\\ {(}7{)} RPI, ESP32, Sensores.\end{tabular}                                                               \\ \hline
+        Vibraciones         & {(}1{)} Estabilidad del Edificio (Hz)                                                                                                                          & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones).\end{tabular}                                                     \\ \hline
+        Humo                & {(}1{)} C02 ppm                                                                                                                                                & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones).\end{tabular}                                                     \\ \hline
+        Polución            & {(}1{)} Polvo                                                                                                                                                  & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones).\end{tabular}                                                     \\ \hline
+        Xilófagos           & {(}1{)} Plagas de madera                                                                                                                                       & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones).\end{tabular}                                                     \\ \hline
+        Personas            & \begin{tabular}[c]{@{}l@{}}{(}7{)} Aceleracion, Toque.\\ {(}8{)} Geolocalización.\\ {(}3{)} Movimiento\\ {(}9{)} Propuestas de juegos en el museo\end{tabular} & \begin{tabular}[c]{@{}l@{}}{(}1{)} PIR, {(}4{)} IA,\\ {(}5{)} RPI, ESP32, Sensores.\end{tabular}                                                        \\ \hline
+        \end{tabular}
+        \label{tab:iot_internacional}
+    \end{table}
 
     \section{Internet de las Cosas en Cuba}\label{sec:iotCuba} 
 
@@ -83,7 +94,7 @@
 
     En la figura \ref{imag:comparacionArquitecturas} se desarrolla una comparación entre las arquitecturas de 3 capas, 5 capas y la arquitectura niebla.
 
-    Según \cite{capasIoTciberseguridad}, la mayoría de estas arquitecturas de IoT se basan en fundamentos básicos:
+    Según Ciberseguridad \cite{capasIoTciberseguridad}, la mayoría de estas arquitecturas de IoT se basan en fundamentos básicos:
     \begin{itemize}
         \item Dispositivos más inteligentes en una forma diferente.
         \item Red y puerta de enlace que permite que los dispositivos formen parte del IoT.
@@ -93,17 +104,7 @@
 
     Existen varias arquitecturas, marcos de referencia o modelos conceptuales para IoT propuestos por organizaciones, comunidad académica y el sector empresarial. Las propuestas de arquitecturas pueden variar de autor en autor, en dependencia de la estructura del sistema IoT propuesto. Dichas arquitecturas son desarrolladas por capas en las que se agrupan los objetos, dispositivos, sensores, actuadores, entre otros. \cite{internetOfThingsStateOfTheArt} \cite{capasIoTciberseguridad}.\\
 
-    En la figura \ref{imag:modelos_arquitecturas_iot} se representa una comparativa de algunos modelos basados en capas.
-
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=15.6cm, height=9cm]{imagenes/capas.jpg}
-        \caption{Modelos de arquitecturas IoT basados en capas}
-        \subcaption*{Fuente: Elaboración propia}
-        \label{imag:modelos_arquitecturas_iot}
-    \end{figure}
-
-    En la tabla \ref{tab: referencias_capas} se muestra la relación de las referencias correspondientes a la figura \ref{imag:modelos_arquitecturas_iot}
+    En la figura \ref{imag:modelos_arquitecturas_iot} se representa una comparativa de algunos modelos basados en capas. Para propiciar una mejor comprensión de la figura \ref{imag:modelos_arquitecturas_iot} se desarrolló la tabla \ref{tab: referencias_capas} donde se muestra la relación de los autores referidos a las capas del IoT.
 
     \begin{table}[H]
         \centering
@@ -123,9 +124,17 @@
         \label{tab: referencias_capas}
     \end{table}
 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=15.6cm, height=9cm]{imagenes/capas.jpg}
+        \caption{Modelos de arquitecturas IoT basados en capas}
+        \subcaption*{Fuente: Elaboración propia}
+        \label{imag:modelos_arquitecturas_iot}
+    \end{figure}
+
     \newpage
 
-    Desde el punto de vista de \cite{capasIoTciberseguridad} existen capas fundamentales dentro de la esctructura de IoT. En la tabla \ref{tab: capas_IoT} se detallan estas capas:
+    Desde el punto de vista de Ciberseguridad \cite{capasIoTciberseguridad} existen capas fundamentales dentro de la esctructura de IoT. En la tabla \ref{tab: capas_IoT} se detallan estas capas:
     \begin{table}[H]
         \centering
         \caption{Capas de IoT}
@@ -146,7 +155,7 @@
         \label{tab: capas_IoT}
         \end{table}
 
-    No obstante, según \cite{internetOfThingsStateOfTheArt}, dentro de las capas más importantes del IoT podemos encontrar:
+    No obstante, según B. Mazon y A. Pan Olivo \cite{internetOfThingsStateOfTheArt}, dentro de las capas más importantes del IoT podemos encontrar:
 
     \begin{itemize}
         \item \textit{La capa de percepción} (Objetos/ Dispositivos/ SensorActuador/ WSN/ Edge Computing/ Sensado), digitaliza y transfiere datos a la capa de red, a través de canales seguros. Se localizan los objetos físicos, dispositivos sensores y actuadores utilizados para recopilar información del contexto. \cite{ref9}.
@@ -166,8 +175,8 @@
 
     \newpage
     
-    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.1.1\hspace{5mm}Vista funcional}
-        \textbf{1.3.1.1\hspace{5mm}Vista funcional}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.4.1.1\hspace{5mm}Vista funcional}
+        \textbf{1.4.1.1\hspace{5mm}Vista funcional}
 
     En la figura \ref{imag:vista_funcional_arquitectura_iot} se observan los diferentes módulos funcionales que componen las capas de la propuesta arquitectónica. La capa de percepción se encarga de la obtención de variables asociadas a la conservación de las piezas en la muestra (sensores-microcontroladores), la capa de transporte con el propósito de transportar la data recopilada por los sensores para su posterior procesamiento y análisis, la capa de procesamiento que genera predicciones y recomendaciones expuesta a cambios constantes de los valores que se reciben desde el comienzo del ciclo en la etapa de percepción y, la capa de aplicación, la cual permite a los usuarios finales visualizar en una interfaz y mediante el empleo de la RA (Realidad Aumentada), los datos y predicciones en dependencia de la información recopilada.\\
 
@@ -179,8 +188,8 @@
         \label{imag:vista_funcional_arquitectura_iot}
     \end{figure}
 
-    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.1.2\hspace{5mm}Vista de implementación}
-        \textbf{1.3.1.2\hspace{5mm}Vista de implementación}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.4.1.2\hspace{5mm}Vista de implementación}
+        \textbf{1.4.1.2\hspace{5mm}Vista de implementación}
 
     En la vista de implementación se muestran los componentes de hardware y software del sistema propuesto, en los cuales se presenta la interfaz de usuario esperada a través del empleo de Realidad Aumentada y el circuito perteneciente a la capa de percepción
     así como la muestra del empleo de comunicaciones wifi y de RED en la capa de transporte y el concentrador RaspberryPi perteneciente a la capa de procesamiento donde se trabaja además, sobre la plataforma perteneciente al patrimonio universitario.
@@ -197,8 +206,8 @@
     El alcance de este trabajo va dirigido a la explicación detallada de la capa de percepción, enfocándose en las características del microcontrolador y sensores a emplear, así como la capa de transporte donde se hace un análisis de los métodos y protocolos de comunicación empleados en el sistema.
 
     \subsection{Capa de percepción}\label{subsec:capa_percepcion}
-    En esta capa es donde se ubican los microcontroladores encargados de comunicarse con los sensores interactuando directamente con el medio recolectando los datos.\\
-    
+    En esta capa es donde se ubican los microcontroladores encargados de comunicarse con los sensores interactuando directamente con el medio recolectando los datos.
+
     \begin{figure}[H]
         \centering
         \includegraphics[width=8.5cm, height=4cm]{imagenes/perception_image.jpg}
@@ -207,17 +216,25 @@
         \label{imag:capa_percepcion}
     \end{figure}
 
-    Como se puede observar en la figura \ref{imag:capa_percepcion}, en esta capa se encuentran implícitos una sucesión de sensores y un microcontrolador, juntos componen la estructura general de los nodos que serán incorporados a las salas pertenecientes a la exposición.\\
+    Esta sucesión de sensores y microcontrolador (figura \ref{imag:capa_percepcion}) componen todos los Nodos que se ubicarán en cada vitrina de la colección con sus sensores interconectados según sea la necesidad de cada vitrina y permitirán obtener los valores de las variables ambientales.\\
 
+    La colección Francisco Prat Puig está distribuida de tal modo que las piezas están ubicadas en tres salas. Enumerándolas: sala 1, sala 2 y sala 3.\\
+    La sala 1 (Exposición permanente) (figura \ref{imag:sala_1}) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan varios objetos de cerámica, marfil, metal, piedra, madera, etcétera.\newline
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=8cm, height=6cm]{imagenes/sala_1.jpg}
+        \caption{Sala 1}
+        \label{imag:sala_1}
+    \end{figure}
 
-    La muestra Francisco Prat Puig está distribuida de tal modo que las piezas están ubicadas en tres salas expositivas. Enumerándolas: sala 1, sala 2 y sala 3.\\
-    La sala 1 (Exposición permanente) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan varios objetos de cerámica, marfil, metal, piedra, madera, etcétera.\newline
-    [Imagen de la sala 1]\newline
     En la sala 2 solamente se encuentran pinturas pertenecientes a la colección, estas poseen también condiciones de deterioro notables por el efecto de la humedad y del nivel de luz dentro del local. La humedad provoca la aparición de hongos en el lienzo lo que provoca su deterioro y la pérdida de color.\newline
     [Imagen de la sala 2]\newline
     [Imagen de uno de los cuadros donde se vea el hongo] (Nombre || Fuente).\newline
     Dentro de la sala 3 se localizan también varios objetos ubicados en pedestales mostrando colecciones de medallas y objetos personales del mismo Prat Puig y, además, vitrinas donde se hallan, principalmente, objetos de cerámica como platos, jarrones y cántaros.\newline
     [Imagen sala 3]\newline
+
+    \
 
     En el gráfico que se muestra a continuación se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
 
@@ -229,9 +246,16 @@
         \label{imag:ubicacion_piezas}
     \end{figure}
 
-    Según la figura \ref{imag:ubicacion_piezas}, varios objetos están dispuestos dentro de vitrinas donde existe un microclima\footnote{microclima: según el diccionario Oxford, es el conjunto de las condiciones climáticas particulares de un lugar determinado, resultado de una modificación más o menos acusada y puntual del clima de la zona en que se encuentra influido por diferentes factores ecológicos y medioambientales.}, por lo que la condición ambiental en estas es diferente a la del local en general, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas por separado y además un nodo para el local en general.
+    Según la figura \ref{imag:ubicacion_piezas}, varios objetos están dispuestos dentro de vitrinas donde, al encontrarse protegido por paredes de cristal, se genera un microclima\footnote{microclima: según el diccionario Oxford, es el conjunto de las condiciones climáticas particulares de un lugar determinado, resultado de una modificación más o menos acusada y puntual del clima de la zona en que se encuentra influido por diferentes factores ecológicos y medioambientales.}, por lo que la condición ambiental en estas es diferente a la condición ambiental de la sala, de ahí la necesidad de incorporar nodos de tal manera que se tomen los datos dentro de estas vitrinas y, además, un nodo para la sala en general. \newline
 
-    \begin{table}[H]
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.4.2.1\hspace{5mm}Variables ambiantales}
+        \textbf{1.4.2.1\hspace{5mm}Variables ambiantales}
+
+    Como resultado de los recorridos ...
+
+    En la tabla \ref{tab:correlacion_nodos} se relaciona la variable a medir según la ubicación del nodo.
+
+    \begin{table}[h]
         \centering
         \caption{Correlación de los nodos}
         \subcaption*{Fuente: Elaboración propia}
@@ -264,8 +288,6 @@
 
     Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
     ...
-
-    En la tabla \ref{tab:correlacion_nodos} se relaciona la variable a medir según la ubicación del nodo.
 
     \subsection{Capa de transporte}\label{subsec:capa_transporte}
 
@@ -306,13 +328,17 @@
 
     %\section{Sistema de comunicación}\label{sec: sistemaComunicación}
 
-    \section{Obtención de niveles de salitre y condiciones para la aparición de xilófagos}
+    \section{Condiciones que favorecen el ataque de insectos xilófagos}
 
-    El nivel de salitre, como se muestra en la tabla, es obtenido mediante el análisis del nivel de humedad presente en los locales de la muestra.
+    En el caso del control de la aparición de los xilófagos, como daño de origen biótico, se realiza el análisis de las condiciones óptimas para la aparición de los mismos influyendo en la intensidad o severidad del ataque de estos insectos. Entre estos se pueden mencionar humedad, edad de la madera, diversidad genética, población de insectos presente y temperatura,entre otros \cite{ripa2004termitas}. 
     
+    \subsection{Humedad}
+
+    El contenido de agua de la madera constituye uno de los factores más importantes que favorecen el ataque de las especies xilófagas. Maderas con un contenido de humedad sobre el 15\% favorece las infestaciones de coleópteros xilófagos, acortando significativamente sus ciclos de vida lo que aumenta sus poblaciones y la posibilidad de reinfestaciones \cite{ripa2004termitas}, esto relacionado a que la acumulación de humedad se acentúa en construcciones con escasa ventilación, la que se debe incrementar en espacios interiores.
+
     ...
 
-    En el caso del control de la aparición de los xilófagos, como daño de origen biótico, se realiza el análisis de las condiciones óptimas para la aparición de los mismos. Normalmente estos aparecen cuando la madera se encuentra con un porcentaje de humedad excesivo (por encima del 20 por ciento). Según \cite{monitoringMoisture} y \cite{rodriguezcodigo} el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55 por ciento mientras que \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50 por ciento. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 20 por ciento.
+    En el caso del control de la aparición de los xilófagos, como daño de origen biótico, se realiza el análisis de las condiciones óptimas para la aparición de los mismos. Según \cite{monitoringMoisture} y \cite{rodriguezcodigo} el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55\% mientras que \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50\%. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 15\%.
 
     Valores de temperatura idóneos para la aparición de xilófagos...
 
