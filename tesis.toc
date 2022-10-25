@@ -9,35 +9,36 @@
 \contentsline {section}{Introducción}{5}{}%
 \contentsline {section}{\numberline {1.1}Internet de las Cosas}{5}{}%
 \contentsline {subsection}{\numberline {1.1.1}IoT en los museos internacionales}{5}{}%
-\contentsline {section}{\numberline {1.2}Internet de las Cosas en Cuba}{7}{}%
-\contentsline {section}{\numberline {1.3}Arquitectura IoT y sus principales capas}{8}{}%
-\contentsline {subsection}{\numberline {1.3.1}Propuesta de la Arquitectura IoT del Sistema}{12}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.4.1.1\hspace {5mm}Vista funcional}{13}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.4.1.2\hspace {5mm}Vista de implementación}{13}{}%
-\contentsline {subsection}{\numberline {1.3.2}Capa de percepción}{14}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.4.2.1\hspace {5mm}Variables ambiantales}{16}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.3.1\hspace {5mm}Nodos}{17}{}%
-\contentsline {subsection}{\numberline {1.3.3}Capa de transporte}{17}{}%
+\contentsline {section}{\numberline {1.2}Internet de las Cosas en Cuba}{8}{}%
+\contentsline {section}{\numberline {1.3}Arquitectura IoT y sus principales capas}{9}{}%
+\contentsline {subsection}{\numberline {1.3.1}Propuesta de la Arquitectura IoT del Sistema}{13}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.4.1.1\hspace {5mm}Vista funcional}{14}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.4.1.2\hspace {5mm}Vista de implementación}{14}{}%
+\contentsline {subsection}{\numberline {1.3.2}Capa de percepción}{15}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.2.1\hspace {5mm}Nodos}{16}{}%
+\contentsline {section}{\numberline {1.4}Colección de Arte y Arqueología Francisco Prat Puig}{16}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.4.2.1\hspace {5mm}Variables ambiantales}{17}{}%
+\contentsline {subsection}{\numberline {1.4.1}Capa de transporte}{18}{}%
 \contentsline {subsection}{\hspace {1.3cm}1.3.4.1\hspace {5mm}Protocolo MQTT}{18}{}%
 \contentsline {subsection}{\hspace {1.3cm}1.3.4.2\hspace {5mm}Protocolo HTTP}{19}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.4.3\hspace {5mm}Protocolo TCP/IP}{20}{}%
-\contentsline {section}{\numberline {1.4}Condiciones que favorecen el ataque de insectos xilófagos}{20}{}%
-\contentsline {subsection}{\numberline {1.4.1}Humedad}{20}{}%
-\contentsline {section}{Conclusiones}{21}{}%
-\contentsline {chapter}{\numberline {2}Implementación del sistema basado en IoT}{22}{}%
-\contentsline {section}{Introducción}{22}{}%
-\contentsline {section}{\numberline {2.1}Descripción técnica capa de percepción}{22}{}%
-\contentsline {subsection}{\numberline {2.1.1}Microcontrolador}{23}{}%
-\contentsline {subsection}{\numberline {2.1.2}Sensores}{28}{}%
-\contentsline {subsection}{\numberline {2.1.3}Descripción sensores}{29}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.1\hspace {5mm}Sensor DHT22}{29}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.2\hspace {5mm}Sensor MZ-Z19C}{30}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.3\hspace {5mm}Sensor M0168}{31}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.4\hspace {5mm}Sensor SDS011}{32}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.5\hspace {5mm}Sensor LDR}{32}{}%
-\contentsline {subsection}{\hspace {1.3cm}2.2.1.6\hspace {5mm}Sensor BH1750}{33}{}%
-\contentsline {subsection}{\numberline {2.1.4}Alimentación}{35}{}%
-\contentsline {section}{\numberline {2.2}Condiciones medioambientales...}{37}{}%
-\contentsline {section}{Conclusiones}{37}{}%
-\contentsline {section}{CONCLUSIONES GENERALES}{38}{}%
-\contentsline {chapter}{Recomendaciones}{39}{}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.4.3\hspace {5mm}Protocolo TCP/IP}{19}{}%
+\contentsline {section}{\numberline {1.5}Condiciones que favorecen el ataque de insectos xilófagos}{20}{}%
+\contentsline {subsection}{\numberline {1.5.1}Humedad}{20}{}%
+\contentsline {section}{Conclusiones}{20}{}%
+\contentsline {chapter}{\numberline {2}Implementación del sistema basado en IoT}{21}{}%
+\contentsline {section}{Introducción}{21}{}%
+\contentsline {section}{\numberline {2.1}Descripción técnica capa de percepción}{21}{}%
+\contentsline {subsection}{\numberline {2.1.1}Microcontrolador}{22}{}%
+\contentsline {subsection}{\numberline {2.1.2}Sensores}{27}{}%
+\contentsline {subsection}{\numberline {2.1.3}Descripción sensores}{28}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.1\hspace {5mm}Sensor DHT22}{28}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.2\hspace {5mm}Sensor MZ-Z19C}{29}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.3\hspace {5mm}Sensor M0168}{30}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.4\hspace {5mm}Sensor SDS011}{31}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.5\hspace {5mm}Sensor LDR}{31}{}%
+\contentsline {subsection}{\hspace {1.3cm}2.2.1.6\hspace {5mm}Sensor BH1750}{32}{}%
+\contentsline {subsection}{\numberline {2.1.4}Alimentación}{34}{}%
+\contentsline {section}{\numberline {2.2}Condiciones medioambientales...}{36}{}%
+\contentsline {section}{Conclusiones}{36}{}%
+\contentsline {section}{CONCLUSIONES GENERALES}{37}{}%
+\contentsline {chapter}{Recomendaciones}{38}{}%

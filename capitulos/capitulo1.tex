@@ -15,7 +15,7 @@
     \section{Internet de las Cosas}
 
     El IoT como arquitectura emergente basada en la Internet global presta la posibilidad de intercambio de bienes y servicios entre redes de la cadena de suministro y que tiene un impacto importante en la seguridad y privacidad de los actores involucrados \cite{weber}. 
-
+   
     \subsection{IoT en los museos internacionales}\label{sec:iotMundo}
         
         En el grupo de las bibliografías consultadas existen diversos ejemplos del empleo del IoT en los museos.
@@ -65,6 +65,8 @@
         \label{tab:iot_internacional}
     \end{table}
 
+    Como se puede observar en la tabla \ref{tab:iot_internacional} el mayor número de autores analizados centran su atención en el usuario que accede al museo en aras de brindarle una propuesta agradable en su visita.
+
     \section{Internet de las Cosas en Cuba}\label{sec:iotCuba} 
 
     En Cuba existen escasos ejemplos de la aplicación del Internet de las Cosas en los museos, dentro de ellos se encuentra el Palacio del Segundo Cabo.\\
@@ -77,7 +79,6 @@
         
     La Sala de Viajeros se soporta en un software que despliega una galería de imágenes ya sea de cubanos relevantes de visita por Europa o de europeos de visita en Cuba. Mediante el uso de pantallas táctiles, el visitante puede interactuar con las imágenes de las personalidades, leer una síntesis biográfica e incluso escuchar muestras de audio.
     
-        
     \section{Arquitectura IoT y sus principales capas}\label{sec:arquitecturas}
 
     No existe una única definición universalmente adoptada, estándar, de Arquitectura de IoT; diferentes propuestas han surgido durante su desarrollo. Se abarcan tecnologías de comunicación, dispositivos de cómputo, sensores y actuadores \cite{ioT_en_Cosas_de_salud}.
@@ -192,7 +193,7 @@
         \textbf{1.4.1.2\hspace{5mm}Vista de implementación}
 
     En la vista de implementación se muestran los componentes de hardware y software del sistema propuesto, en los cuales se presenta la interfaz de usuario esperada a través del empleo de Realidad Aumentada y el circuito perteneciente a la capa de percepción
-    así como la muestra del empleo de comunicaciones wifi y de RED en la capa de transporte y el concentrador RaspberryPi perteneciente a la capa de procesamiento donde se trabaja además, sobre la plataforma perteneciente al patrimonio universitario.
+    así como el empleo de comunicaciones Wifi y de RED en la capa de transporte y el concentrador RaspberryPi perteneciente a la capa de procesamiento donde se trabaja además, sobre la plataforma perteneciente al patrimonio universitario.
     En la figura \ref{imag:vista_implementacion_arquitectura_iot}, se observan las tecnologías empleadas en cada una de las capas propuestas en la arquitectura descrita.
     
     \begin{figure}[H]
@@ -206,7 +207,12 @@
     El alcance de este trabajo va dirigido a la explicación detallada de la capa de percepción, enfocándose en las características del microcontrolador y sensores a emplear, así como la capa de transporte donde se hace un análisis de los métodos y protocolos de comunicación empleados en el sistema.
 
     \subsection{Capa de percepción}\label{subsec:capa_percepcion}
-    En esta capa es donde se ubican los microcontroladores encargados de comunicarse con los sensores interactuando directamente con el medio recolectando los datos.
+
+    Contiene todos los Nodos que se ubicarán en cada vitrina de la colección con sus sensores interconectados segun sea la necesidad de cada vitrina y permitirán obtener los valores de las variables ambientales.
+
+    Esta sucesión de sensores, en conjunto con el microcontrolador conforman la capa de percepción (figura \ref{imag:capa_percepcion}). 
+
+    
 
     \begin{figure}[H]
         \centering
@@ -216,7 +222,16 @@
         \label{imag:capa_percepcion}
     \end{figure}
 
-    Esta sucesión de sensores y microcontrolador (figura \ref{imag:capa_percepcion}) componen todos los Nodos que se ubicarán en cada vitrina de la colección con sus sensores interconectados según sea la necesidad de cada vitrina y permitirán obtener los valores de las variables ambientales.\\
+    \newpage
+
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.2.1\hspace{5mm}Nodos}
+    \textbf{1.3.2.1\hspace{5mm}Nodos}
+
+    Los nodos que recopilarán los datos de cada vitrina estarán compuestos por el microcontrolador y los sensores encargados de tomar los valores medioambientales presentes teniendo en cuenta el material de las piezas expuestas dentro de cada una de las vitrinas por separado.\\
+
+    \textbf{Tengo ideas de agregar la descripción de los sensores con el microcontrolador con respecto a las variables medioambientales pero creo que me choca con lo que debo poner en el capítulo I}
+
+    \section{Colección de Arte y Arqueología Francisco Prat Puig}
 
     La colección Francisco Prat Puig está distribuida de tal modo que las piezas están ubicadas en tres salas. Enumerándolas: sala 1, sala 2 y sala 3.\\
     La sala 1 (Exposición permanente) (figura \ref{imag:sala_1}) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan varios objetos de cerámica, marfil, metal, piedra, madera, etcétera.\newline
@@ -228,15 +243,13 @@
         \label{imag:sala_1}
     \end{figure}
 
-    En la sala 2 solamente se encuentran pinturas pertenecientes a la colección, estas poseen también condiciones de deterioro notables por el efecto de la humedad y del nivel de luz dentro del local. La humedad provoca la aparición de hongos en el lienzo lo que provoca su deterioro y la pérdida de color.\newline
+    En la sala 2 solamente se encuentran pinturas pertenecientes a la colección, estas poseen también condiciones de deterioro notables por el efecto de la humedad y del nivel de luz dentro del local.
+
     [Imagen de la sala 2]\newline
-    [Imagen de uno de los cuadros donde se vea el hongo] (Nombre || Fuente).\newline
     Dentro de la sala 3 se localizan también varios objetos ubicados en pedestales mostrando colecciones de medallas y objetos personales del mismo Prat Puig y, además, vitrinas donde se hallan, principalmente, objetos de cerámica como platos, jarrones y cántaros.\newline
     [Imagen sala 3]\newline
 
-    \
-
-    En el gráfico que se muestra a continuación se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas:\newline
+    En el gráfico que se muestra a continuación se relaciona el valor cuantitativo de las principales formas en las que se exponen las piezas dentro de estas salas pertenecientes a la colección.
 
     \begin{figure}[H]
         \centering
@@ -283,12 +296,6 @@
 
     \newpage
 
-    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.3.1\hspace{5mm}Nodos}
-        \textbf{1.3.3.1\hspace{5mm}Nodos}
-
-    Los nodos que, de manera general, recopilarán los datos de cada sala, estarán compuestos por los sensores que permitan medir los valores de temperatura, humedad, polución, CO2, vibraciones y luminosidad mientras que, en el caso de los nodos dentro de las vitrinas, se tiene en cuenta las condiciones del microclima y el material de los objetos.\\
-    ...
-
     \subsection{Capa de transporte}\label{subsec:capa_transporte}
 
     Esta es la capa responsable del traslado de la data a través de los demás componentes del sistema estableciendo la comunicación necesaria desde la toma de valores ambientales hasta su análisis y muestreo.    
@@ -303,14 +310,11 @@
     MQTT fue creado por el Dr. Andy Stanford-Clark de IBM y Arlen Nipper de Arcom (ahora Eurotech) en 1999 como un mecanismo para conectar dispositivos empleados en la industria petrolera.
     Aunque inicialmente era un formato propietario, en 2010 fue liberado y pasó a ser un estándar en 2014 según la OASIS (Organization for the Advancement of Structured Information Standards). \cite{mqtt}\\
 
-    \newpage
-
     \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.4.2\hspace{5mm}Protocolo HTTP}
         \textbf{1.3.4.2\hspace{5mm}Protocolo HTTP}
 
-    HTTP de sus siglas en inglés: “Hypertext Transfer Protocol”, es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página Web completa resulta de la unión de distintos sub-documentos recibidos, por ejemplo: un documento que especifique el estilo de maquetación de la página Web (CSS), el texto, las imágenes, videos, scrips, etcétera.
+    HTTP de sus siglas en inglés: “Hypertext Transfer Protocol”, es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página Web completa resulta de la unión de distintos sub-documentos recibidos, por ejemplo: un documento que especifique el estilo de maquetación de la página Web (CSS), el texto, las imágenes, videos, scrips, etcétera.\\
 
-    \newpage
 
     \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.4.3\hspace{5mm}Protocolo TCP/IP}
         \textbf{1.3.4.3\hspace{5mm}Protocolo TCP/IP}
