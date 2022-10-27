@@ -38,6 +38,8 @@ A level-1 auxiliary file: capitulos/bibliografia.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: ieeetran.bst
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: capitulos/apendix.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -53,45 +55,45 @@ Warning--empty journal in ripa2004termitas
 Warning--empty journal in rodriguezcodigo
 
 Done.
-You've used 38 entries,
+You've used 46 entries,
             4087 wiz_defined-function locations,
-            1049 strings with 14391 characters,
-and the built_in function-call counts, 22986 in all, are:
-= -- 1977
-> -- 339
-< -- 196
-+ -- 210
-- -- 49
-* -- 998
-:= -- 3791
-add.period$ -- 75
-call.type$ -- 38
-change.case$ -- 37
-chr.to.int$ -- 420
-cite$ -- 42
-duplicate$ -- 1762
-empty$ -- 1841
-format.name$ -- 53
-if$ -- 5311
+            1098 strings with 15899 characters,
+and the built_in function-call counts, 28874 in all, are:
+= -- 2498
+> -- 432
+< -- 258
++ -- 269
+- -- 61
+* -- 1268
+:= -- 4729
+add.period$ -- 91
+call.type$ -- 46
+change.case$ -- 45
+chr.to.int$ -- 549
+cite$ -- 50
+duplicate$ -- 2191
+empty$ -- 2278
+format.name$ -- 67
+if$ -- 6690
 int.to.chr$ -- 0
-int.to.str$ -- 38
-missing$ -- 263
-newline$ -- 137
-num.names$ -- 38
-pop$ -- 522
+int.to.str$ -- 46
+missing$ -- 326
+newline$ -- 161
+num.names$ -- 46
+pop$ -- 628
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1850
+skip$ -- 2323
 stack$ -- 0
-substring$ -- 1025
-swap$ -- 1343
-text.length$ -- 56
+substring$ -- 1333
+swap$ -- 1710
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 38
+type$ -- 46
 warning$ -- 4
-while$ -- 109
-width$ -- 40
-write$ -- 376
+while$ -- 139
+width$ -- 48
+write$ -- 459
 (There were 4 warnings)

@@ -93,17 +93,44 @@ C.~A. I. y. A.~C. A.~Lopez-Martínez, ``Gamifid smart objects for museums based
   international conference on intelligent environments (ie)}, pp. 132--139,
   2020.
 
-\bibitem{oficinaHistoriadorRescatepatrimonio}
-G.~T. Quintero, ``La oficina del historiador de la habana al rescate del
-  patrimonio bibliogr{\'a}fico,'' \emph{Apuntes. Revista de estudios sobre
-  patrimonio cultural}, vol.~28, no.~2, 2015.
+\bibitem{lopezramos}
+G.~A.~M. de~la Fe~y D.~López-Ramos, ``Realidad aumentada, una herramienta para
+  la gestión de los valores patrimoniales. augmented reality, a tool for the
+  management of heritage values,'' \emph{Santiago}, no. 149, pp. 213--222, Jun.
+  2019.
 
-\bibitem{potencialidadProyectoMuseologico}
-Y.~H. Vald{\'e}s, ``La potencialidad de un proyecto museol{\'o}gico
-  vanguardista en cuba: el centro de interpretaci{\'o}n del palacio del segundo
-  cabo,'' \emph{RdM. Revista de Museolog{\'\i}a: Publicaci{\'o}n
-  cient{\'\i}fica al servicio de la comunidad museol{\'o}gica}, no.~78, pp.
-  44--54, 2020.
+\bibitem{franco}
+G.~E. Franco, ``Sistema de gestión de alarmas para scada aplicado a la
+  domótica de un hotel [alarm management system for scada applied to domotic
+  in a hotel],'' \emph{Ventana Informática}, no.~23, Dec. 2010.
+
+\bibitem{cordovacorso}
+A.~V. A. C. y. A. L. A.~N. A.~S.~Córdova, ``Sistema de monitorización de
+  consumo de energía eléctrica en el hotel nacional de cuba,'' \emph{Revista
+  Cubana de Ingeniería}, vol.~11, no.~3, pp. 22--32, Sep. 2020.
+
+\bibitem{morales}
+N.~P. P. y. L. G.~M. D.~V.~Morales, ``Bases para implementación de iot en la
+  uci, orientada a la protección del medio ambiente,'' \emph{Serie Científica
+  de la Universidad de las Ciencias Informáticas}, vol.~13, no.~5, pp. 41--54,
+  Feb. 2020.
+
+\bibitem{cruzrojas}
+D.~S. D. B. R. y. I. G. G.~J. I.~P. D.~Cruz, ``Sistema iot de control de acceso
+  inteligente basado en arduino y servicios web,'' \emph{Tono, Revista Técnica
+  de la Empresa de Telecomunicaciones de Cuba S.A}, vol.~14, no.~1, pp. 49--60,
+  Jul. 2018.
+
+\bibitem{herrera2020}
+R.~P. Herrera, N.~E.~P. Jones, and M.~d. l. {\'A}.~R. Santana, ``Sistema iot
+  para el control del nivel de tanques en aguas de la habana,'' \emph{Revista
+  Cubana de Transformaci{\'o}n Digital}, vol.~1, no.~1, pp. 38--52, 2020.
+
+\bibitem{ochoa2018alternativa}
+A.~Ochoa~Duarte, L.~D. Cangrejo~Aljure, and T.~Delgado, ``Alternativa open
+  source en la implementaci{\'o}n de un sistema iot para la medici{\'o}n de la
+  calidad del aire.'' \emph{Revista Cubana de Ciencias Inform{\'a}ticas},
+  vol.~12, no.~1, pp. 189--204, 2018.
 
 \bibitem{ioT_en_Cosas_de_salud}
 R.~J. .~o. Cera~J., Martínez~L., ``Apoyo al estado del arte del internet de
@@ -175,6 +202,21 @@ I.~A. . M.~G. Atzori~L., ``The internet of things: A survey,'' \emph{Comput.
 P.~V. . P.~A. Botta~A., De Donato~W., ``Integration of cloud computing and
   internet of things: A survey,'' \emph{Future Gener. Comput. Syst.}, vol.~56,
   pp. 684--700, 2016.
+
+\bibitem{morejon}
+y.~L. J.~A. S.~Morejon~Labrada, C. Ramírez~Martín, ``Plataforma web para la
+  gestión del patrimonio cultural de la región oriental de cuba.'' \emph{in
+  II Convencion Internacional de Ciencia y Conciencia, Universidad de Oriente,
+  Cuba}, 2021.
+
+\bibitem{hernandez}
+B.~M.-O. y. C.~E. D.~Hernández, ``‘internet de las cosas (iot)','' \emph{in
+  Análisis de Datos Agropecuarios}, no. 1st ed., pp. 74--100, 2018.
+
+\bibitem{lee}
+I.~L. y~K.~Lee, ``'the internet of things (iot): Applications, investments, and
+  challenges for enterprises','' \emph{Bus. Horiz.}, vol. vol. 58, no.~4, pp.
+  431--440, Jul. 2015.
 
 \bibitem{mqtt}
 .~K.~J. Quincozes~S., Emilio~T., ``Mqtt protocol: fundamentals, tools and
