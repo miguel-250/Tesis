@@ -3,12 +3,20 @@
 \addcontentsline{toc}{section}{Introducción}
         \textbf{\Large Introducción}\newline
 
-        ...
+        En este capítulo se analiza el estado del arte del Internet de las Cosas y su aplicación en los museos a nivel internacional y nacional, así como la caracterización de la
+        Colección de Arte y Arqueología Francisco Prat Puig teniendo en cuenta su estado en cuanto a la conservación de las piezas allí presentes. También se abordan las arquitecturas propuestas para IoT y la estipulación de una para el presente proyecto analizándola por partes.
+        Además se hace el análisis de las condiciones que favorecen el ataque de insectos xilófagos en las estructuras y en las obras pertenecientes a la colección. 
 
     \section{Internet de las Cosas}
 
+    El Internet de las Cosas describe objetos físicos (o grupos de estos) con sensores, capacidad de procesamiento, software y otras tecnologías que se conectan e intercambian datos con otros dispositivos y sistemas a través de internet u otras redes de comunicación.
+
+    Este campo ha evolucionado gracias a la convergencia de múltiples tecnologías, como la informática ubicua, los sensores, los sistemas integrados cada vez más potentes y el aprendizaje automático \cite{carrasco}. 
+
+    Los campos tradicionales de los sistemas embebidos, las redes de sensores inalámbricos, los sistemas de control y la automatización (incluida la domótica y la inmótica) hacen posible, de forma independiente y colectiva, el Internet de las cosas \cite{lennox}.
+
     El IoT como arquitectura emergente basada en la Internet global presta la posibilidad de intercambio de bienes y servicios entre redes de la cadena de suministro y que tiene un impacto importante en la seguridad y privacidad de los actores involucrados \cite{weber}. 
-   
+
     \subsection{IoT en los museos internacionales}\label{sec:iotMundo}
         
         En el grupo de las bibliografías consultadas existen diversos ejemplos del empleo del IoT en los museos.
@@ -19,7 +27,7 @@
     
         Estos son solo dos de los ejemplos. La tabla 1.2 muestra una relación de otros autores que emplean el IoT en los museos. Pero antes, para poder comprender la tabla 1.2 debemos definir una primera tabla en la que se le otorga a cada autor un número de manera tal que se entienda quien es cada autor. Por lo que se define la tabla 1.1:
 
-    \begin{table}[H]
+    \begin{table}[h]
         \centering
         \caption{Numeración autores}
         \begin{tabular}{|c|c|}
@@ -60,7 +68,7 @@
 
     Como se puede observar en la tabla \ref{tab:iot_internacional} el mayor número de autores analizados centran su atención en el usuario que accede al museo en aras de brindarle una propuesta agradable en su visita.
 
-    \section{Internet de las Cosas en Cuba}\label{sec:iotCuba} 
+    \subsection{Internet de las Cosas en Cuba}\label{sec:iotCuba} 
 
     En el contexto cubano, hasta el momento solo se tiene referencia de un artÍculo cientÍfico publicado en Cuba por Mengana de la Fe \cite{lopezramos} en el Museo Emilio Bacardí de la Ciudad de Santiago de Cuba con el uso de la RA,
     sin integracion con otras tecnologías, pero se demuestra el interes de insertar esta dentro del pueblo cubano ya que hay referencias de proyectos enfocados a la educacion y a los videojuegos en noticias o eventos organizados por instituciones cubanas.
@@ -85,12 +93,12 @@
     En síntesis, se puede afimar que la gestión de la colección de Artes y Arqueología Francisco Prat Puig carece de una intervención tecnológica que favorezca la calidad en la toma de decisiones para su conversacion preventiva.\\
 
     La colección Francisco Prat Puig está distribuida de tal modo que las piezas están ubicadas en tres salas. Enumerándolas: sala 1, sala 2 y sala 3.\\
-    La sala 1 (Exposición permanente) (figura \ref{imag:sala_1}) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan varios objetos de cerámica, marfil, metal, piedra, madera, etcétera.\newline
+    La sala 1 (Exposición permanente) (figura \ref{imag:sala_1}) está caracterizada por la presencia de varios objetos distribuidos en vitrinas, sobre mesas, colgados, en estantes empotrados en la pared, o en pedestales. Se observan piezas de cerámica, marfil, metal, piedra, madera, entre otros materiales, así como colecciones de numismática.\newline
     
     \begin{figure}[H]
         \centering
         \includegraphics[width=8cm, height=6cm]{imagenes/sala_1.jpg}
-        \caption{Sala 1}
+        \caption{Exposición permanente}
         \label{imag:sala_1}
     \end{figure}
 
@@ -275,7 +283,7 @@
     En el caso del microcontrolador lo que propone Alsuhly y cols.\cite{alsuhly} es utilizar como nodo un ESP32, un microcontrolador basado en el chip ESP8266 con bastante potencia para poder procesar la información de cada sensor de manera rápida,
     la conexion de este puede ser vía inalámbrica o por bluetooth al concentrador principal. En este caso se usará un NodeMCU, el cual es similar al ESP32 pero no contiene la interfaz bluetooth, esto permite abaratar más los costos de instalación ya que se necesitarán varios para cada vitrina de la colección.
 
-    \subsection{Capa de transporte}\label{subsec:capa_transporte}
+    \subsection{Capa de Transporte}\label{subsec:capa_transporte}
 
     Esta es la capa responsable del traslado de la data a través de los demás componentes del sistema estableciendo la comunicación necesaria desde la toma de valores ambientales hasta su análisis y muestreo.    
     Según \cite{internetOfThingsStateOfTheArt}, la capa de transporte es la que se encarga de transportar y transmitir los datos, recopilados de la capa de percepción, hacia la cloud. Se localizan componentes de red (switch, router, Gateway, etc.), medios de comunicación y protocolos. También es responsable de aspectos de seguridad y el control de ataques.
