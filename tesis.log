@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  29 OCT 2022 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  31 OCT 2022 19:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,7 +634,7 @@ File: imagenes/sala_1.jpg Graphic file (type jpg)
 Package pdftex.def Info: imagenes/sala_1.jpg  used on input line 100.
 (pdftex.def)             Requested size: 227.6284pt x 170.72246pt.
 [9 <./imagenes/sala_1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
@@ -691,87 +691,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 162.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 162.
-See the caption package documentation for explanation.
-
 <imagenes/capas.jpg, id=86, 2150.78531pt x 1331.72531pt>
 File: imagenes/capas.jpg Graphic file (type jpg)
 <use imagenes/capas.jpg>
-Package pdftex.def Info: imagenes/capas.jpg  used on input line 179.
+Package pdftex.def Info: imagenes/capas.jpg  used on input line 178.
 (pdftex.def)             Requested size: 443.8675pt x 256.05818pt.
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 181.
+(caption)                outside box or environment on input line 180.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 181.
+(caption)                outside box or environment on input line 180.
 See the caption package documentation for explanation.
 
 [12]
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 190.
+(caption)                outside box or environment on input line 189.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 190.
+(caption)                outside box or environment on input line 189.
 See the caption package documentation for explanation.
 
 [13 <./imagenes/capas.jpg>] [14] [15]
 <imagenes/perception_image.jpg, id=100, 908.39375pt x 483.8075pt>
 File: imagenes/perception_image.jpg Graphic file (type jpg)
 <use imagenes/perception_image.jpg>
-Package pdftex.def Info: imagenes/perception_image.jpg  used on input line 247.
+Package pdftex.def Info: imagenes/perception_image.jpg  used on input line 246.
 (pdftex.def)             Requested size: 241.84593pt x 128.03857pt.
 
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 249.
+(caption)                outside box or environment on input line 248.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 249.
+(caption)                outside box or environment on input line 248.
 See the caption package documentation for explanation.
 
 [16 <./imagenes/perception_image.jpg>]
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 267.
+(caption)                outside box or environment on input line 266.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 267.
+(caption)                outside box or environment on input line 266.
 See the caption package documentation for explanation.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 306--309
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 305--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
 [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 354--86
+Underfull \hbox (badness 10000) in paragraph at lines 353--86
 
  []
 
@@ -1171,15 +1166,15 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (capitulos/carátula2.aux) (capitulos/pagina_firmas.aux) (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/listado.aux) (capitulos/indice2.aux) (capitulos/indice3.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/bibliografia.aux) (capitulos/apendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 8995 strings out of 475389
- 161736 string characters out of 2777000
- 509034 words of memory out of 3000000
- 30073 multiletter control sequences out of 15000+600000
+ 8994 strings out of 475389
+ 161708 string characters out of 2777000
+ 509026 words of memory out of 3000000
+ 30072 multiletter control sequences out of 15000+600000
  568961 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,63p,912b,459s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1bi8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (57 pages, 3160944 bytes).
+Output written on tesis.pdf (57 pages, 3160890 bytes).
 PDF statistics:
  244 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

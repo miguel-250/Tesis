@@ -42,7 +42,7 @@
         Alletto y cols. \cite{alletto}     & 6                           \\ \hline
         Alsuhly y Khattab \cite{alsuhly}     & 7                         \\ \hline
         Spachos y Plataniotis \cite{spachos}     & 8                     \\ \hline
-        (Lopez-Martínez, Iglesias, y Carrera \cite{lopezmartinez}     & 9\\ \hline
+        Lopez-Martínez, Iglesias, y Carrera \cite{lopezmartinez}     & 9\\ \hline
         \end{tabular}
         \label{tab:numeracion_autores}
     \end{table}
@@ -61,7 +61,7 @@
         Humo                & {(}1{)} C02 ppm                                                                                                                                                & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones).\end{tabular}                                                     \\ \hline
         Polución            & {(}1{)} Polvo                                                                                                                                                  & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones).\end{tabular}                                                     \\ \hline
         Xilófagos           & {(}1{)} Plagas de madera                                                                                                                                       & \begin{tabular}[c]{@{}l@{}}{(}1{)} RPI, Sensores, Cloud\\ SVM (Árboles de Decisiones).\end{tabular}                                                     \\ \hline
-        Personas            & \begin{tabular}[c]{@{}l@{}}{(}7{)} Aceleracion, Toque.\\ {(}8{)} Geolocalización.\\ {(}3{)} Movimiento\\ {(}9{)} Propuestas de juegos en el museo\end{tabular} & \begin{tabular}[c]{@{}l@{}}{(}1{)} PIR, {(}4{)} IA,\\ {(}5{)} RPI, ESP32, Sensores.\end{tabular}                                                        \\ \hline
+        Personas            & \begin{tabular}[c]{@{}l@{}}{(}7{)} Aceleración, Toque.\\ {(}8{)} Geolocalización.\\ {(}3{)} Movimiento\\ {(}9{)} Propuestas de juegos en el museo\end{tabular} & \begin{tabular}[c]{@{}l@{}}{(}1{)} PIR, {(}4{)} IA,\\ {(}5{)} RPI, ESP32, Sensores.\end{tabular}                                                        \\ \hline
         \end{tabular}
         \label{tab:iot_internacional}
     \end{table}
@@ -70,14 +70,14 @@
 
     \subsection{Internet de las Cosas en Cuba}\label{sec:iotCuba} 
 
-    En el contexto cubano, hasta el momento solo se tiene referencia de un artÍculo cientÍfico publicado en Cuba por Mengana de la Fe \cite{lopezramos} en el Museo Emilio Bacardí de la Ciudad de Santiago de Cuba con el uso de la RA,
-    sin integracion con otras tecnologías, pero se demuestra el interes de insertar esta dentro del pueblo cubano ya que hay referencias de proyectos enfocados a la educacion y a los videojuegos en noticias o eventos organizados por instituciones cubanas.
+    En el contexto cubano, hasta el momento solo se tiene referencia de un artículo científico publicado en Cuba por Mengana de la Fe \cite{lopezramos} en el Museo Emilio Bacardí de la Ciudad de Santiago de Cuba con el uso de la RA,
+    sin integración con otras tecnologías, pero se demuestra el interés de insertar esta dentro del pueblo cubano ya que hay referencias de proyectos enfocados a la educación y a los videojuegos en noticias o eventos organizados por instituciones cubanas.
     Por su parte el uso del IoT se evidencia en el turismo tal como lo analiza Franco \cite{franco} y Cordova y cols. \cite{cordovacorso}, en la protección del medio ambiente de Morales \cite{morales} y para el control de acceso de personal no autorizado por parte de Cruz y cols. \cite{cruzrojas}.
 
     Otros de los ejemplos de la aplicación del IoT en nuestro país lo constituyen el sistema IoT para el control del nivel de tanques de agua de La Habana \cite{herrera2020}, en el cual se brinda una solución desarrollada sobre Arduinos utilizando transporte de telemetría de mensajes en cola (MQTT, Message Queing Telemetry Transport)
     como protocolo de comunicación máquina-máquina (M2M) a través de un servidor Mosquitto. Tal es el caso también de la alternativa \textit{Open Source} en la implementación de un sistema IoT para la medición de la calidad del aire con el empleo de tarjetas de desarrollo Arduino, ESP8266 y de sensores destinados a la captura de la concentración de CO2 y gases generales, así como densidad de polvo \cite{ochoa2018alternativa}.
     
-    Aún cuando existan más ejemplos del empleo del Internet de las Cosas en Cuba, no se ha encontrado evidencia de su aplicación en los museos cubanos, de ahí el aporte novedoso de este proyecto.
+    Aun cuando existan más ejemplos del empleo del Internet de las Cosas en Cuba, no se ha encontrado evidencia de su aplicación en los museos cubanos, de ahí el aporte novedoso de este proyecto.
 
     \section{Colección de Arte y Arqueología Francisco Prat Puig}
 
@@ -106,7 +106,7 @@
 
     En la sala 2 solamente se encuentran pinturas pertenecientes a la colección, estas poseen también condiciones de deterioro notables por el efecto de la humedad y del nivel de luz dentro del local.
 
-    [Imagen de la sala 2]\newline
+    % [Imagen de la sala 2]\newline
     Dentro de la sala 3 (figura \ref{imag:sala_3}) se localizan también varios objetos ubicados en pedestales mostrando colecciones de medallas y objetos personales del mismo Prat Puig y, además, vitrinas donde se hallan, principalmente, objetos de cerámica como platos, jarrones y cántaros.\newline
     
     \begin{figure}[H]
@@ -159,7 +159,6 @@
     \begin{table}[H]
         \centering
         \caption{Referencias figura \ref{imag:modelos_arquitecturas_iot}}
-        \subcaption*{Fuente: Elaboración propia}
         \begin{tabular}{|l|l|}
         \hline
         \textbf{No. de Capas}    & \textbf{Referencias}                                                                                                                                              \\ \hline
@@ -224,7 +223,7 @@
     
     \begin{itemize}
         \item \textbf{Capa de Percepción: }Contiene todos los Nodos que se ubicarán en cada vitrina de la colección con sus sensores interconectados según sea la necesidad de cada vitrina y permitirán obtener los valores de las variables ambientales.
-        \item \textbf{Capa de Transporte: }En esta capa se presenta el tipo de tecnología que se requiere utilizar para la transmisión de los datos recopilados por los sensores de los nodos con el concentrador principal que se encuentra en la Capa de Procesamiento, la comunicación entre ellos se realizá por Wifi y como protocolo de comunicación se pretende utilizar MQTT para mantener los valores actualizados constantemente.
+        \item \textbf{Capa de Transporte: }En esta capa se presenta el tipo de tecnología que se requiere utilizar para la transmisión de los datos recopilados por los sensores de los nodos con el concentrador principal que se encuentra en la Capa de Procesamiento, la comunicación entre ellos se realiza por Wifi y como protocolo de comunicación se pretende utilizar MQTT para mantener los valores actualizados constantemente.
         \item \textbf{Capa de Procesamiento: }Aquí se encuentra el concentrador principal con un servidor MQTT instalado,y con la Capa de Transporte se comunica con cada Nodo con sus sensores y contiene una base de datos local para almacenar todos los datos recopilados. Este concentrador a su vez envía estos datos de manera automática utilizando la conexión de Internet que se encuentra en el museo a una plataforma web de patrimonio universitario que se encuentra disponible en los servidores de la Universidad de Oriente y fue implementada por los autores Morejón y cols.\cite{morejon} utilizando una API en proceso de desarrollo. De igual forma en esta capa se podrán aplicar algoritmos de multicriterio que permitan analizar los datos y brindarles a los especialistas diferentes acciones.
         \item \textbf{Capa de Visualización: }En esta capa se encuentra la representación de todos los datos recopilados en la plataforma universitaria a los directivos o especialistas de la colección por navegadores web, sin embargo aunque esta es una alternativa de obtener esos datos, la principal novedad de esta investigación es la integración del IoT con la RA por lo que los especialistas que se encuentren dentro del museo podrán acceder a la información utilizando una aplicación móvil que se propone y utiliza la tecnología de RA para mostrar alertas y la información ambiental para cada vitrina o bien patrimonial, de igual forma desde la aplicación se podrá interactuar con la ficha técnica de cada elemento patrimonial para enviarlo a conservación o restauración. 
     \end{itemize}
@@ -298,23 +297,23 @@
     Esta es la capa responsable del traslado de la data a través de los demás componentes del sistema estableciendo la comunicación necesaria desde la toma de valores ambientales hasta su análisis y muestreo.    
     Según \cite{internetOfThingsStateOfTheArt}, la capa de transporte es la que se encarga de transportar y transmitir los datos, recopilados de la capa de percepción, hacia la cloud. Se localizan componentes de red (switch, router, Gateway, etc.), medios de comunicación y protocolos. También es responsable de aspectos de seguridad y el control de ataques.
     
-    Los datos se promueven a través de protocolos MQTT, HTTP y TCP/IP.
+    Los datos se promueven a través de protocolos MQTT, HTTP y TCP/IP.\\
     
-    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.4.3.1\hspace{5mm}Protocolo MQTT}
-        \textbf{1.4.3.1\hspace{5mm}Protocolo MQTT}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.3.1\hspace{5mm}Protocolo MQTT}
+        \textbf{1.3.3.1\hspace{5mm}Protocolo MQTT}
 
-    MQTT son las siglas MQ Telemetry Transport, aunque en primer lugar fue conocido como Message Queing Telemetry Transport. Es un protocolo de comunicación M2M (machine-to-machine) de tipo message queue. Está basado en la pila TCP/IP como base para la comunicación. En el caso de MQTT cada conexión se mantiene abierta y se “reutiliza” en cada comunicación. Es una diferencia, por ejemplo, a una petición HTTP 1.0 donde cada transmisión se realiza a través de conexión.
+    MQTT son las siglas MQ Telemetry Transport, aunque en primer lugar fue conocido como Message Queing Telemetry Transport. Es un protocolo de comunicación M2M (machine-to-machine) de tipo message quere. Está basado en la pila TCP/IP como base para la comunicación. En el caso de MQTT cada conexión se mantiene abierta y se “reutiliza” en cada comunicación. Es una diferencia, por ejemplo, a una petición HTTP 1.0 donde cada transmisión se realiza a través de conexión.
     MQTT fue creado por el Dr. Andy Stanford-Clark de IBM y Arlen Nipper de Arcom (ahora Eurotech) en 1999 como un mecanismo para conectar dispositivos empleados en la industria petrolera.
     Aunque inicialmente era un formato propietario, en 2010 fue liberado y pasó a ser un estándar en 2014 según la OASIS (Organization for the Advancement of Structured Information Standards). \cite{mqtt}\\
 
-    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.4.3.2\hspace{5mm}Protocolo HTTP}
-        \textbf{1.4.3.2\hspace{5mm}Protocolo HTTP}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.3.2\hspace{5mm}Protocolo HTTP}
+        \textbf{1.3.3.2\hspace{5mm}Protocolo HTTP}
 
     HTTP de sus siglas en inglés: “Hypertext Transfer Protocol”, es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página Web completa resulta de la unión de distintos sub-documentos recibidos, por ejemplo: un documento que especifique el estilo de maquetación de la página Web (CSS), el texto, las imágenes, videos, scrips, etcétera.\\
 
 
-    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.4.3.3\hspace{5mm}Protocolo TCP/IP}
-        \textbf{1.4.3.3\hspace{5mm}Protocolo TCP/IP}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.3.3\hspace{5mm}Protocolo TCP/IP}
+        \textbf{1.3.3.3\hspace{5mm}Protocolo TCP/IP}
 
     La definición de TCP/IP es la identificación del grupo de protocolos de red que hacen posible la transferencia de datos en redes, entre equipos informáticos e internet. Las siglas TCP/IP hacen referencia a este grupo de protocolos:
 
@@ -343,7 +342,7 @@
 
     \subsection{Temperatura}
 
-    La temperatura es otro de los factores que contribuye a la aparición de los xilófagos. Según Vázquez y cols. \cite{vazquez1999avetianella}, en un experimento sobre las condiciones necesarias para la cría de plaga, parásitos y xilófagos, plantea que si estos valores de temperatura oscilan entre los 23°C y los 30°C se crean las condiciones para la aprición y reproducción de especies xilófagas. 
+    La temperatura es otro de los factores que contribuye a la aparición de los xilófagos. Según Vázquez y cols. \cite{vazquez1999avetianella}, en un experimento sobre las condiciones necesarias para la cría de plaga, parásitos y xilófagos, plantea que si estos valores de temperatura oscilan entre los 23°C y los 30°C se crean las condiciones para el surgimiento y reproducción de especies xilófagas. 
 
     Por otra parte Flores y Pérez \cite{floresDurabilidadNaturalDiez1987a}, en un estudio sobre los hongos xilófagos plantean que el rango de temperatura idónea para la reproducción de estos xilófagos se encuentra entre los 20°C y los 30°C, existiendo también el caso de que aún con 38°C exista la posibilidad de reproducción en algunas especies, así como Avalos Díaz y cols. \cite{avalosdiazInfluenciaDosHongos2020} que en una de sus publicaciones se define que la temperatura idónea para el surgimiento de colonias xilófagas es de 27°C +- 1.\\ 
 
