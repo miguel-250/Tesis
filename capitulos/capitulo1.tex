@@ -327,10 +327,39 @@
     %Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos o instituciones con vista al desarrollo de entornos inteligentes.\\
 
     %\section{Sistema de comunicación}\label{sec: sistemaComunicación}
+    \section{Variables microclimáticas recomendadas}
 
+    En los museos tanto universitarios como los que no poseen este tipo de característica, se requiere de un control ambiental del mismo que permita mantener el estado de conservación de los bienes patrimoniales que allí se exponen.
+
+    En la bibliografía consultada se utiliza el concepto de conservación preventiva, la cual la define \cite{bachmann1992conservation} como un pilar básico de la gestión museológica y de la cual de ella depende el mantenimiento de las colecciones de forma adecuada, viable y sostenible en el tiempo, además de que permite la durabilidad de los elementos patrimoniales y reduce las intervenciones de los especialistas tal como lo comenta Merrit y cols. \cite{merrittPreventiveConservationHistoric2010}. Las condiciones microclimáticas más importantes a tener en cuanta según Thomson \cite{thomsonMuseumEnvironment2018} y Márquez \cite{marquezAgentesDeterioroMedioambientales2016} son la temperatura, la humedad relativa, la iluminación, el ruido, las vibraciones, el CO2 y el biodeterioro.
+
+    Estos valores deben encontrarse en rangos determinados como se muestra en la siguiente tabla \ref{tab:variables_microclimaticas} según los autores Buys \& cols., Heras \& cols., Koob \& cols., Álvaro y Márquez.
+    
+    \begin{table}[H]
+        \centering
+        \caption{Variables microclimáticas recomendadas}
+        \label{tab:variables_microclimaticas}
+        \begin{tabular}{|l|l|c|l|}
+        \hline
+        Variables   & Valores Recomendados & Materiales                                   & Autores                                                                                                                                                                                                                                                        \\ \hline
+        Temperatura & 18 - 25°C            & \multirow{3}{*}{Vidrio y Cerámicos}          & \multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}\cite{buysConservationRestorationCeramics2014}\\ \cite{garciaherasInnovationGestionConservacion2015}\\ \cite{koobConservationRestorationGlass2004}\end{tabular}}                                                    \\ \cline{1-2}
+        Humedad     & 40 - 65\%            &                                              &                                                                                                                                                                                                                                                                \\ \cline{1-2}
+        Iluminación & 50 - 250 Lux         &                                              &                                                                                                                                                                                                                                                                \\ \hline
+        CO2         & 400 - 600ppm         & Papel y Tela                                 & \cite{marquezAgentesDeterioroMedioambientales2016}                                                                                                                                                                                                             \\ \hline
+        Temperatura & 10 - 25°C            & \multirow{2}{*}{Papel, Tela, Metal y Piedra} & \multirow{2}{*}{\cite{recioalvaroConservacionPreventivaExposiciones2020}}                                                                                                                                                                                      \\ \cline{1-2}
+        Humedad     & 30 - 50\%            &                                              &                                                                                                                                                                                                                                                                \\ \hline
+        \end{tabular}
+    \end{table}
+
+    Estos valores son definidos específicamente por el tipo de clima del país, y Cuba por ser un país cálido y húmedo en algunas regiones como es la ciudad de Santiago de Cuba donde se encuentra la colección objeto de estudio de este trabajo, 
+    es importante realizar una valoración de los valores adecuados de estas variables ambientales por parte de los especialistas que puedan ser defiidos en la propuesta y permitan mantener la colección en buen estado de conservación.
+    Vale destacar que los especialistas del Centro Prat Puig han manifestado que no tienen referencia que ninguna métrica o metodología por la cual se rigan para la toma de decisiones con respecto a las variables ambientales recomendadas para la conservación de los bienes culturales de la colección.
+    
     \section{Condiciones que favorecen el ataque de insectos xilófagos}
 
-    En el caso del control de la aparición de los xilófagos, como daño de origen biótico, no se encontró ningún sensor para medir el posible ataque de xilófagos, por lo que para anunciar la presencia de este tipo de anomalía se analizarán los restantes sensores y por correlación de datos será posible tenerlo en cuenta también.
+    El biodeterioro también constituye otro de los factores que afectan las obras de arte. Estos agentes biológicos están formados por microorganismos (bacterias) y organismos vivos como los vertebrados (aves, roedores), insectos (escarabajos, hormigas, avispas, abejas), insectos xilófagos (termitas y carcomas), moluscos (polas y gusanos de barco) crustáceos (limnorias), hongos, líquenes, algas y el propio hombre \cite{marquezAgentesDeterioroMedioambientales2016}.
+    
+    En el caso del control de la aparición de los xilófagos, como daño de origen biótico, no se encontró ningún sensor para medir el posible ataque, por lo que para anunciar la presencia de este tipo de anomalía se analizarán los restantes sensores y por correlación de datos será posible tenerlo en cuenta también.
     
     Por esto se realiza el análisis de las condiciones óptimas para la aparición de los mismos influyendo en la intensidad o severidad del ataque de estos insectos. Entre estos se pueden mencionar humedad, temperatura, entre otros \cite{ripa2004termitas}. 
     

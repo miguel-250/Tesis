@@ -51,49 +51,51 @@ Database file #1: ref.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in arquitecturaPaginaLuisGarcia
 Warning--empty journal in tcp/ip
+Warning--empty journal in garciaherasInnovationGestionConservacion2015
+Warning--empty journal in recioalvaroConservacionPreventivaExposiciones2020
 Warning--empty journal in ripa2004termitas
 Warning--empty journal in rodriguezcodigo
 
 Done.
-You've used 51 entries,
+You've used 59 entries,
             4087 wiz_defined-function locations,
-            1127 strings with 17221 characters,
-and the built_in function-call counts, 32022 in all, are:
-= -- 2774
-> -- 496
-< -- 282
-+ -- 303
-- -- 72
-* -- 1416
-:= -- 5246
-add.period$ -- 101
-call.type$ -- 51
-change.case$ -- 51
-chr.to.int$ -- 597
-cite$ -- 55
-duplicate$ -- 2433
-empty$ -- 2518
-format.name$ -- 82
-if$ -- 7411
+            1169 strings with 18769 characters,
+and the built_in function-call counts, 35213 in all, are:
+= -- 3012
+> -- 549
+< -- 290
++ -- 329
+- -- 83
+* -- 1533
+:= -- 5789
+add.period$ -- 117
+call.type$ -- 59
+change.case$ -- 56
+chr.to.int$ -- 615
+cite$ -- 65
+duplicate$ -- 2695
+empty$ -- 2861
+format.name$ -- 96
+if$ -- 8149
 int.to.chr$ -- 0
-int.to.str$ -- 51
-missing$ -- 366
-newline$ -- 176
-num.names$ -- 51
-pop$ -- 709
+int.to.str$ -- 59
+missing$ -- 414
+newline$ -- 200
+num.names$ -- 59
+pop$ -- 848
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2573
+skip$ -- 2837
 stack$ -- 0
-substring$ -- 1452
-swap$ -- 1897
-text.length$ -- 83
+substring$ -- 1500
+swap$ -- 2047
+text.length$ -- 85
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 51
-warning$ -- 4
-while$ -- 152
-width$ -- 53
-write$ -- 508
-(There were 4 warnings)
+type$ -- 59
+warning$ -- 6
+while$ -- 164
+width$ -- 61
+write$ -- 568
+(There were 6 warnings)
