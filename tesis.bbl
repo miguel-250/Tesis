@@ -227,6 +227,17 @@ I.~L. y~K.~Lee, ``'the internet of things (iot): Applications, investments, and
   challenges for enterprises','' \emph{Bus. Horiz.}, vol. vol. 58, no.~4, pp.
   431--440, Jul. 2015.
 
+\bibitem{nationalInstrument}
+N.~Instruments, ``Data acquisition (daq) fundamentals application note 007,''
+  \emph{Austin, Texas, USA: National Instruments Editorial}, vol.~7, 1999.
+
+\bibitem{caracteristicassensores}
+M.~A.~G. y~cols., ``Instrumentacion electronica,'' \emph{Madrid: Thomson
+  Editores Spain}, 2004.
+
+\bibitem{esp12}
+Ai-Thinker, \emph{ESP-12F Datasheet, Versión 1, 2018}.
+
 \bibitem{mqtt}
 .~K.~J. Quincozes~S., Emilio~T., ``Mqtt protocol: fundamentals, tools and
   future directions,'' \emph{IEEE Latin America Transactions}, vol.~17, no.~09,
@@ -309,8 +320,5 @@ A.~G. Avalos~Díaz and J.~E. Aviles~Sandi, ``Influencia de dos hongos
   {Ucayali}, {Perú},'' \emph{Revista Cubana de Ciencias Forestales}, vol.~8,
   no.~3, pp. 425--438, 2020, publisher: Universidad de Pinar del Río Hermanos
   Saíz Montes de Oca.
-
-\bibitem{esp12}
-Ai-Thinker, \emph{ESP-12F Datasheet, Versión 1, 2018}.
 
 \end{thebibliography}

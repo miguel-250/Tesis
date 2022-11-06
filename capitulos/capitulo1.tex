@@ -233,11 +233,7 @@
     \subsection{Capa de Percepción}\label{subsec:capa_percepcion}
 
     Las SN (Sensor Network: Rede de Sensores) incluyen múltiples dispositivos (motes o nodos) equipados con transductores, actuadores y sensores que interactúan según la aplicación IoT \cite{hernandez}.
-    Una SN puede estar formada por cientos o miles de nodos que se comunican entre sí y transmiten datos a otros dispositivos como el Gateway y a través de este se envían a un sistema distribuido o centralizado
-    para su almacenamiento y procesamiento \cite{hernandez} \cite{lee}.
-
-    Los sensores convierten estímulos físicos en señales eléctricas analógicas o digitales y según la señal se clasifican en acústicos, eléctricos, magnéticos, ópticos, térmicos y mecánicos \cite{hernandez}.
-    También, se encargan de monitorear las características físicas, químicas o ambientales como: temperatura, humedad, movimiento, velocidad del viento, dirección del viento, nivel de Ph, electro conductividad, nivel de luz, entre otras \cite{lee}.
+    Una SN puede estar formada por cientos o miles de nodos que se comunican entre sí y transmiten datos a otros dispositivos como el Gateway y a través de este se envían a un sistema distribuido o centralizado para su almacenamiento y procesamiento \cite{hernandez} \cite{lee}.
 
     La sucesión de sensores, en conjunto con el microcontrolador conforman la capa de percepción (figura \ref{imag:capa_percepcion}). 
 
@@ -249,10 +245,112 @@
         \label{imag:capa_percepcion}
     \end{figure}
 
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.2.1\hspace{5mm}Sensores}
+    \textbf{1.3.2.1\hspace{5mm}Sensores}
+    
+    Los sensores convierten estímulos físicos en señales eléctricas analógicas o digitales y según la señal se clasifican en acústicos, eléctricos, magnéticos, ópticos, térmicos y mecánicos \cite{hernandez}.
+    También, se encargan de monitorear las características físicas, químicas o ambientales como: temperatura, humedad, movimiento, velocidad del viento, dirección del viento, nivel de Ph, electro conductividad, nivel de luz, entre otras \cite{lee}.
+
+    Las señales eléctricas producidas por los sensores son proporcionales a los parámetros físicos que se monitorean y sus señales eléctricas deben ser optimizadas para el rango de entrada de los sistemas de adquisición \cite{nationalInstrument}.\\
+
+    \textbf{Características técnicas de un sensor}
+    \begin{itemize}
+        \item Rango de medida: dominio en la magnitud medida en el que puede aplicarse el sensor.
+        \item Precisión: es el error de medida máximo esperado.
+        \item Offset o desviación de cero: valor de la variable de salida cuando la variable de entrada es nula. Si el rango de medida no llega a valores nulos de la variable de entrada, habitualmente se establece otro punto de referencia para definir el offset. (down)
+        \item Linealidad o correlación lineal.
+        \item Sensibilidad de un sensor: suponiendo que es de entrada a salida y la variación de la magnitud de entrada.
+        \item Resolución: mínima variación de la magnitud de entrada que puede detectarse a la salida.
+        \item Rapidez de respuesta: puede ser un tiempo fijo o depender de cuánto varíe la magnitud a medir. Depende de la capacidad del sistema para seguir las variaciones de la magnitud de entrada.
+        \item Derivas: son otras magnitudes, aparte de la medida como magnitud de entrada, que influyen en la variable de salida. Por ejemplo, pueden ser condiciones ambientales, como la humedad, la temperatura u otras como el envejecimiento (oxidación, desgaste, etc.) del sensor.
+        \item Repetitividad: error esperado al repetir varias veces la misma medida.
+    \end{itemize}
+
+    Tomado de: M.A.García y cols.\cite{caracteristicassensores}
+
     \newpage
 
-    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.4.2.1\hspace{5mm}Nodos}
-    \textbf{1.4.2.1\hspace{5mm}Nodos}
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.2.2\hspace{5mm}Microcontroladores}
+    \textbf{1.3.2.2\hspace{5mm}Microcontroladores}
+
+    Un microcontrolador (MCU) es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales, los cuales cumplen una tarea específica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y periféricos de entrada/salida.\\
+
+    \textbf{Características generales de los microcontroladores}
+
+    Los microcontroladores están diseñados para reducir el costo económico y el consumo de energía de un sistema en particular. Por eso el tamaño de la unidad central de procesamiento, la cantidad de memoria y los periféricos incluidos dependerán de la aplicación.
+
+    En este caso la aplicación que se le dará al microcontrolador será como hardware de adquisición de datos.
+
+    Un microcontrolador típico tendrá un generador de reloj integrado y una pequeña cantidad de memoria de acceso aleatorio y/o ROM/EPROM/EEPROM/flash, con lo que para hacerlo funcionar todo lo que se necesita son unos pocos programas de control y un cristal de sincronización. Los microcontroladores disponen
+    generalmente también de una gran variedad de dispositivos de entrada/salida, como convertidor analógico digital, temporizadores, UART y buses de interfaz serie especializados, como I2C y CAN.
+
+    La memoria RAM está destinada al almacenamiento de información temporal que será utilizada por el procesador para realizar cálculos u otro tipo de operaciones lógicas. En la memoria RAM se almacenan también los registros de trabajo y configuración del procesador y los distintos periféricos del microcontrolador.
+
+    El tipo de memoria utilizada en las memorias RAM de los microcontroladores es SRAM.
+    EEPROM (Electrical Erasable Programmable Read Only Memory) y  es el sustituto natural de las memorias EPROM, la diferencia fundamental es que pueden ser borradas eléctricamente, por lo que la ventanilla de cristal de cuarzo y los encapsulados cerámicos no son necesarios.
+
+    \newpage
+
+    \textbf{Módulo ESP-12F}
+
+    El módulo WiFi ESP-12F (figura \ref{imag:esp-12F}) fue desarrollado por Ai-Thinker Technology. El procesador central ESP8266 integra el micro MCU de 32 bits de potencia ultrabaja Tensilica L106 líder en la industria en un paquete pequeño con modo Lite de 16 bits, velocidad de reloj Admite 80 MHz y 160 MHz, admite RTOS e integra Wi-Fi MAC /BB/RF/PA/LNA.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=5cm, height=5cm]{imagenes/esp-12F.jpeg}
+        \caption{ESP-12F basado en ESP8266}
+        \label{imag:esp-12F}
+    \end{figure}
+
+    El módulo WiFi ESP-12F es compatible con el protocolo estándar IEEE802.11 b/g/n, una pila completa de protocolos TCP/IP. Los usuarios pueden usar este módulo para agregar capacidades de red a los dispositivos existentes o para construir controladores de red separados.
+    
+    El ESP8266 es una solución de red Wi-Fi completa y autónoma que puede funcionar de forma independiente o como un esclavo que se ejecuta en otras MCU anfitrionas. El ESP8266 es capaz de arrancar directamente desde una memoria flash externa cuando está alimentado por una aplicación y es el único procesador de aplicaciones en el dispositivo. El caché incorporado ayuda a mejorar el rendimiento del sistema y reduce los requisitos de memoria.
+
+    En otro caso, el ESP8266 se encarga del acceso inalámbrico a Internet. Cuando se trata de la tarea del adaptador WiFi, se puede agregar a cualquier diseño basado en un microcontrolador. La conexión es simple y fácil, solo por interfaz SPI/SDIO o puerto I2C/UART.
+
+    Las potentes capacidades de almacenamiento y procesamiento en chip del ESP8266 le permiten integrar sensores y otros dispositivos específicos de la aplicación a través del puerto GPIO, lo que minimiza los recursos del sistema durante un desarrollo y una operación iniciales mínimos.
+
+    Tomado de: Ai-Thinker\cite{esp12}.\\
+
+    \textbf{Características}
+
+    \begin{itemize}
+        \item Modelo: ESP-12F
+        \item Paquete: SMD22
+        \item Dimensiones: 24mm x 16mm x 3mm (±0.2)mm
+        \item SPI Flash: 32Mbit
+        \item Interfaz de comunicación: UART, GPIO, ADC y PWM
+        \item Seguridad: WEP/WPA-PSK/WPA2-PSK
+        \item Modos de funcionamiento: AP, STA y STA
+        \item Puertos IO: 9
+        \item Puertos ADC: 1
+        \item I/O voltaje tolerancia: 3.6V Max
+        \item Incorpora led de prueba en el pin GPIO2
+        \item Velocidad de Baudios configurable: Soporta de 300 hasta 4608000 bps, por defecto 115200 bps
+        \item Antena: Incluida en el PCB
+        \item Rango de frecuencia: 2412 ~ 2484 MHz
+        \item Poder de transmisión: 802.11 b / g / n
+            \begin{itemize}
+                \item b: 16±2 dBm (@11Mbps)
+                \item g: 14±2 dBm (@54Mbps)
+                \item n: 13±2 dBm (@HT20, MCS7)
+            \end{itemize}
+        \item Voltaje de funcionamiento: desde 3.0V hasta 3.6V
+        \item Voltaje de operación típico: 3.3V
+        \item Corriente:
+            \begin{itemize}
+                \item Transmisión continua: Promedio ~2mA y Pico: 500ma
+                \item Suspensión del módem: ~20mA
+                \item Sueño ligero:~2mA
+                \item Sueño profundo:~0.02mA
+            \end{itemize}
+        \item Temperatura de operación -40ºC y 85ºC
+    \end{itemize}
+
+    La principal ventaja de escoger este microcontrolador ESP-12F es por la disponibilidad de wifi sin necesidad de incorporar otros accesorios, además de las pequeñas dimensiones que posee, ideal para el desarrollo de proyectos o prototipos domóticos o de automatización en poco espacio.\\
+
+    \addcontentsline{toc}{subsection}{\hspace{1.3cm}1.3.2.3\hspace{5mm}Nodos}
+    \textbf{1.3.2.3\hspace{5mm}Nodos}
 
     Los nodos que recopilarán los datos de cada vitrina estarán compuestos por el microcontrolador y los sensores encargados de tomar los valores medioambientales presentes teniendo en cuenta el material de las piezas expuestas dentro de cada una de las vitrinas.
     
@@ -354,8 +452,6 @@
     Estos valores son definidos específicamente por el tipo de clima del país, y Cuba por ser un país cálido y húmedo en algunas regiones como es la ciudad de Santiago de Cuba donde se encuentra la colección objeto de estudio de este trabajo, 
     es importante realizar una valoración de los valores adecuados de estas variables ambientales por parte de los especialistas que puedan ser defiidos en la propuesta y permitan mantener la colección en buen estado de conservación.
     Vale destacar que los especialistas del Centro Prat Puig han manifestado que no tienen referencia que ninguna métrica o metodología por la cual se rigan para la toma de decisiones con respecto a las variables ambientales recomendadas para la conservación de los bienes culturales de la colección.
-    
-    \newpage
 
     \section{Condiciones que favorecen el ataque de insectos xilófagos}
 

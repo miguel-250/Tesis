@@ -6,22 +6,19 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Comparación arquitecturas\relax }}{11}{}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Modelos de arquitecturas IoT basados en capas\relax }}{13}{}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Diagrama funcional de captura de datos\relax }}{16}{}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces ESP-12F basado en ESP8266\relax }}{19}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces PCB Nodo\relax }}{23}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquematico del circuito\relax }}{24}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ESP-12F\relax }}{25}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Especificaciones ESP-12F\relax }}{27}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ESP-12F Pinout\relax }}{27}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces ESP-12F Dimensiones\relax }}{28}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor DHT22\relax }}{30}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Dimensiones sensor DHT22\relax }}{31}{}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Sensor MH-Z19C\relax }}{31}{}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Sensor piezoeléctrico M0168\relax }}{32}{}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Sensor SDS011\relax }}{33}{}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Sensor LDR\relax }}{34}{}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Sensor LDR\relax }}{34}{}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Sensor BH1750\relax }}{35}{}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{35}{}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Configuración de pines\relax }}{37}{}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Acondicionamiento\relax }}{37}{}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Correlación de valores medioambientales\relax }}{38}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces PCB Nodo\relax }}{27}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquematico del circuito\relax }}{28}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Sensor DHT22\relax }}{30}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Dimensiones sensor DHT22\relax }}{31}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sensor MH-Z19C\relax }}{31}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sensor piezoeléctrico M0168\relax }}{32}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor SDS011\relax }}{33}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Sensor LDR\relax }}{34}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Sensor LDR\relax }}{34}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Sensor BH1750\relax }}{35}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{35}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Configuración de pines\relax }}{37}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Acondicionamiento\relax }}{37}{}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Correlación de valores medioambientales\relax }}{38}{}%

@@ -801,6 +801,13 @@ INPUT .\imagenes\perception_image.jpg
 INPUT .\imagenes\perception_image.jpg
 INPUT .\imagenes\perception_image.jpg
 INPUT .\imagenes\perception_image.jpg
+INPUT .\imagenes\esp-12F.jpeg
+INPUT .\imagenes\esp-12F.jpeg
+INPUT imagenes\esp-12F.jpeg
+INPUT .\imagenes\esp-12F.jpeg
+INPUT .\imagenes\esp-12F.jpeg
+INPUT .\imagenes\esp-12F.jpeg
+INPUT .\imagenes\esp-12F.jpeg
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
@@ -825,34 +832,6 @@ INPUT .\imagenes\esquematico nodo.jpg
 INPUT .\imagenes\esquematico nodo.jpg
 INPUT .\imagenes\esquematico nodo.jpg
 INPUT .\imagenes\esquematico nodo.jpg
-INPUT .\imagenes\esp-12F.jpeg
-INPUT .\imagenes\esp-12F.jpeg
-INPUT imagenes\esp-12F.jpeg
-INPUT .\imagenes\esp-12F.jpeg
-INPUT .\imagenes\esp-12F.jpeg
-INPUT .\imagenes\esp-12F.jpeg
-INPUT .\imagenes\esp-12F.jpeg
-INPUT .\imagenes\esp-12F especificaciones.jpg
-INPUT .\imagenes\esp-12F especificaciones.jpg
-INPUT imagenes\esp-12F especificaciones.jpg
-INPUT .\imagenes\esp-12F especificaciones.jpg
-INPUT .\imagenes\esp-12F especificaciones.jpg
-INPUT .\imagenes\esp-12F especificaciones.jpg
-INPUT .\imagenes\esp-12F especificaciones.jpg
-INPUT .\imagenes\esp-12F pinout.jpg
-INPUT .\imagenes\esp-12F pinout.jpg
-INPUT imagenes\esp-12F pinout.jpg
-INPUT .\imagenes\esp-12F pinout.jpg
-INPUT .\imagenes\esp-12F pinout.jpg
-INPUT .\imagenes\esp-12F pinout.jpg
-INPUT .\imagenes\esp-12F pinout.jpg
-INPUT .\imagenes\esp-12F dimensiones.jpg
-INPUT .\imagenes\esp-12F dimensiones.jpg
-INPUT imagenes\esp-12F dimensiones.jpg
-INPUT .\imagenes\esp-12F dimensiones.jpg
-INPUT .\imagenes\esp-12F dimensiones.jpg
-INPUT .\imagenes\esp-12F dimensiones.jpg
-INPUT .\imagenes\esp-12F dimensiones.jpg
 INPUT .\imagenes\dht22.jpg
 INPUT .\imagenes\dht22.jpg
 INPUT imagenes\dht22.jpg
