@@ -680,6 +680,9 @@ INPUT .\capitulos\resumen.tex
 INPUT capitulos\resumen.tex
 INPUT .\capitulos\resumen.tex
 INPUT capitulos\resumen.tex
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\capitulos\abstract.tex
 INPUT .\capitulos\abstract.tex
 INPUT .\capitulos\abstract.tex
@@ -720,9 +723,6 @@ INPUT .\capitulos\introduccion.tex
 INPUT capitulos\introduccion.tex
 INPUT .\capitulos\introduccion.tex
 INPUT capitulos\introduccion.tex
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\capitulos\capitulo1.tex
 INPUT .\capitulos\capitulo1.tex
 INPUT .\capitulos\capitulo1.tex
@@ -818,20 +818,6 @@ INPUT .\capitulos\capitulo2.tex
 INPUT capitulos\capitulo2.tex
 INPUT .\capitulos\capitulo2.tex
 INPUT capitulos\capitulo2.tex
-INPUT .\imagenes\vista 3D.jpg
-INPUT .\imagenes\vista 3D.jpg
-INPUT imagenes\vista 3D.jpg
-INPUT .\imagenes\vista 3D.jpg
-INPUT .\imagenes\vista 3D.jpg
-INPUT .\imagenes\vista 3D.jpg
-INPUT .\imagenes\vista 3D.jpg
-INPUT .\imagenes\esquematico nodo.jpg
-INPUT .\imagenes\esquematico nodo.jpg
-INPUT imagenes\esquematico nodo.jpg
-INPUT .\imagenes\esquematico nodo.jpg
-INPUT .\imagenes\esquematico nodo.jpg
-INPUT .\imagenes\esquematico nodo.jpg
-INPUT .\imagenes\esquematico nodo.jpg
 INPUT .\imagenes\dht22.jpg
 INPUT .\imagenes\dht22.jpg
 INPUT imagenes\dht22.jpg

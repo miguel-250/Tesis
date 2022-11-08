@@ -2,72 +2,15 @@
 
 \addcontentsline{toc}{section}{Introducción}
         \textbf{\Large Introducción}\newline
-        ...
+        
+        En este capítulo se comentan los pasos seguidos para la implementación del sistema: se realiza la descripción del proceso a monitorear o planta, los sensores que incorpora...
 
-\section{Descripción técnica capa de percepción}
+\section{Descripción del sistema}
 
-Como se analizaba en el epígrafe \ref{subsec:capa_percepcion} la capa de percepción va caracterizada por la presencia del microcontrolador y los sensores que, en conjunto forman los nodos, siendo estos los
-encargados de la captura de los datos del medio.\\
+    ...
 
-Los nodos están diseñados sobre una placa de circuito impreso PCB (figura \ref{imag:pcb_nodo}).
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=7cm, height=5cm]{imagenes/vista 3D.jpg}
-    \caption{PCB Nodo}
-    \subcaption*{Fuente: Elavoración propia}
-    \label{imag:pcb_nodo}
-\end{figure}
-
-\textbf{¿Por qué esta placa y no un Arduino o un NodeMcu?}
-
-Al hablar de un microcontrolador como Arduino o NodeMcu se hace referencia a las posibilidades que brindan en cuanto a disponibilidad de pines GPIO. 
-
-En el caso de un microcontrolador Arduino, dígase Arduino UNO, NANO, Arduino Micro ... 
-
-Ahora, ¿por qué no se tomó ninguno de estos?
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=12cm, height=8cm]{imagenes/esquematico nodo.jpg}
-    \caption{Esquematico del circuito}
-    \subcaption*{Fuente: Elavoración propia}
-    \label{imag:esquematico_nodo}
-\end{figure}
-
-A continuación, se describen por partes los elementos que componen dichos nodos. \\
-
-%Dentro de la familia de los ESP se encuentra el NodeMCU. Este microcontrolador (Imagen \ref{imag:nodemcu}) será el encargado de recibir los datos de los sensores y organizarlos en función de su continua transmisión hacia el concentrador.\\
-
-    %\begin{figure}[h]
-    %    \centering
-    %    \includegraphics[width=5.5cm, height=6cm]{imagenes/nodemcu0.jpg}
-    %    \caption{NodeMcu Vendor}
-    %    \label{imag:nodemcu}
-    %\end{figure}
-    
-    
-    %NodeMCU es una pequeña placa Wifi compatible con Arduino, lista para usar en cualquier proyecto IoT. Está montada alrededor del microcontrolador ESP8266 y expone todos sus pines en los laterales. Además, ofrece más ventajas como la incorporación de un regulador de tensión integrado, así como un puerto USB de programación. Se puede programar con LUA o mediante el IDE de Arduino.\\
-
-    %Dispone de una extensa comunidad y documentación que permitirá conectar el proyecto mediante conexión Wifi.
-
-    %\textbf{Características}
-    %\begin{itemize}
-    %    \item Procesador: ESP8266 a 80MHz (3.3V) (ESP-12E).
-    %    \item 4MB de memoria FLASH (32 MBit).
-    %    \item WiFi 802.11 b/g/n.
-    %    \item Regulador 3.3V integrado (500mA).
-    %    \item Conversor USB-Serial CH340G.
-    %    \item Función Auto-reset.
-    %    \item 9 pines GPIO con I2C y SPI.
-    %    \item 1 entrada analógica (1.0V max).
-    %    \item 4 agujeros de montaje (3mm).
-    %    \item Entrada alimentación externa VIN (20V max).
-    %\end{itemize}
-
-    \newpage
-
-\subsection{Sensores} \label{sec: sensores}
+\section{Sensores} \label{sec: sensores}
 
     La secuencia de sensores pertenecientes al sistema es selecta, puesto que se tomaron los sensores teniendo en cuenta varios factores:
 
@@ -123,10 +66,7 @@ Se tomaron precios de referencia de los sensores de las páginas oficiales de co
     \label{tab: precios_referencia}
 \end{table}
 
-\subsection{Descripción sensores} \label{subsec: descripcion_sensores}
-
-\addcontentsline{toc}{subsection}{\hspace{1.3cm}2.1.3.1\hspace{5mm}Sensor DHT22}
-        \textbf{2.1.3.1\hspace{5mm}Sensor DHT22}
+\subsection{Sensor de temperatura DHT22}
 
   \begin{figure}[H]
       \centering
@@ -148,8 +88,7 @@ El DHT22 (AM2302) es un sensor digital de temperatura y humedad relativa de buen
 
 \vspace{1cm}
 
-\addcontentsline{toc}{subsection}{\hspace{1.3cm}2.1.3.2\hspace{5mm}Sensor MZ-Z19C}
-        \textbf{2.1.3.2\hspace{5mm}Sensor MZ-Z19C}
+\subsection{Sensor de CO2 SGP30}
 
 \begin{figure}[H]
       \centering
@@ -172,8 +111,7 @@ El sensor de gas de dióxido de carbono MH-Z19C es un pequeño sensor inteligent
 
 \vspace{0.5cm}
 
-\addcontentsline{toc}{subsection}{\hspace{1.3cm}2.1.3.3\hspace{5mm}Sensor M0168}
-        \textbf{2.1.3.3\hspace{5mm}Sensor M0168}
+\subsection{Sensor de vibración M0168}
 
 \begin{figure}[H]
       \centering
@@ -196,8 +134,7 @@ En este sensor piezoeléctrico cuando el choque de la cerámica con la lámina m
 
 \newpage
 
-\addcontentsline{toc}{subsection}{\hspace{1.3cm}2.1.3.4\hspace{5mm}Sensor SDS011}
-        \textbf{2.1.3.4\hspace{5mm}Sensor SDS011}
+\subsection{Sensor de calidad de aire}
 
 \vspace{1cm}
 
@@ -222,8 +159,7 @@ Se basa en el principio de dispersión láser: se puede inducir la dispersión d
 
 \vspace{5cm}
 
-\addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.5\hspace{5mm}Sensor LDR}
-        \textbf{2.2.1.5\hspace{5mm}Sensor LDR}\newline
+\subsection{Sensor LDR}
 
 \begin{figure}[H]
       \centering
@@ -244,8 +180,7 @@ Una fotorresistencia es un componente electrónico cuya resistencia disminuye co
 
 \vspace{0.5cm}
 
-\addcontentsline{toc}{subsection}{\hspace{1.3cm}2.2.1.6\hspace{5mm}Sensor BH1750}
-        \textbf{2.2.1.6\hspace{5mm}Sensor BH1750}\newline
+\subsection{Sensor de luz BH1750}
 
 El Módulo BH1750 es un sensor de iluminación digital para medición de flujo luminoso (iluminancia) de la empresa Rohm Semiconductor. Componente que posee dentro de su arquitectura interna, un conversor análogo digital (ADC) de 16 bits con una salida digital de formato I2C, que facilita la integración con microcontroladores o sistemas embebidos diversos. Este módulo entrega la intensidad luminosa directamente en unidades de Lux que es equivalente a Lumen/m2.\\
 

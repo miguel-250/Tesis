@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  7 NOV 2022 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  8 NOV 2022 11:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -535,6 +535,9 @@ LaTeX Info: Redefining \% on input line 1.
 \openout2 = `capitulos/resumen.aux'.
 
  (capitulos/resumen.tex
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 19.70294pt on input line 6.
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
@@ -550,7 +553,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 LaTeX Font Info:    Font shape `T1/ua1/b/it' will be
 (Font)              scaled to size 11.39996pt on input line 6.
 LaTeX Font Info:    Font shape `T1/ua1/b/it' will be
-(Font)              scaled to size 16.41594pt on input line 6.
+(Font)              scaled to size 19.70294pt on input line 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
@@ -577,10 +580,7 @@ LaTeX Info: Redefining \% on input line 1.
 ) [1]
 \openout2 = `capitulos/introduccion.aux'.
 
- (capitulos/introduccion.tex
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 3.
- [1
+ (capitulos/introduccion.tex [1
 
 
 
@@ -799,323 +799,271 @@ Underfull \hbox (badness 10000) in paragraph at lines 475--476
  (capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<imagenes/vista 3D.jpg, id=137, 1191.45125pt x 762.85pt>
-File: imagenes/vista 3D.jpg Graphic file (type jpg)
-<use imagenes/vista 3D.jpg>
-Package pdftex.def Info: imagenes/vista 3D.jpg  used on input line 16.
-(pdftex.def)             Requested size: 199.16254pt x 142.25414pt.
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 18.
+(caption)                outside box or environment on input line 33.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 18.
+(caption)                outside box or environment on input line 33.
 See the caption package documentation for explanation.
+
+
+Overfull \hbox (25.83107pt too wide) in paragraph at lines 34--48
+ [][] 
+ []
 
 [27
 
 
 
 
- <./imagenes/vista 3D.jpg>]
-<imagenes/esquematico nodo.jpg, id=141, 967.615pt x 662.475pt>
-File: imagenes/esquematico nodo.jpg Graphic file (type jpg)
-<use imagenes/esquematico nodo.jpg>
-Package pdftex.def Info: imagenes/esquematico nodo.jpg  used on input line 32.
-(pdftex.def)             Requested size: 341.4313pt x 227.61403pt.
-
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 34.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 34.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-[28 <./imagenes/esquematico nodo.jpg>]
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 90.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 90.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (25.83107pt too wide) in paragraph at lines 91--105
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 112.
+(caption)                outside box or environment on input line 55.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 112.
+(caption)                outside box or environment on input line 55.
 See the caption package documentation for explanation.
 
-[29]
-<imagenes/dht22.jpg, id=148, 459.7175pt x 459.7175pt>
+<imagenes/dht22.jpg, id=140, 459.7175pt x 459.7175pt>
 File: imagenes/dht22.jpg Graphic file (type jpg)
 <use imagenes/dht22.jpg>
-Package pdftex.def Info: imagenes/dht22.jpg  used on input line 133.
+Package pdftex.def Info: imagenes/dht22.jpg  used on input line 73.
 (pdftex.def)             Requested size: 142.26543pt x 142.26543pt.
 
-
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 135.
+(caption)                outside box or environment on input line 75.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 135.
+(caption)                outside box or environment on input line 75.
 See the caption package documentation for explanation.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<imagenes/dht22 dimensiones.jpg, id=149, 377.15906pt x 317.68687pt>
+<imagenes/dht22 dimensiones.jpg, id=144, 377.15906pt x 317.68687pt>
 File: imagenes/dht22 dimensiones.jpg Graphic file (type jpg)
 <use imagenes/dht22 dimensiones.jpg>
-Package pdftex.def Info: imagenes/dht22 dimensiones.jpg  used on input line 143.
+Package pdftex.def Info: imagenes/dht22 dimensiones.jpg  used on input line 83.
 (pdftex.def)             Requested size: 227.62082pt x 170.71942pt.
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 145.
+(caption)                outside box or environment on input line 85.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 145.
+(caption)                outside box or environment on input line 85.
 See the caption package documentation for explanation.
 
-[30 <./imagenes/dht22.jpg>]
-<imagenes/mh-z19c.png, id=153, 347.79938pt x 225.09094pt>
+<imagenes/mh-z19c.png, id=145, 347.79938pt x 225.09094pt>
 File: imagenes/mh-z19c.png Graphic file (type png)
 <use imagenes/mh-z19c.png>
-Package pdftex.def Info: imagenes/mh-z19c.png  used on input line 156.
+Package pdftex.def Info: imagenes/mh-z19c.png  used on input line 95.
 (pdftex.def)             Requested size: 142.26433pt x 85.35684pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+[29 <./imagenes/dht22.jpg> <./imagenes/dht22 dimensiones.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[31 <./imagenes/dht22 dimensiones.jpg> <./imagenes/mh-z19c.png>]
-<imagenes/sensor-piezoelectrico.jpg, id=158, 286.06876pt x 190.46156pt>
+<imagenes/sensor-piezoelectrico.jpg, id=149, 286.06876pt x 190.46156pt>
 File: imagenes/sensor-piezoelectrico.jpg Graphic file (type jpg)
 <use imagenes/sensor-piezoelectrico.jpg>
-Package pdftex.def Info: imagenes/sensor-piezoelectrico.jpg  used on input line 180.
+Package pdftex.def Info: imagenes/sensor-piezoelectrico.jpg  used on input line 118.
 (pdftex.def)             Requested size: 184.94289pt x 142.26746pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+[30 <./imagenes/mh-z19c.png> <./imagenes/sensor-piezoelectrico.jpg>] [31]
+<imagenes/Sensor SDS011.jpg, id=157, 416.55624pt x 451.6875pt>
+File: imagenes/Sensor SDS011.jpg Graphic file (type jpg)
+<use imagenes/Sensor SDS011.jpg>
+Package pdftex.def Info: imagenes/Sensor SDS011.jpg  used on input line 143.
+(pdftex.def)             Requested size: 128.03784pt x 128.03615pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+<imagenes/sensor LDR.png, id=158, 1479.5275pt x 1100.11pt>
+File: imagenes/sensor LDR.png Graphic file (type png)
+<use imagenes/sensor LDR.png>
+Package pdftex.def Info: imagenes/sensor LDR.png  used on input line 166.
+(pdftex.def)             Requested size: 156.47247pt x 113.81114pt.
+[32 <./imagenes/Sensor SDS011.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+<imagenes/ldr.jpg, id=162, 237.13594pt x 204.765pt>
+File: imagenes/ldr.jpg Graphic file (type jpg)
+<use imagenes/ldr.jpg>
+Package pdftex.def Info: imagenes/ldr.jpg  used on input line 175.
+(pdftex.def)             Requested size: 128.04063pt x 113.81462pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 177.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 177.
+See the caption package documentation for explanation.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-[32 <./imagenes/sensor-piezoelectrico.jpg>]
-<imagenes/Sensor SDS011.jpg, id=162, 416.55624pt x 451.6875pt>
-File: imagenes/Sensor SDS011.jpg Graphic file (type jpg)
-<use imagenes/Sensor SDS011.jpg>
-Package pdftex.def Info: imagenes/Sensor SDS011.jpg  used on input line 206.
-(pdftex.def)             Requested size: 128.03784pt x 128.03615pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
- []
-
-<imagenes/sensor LDR.png, id=163, 1479.5275pt x 1100.11pt>
-File: imagenes/sensor LDR.png Graphic file (type png)
-<use imagenes/sensor LDR.png>
-Package pdftex.def Info: imagenes/sensor LDR.png  used on input line 230.
-(pdftex.def)             Requested size: 156.47247pt x 113.81114pt.
-[33 <./imagenes/Sensor SDS011.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-<imagenes/ldr.jpg, id=167, 237.13594pt x 204.765pt>
-File: imagenes/ldr.jpg Graphic file (type jpg)
-<use imagenes/ldr.jpg>
-Package pdftex.def Info: imagenes/ldr.jpg  used on input line 239.
-(pdftex.def)             Requested size: 128.04063pt x 113.81462pt.
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 241.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 241.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-
- []
-
-<imagenes/Sensor BH1750.jpg, id=168, 1505.625pt x 1505.625pt>
+<imagenes/Sensor BH1750.jpg, id=163, 1505.625pt x 1505.625pt>
 File: imagenes/Sensor BH1750.jpg Graphic file (type jpg)
 <use imagenes/Sensor BH1750.jpg>
-Package pdftex.def Info: imagenes/Sensor BH1750.jpg  used on input line 254.
+Package pdftex.def Info: imagenes/Sensor BH1750.jpg  used on input line 189.
 (pdftex.def)             Requested size: 142.25475pt x 113.79001pt.
-[34 <./imagenes/sensor LDR.png> <./imagenes/ldr.jpg>]
-<imagenes/acondicionamientos sensor BH1750.jpg, id=173, 527.72156pt x 293.59688pt>
+[33 <./imagenes/sensor LDR.png> <./imagenes/ldr.jpg>]
+<imagenes/acondicionamientos sensor BH1750.jpg, id=168, 527.72156pt x 293.59688pt>
 File: imagenes/acondicionamientos sensor BH1750.jpg Graphic file (type jpg)
 <use imagenes/acondicionamientos sensor BH1750.jpg>
-Package pdftex.def Info: imagenes/acondicionamientos sensor BH1750.jpg  used on input line 272.
+Package pdftex.def Info: imagenes/acondicionamientos sensor BH1750.jpg  used on input line 207.
 (pdftex.def)             Requested size: 312.9796pt x 199.16835pt.
 
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 274.
+(caption)                outside box or environment on input line 209.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 274.
+(caption)                outside box or environment on input line 209.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-[35 <./imagenes/Sensor BH1750.jpg> <./imagenes/acondicionamientos sensor BH1750.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+[34 <./imagenes/Sensor BH1750.jpg> <./imagenes/acondicionamientos sensor BH1750.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-<imagenes/esquematico RT9013.pdf, id=177, 368.37625pt x 392.46625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+<imagenes/esquematico RT9013.pdf, id=172, 368.37625pt x 392.46625pt>
 File: imagenes/esquematico RT9013.pdf Graphic file (type pdf)
 <use imagenes/esquematico RT9013.pdf>
-Package pdftex.def Info: imagenes/esquematico RT9013.pdf  used on input line 308.
+Package pdftex.def Info: imagenes/esquematico RT9013.pdf  used on input line 243.
 (pdftex.def)             Requested size: 156.48756pt x 170.72142pt.
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 310.
+(caption)                outside box or environment on input line 245.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 310.
+(caption)                outside box or environment on input line 245.
 See the caption package documentation for explanation.
 
-[36]
-<imagenes/acondicionamiento RT9013.jpg, id=181, 280.79906pt x 155.83218pt>
+[35]
+<imagenes/acondicionamiento RT9013.jpg, id=176, 280.79906pt x 155.83218pt>
 File: imagenes/acondicionamiento RT9013.jpg Graphic file (type jpg)
 <use imagenes/acondicionamiento RT9013.jpg>
-Package pdftex.def Info: imagenes/acondicionamiento RT9013.jpg  used on input line 316.
+Package pdftex.def Info: imagenes/acondicionamiento RT9013.jpg  used on input line 251.
 (pdftex.def)             Requested size: 341.45177pt x 199.17204pt.
 
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 318.
+(caption)                outside box or environment on input line 253.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 318.
+(caption)                outside box or environment on input line 253.
 See the caption package documentation for explanation.
 
-[37 <./imagenes/esquematico RT9013.pdf> <./imagenes/acondicionamiento RT9013.jpg>]
-<imagenes/gráfica_comparativa_variables_medioambientales.png, id=194, 623.32875pt x 200.24812pt>
+[36 <./imagenes/esquematico RT9013.pdf> <./imagenes/acondicionamiento RT9013.jpg>]
+<imagenes/gráfica_comparativa_variables_medioambientales.png, id=188, 623.32875pt x 200.24812pt>
 File: imagenes/gráfica_comparativa_variables_medioambientales.png Graphic file (type png)
 <use imagenes/gráfica_comparativa_variables_medioambientales.png>
-Package pdftex.def Info: imagenes/gráfica_comparativa_variables_medioambientales.png  used on input line 329.
+Package pdftex.def Info: imagenes/gráfica_comparativa_variables_medioambientales.png  used on input line 264.
 (pdftex.def)             Requested size: 455.25447pt x 142.27188pt.
 
-Overfull \hbox (2.28621pt too wide) in paragraph at lines 329--330
+Overfull \hbox (2.28621pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
 
 Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 331.
+(caption)                outside box or environment on input line 266.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 331.
+(caption)                outside box or environment on input line 266.
 See the caption package documentation for explanation.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 337--89
+Underfull \hbox (badness 10000) in paragraph at lines 272--89
 
  []
 
-[38 <./imagenes/gráfica_comparativa_variables_medioambientales.png>]
+[37 <./imagenes/gráfica_comparativa_variables_medioambientales.png>]
 \openout2 = `capitulos/conclusiones.aux'.
 
- (capitulos/conclusiones.tex) [39
+ (capitulos/conclusiones.tex) [38
 
 
 
 ]
 \openout2 = `capitulos/recomendaciones.aux'.
 
- (capitulos/recomendaciones.tex) [40
+ (capitulos/recomendaciones.tex) [39
 
 
 
 ]
 \openout2 = `capitulos/bibliografia.aux'.
 
- (capitulos/bibliografia.tex (tesis.bbl [41
+ (capitulos/bibliografia.tex (tesis.bbl [40
 
 
 
 
-] [42] [43] [44]
+] [41] [42] [43]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-[45])) [46]
+[44])) [45]
 \openout2 = `capitulos/apendix.aux'.
 
- (capitulos/apendix.tex) [47
+ (capitulos/apendix.tex) [46
 
 
 
@@ -1124,17 +1072,17 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (capitulos/carátula2.aux) (capitulos/pagina_firmas.aux) (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/listado.aux) (capitulos/indice2.aux) (capitulos/indice3.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/bibliografia.aux) (capitulos/apendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 9002 strings out of 475389
- 162139 string characters out of 2777000
- 509122 words of memory out of 3000000
- 30083 multiletter control sequences out of 15000+600000
+ 8983 strings out of 475389
+ 161627 string characters out of 2777000
+ 509067 words of memory out of 3000000
+ 30066 multiletter control sequences out of 15000+600000
  568961 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,63p,937b,501s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1bi8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (59 pages, 2964193 bytes).
+Output written on tesis.pdf (58 pages, 2612319 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
+ 242 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
