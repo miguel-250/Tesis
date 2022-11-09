@@ -8,15 +8,15 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Diagrama funcional de captura de datos\relax }}{16}{}%
 \contentsline {figure}{\numberline {1.7}{\ignorespaces ESP-12F basado en ESP8266\relax }}{19}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Sensor DHT22\relax }}{29}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Sensor DHT22\relax }}{28}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Dimensiones sensor DHT22\relax }}{29}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Sensor MH-Z19C\relax }}{30}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Sensor MH-Z19C\relax }}{29}{}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Sensor piezoeléctrico M0168\relax }}{30}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Sensor SDS011\relax }}{32}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Sensor LDR\relax }}{33}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor LDR\relax }}{33}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Sensor BH1750\relax }}{34}{}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{34}{}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Configuración de pines\relax }}{36}{}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Acondicionamiento\relax }}{36}{}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Correlación de valores medioambientales\relax }}{37}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sensor SDS011\relax }}{31}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sensor LDR\relax }}{32}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor LDR\relax }}{32}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Sensor BH1750\relax }}{33}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{33}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Configuración de pines\relax }}{35}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Acondicionamiento\relax }}{35}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Correlación de valores medioambientales\relax }}{36}{}%

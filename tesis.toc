@@ -30,15 +30,15 @@
 \contentsline {section}{Introducción}{27}{}%
 \contentsline {section}{\numberline {2.1}Descripción del sistema}{27}{}%
 \contentsline {section}{\numberline {2.2}Sensores}{27}{}%
-\contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura DHT22}{29}{}%
-\contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{30}{}%
+\contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura DHT22}{28}{}%
+\contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{29}{}%
 \contentsline {subsection}{\numberline {2.2.3}Sensor de vibración M0168}{30}{}%
-\contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire}{32}{}%
-\contentsline {subsection}{\numberline {2.2.5}Sensor LDR}{33}{}%
-\contentsline {subsection}{\numberline {2.2.6}Sensor de luz BH1750}{33}{}%
-\contentsline {subsection}{\numberline {2.2.7}Alimentación}{35}{}%
-\contentsline {section}{\numberline {2.3}Condiciones medioambientales...}{37}{}%
-\contentsline {section}{Conclusiones}{37}{}%
-\contentsline {section}{CONCLUSIONES GENERALES}{38}{}%
-\contentsline {chapter}{Recomendaciones}{39}{}%
-\contentsline {chapter}{Anexos}{46}{}%
+\contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire}{31}{}%
+\contentsline {subsection}{\numberline {2.2.5}Sensor LDR}{32}{}%
+\contentsline {subsection}{\numberline {2.2.6}Sensor de luz BH1750}{32}{}%
+\contentsline {subsection}{\numberline {2.2.7}Alimentación}{34}{}%
+\contentsline {section}{\numberline {2.3}Condiciones medioambientales...}{36}{}%
+\contentsline {section}{Conclusiones}{36}{}%
+\contentsline {section}{CONCLUSIONES GENERALES}{37}{}%
+\contentsline {chapter}{Recomendaciones}{38}{}%
+\contentsline {chapter}{Anexos}{45}{}%
