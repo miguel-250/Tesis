@@ -53,49 +53,50 @@ Warning--empty journal in arquitecturaPaginaLuisGarcia
 Warning--empty journal in tcp/ip
 Warning--empty journal in garciaherasInnovationGestionConservacion2015
 Warning--empty journal in recioalvaroConservacionPreventivaExposiciones2020
+Warning--missing publisher in calvomanuelConservacionRestauracionPintura2002
 Warning--empty journal in ripa2004termitas
 Warning--empty journal in rodriguezcodigo
 
 Done.
-You've used 61 entries,
+You've used 64 entries,
             4087 wiz_defined-function locations,
-            1178 strings with 19032 characters,
-and the built_in function-call counts, 35953 in all, are:
-= -- 3076
-> -- 557
+            1197 strings with 19790 characters,
+and the built_in function-call counts, 37192 in all, are:
+= -- 3167
+> -- 578
 < -- 291
-+ -- 333
-- -- 85
-* -- 1561
-:= -- 5936
-add.period$ -- 121
-call.type$ -- 61
-change.case$ -- 58
++ -- 343
+- -- 90
+* -- 1610
+:= -- 6149
+add.period$ -- 127
+call.type$ -- 64
+change.case$ -- 61
 chr.to.int$ -- 615
-cite$ -- 67
-duplicate$ -- 2764
-empty$ -- 2932
-format.name$ -- 98
-if$ -- 8313
+cite$ -- 71
+duplicate$ -- 2872
+empty$ -- 3074
+format.name$ -- 104
+if$ -- 8600
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 425
-newline$ -- 206
-num.names$ -- 61
-pop$ -- 873
+int.to.str$ -- 64
+missing$ -- 446
+newline$ -- 215
+num.names$ -- 64
+pop$ -- 930
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2898
+skip$ -- 3001
 stack$ -- 0
-substring$ -- 1502
-swap$ -- 2084
+substring$ -- 1506
+swap$ -- 2141
 text.length$ -- 86
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 61
-warning$ -- 6
-while$ -- 166
-width$ -- 63
-write$ -- 585
-(There were 6 warnings)
+type$ -- 64
+warning$ -- 7
+while$ -- 169
+width$ -- 66
+write$ -- 609
+(There were 7 warnings)
