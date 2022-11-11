@@ -22,23 +22,24 @@
 \contentsline {subsection}{\hspace {1.3cm}1.3.3.2\hspace {5mm}Protocolo HTTP}{23}{}%
 \contentsline {subsection}{\hspace {1.3cm}1.3.3.3\hspace {5mm}Protocolo TCP/IP}{23}{}%
 \contentsline {section}{\numberline {1.4}Variables microclimáticas recomendadas}{24}{}%
-\contentsline {section}{\numberline {1.5}Condiciones que favorecen el ataque de insectos xilófagos}{26}{}%
-\contentsline {subsection}{\numberline {1.5.1}Humedad}{26}{}%
-\contentsline {subsection}{\numberline {1.5.2}Temperatura}{27}{}%
-\contentsline {section}{Conclusiones}{27}{}%
-\contentsline {chapter}{\numberline {2}Implementación del sistema IoT}{28}{}%
-\contentsline {section}{Introducción}{28}{}%
-\contentsline {section}{\numberline {2.1}Descripción del sistema}{28}{}%
-\contentsline {section}{\numberline {2.2}Sensores}{28}{}%
-\contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura DHT22}{29}{}%
-\contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{30}{}%
-\contentsline {subsection}{\numberline {2.2.3}Sensor de vibración M0168}{31}{}%
-\contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire}{32}{}%
-\contentsline {subsection}{\numberline {2.2.5}Sensor LDR}{33}{}%
-\contentsline {subsection}{\numberline {2.2.6}Sensor de luz BH1750}{33}{}%
-\contentsline {subsection}{\numberline {2.2.7}Alimentación}{35}{}%
-\contentsline {section}{\numberline {2.3}Condiciones medioambientales...}{37}{}%
-\contentsline {section}{Conclusiones}{37}{}%
-\contentsline {section}{CONCLUSIONES GENERALES}{38}{}%
-\contentsline {chapter}{Recomendaciones}{39}{}%
-\contentsline {chapter}{Anexos}{46}{}%
+\contentsline {subsection}{\numberline {1.4.1}Principales afectaciones}{26}{}%
+\contentsline {section}{\numberline {1.5}Condiciones que favorecen el ataque de insectos xilófagos}{28}{}%
+\contentsline {subsection}{\numberline {1.5.1}Humedad}{29}{}%
+\contentsline {subsection}{\numberline {1.5.2}Temperatura}{29}{}%
+\contentsline {section}{Conclusiones}{30}{}%
+\contentsline {chapter}{\numberline {2}Diseño e Implementación del sistema basado en IoT}{31}{}%
+\contentsline {section}{Introducción}{31}{}%
+\contentsline {section}{\numberline {2.1}Descripción del sistema}{31}{}%
+\contentsline {section}{\numberline {2.2}Sensores}{31}{}%
+\contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura DHT22}{32}{}%
+\contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{33}{}%
+\contentsline {subsection}{\numberline {2.2.3}Sensor de vibración M0168}{34}{}%
+\contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire}{35}{}%
+\contentsline {subsection}{\numberline {2.2.5}Sensor LDR}{36}{}%
+\contentsline {subsection}{\numberline {2.2.6}Sensor de luz BH1750}{36}{}%
+\contentsline {subsection}{\numberline {2.2.7}Alimentación}{38}{}%
+\contentsline {section}{\numberline {2.3}Condiciones medioambientales...}{40}{}%
+\contentsline {section}{Conclusiones}{40}{}%
+\contentsline {section}{CONCLUSIONES GENERALES}{41}{}%
+\contentsline {chapter}{Recomendaciones}{42}{}%
+\contentsline {chapter}{Anexos}{50}{}%
