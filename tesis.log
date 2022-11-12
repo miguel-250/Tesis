@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  12 NOV 2022 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  12 NOV 2022 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -793,12 +793,7 @@ Overfull \hbox (11.6247pt too wide) in paragraph at lines 446--465
  [][] 
  []
 
-[24] [25] [26] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
-
- []
-
-[29]) [30]
+[24] [25] [26] [27] [28] [29]) [30]
 \openout2 = `capitulos/capitulo2.aux'.
 
  (capitulos/capitulo2.tex
@@ -1051,15 +1046,15 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (capitulos/carátula2.aux) (capitulos/pagina_firmas.aux) (capitulos/dedicatoria.aux) (capitulos/agradecimientos.aux) (capitulos/listado.aux) (capitulos/indice2.aux) (capitulos/indice3.aux) (capitulos/resumen.aux) (capitulos/abstract.aux) (capitulos/indice.aux) (capitulos/introduccion.aux) (capitulos/capitulo1.aux) (capitulos/capitulo2.aux) (capitulos/conclusiones.aux) (capitulos/recomendaciones.aux) (capitulos/bibliografia.aux) (capitulos/apendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 8998 strings out of 475389
- 162314 string characters out of 2777000
- 509138 words of memory out of 3000000
- 30081 multiletter control sequences out of 15000+600000
+ 9005 strings out of 475389
+ 162572 string characters out of 2777000
+ 509181 words of memory out of 3000000
+ 30088 multiletter control sequences out of 15000+600000
  568961 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,19n,63p,941b,542s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,19n,63p,941b,540s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1bi8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (62 pages, 2619312 bytes).
+Output written on tesis.pdf (62 pages, 2620489 bytes).
 PDF statistics:
  255 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

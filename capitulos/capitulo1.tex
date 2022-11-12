@@ -425,7 +425,7 @@
     %Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos o instituciones con vista al desarrollo de entornos inteligentes.\\
 
     %\section{Sistema de comunicación}\label{sec: sistemaComunicación}
-    \section{Variables microclimáticas recomendadas}
+    \section{Variables microclimáticas recomendadas}\label{variables_microclimaticas}
 
     En los museos tanto universitarios como los que no poseen este tipo de característica, se requiere de un control ambiental del mismo que permita mantener el estado de conservación de los bienes patrimoniales que allí se exponen.
 
@@ -464,7 +464,27 @@
         \end{tabular}
     \end{table}
 
-    \subsection{Principales afectaciones}
+    \section{Condiciones que favorecen el ataque de las especies xilófagas}
+
+    Como se analizaba en el epígrafe \ref{variables_microclimaticas} el biodeterioro también constituye otro de los factores que afectan las obras de arte. Estos agentes biológicos están formados por microorganismos (bacterias) y organismos vivos como los vertebrados (aves, roedores), insectos (escarabajos, hormigas, avispas, abejas), insectos xilófagos (termitas y carcomas), moluscos (polas y gusanos de barco) crustáceos (limnorias), hongos, líquenes, algas y el propio hombre \cite{marquezAgentesDeterioroMedioambientales2016}.
+    
+    En el caso del control de la aparición de los xilófagos, como daño de origen biótico, no se encontró ningún sensor para medir el posible ataque, por lo que para anunciar la presencia de este tipo de anomalía se analizarán los restantes sensores y por correlación de datos será posible tenerlo en cuenta también.
+    
+    Por esto se realiza el análisis de las condiciones óptimas para la aparición de los mismos influyendo en la intensidad o severidad del ataque de estos insectos. Entre estos se pueden mencionar humedad, temperatura, entre otros \cite{ripa2004termitas}. 
+    
+    \subsection{Humedad}
+
+    El contenido de agua de la madera constituye uno de los factores más importantes que favorecen el ataque de las especies xilófagas. Maderas con un contenido de humedad sobre el 15\% favorece las infestaciones de coleópteros xilófagos, acortando significativamente sus ciclos de vida lo que aumenta sus poblaciones y la posibilidad de reinfestaciones \cite{ripa2004termitas}, esto relacionado a que la acumulación de humedad se acentúa en construcciones con escasa ventilación, la que se debe incrementar en espacios interiores.
+
+    Según Araquistain y col. \cite{monitoringMoisture} y Rodríguez y col. \cite{rodriguezcodigo}, el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55\% mientras que Kisternaya \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50\%. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 20\%.
+
+    \subsection{Temperatura}
+
+    La temperatura es otro de los factores que contribuye a la aparición de los xilófagos. Según Vázquez y cols. \cite{vazquez1999avetianella}, en un experimento sobre las condiciones necesarias para la cría de plaga, parásitos y xilófagos, plantea que si estos valores de temperatura oscilan entre los 23°C y los 30°C se crean las condiciones para el surgimiento y reproducción de especies xilófagas. 
+
+    Por otra parte Flores y Pérez \cite{floresDurabilidadNaturalDiez1987a}, en un estudio sobre los hongos xilófagos plantean que el rango de temperatura idónea para la reproducción de estos xilófagos se encuentra entre los 20°C y los 30°C, existiendo también el caso de que aún con 38°C exista la posibilidad de reproducción en algunas especies, así como Avalos Díaz y cols. \cite{avalosdiazInfluenciaDosHongos2020} que en una de sus publicaciones se define que la temperatura idónea para el surgimiento de colonias xilófagas es de 27°C +- 1.
+
+    \section{Principales afectaciones}
 
     \textbf{¿Qué ocurre si los valores microclimáticos no se encuentran en el rango de lo recomendado?}
 
@@ -481,8 +501,6 @@
     \textbf{Humedad}
 
     La humedad excesiva constante superior al 75\% puede provocar: debilitación de adhesivos, pudrimiento de colas, aumento del tamaño de los materiales (madera, papel, tela, etc.), manchas (papel, tela, vitela, etc.), corrimiento de tintas, enmohecimiento de cueros, aumento de la corrosión de los diferentes metales, adherencia de hojas de papel, ablandamiento de materias, aparición de sales, opacidad de vidrios, entre otras. Al igual que la sequedad excesiva constante inferior al 35\% puede producir: fragilidad y desecación de los componentes de las obras, deterioro en maderas y marqueterías por contracción, tensión de las telas, reducción dimensional de materiales, entre otras.\cite{marquezAgentesDeterioroMedioambientales2016}
-
-    \newpage
 
     Del mismo modo que el cambio brusco en estos niveles de humedad puede provocar:
     \begin{itemize}
@@ -516,30 +534,17 @@
 
     Según Sánchez \cite{sanchezPinturaSobreTabla2015} las vibraciones producen efectos acumulativos que traen consigo la degeneración, el envejecimiento y fatiga de los componentes, esto uniéndose a la edad en el caso de las pinturas.
 
-    ....
+    ...
 
+    \textbf{Xilófagos}
 
-    \section{Condiciones que favorecen el ataque de insectos xilófagos}
+    Como parte de los daños ocasionados por las especies xilófagas se encuentran los planteados por Ortiz \cite{ortizRestauracionObrasArte2012}, el cual plantea que estos afectan directamente la estructura de los lienzos debilitando el entramado de los hilos que componen la tela trayendo consigo el deterioro total casi irreparable en caso de no tratarse a tiempo.
 
-    El biodeterioro también constituye otro de los factores que afectan las obras de arte. Estos agentes biológicos están formados por microorganismos (bacterias) y organismos vivos como los vertebrados (aves, roedores), insectos (escarabajos, hormigas, avispas, abejas), insectos xilófagos (termitas y carcomas), moluscos (polas y gusanos de barco) crustáceos (limnorias), hongos, líquenes, algas y el propio hombre \cite{marquezAgentesDeterioroMedioambientales2016}.
-    
-    En el caso del control de la aparición de los xilófagos, como daño de origen biótico, no se encontró ningún sensor para medir el posible ataque, por lo que para anunciar la presencia de este tipo de anomalía se analizarán los restantes sensores y por correlación de datos será posible tenerlo en cuenta también.
-    
-    Por esto se realiza el análisis de las condiciones óptimas para la aparición de los mismos influyendo en la intensidad o severidad del ataque de estos insectos. Entre estos se pueden mencionar humedad, temperatura, entre otros \cite{ripa2004termitas}. 
-    
-    \subsection{Humedad}
+    Por otro lado Romero y cols. \cite{ferrerasromeroVirgenConNino2011} afirma que el ataque de los insectos xilófagos trae consigo daños al soporte lignario de las obras de arte ocasionando daños de diferente índole, desde pequeños orificios de salida de los xilófagos hasta zonas puntuales donde la madera se convierte en un material completamente disgregado.
 
-    El contenido de agua de la madera constituye uno de los factores más importantes que favorecen el ataque de las especies xilófagas. Maderas con un contenido de humedad sobre el 15\% favorece las infestaciones de coleópteros xilófagos, acortando significativamente sus ciclos de vida lo que aumenta sus poblaciones y la posibilidad de reinfestaciones \cite{ripa2004termitas}, esto relacionado a que la acumulación de humedad se acentúa en construcciones con escasa ventilación, la que se debe incrementar en espacios interiores.
-
-    Según Araquistain y col. \cite{monitoringMoisture} y Rodríguez y col. \cite{rodriguezcodigo}, el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55\% mientras que \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50\%. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 15\%.
-
-    \subsection{Temperatura}
-
-    La temperatura es otro de los factores que contribuye a la aparición de los xilófagos. Según Vázquez y cols. \cite{vazquez1999avetianella}, en un experimento sobre las condiciones necesarias para la cría de plaga, parásitos y xilófagos, plantea que si estos valores de temperatura oscilan entre los 23°C y los 30°C se crean las condiciones para el surgimiento y reproducción de especies xilófagas. 
-
-    Por otra parte Flores y Pérez \cite{floresDurabilidadNaturalDiez1987a}, en un estudio sobre los hongos xilófagos plantean que el rango de temperatura idónea para la reproducción de estos xilófagos se encuentra entre los 20°C y los 30°C, existiendo también el caso de que aún con 38°C exista la posibilidad de reproducción en algunas especies, así como Avalos Díaz y cols. \cite{avalosdiazInfluenciaDosHongos2020} que en una de sus publicaciones se define que la temperatura idónea para el surgimiento de colonias xilófagas es de 27°C +- 1.\\ 
 
     \newpage
+
     \addcontentsline{toc}{section}{Conclusiones}
     \textbf{\large Conclusiones parciales}
 

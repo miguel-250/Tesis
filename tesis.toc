@@ -22,10 +22,10 @@
 \contentsline {subsection}{\hspace {1.3cm}1.3.3.2\hspace {5mm}Protocolo HTTP}{23}{}%
 \contentsline {subsection}{\hspace {1.3cm}1.3.3.3\hspace {5mm}Protocolo TCP/IP}{23}{}%
 \contentsline {section}{\numberline {1.4}Variables microclimáticas recomendadas}{24}{}%
-\contentsline {subsection}{\numberline {1.4.1}Principales afectaciones}{26}{}%
-\contentsline {section}{\numberline {1.5}Condiciones que favorecen el ataque de insectos xilófagos}{28}{}%
-\contentsline {subsection}{\numberline {1.5.1}Humedad}{28}{}%
-\contentsline {subsection}{\numberline {1.5.2}Temperatura}{29}{}%
+\contentsline {section}{\numberline {1.5}Condiciones que favorecen el ataque de las especies xilófagas}{26}{}%
+\contentsline {subsection}{\numberline {1.5.1}Humedad}{26}{}%
+\contentsline {subsection}{\numberline {1.5.2}Temperatura}{27}{}%
+\contentsline {section}{\numberline {1.6}Principales afectaciones}{27}{}%
 \contentsline {section}{Conclusiones}{30}{}%
 \contentsline {chapter}{\numberline {2}Diseño e Implementación del sistema basado en IoT}{31}{}%
 \contentsline {section}{Introducción}{31}{}%

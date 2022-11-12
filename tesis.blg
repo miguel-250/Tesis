@@ -59,45 +59,45 @@ Warning--empty journal in ripa2004termitas
 Warning--empty journal in rodriguezcodigo
 
 Done.
-You've used 67 entries,
+You've used 69 entries,
             4087 wiz_defined-function locations,
-            1214 strings with 20599 characters,
-and the built_in function-call counts, 38707 in all, are:
-= -- 3298
-> -- 598
-< -- 301
-+ -- 355
-- -- 93
-* -- 1672
-:= -- 6411
-add.period$ -- 133
-call.type$ -- 67
-change.case$ -- 65
+            1226 strings with 21136 characters,
+and the built_in function-call counts, 39560 in all, are:
+= -- 3366
+> -- 615
+< -- 302
++ -- 363
+- -- 97
+* -- 1707
+:= -- 6563
+add.period$ -- 137
+call.type$ -- 69
+change.case$ -- 67
 chr.to.int$ -- 639
-cite$ -- 75
-duplicate$ -- 2994
-empty$ -- 3200
-format.name$ -- 107
-if$ -- 8944
+cite$ -- 77
+duplicate$ -- 3065
+empty$ -- 3287
+format.name$ -- 112
+if$ -- 9140
 int.to.chr$ -- 0
-int.to.str$ -- 67
-missing$ -- 464
-newline$ -- 224
-num.names$ -- 67
-pop$ -- 970
+int.to.str$ -- 69
+missing$ -- 478
+newline$ -- 230
+num.names$ -- 69
+pop$ -- 1005
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3122
+skip$ -- 3193
 stack$ -- 0
-substring$ -- 1567
-swap$ -- 2223
-text.length$ -- 88
+substring$ -- 1570
+swap$ -- 2265
+text.length$ -- 89
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 67
+type$ -- 69
 warning$ -- 8
-while$ -- 176
-width$ -- 69
-write$ -- 635
+while$ -- 178
+width$ -- 71
+write$ -- 652
 (There were 8 warnings)
