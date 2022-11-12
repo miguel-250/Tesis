@@ -24,7 +24,7 @@
 \contentsline {section}{\numberline {1.4}Variables microclimáticas recomendadas}{24}{}%
 \contentsline {subsection}{\numberline {1.4.1}Principales afectaciones}{26}{}%
 \contentsline {section}{\numberline {1.5}Condiciones que favorecen el ataque de insectos xilófagos}{28}{}%
-\contentsline {subsection}{\numberline {1.5.1}Humedad}{29}{}%
+\contentsline {subsection}{\numberline {1.5.1}Humedad}{28}{}%
 \contentsline {subsection}{\numberline {1.5.2}Temperatura}{29}{}%
 \contentsline {section}{Conclusiones}{30}{}%
 \contentsline {chapter}{\numberline {2}Diseño e Implementación del sistema basado en IoT}{31}{}%
