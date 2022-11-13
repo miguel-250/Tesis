@@ -1,45 +1,45 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{Listado de símbolos, términos especiales y abreviaturas no normalizadas}{I}{}%
-\contentsline {section}{Índice de figuras}{II}{}%
-\contentsline {section}{Índice de tablas}{III}{}%
-\contentsline {section}{Resumen}{IV}{}%
-\contentsline {section}{Abstract}{V}{}%
-\contentsline {section}{INTRODUCCIÓN}{1}{}%
-\contentsline {chapter}{\numberline {1}Análisis Teórico de la Aplicación del Internet de las Cosas en los Museos}{5}{}%
-\contentsline {section}{Introducción}{5}{}%
-\contentsline {section}{\numberline {1.1}Internet de las Cosas}{5}{}%
-\contentsline {subsection}{\numberline {1.1.1}IoT en los museos internacionales}{6}{}%
-\contentsline {subsection}{\numberline {1.1.2}Internet de las Cosas en Cuba}{8}{}%
-\contentsline {section}{\numberline {1.2}Colección de Arte y Arqueología Francisco Prat Puig}{8}{}%
-\contentsline {section}{\numberline {1.3}Arquitectura IoT y sus principales capas}{11}{}%
-\contentsline {subsection}{\numberline {1.3.1}Propuesta de la Arquitectura IoT del Sistema}{15}{}%
-\contentsline {subsection}{\numberline {1.3.2}Capa de Percepción}{16}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.2.1\hspace {5mm}Sensores}{16}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.2.2\hspace {5mm}Microcontroladores}{18}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.2.3\hspace {5mm}Nodos}{21}{}%
-\contentsline {subsection}{\numberline {1.3.3}Capa de Transporte}{22}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.3.1\hspace {5mm}Protocolo MQTT}{22}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.3.2\hspace {5mm}Protocolo HTTP}{23}{}%
-\contentsline {subsection}{\hspace {1.3cm}1.3.3.3\hspace {5mm}Protocolo TCP/IP}{23}{}%
-\contentsline {section}{\numberline {1.4}Variables microclimáticas recomendadas}{24}{}%
-\contentsline {section}{\numberline {1.5}Condiciones que favorecen el ataque de las especies xilófagas}{26}{}%
-\contentsline {subsection}{\numberline {1.5.1}Humedad}{26}{}%
-\contentsline {subsection}{\numberline {1.5.2}Temperatura}{27}{}%
-\contentsline {section}{\numberline {1.6}Principales afectaciones}{27}{}%
-\contentsline {section}{Conclusiones}{30}{}%
-\contentsline {chapter}{\numberline {2}Diseño e Implementación del sistema basado en IoT}{31}{}%
-\contentsline {section}{Introducción}{31}{}%
-\contentsline {section}{\numberline {2.1}Descripción del sistema}{31}{}%
-\contentsline {section}{\numberline {2.2}Sensores}{31}{}%
-\contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura DHT22}{32}{}%
-\contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{33}{}%
-\contentsline {subsection}{\numberline {2.2.3}Sensor de vibración M0168}{34}{}%
-\contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire}{35}{}%
-\contentsline {subsection}{\numberline {2.2.5}Sensor LDR}{36}{}%
-\contentsline {subsection}{\numberline {2.2.6}Sensor de luz BH1750}{36}{}%
-\contentsline {subsection}{\numberline {2.2.7}Alimentación}{38}{}%
-\contentsline {section}{\numberline {2.3}Condiciones medioambientales...}{40}{}%
-\contentsline {section}{Conclusiones}{40}{}%
-\contentsline {section}{CONCLUSIONES GENERALES}{41}{}%
-\contentsline {chapter}{Recomendaciones}{42}{}%
-\contentsline {chapter}{Anexos}{50}{}%
+\contentsline {section}{Listado de símbolos, términos especiales y abreviaturas no normalizadas}{I}{section*.5}%
+\contentsline {section}{Índice de figuras}{II}{section*.6}%
+\contentsline {section}{Índice de tablas}{III}{section*.7}%
+\contentsline {section}{Resumen}{IV}{section*.7}%
+\contentsline {section}{Abstract}{V}{section*.7}%
+\contentsline {section}{INTRODUCCIÓN}{1}{section*.8}%
+\contentsline {chapter}{\numberline {1}Análisis Teórico de la Aplicación del Internet de las Cosas en los Museos}{5}{chapter.1}%
+\contentsline {section}{Introducción}{5}{section*.9}%
+\contentsline {section}{\numberline {1.1}Internet de las Cosas}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}IoT en los museos internacionales}{6}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Internet de las Cosas en Cuba}{8}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Colección de Arte y Arqueología Francisco Prat Puig}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Arquitectura IoT y sus principales capas}{11}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Propuesta de la Arquitectura IoT del Sistema}{15}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Capa de Percepción}{16}{subsection.1.3.2}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.2.1\hspace {5mm}Sensores}{16}{figure.caption.19}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.2.2\hspace {5mm}Microcontroladores}{18}{figure.caption.19}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.2.3\hspace {5mm}Nodos}{21}{figure.caption.20}%
+\contentsline {subsection}{\numberline {1.3.3}Capa de Transporte}{22}{subsection.1.3.3}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.3.1\hspace {5mm}Protocolo MQTT}{22}{subsection.1.3.3}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.3.2\hspace {5mm}Protocolo HTTP}{23}{subsection.1.3.3}%
+\contentsline {subsection}{\hspace {1.3cm}1.3.3.3\hspace {5mm}Protocolo TCP/IP}{23}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Variables microclimáticas recomendadas}{24}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Condiciones que favorecen el ataque de las especies xilófagas}{26}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Humedad}{26}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Temperatura}{27}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Principales afectaciones}{27}{section.1.6}%
+\contentsline {section}{Conclusiones}{30}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Diseño e Implementación del sistema basado en IoT}{31}{chapter.2}%
+\contentsline {section}{Introducción}{31}{section*.23}%
+\contentsline {section}{\numberline {2.1}Descripción del sistema}{31}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Sensores}{31}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura DHT22}{32}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{33}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Sensor de vibración M0168}{34}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire}{35}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Sensor LDR}{36}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Sensor de luz BH1750}{36}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Alimentación}{38}{subsection.2.2.7}%
+\contentsline {section}{\numberline {2.3}Condiciones medioambientales...}{40}{section.2.3}%
+\contentsline {section}{Conclusiones}{40}{figure.caption.36}%
+\contentsline {section}{CONCLUSIONES GENERALES}{41}{section*.37}%
+\contentsline {chapter}{Recomendaciones}{42}{section*.38}%
+\contentsline {chapter}{Anexos}{50}{section*.40}%
