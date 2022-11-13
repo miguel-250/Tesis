@@ -425,13 +425,13 @@
     %Así, esta arquitectura pretende servir de referencia para la implementación de servicios basados en IoT en el área de conservación de las piezas en los museos o instituciones con vista al desarrollo de entornos inteligentes.\\
 
     %\section{Sistema de comunicación}\label{sec: sistemaComunicación}
-    \section{Variables microclimáticas recomendadas}\label{variables_microclimaticas}
+    \section{Variables microclimáticas recomendadas}\label{sec:variables_microclimaticas}
 
     En los museos tanto universitarios como los que no poseen este tipo de característica, se requiere de un control ambiental del mismo que permita mantener el estado de conservación de los bienes patrimoniales que allí se exponen.
 
     En la bibliografía consultada se utiliza el concepto de conservación preventiva, la cual la define Bachman \cite{bachmann1992conservation} como un pilar básico de la gestión museológica y de la cual de ella depende el mantenimiento de las colecciones de forma adecuada, viable y sostenible en el tiempo, además de que permite la durabilidad de los elementos patrimoniales y reduce las intervenciones de los especialistas tal como lo comenta Merrit y cols. \cite{merrittPreventiveConservationHistoric2010}. Las condiciones microclimáticas más importantes a tener en cuanta según Thomson \cite{thomsonMuseumEnvironment2018} y Márquez \cite{marquezAgentesDeterioroMedioambientales2016} son la temperatura, la humedad relativa, la iluminación, las vibraciones, el CO2, la polución y el biodeterioro.
 
-    La temperatura será tomada en grados Celcios (°C), la humedad en \%, el CO2 será analisado en ppm (partículas por millón), la iluminación en Luxers (Lx), la polución en micro-gramos por metros cúbicos (ug/m3) y las vibraciones en dB.
+    La temperatura será tomada en grados Celcios (°C), la humedad en \%HR, el CO2 será analisado en ppm (partículas por millón), la iluminación en Luxers (Lx), la polución en micro-gramos por metros cúbicos (ug/m3) y las vibraciones en dB.
 
     Estos valores deben encontrarse en rangos determinados como se muestra en la siguiente tabla \ref{tab:variables_microclimaticas} según los autores Buys \& cols., Heras \& cols., Koob \& cols., Álvaro y Márquez.
 
@@ -450,10 +450,10 @@
                                                                 & 18 - 25°C                                                         & Vidrio y Cerámicos                                                                                      & \begin{tabular}[c]{@{}l@{}}Buys y cols. \cite{buysConservationRestorationCeramics2014}\\ Heras y cols. \cite{garciaherasInnovationGestionConservacion2015}\\ Koob y cols. \cite{koobConservationRestorationGlass2004}\end{tabular} \\ \cline{2-4} 
         \multirow{-3}{*}{Temperatura}                           & 18 - 22°C                                                         & Papel, Tela, Metal y Piedra                                                                             & Álvaro \cite{recioalvaroConservacionPreventivaExposiciones2020}                                                                                                                                                                                                      \\ \cline{2-4} 
                                                                 & 18 - 22°C                                                         & Madera, Pinturas.                                                                                       & \begin{tabular}[c]{@{}l@{}}Márquez \cite{marquezAgentesDeterioroMedioambientales2016}\\ Arévalo \cite{arevaloleonDegradacionArteColonial2018}\end{tabular}                                                                                          \\ \hline
-                                                                & 40 - 65\%                                                         & Vidrio y Cerámicos                                                                                      & \begin{tabular}[c]{@{}l@{}}Buys y cols. \cite{buysConservationRestorationCeramics2014}\\ Heras y cols. \cite{garciaherasInnovationGestionConservacion2015}\\ Koob y cols. \cite{koobConservationRestorationGlass2004}\end{tabular} \\ \cline{2-4} 
-        \multirow{-4}{*}{Humedad}                               & 40 - 60\%                                                         & \begin{tabular}[c]{@{}l@{}}Tela, Tapices, Grabados,\\ Papel.\end{tabular}                               & Arévalo \cite{arevaloleonDegradacionArteColonial2018}                                                                                                                                                                                                                \\ \cline{2-4} 
-                                                                & 45 - 65\%                                                         & Madera, Papel, Tela                                                                                     & Márquez \cite{marquezAgentesDeterioroMedioambientales2016}                                                                                                                                                                                                           \\ \cline{2-4} 
-                                                                & 30 - 50\%                                                         & Papel, Tela, Metal y Piedra                                                                             & Álvaro \cite{recioalvaroConservacionPreventivaExposiciones2020}                                                                                                                                                                                                      \\ \hline
+                                                                & 40 - 65\%HR                                                       & Vidrio y Cerámicos                                                                                      & \begin{tabular}[c]{@{}l@{}}Buys y cols. \cite{buysConservationRestorationCeramics2014}\\ Heras y cols. \cite{garciaherasInnovationGestionConservacion2015}\\ Koob y cols. \cite{koobConservationRestorationGlass2004}\end{tabular} \\ \cline{2-4} 
+        \multirow{-4}{*}{Humedad}                               & 40 - 60\%HR                                                       & \begin{tabular}[c]{@{}l@{}}Tela, Tapices, Grabados,\\ Papel.\end{tabular}                               & Arévalo \cite{arevaloleonDegradacionArteColonial2018}                                                                                                                                                                                                                \\ \cline{2-4} 
+                                                                & 45 - 65\%HR                                                       & Madera, Papel, Tela                                                                                     & Márquez \cite{marquezAgentesDeterioroMedioambientales2016}                                                                                                                                                                                                           \\ \cline{2-4} 
+                                                                & 30 - 50\%HR                                                       & Papel, Tela, Metal y Piedra                                                                             & Álvaro \cite{recioalvaroConservacionPreventivaExposiciones2020}                                                                                                                                                                                                      \\ \hline
         CO2                                                     & 400 - 800ppm                                                      & Papel y Tela                                                                                            & \begin{tabular}[c]{@{}l@{}}Márquez \cite{marquezAgentesDeterioroMedioambientales2016}\\ Calvo \cite{calvomanuelConservacionRestauracionPintura2002}\end{tabular}                                                                                    \\ \hline
                                                                 & 300Lx                                                             & \begin{tabular}[c]{@{}l@{}}Piedra, Metal, Cerámica,\\ Vidrio.\end{tabular}                              &                                                                                                                                                                                                                                                                                       \\ \cline{2-3}
         \multirow{-4}{*}{Iluminación}                           & 150Lx                                                             & \begin{tabular}[c]{@{}l@{}}Pinturas al temple, al óleo, \\ sobre lienzo,\\ Madera, Marfil.\end{tabular} &                                                                                                                                                                                                                                                                                       \\ \cline{2-3}
@@ -464,9 +464,9 @@
         \end{tabular}
     \end{table}
 
-    \section{Condiciones que favorecen el ataque de las especies xilófagas}
+    \section{Condiciones que favorecen el ataque de las especies xilófagas}\label{sec:xilofagos}
 
-    Como se analizaba en el epígrafe \ref{variables_microclimaticas} el biodeterioro también constituye otro de los factores que afectan las obras de arte. Estos agentes biológicos están formados por microorganismos (bacterias) y organismos vivos como los vertebrados (aves, roedores), insectos (escarabajos, hormigas, avispas, abejas), insectos xilófagos (termitas y carcomas), moluscos (polas y gusanos de barco) crustáceos (limnorias), hongos, líquenes, algas y el propio hombre \cite{marquezAgentesDeterioroMedioambientales2016}.
+    Como se analizaba en el epígrafe \ref{sec:variables_microclimaticas} el biodeterioro también constituye otro de los factores que afectan las obras de arte. Estos agentes biológicos están formados por microorganismos (bacterias) y organismos vivos como los vertebrados (aves, roedores), insectos (escarabajos, hormigas, avispas, abejas), insectos xilófagos (termitas y carcomas), moluscos (polas y gusanos de barco) crustáceos (limnorias), hongos, líquenes, algas y el propio hombre \cite{marquezAgentesDeterioroMedioambientales2016}.
     
     En el caso del control de la aparición de los xilófagos, como daño de origen biótico, no se encontró ningún sensor para medir el posible ataque, por lo que para anunciar la presencia de este tipo de anomalía se analizarán los restantes sensores y por correlación de datos será posible tenerlo en cuenta también.
     
@@ -484,11 +484,11 @@
 
     Por otra parte Flores y Pérez \cite{floresDurabilidadNaturalDiez1987a}, en un estudio sobre los hongos xilófagos plantean que el rango de temperatura idónea para la reproducción de estos xilófagos se encuentra entre los 20°C y los 30°C, existiendo también el caso de que aún con 38°C exista la posibilidad de reproducción en algunas especies, así como Avalos Díaz y cols. \cite{avalosdiazInfluenciaDosHongos2020} que en una de sus publicaciones se define que la temperatura idónea para el surgimiento de colonias xilófagas es de 27°C +- 1.
 
-    \section{Principales afectaciones}
+    \section{Principales afectaciones}\label{sec:principales_afectaciones}
 
     \textbf{¿Qué ocurre si los valores microclimáticos no se encuentran en el rango de lo recomendado?}
 
-    Analicemos por variable microclimática la afectación que trae consigo esta variación en ciertos materiales según los autores.
+    A continuación se analiza por variable microclimática la afectación que trae consigo esta variación según autores.
 
     \textbf{Temperatura}
 
@@ -534,7 +534,7 @@
 
     Según Sánchez \cite{sanchezPinturaSobreTabla2015} las vibraciones producen efectos acumulativos que traen consigo la degeneración, el envejecimiento y fatiga de los componentes, esto uniéndose a la edad en el caso de las pinturas.
 
-    ...
+    Por otra parte, Ortiz \cite{ortizRestauracionObrasArte2012} plantea que las vibraciones bruscas generan fisuras o la aparición de pequeñas grietas que dañan la capa pictórica de los cuadros llegando a pulverizarse, al igual que el daño en los soportes de los mismos.
 
     \textbf{Xilófagos}
 
@@ -542,12 +542,17 @@
 
     Por otro lado Romero y cols. \cite{ferrerasromeroVirgenConNino2011} afirma que el ataque de los insectos xilófagos trae consigo daños al soporte lignario de las obras de arte ocasionando daños de diferente índole, desde pequeños orificios de salida de los xilófagos hasta zonas puntuales donde la madera se convierte en un material completamente disgregado.
 
-
     \newpage
 
     \addcontentsline{toc}{section}{Conclusiones}
     \textbf{\large Conclusiones parciales}
 
-    En este capítulo se ha hablado de la variedad de aplicaciones del Internet de las Cosas y de su relación con la conservación del patrimonio cultural. La descripción de las arquitecturas del IoT brindó la posibilidad de proponer la arquitectura del sistema que se desea implementar. Como parte del análisis de este sistema se explicó el concepto de sensor, de aquí se concluye que estos serán la unidad básica de adquisición de la información para nuestra arquitectura.
-    Se explicó el concepto de microcontrolador, fundamentando que se selecciona ESP-12F sobre las demás plataformas por las características expuestas durante el desarrollo. 
-    Se establecieron valores mínimos y máximos a modo de evitar la aparición del especies xilófagas en la colección objeto de estudio.
+    Como parte del análisis desarrollado en este capítulo:
+    
+    \begin{itemize}
+        \item Se habló de la variedad de aplicaciones del Internet de las Cosas y de su relación con la conservación del patrimonio cultural. La descripción de las arquitecturas del IoT brindó la posibilidad de proponer la arquitectura del sistema que se desea implementar.
+        \item Como parte del análisis de este sistema se explicó el concepto de sensor, de aquí se concluye que estos serán la unidad básica de adquisición de la información para nuestra arquitectura.
+        \item Se explicó el concepto de microcontrolador, fundamentando que se selecciona ESP-12F sobre las demás plataformas por las características expuestas durante el desarrollo.
+        \item Se establecieron valores mínimos y máximos a modo de evitar la aparición del especies xilófagas en la colección objeto de estudio.
+        \item Se analizaron las principales formas en las que se manifiestan los daños en distintos materiales ocasionados por valores microclimáticos fuera del rango de lo recomendado. 
+    \end{itemize}
