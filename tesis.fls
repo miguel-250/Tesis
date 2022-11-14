@@ -1142,13 +1142,13 @@ INPUT .\imagenes\dht22 dimensiones.jpg
 INPUT .\imagenes\dht22 dimensiones.jpg
 INPUT .\imagenes\dht22 dimensiones.jpg
 INPUT .\imagenes\dht22 dimensiones.jpg
-INPUT .\imagenes\mh-z19c.png
-INPUT .\imagenes\mh-z19c.png
-INPUT imagenes\mh-z19c.png
-INPUT .\imagenes\mh-z19c.png
-INPUT .\imagenes\mh-z19c.png
-INPUT .\imagenes\mh-z19c.png
-INPUT .\imagenes\mh-z19c.png
+INPUT .\imagenes\sgp30.jpg
+INPUT .\imagenes\sgp30.jpg
+INPUT imagenes\sgp30.jpg
+INPUT .\imagenes\sgp30.jpg
+INPUT .\imagenes\sgp30.jpg
+INPUT .\imagenes\sgp30.jpg
+INPUT .\imagenes\sgp30.jpg
 INPUT .\imagenes\sensor-piezoelectrico.jpg
 INPUT .\imagenes\sensor-piezoelectrico.jpg
 INPUT imagenes\sensor-piezoelectrico.jpg
@@ -1163,20 +1163,6 @@ INPUT .\imagenes\Sensor SDS011.jpg
 INPUT .\imagenes\Sensor SDS011.jpg
 INPUT .\imagenes\Sensor SDS011.jpg
 INPUT .\imagenes\Sensor SDS011.jpg
-INPUT .\imagenes\sensor LDR.png
-INPUT .\imagenes\sensor LDR.png
-INPUT imagenes\sensor LDR.png
-INPUT .\imagenes\sensor LDR.png
-INPUT .\imagenes\sensor LDR.png
-INPUT .\imagenes\sensor LDR.png
-INPUT .\imagenes\sensor LDR.png
-INPUT .\imagenes\ldr.jpg
-INPUT .\imagenes\ldr.jpg
-INPUT imagenes\ldr.jpg
-INPUT .\imagenes\ldr.jpg
-INPUT .\imagenes\ldr.jpg
-INPUT .\imagenes\ldr.jpg
-INPUT .\imagenes\ldr.jpg
 INPUT .\imagenes\Sensor BH1750.jpg
 INPUT .\imagenes\Sensor BH1750.jpg
 INPUT imagenes\Sensor BH1750.jpg

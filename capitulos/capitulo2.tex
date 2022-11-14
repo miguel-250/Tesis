@@ -5,15 +5,13 @@
         
     En este capítulo se analizarán los pasos seguidos para la implementación del sistema: se realiza la descripción del proceso a monitorear o planta, los sensores que incorpora...
 
-\section{Descripción del sistema}
+\section{Descripción del hardware del sistema}
 
     El sistema de supervisión se implementa sobre una prueba de concepto desarrollada para dar fe de la certeza en cuanto al análisis teórico desarrollado en todo el capítulo primero.
 
     ...
 
-
-
-\section{Sensores} \label{sec: sensores}
+\section{Sensores} \label{sec:sensores}
 
     La secuencia de sensores pertenecientes al sistema es selecta, puesto que se tomaron los sensores teniendo en cuenta varios elementos:
 
@@ -48,7 +46,7 @@
     Estos sensores estarán dispuestos en zonas específicas dentro de la colección, dígase en vitrinas o, para la captura de datos, en las salas.
     Esto permite tener datos de dentro de las vitrinas y compararlos con los datos recolectados de las salas en general, posibilitando el análisis de las diferencias entre los máximos y mínimos de los valores recolectados.
     
-    A continuación se analizan las características técnicas de cada sensor teniendo en cuenta los elementos descritos en el epígrafe \ref{sec: sensores}.
+    A continuación se analizan las características técnicas de cada sensor teniendo en cuenta los elementos descritos en el epígrafe \ref{sec:sensores}.
 
     \subsection{Sensor de temperatura/humedad DHT22}
 
@@ -104,26 +102,14 @@ Este sensor ...
 
 \begin{figure}[H]
       \centering
-      \includegraphics[width=5cm, height=3cm]{imagenes/mh-z19c.png}
-      \caption{Sensor MH-Z19C}
-      \label{imag:mh-z19c}
-   \end{figure}
+      \includegraphics[width=6cm, height=4.5cm]{imagenes/sgp30.jpg}
+      \caption{Sensor SGP30}
+      \label{imag:sgp30}
+\end{figure}
 
-El sensor de gas de dióxido de carbono MH-Z19C es un pequeño sensor inteligente de uso general que utiliza el principio del infrarrojo no disperso (NDIR) para detectar la presencia de CO2 en el aire.\\
 
-\textbf{Otros datos}
-\begin{itemize}
-    \item Señal de salida: UART(TTL)
-    \item Tiempo de precalentamiento: 60 segundos
-    \item Temperatura de operación: De -10 a 50°C
-    \item Humedad de operación: De 0 - 95 por ciento RH
-    \item Dimensiones: aprox. 39 x 20 x 9 mm
-    \item Tipo de conector: JST ZH de 7 pines
-\end{itemize}
 
-\vspace{0.5cm}
-
-\subsection{Sensor de vibración M0168}
+\subsection{Sensor de vibración TZT-LM393}
 
 \begin{figure}[H]
       \centering
@@ -146,7 +132,7 @@ En este sensor piezoeléctrico cuando el choque de la cerámica con la lámina m
 
 \newpage
 
-\subsection{Sensor de calidad de aire}
+\subsection{Sensor de calidad de aire ZP07-MP503}
 
 \vspace{1cm}
 
@@ -170,27 +156,6 @@ Se basa en el principio de dispersión láser: se puede inducir la dispersión d
 \end{itemize}
 
 \vspace{5cm}
-
-\subsection{Sensor LDR}
-
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=5.5cm, height=4cm]{imagenes/sensor LDR.png}
-      \caption{Sensor LDR}
-      \label{imag:LDR}
-   \end{figure}
-
-Una fotorresistencia es un componente electrónico cuya resistencia disminuye con el aumento de la intensidad de la luz incidente. Puede también ser llamado fotorresistor, fotoconductor, célula fotoeléctrica o resistor dependiente de la luz, cuyas siglas, LDR, se originan de su nombre en inglés light-dependent resistor.\\
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=4.5cm, height=4cm]{imagenes/ldr.jpg}
-    \caption{Sensor LDR}
-    \subcaption*{Fuente: Datasheet fabricante}
-    \label{imag:dimensiones LDR}
- \end{figure}
-
-\vspace{0.5cm}
 
 \subsection{Sensor de luz BH1750}
 

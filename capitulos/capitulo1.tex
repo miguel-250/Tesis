@@ -1,3 +1,4 @@
+
 \chapter{Análisis Teórico de la Aplicación del Internet de las Cosas en los Museos} \label{cap:analisis_teorico}
 
 \addcontentsline{toc}{section}{Introducción}
@@ -7,7 +8,7 @@
         Colección de Arte y Arqueología Francisco Prat Puig teniendo en cuenta su estado en cuanto a la conservación de las piezas allí presentes. También se abordan las arquitecturas propuestas para IoT y la estipulación de una para el presente proyecto analizándola por partes.
         Además se hace el análisis de las condiciones que favorecen el ataque de insectos xilófagos en las estructuras y en las obras pertenecientes a la colección, así como los daños ocasionados por la variación de los valores de las variables microclimáticas tomando como referencias los recomendados por los autores.
 
-    \section{Internet de las Cosas}
+    \section{Internet de las Cosas}\label{sec:iot}
 
     El Internet de las Cosas describe objetos físicos (o grupos de estos) con sensores, capacidad de procesamiento, software y otras tecnologías que se conectan e intercambian datos con otros dispositivos y sistemas a través de internet u otras redes de comunicación.
 
@@ -81,7 +82,7 @@
     
     Aun cuando existan más ejemplos del empleo del Internet de las Cosas en Cuba, no se ha encontrado evidencia de su aplicación en los museos cubanos, de ahí el aporte novedoso de este proyecto.
 
-    \section{Colección de Arte y Arqueología Francisco Prat Puig}
+    \section{Colección de Arte y Arqueología Francisco Prat Puig}\label{sec:coleccion_prat}
 
     Como parte de las entrevistas con los especialistas y los recoridos en la colección se identificaron aspectos a destacar tales como:
 
@@ -221,7 +222,7 @@
             \end{itemize}
     \end{itemize} 
 
-    \subsection{Propuesta de la Arquitectura IoT del Sistema}
+    \subsection{Propuesta de la Arquitectura IoT del Sistema}\label{subsec:propuesta_arq}
 
     En base de los esquemas de arquitecturas propuestas, definimos el uso de la arquitectura del proyecto la cual se cimienta en la estructura de cuatro capas, considerando las diferentes capas que la componen:
     
@@ -474,20 +475,21 @@
     
     En el caso del control de la aparición de los xilófagos, como daño de origen biótico, no se encontró ningún sensor para medir el posible ataque, por lo que para anunciar la presencia de este tipo de anomalía se analizarán los restantes sensores y por correlación de datos será posible tenerlo en cuenta también.
     
-    Por esto se realiza el análisis de las condiciones óptimas para la aparición de los mismos influyendo en la intensidad o severidad del ataque de estos insectos. Entre estos se pueden mencionar humedad, temperatura, entre otros \cite{ripa2004termitas}. 
-    
-    \subsection{Humedad}
+    Por esto se realiza el análisis de las condiciones óptimas para la aparición de los mismos influyendo en la intensidad o severidad del ataque de estos insectos. Entre estos se pueden mencionar temperatura, humedad, entre otros \cite{ripa2004termitas}. 
+   
+    \subsection{Temperatura}\label{subsec:xilofagos_temperatura}
+
+    La temperatura es otro de los factores que contribuye a la aparición de los xilófagos. Según Vázquez y cols. \cite{vazquez1999avetianella}, en un experimento sobre las condiciones necesarias para la cría de plaga, parásitos y xilófagos, plantea que si estos valores de temperatura oscilan entre los 23°C y los 30°C se crean las condiciones para el surgimiento y reproducción de especies xilófagas. 
+
+    Por otra parte Flores y Pérez \cite{floresDurabilidadNaturalDiez1987a}, en un estudio sobre los hongos xilófagos plantean que el rango de temperatura idónea para la reproducción de estos xilófagos se encuentra entre los 20°C y los 30°C, existiendo también el caso de que aún con 38°C exista la posibilidad de reproducción en algunas especies, así como Avalos Díaz y cols. \cite{avalosdiazInfluenciaDosHongos2020} que en una de sus publicaciones se define que la temperatura idónea para el surgimiento de colonias xilófagas es de 27°C +- 1.
+   
+    \subsection{Humedad}\label{subsec:xilofagos_humedad}
 
     El contenido de agua de la madera constituye uno de los factores más importantes que favorecen el ataque de las especies xilófagas. Maderas con un contenido de humedad sobre el 15\% favorece las infestaciones de coleópteros xilófagos, acortando significativamente sus ciclos de vida lo que aumenta sus poblaciones y la posibilidad de reinfestaciones \cite{ripa2004termitas}, esto relacionado a que la acumulación de humedad se acentúa en construcciones con escasa ventilación, la que se debe incrementar en espacios interiores.
 
     Según Araquistain y col. \cite{monitoringMoisture} y Rodríguez y col. \cite{rodriguezcodigo}, el porcentaje de humedad óptimo para que crezcan los xilófagos está entre el 25 y el 55\% mientras que Kisternaya \cite{woodPreservation} plantea que, el rango de humedad idónea puede estar entre el 35 y el 50\%. Tomando estos porcentajes de humedad idóneos para la aparición de los xilófagos, se establece como valor máximo de humedad un 20\%.
 
-    \subsection{Temperatura}
-
-    La temperatura es otro de los factores que contribuye a la aparición de los xilófagos. Según Vázquez y cols. \cite{vazquez1999avetianella}, en un experimento sobre las condiciones necesarias para la cría de plaga, parásitos y xilófagos, plantea que si estos valores de temperatura oscilan entre los 23°C y los 30°C se crean las condiciones para el surgimiento y reproducción de especies xilófagas. 
-
-    Por otra parte Flores y Pérez \cite{floresDurabilidadNaturalDiez1987a}, en un estudio sobre los hongos xilófagos plantean que el rango de temperatura idónea para la reproducción de estos xilófagos se encuentra entre los 20°C y los 30°C, existiendo también el caso de que aún con 38°C exista la posibilidad de reproducción en algunas especies, así como Avalos Díaz y cols. \cite{avalosdiazInfluenciaDosHongos2020} que en una de sus publicaciones se define que la temperatura idónea para el surgimiento de colonias xilófagas es de 27°C +- 1.
-
+    
     \section{Principales afectaciones}\label{sec:principales_afectaciones}
 
     \textbf{¿Qué ocurre si los valores microclimáticos no se encuentran en el rango de lo recomendado?}
