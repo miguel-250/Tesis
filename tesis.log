@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  13 NOV 2022 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.11)  13 NOV 2022 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -766,12 +766,7 @@ File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
 )
 LaTeX Font Info:    Font shape `TS1/ua1/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 57.
-
-Overfull \hbox (29.9932pt too wide) in paragraph at lines 53--67
- [][] 
- []
-
-[7] [8]
+ [7] [8]
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
@@ -1208,7 +1203,7 @@ Package rerunfilecheck Info: File `tesis.out' has not changed.
 Here is how much of TeX's memory you used:
  15835 strings out of 475389
  271723 string characters out of 2777000
- 617319 words of memory out of 3000000
+ 618319 words of memory out of 3000000
  36611 multiletter control sequences out of 15000+600000
  568961 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1217,7 +1212,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1bi8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Migue/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on tesis.pdf (64 pages, 2707711 bytes).
+Output written on tesis.pdf (64 pages, 2707753 bytes).
 PDF statistics:
  865 PDF objects out of 1000 (max. 8388607)
  205 named destinations out of 1000 (max. 500000)
