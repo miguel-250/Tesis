@@ -3,13 +3,50 @@
 \addcontentsline{toc}{section}{Introducción}
         \textbf{\Large Introducción}\newline
         
-    En este capítulo se analizarán los pasos seguidos para la implementación del sistema: se realiza la descripción del proceso a monitorear o planta, los sensores que incorpora...
+    En este capítulo se comentan los pasos seguidos para la implementación del sistema: se realiza la descripción del proceso a monitorear o planta, los sensores que incorpora...
 
-\section{Descripción del hardware del sistema}
+\section{Descripción del sistema} \label{descripcion_sistema}
 
-    El sistema de supervisión se implementa sobre una prueba de concepto desarrollada para dar fe en cuanto al análisis teórico desarrollado en todo el capítulo primero.
+    El sistema de supervisión se implementa sobre una prueba de concepto desarrollada para llevar a cabo la toma de la data de los sensores incorporados durante 4 meses para facilitar el continuar con la investigación e inferir los daños que las diferentes variables (temperatura, humedad, ruido y CO2) inciden en el deterioro de los objetos de la colección para los diferentes materiales que en ella se encuentran; esto según el análisis teórico desarrollado a lo largo del capítulo primero.
 
-    ...
+    Esta prueba de concepto (figura \ref{imag:prueba_concepto}) se dividió en 3 submódulos. En el submódulo 1 se encuentra el microcontrolador principal, en este caso un NodeMCU que tendrá interconectado a su vez un shield DS3231, un reloj de tiempo real para almacenar la fecha y hora de cada medición que se realice, así como un sensor SGP30 para la captura de los valores de CO2 dentro de la vitrina; estos datos son almacenados en una tarjeta SD por un shield de lector para este tipo de almacenamiento, además de contar con un sistema de respaldo interno de 2 baterías de litio para su funcionamiento continuo aunque existan fallos eléctricos, además de que las ubicaciones de las vitrinas se encuentre alejada de una toma de corriente eléctrica.
+
+    Sin embargo, para casos extremos energéticos se agregó el submódulo 2 el cual es una batería de tipo power bank de 10A que va conectado también al submódulo 1 y puede ser recargado simultáneamente.
+
+    Por su parte en el submódulo 3 se encuentran los 2 sensores para medir la temperatura, la humedad (DHT22) y el ruido a través de un sensor Grove de micrófono.\\
+    
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=7.5cm, height=6cm]{imagenes/prueba_concepto.jpg}
+      \caption{Prueba de Concepto}
+      \label{imag:prueba_concepto}
+    \end{figure}
+
+    Los submódulos fueron instalados en una sola vitrina y de manera separada a conveniencia de los investigadores y los especialistas del museo, el submodulo 1 y 2 se optó por ubicarlos en la parte baja de la vitrina (figura \ref{imag:ubicacion_submodulos1y2_vitrina}) en aras de que no rompiera el ambiente artístico de la colección,
+    y el submódulo 3 es ubicado en la parte superior de la vitrina (figura \ref{imag:ubicacion_submodulo3}) para recolectar la mayor cantidad de información posible.
+
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[b]{0.45\linewidth}
+        \includegraphics[width=\linewidth]{imagenes/submodulo 1.jpg}
+        \caption{Ubicación submódulo 1}
+        \label{imag:ubicacion_submodulo1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\linewidth}
+        \includegraphics[width=\linewidth]{imagenes/submodulo 2.jpg}
+        \caption{Ubicación submódulo 2}
+        \label{imag:ubicacion_submodulo2}
+    \end{subfigure}
+        \caption{Ubicación de los submódulos 1 y 2 en la vitrina}
+        \label{imag:ubicacion_submodulos1y2_vitrina}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=7cm, height=6cm]{imagenes/submodulo 3.jpg}
+        \caption{Ubicación submódulo 3}
+        \label{imag:ubicacion_submodulo3}
+      \end{figure}
 
 \section{Sensores} \label{sec:sensores}
 
@@ -24,9 +61,9 @@
         \item Precio
     \end{itemize}
 
-    En la tabla \ref{tab:relacion_sensores} se relaciona el sensor a emplear según la variable a medir.
+En la tabla \ref{tab:relacion_sensores} se relaciona el sensor a emplear según la variable a medir.
 
-    \begin{table}[H]
+    \begin{table}[h]
         \centering
         \caption{Relación sensores}
         \label{tab:relacion_sensores}
@@ -43,12 +80,12 @@
         \end{tabular}
     \end{table}
 
-    Estos sensores estarán dispuestos en zonas específicas dentro de la colección, dígase en vitrinas o, para la captura de datos, en las salas.
-    Esto permite tener datos de dentro de las vitrinas y compararlos con los datos recolectados de las salas en general, posibilitando el análisis de las diferencias entre los máximos y mínimos de los valores recolectados.
+Estos sensores estarán dispuestos en zonas específicas dentro de la colección, dígase en vitrinas o, para la captura de datos, en las salas.
+Esto permite tener datos de dentro de las vitrinas y compararlos con los datos recolectados de las salas en general, posibilitando el análisis de las diferencias entre los máximos y mínimos de los valores recolectados.
     
-    A continuación se analizan las características técnicas de cada sensor teniendo en cuenta los elementos descritos en el epígrafe \ref{sec:sensores}.
+A continuación se analizan las características técnicas de cada sensor teniendo en cuenta los elementos descritos anteriormente.
 
-    \subsection{Sensor de temperatura/humedad DHT22}
+\subsection{Sensor de temperatura y humedad DHT22}\label{sub:dht22}
 
     \begin{figure}[H]
       \centering
@@ -57,6 +94,9 @@
       \subcaption*{Fuente: Datasheet fabricante}
       \label{imag:dht22}
     \end{figure}
+
+Este sensor se encuentra presente en el submódulo 3 (ver figura \ref{imag:prueba_concepto}) ubicado en la parte superior de la vitrina,
+logrando así obtener la mayor cantidad de valores de temperatura y humedad.
    
 El DHT22 (AM2302) es un sensor digital de temperatura y humedad relativa de buen rendimiento y de bajo costo. Integra un sensor capacitivo de humedad y un termistor para medir el aire circundante, y muestra los datos mediante una señal digital en el pin de datos (no posee salida analógica).
 
@@ -79,7 +119,7 @@ Utiliza tecnología exclusiva de recolección de señales digitales y tecnologí
     \label{imag:dimensiones_dht22}
 \end{figure}
 
-Secuencia de números de pines: De izquierda a derecha 1,2,3,4
+Secuencia de números de pines: De izquierda a derecha 1,2,3,4 (tabla \ref{tab:pines_DHT})
 
 \begin{table}[H]
     \centering
@@ -95,9 +135,6 @@ Secuencia de números de pines: De izquierda a derecha 1,2,3,4
     \end{tabular}
 \end{table}
 
-Este sensor ...
-
-
 \subsection{Sensor de CO2 SGP30}
 
 \begin{figure}[H]
@@ -107,28 +144,13 @@ Este sensor ...
       \label{imag:sgp30}
 \end{figure}
 
+Este sensor se encuentra ubicado en el submódulo 3 (figura \ref{imag:prueba_concepto}) en la parte superior de la vitrina, esto debido a que los gases tienden a subir \textbf{(referenciar)} y de esta manera se obtienen los valores de CO2 más exactos.
 
+...
 
 \subsection{Sensor de vibración TZT-LM393}
 
-\begin{figure}[H]
-      \centering
-      \includegraphics[width=6.5cm, height=5cm]{imagenes/sensor-piezoelectrico.jpg}
-      \caption{Sensor piezoeléctrico M0168}
-      \label{imag:M0168}
-   \end{figure}
-
-En este sensor piezoeléctrico cuando el choque de la cerámica con la lámina metálica genera una señal eléctrica, esta señal analógica es la recibida por los pines analógicos de microcontroladores.\\
-
-\textbf{Especificaciones Técnicas}
-
-\begin{itemize}
-    \item Voltaje de trabajo: 3.3V o 5V
-    \item Corriente de trabajo: 1mA
-    \item Rango de temperatura de funcionamiento: -10 ~ +70
-    \item Interfaz Tipo: salida analógica
-    \item Tamaño del artículo: 30mm x 23mm
-\end{itemize}
+\textbf{Imagen}
 
 \newpage
 

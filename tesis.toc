@@ -29,16 +29,16 @@
 \contentsline {section}{Conclusiones}{30}{section.1.6}%
 \contentsline {chapter}{\numberline {2}Diseño e Implementación del sistema basado en IoT}{31}{chapter.2}%
 \contentsline {section}{Introducción}{31}{section*.23}%
-\contentsline {section}{\numberline {2.1}Descripción del hardware del sistema}{31}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Sensores}{31}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura/humedad DHT22}{33}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{34}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Sensor de vibración TZT-LM393}{35}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire ZP07-MP503}{36}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Sensor de luz BH1750}{37}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Alimentación}{38}{subsection.2.2.6}%
-\contentsline {section}{\numberline {2.3}Condiciones medioambientales...}{41}{section.2.3}%
-\contentsline {section}{Conclusiones}{41}{figure.caption.35}%
-\contentsline {section}{CONCLUSIONES GENERALES}{42}{section*.36}%
-\contentsline {chapter}{Recomendaciones}{43}{section*.37}%
-\contentsline {chapter}{Anexos}{51}{section*.39}%
+\contentsline {section}{\numberline {2.1}Descripción del sistema}{31}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Sensores}{33}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura y humedad DHT22}{34}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{36}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Sensor de vibración TZT-LM393}{36}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire ZP07-MP503}{37}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Sensor de luz BH1750}{38}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Alimentación}{39}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}Condiciones medioambientales...}{42}{section.2.3}%
+\contentsline {section}{Conclusiones}{42}{figure.caption.37}%
+\contentsline {section}{CONCLUSIONES GENERALES}{43}{section*.38}%
+\contentsline {chapter}{Recomendaciones}{44}{section*.39}%
+\contentsline {chapter}{Anexos}{52}{section*.41}%
