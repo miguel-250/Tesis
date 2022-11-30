@@ -244,7 +244,7 @@ La interfaz del sensor SGP30 del paquete DFN posee 6 pines como se muestra en la
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=7cm, height=5cm]{imagenes/asignación_pines.jpg}
+    \includegraphics[width=7cm, height=5.5cm]{imagenes/asignación_pines.jpg}
     \caption{Interfaz SGP30}
     \subcaption*{Fuente: Datasheet fabricante}
     \label{imag:interfaz_sgp30}
@@ -253,14 +253,20 @@ La interfaz del sensor SGP30 del paquete DFN posee 6 pines como se muestra en la
 \subsection{Sensor de vibración TZT-LM393}
 
 Para la instalación de este sensor se le anexó al submódulo 3 (figura \ref{imag:ubicacion_submodulo3}) un compartimiento donde estaría ubicado el mismo.
+
+El módulo de la vibración basado en el sensor de vibración SW-420, modelo TZT y el comparador LM393 sirve para detectar cualquier tipo de señal de vibración más allá del umbral de vibración.
+Cuando no existen señales de vibración, este pequeño módulo se encarga de dar a conocer esto mediante un indicador LED de estado bajo y alto, según correspondiera; se caracteriza por tener una única señal de salida digital que
+puede ser tratada mediante un dispositivo externo, como un microcontrolador, así se puede llevar a cabo una función específica.\\
+
 Este sensor posee características específicas que lo hacen idóneo para el análisis de los niveles de vibraciones presentes en la colección procedentes del exterior de la misma a causa, principalmente, del paso de los vehículos por la calle.\\
 
-\textbf{Características}
+\textbf{Especificaciones}
 \begin{itemize}
-    \item una
-    \item dos
-    \item tres
-    \item cuatro
+    \item El estado por defecto del interruptor es encendido
+    \item Salida digital
+    \item Voltaje de funcionamiento: 3.3V-5V
+    \item Chip LM393
+    \item Dimensiones: 3.2cm x 1.4cm
 \end{itemize}
 
 \subsection{Sensor de calidad de aire ZP07-MP503}

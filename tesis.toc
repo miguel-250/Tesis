@@ -36,13 +36,13 @@
 \contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{37}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Sensor de vibración TZT-LM393}{39}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire ZP07-MP503}{40}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Sensor de luz BH1750}{40}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Módulo lector tarjetas SD}{41}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.5}Sensor de luz BH1750}{41}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Módulo lector tarjetas SD}{42}{subsection.2.2.6}%
 \contentsline {section}{\numberline {2.3}Arduino (IDE) y sensores}{42}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Multiplexado}{42}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Multiplexado}{43}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Alimentación}{43}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Evaluación económica}{45}{section.2.6}%
-\contentsline {section}{Conclusiones capítulo 2}{45}{table.caption.42}%
-\contentsline {section}{CONCLUSIONES GENERALES}{46}{section*.43}%
-\contentsline {chapter}{Recomendaciones}{47}{section*.44}%
-\contentsline {chapter}{Anexos}{55}{section*.46}%
+\contentsline {section}{Conclusiones capítulo 2}{46}{table.caption.42}%
+\contentsline {section}{CONCLUSIONES GENERALES}{47}{section*.43}%
+\contentsline {chapter}{Recomendaciones}{48}{section*.44}%
+\contentsline {chapter}{Anexos}{56}{section*.46}%
