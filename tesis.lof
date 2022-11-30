@@ -9,14 +9,16 @@
 \contentsline {figure}{\numberline {1.7}{\ignorespaces ESP-12F basado en ESP8266\relax }}{19}{figure.caption.20}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Prueba de Concepto\relax }}{32}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Ubicación de los submódulos 1 y 2 en la vitrina\relax }}{32}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ubicación de los submódulos 1 y 2 en la vitrina\relax }}{33}{figure.caption.25}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Ubicación submódulo 3\relax }}{33}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Sensor DHT22\relax }}{34}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Dimensiones sensor DHT22\relax }}{35}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Sensor SGP30\relax }}{36}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor SDS011\relax }}{37}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Sensor BH1750\relax }}{38}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{39}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Configuración de pines\relax }}{40}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Acondicionamiento\relax }}{41}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Correlación de valores medioambientales\relax }}{42}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Placa para Nodos en las vitrinas\relax }}{34}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sensor DHT22\relax }}{35}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Dimensiones sensor DHT22\relax }}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor SGP30\relax }}{37}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagrama funcional SGP30\relax }}{38}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Interfaz SGP30\relax }}{39}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Sensor BH1750\relax }}{41}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{41}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Mapeo de los valores de los sensores\relax }}{42}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Configuración de pines\relax }}{44}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Acondicionamiento\relax }}{44}{figure.caption.41}%

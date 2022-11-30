@@ -1156,6 +1156,20 @@ INPUT .\imagenes\submodulo 3.jpg
 INPUT .\imagenes\submodulo 3.jpg
 INPUT .\imagenes\submodulo 3.jpg
 INPUT .\imagenes\submodulo 3.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\esquematico nodo.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
+INPUT .\imagenes\vista 3D.jpg
 INPUT .\imagenes\dht22.jpg
 INPUT .\imagenes\dht22.jpg
 INPUT imagenes\dht22.jpg
@@ -1177,13 +1191,20 @@ INPUT .\imagenes\sgp30.jpg
 INPUT .\imagenes\sgp30.jpg
 INPUT .\imagenes\sgp30.jpg
 INPUT .\imagenes\sgp30.jpg
-INPUT .\imagenes\Sensor SDS011.jpg
-INPUT .\imagenes\Sensor SDS011.jpg
-INPUT imagenes\Sensor SDS011.jpg
-INPUT .\imagenes\Sensor SDS011.jpg
-INPUT .\imagenes\Sensor SDS011.jpg
-INPUT .\imagenes\Sensor SDS011.jpg
-INPUT .\imagenes\Sensor SDS011.jpg
+INPUT .\imagenes\diagrama_funcional_SGP30.jpg
+INPUT .\imagenes\diagrama_funcional_SGP30.jpg
+INPUT imagenes\diagrama_funcional_SGP30.jpg
+INPUT .\imagenes\diagrama_funcional_SGP30.jpg
+INPUT .\imagenes\diagrama_funcional_SGP30.jpg
+INPUT .\imagenes\diagrama_funcional_SGP30.jpg
+INPUT .\imagenes\diagrama_funcional_SGP30.jpg
+INPUT .\imagenes\asignación_pines.jpg
+INPUT .\imagenes\asignación_pines.jpg
+INPUT imagenes\asignación_pines.jpg
+INPUT .\imagenes\asignación_pines.jpg
+INPUT .\imagenes\asignación_pines.jpg
+INPUT .\imagenes\asignación_pines.jpg
+INPUT .\imagenes\asignación_pines.jpg
 INPUT .\imagenes\Sensor BH1750.jpg
 INPUT .\imagenes\Sensor BH1750.jpg
 INPUT imagenes\Sensor BH1750.jpg
@@ -1198,6 +1219,13 @@ INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
+INPUT .\imagenes\mapeado.jpg
+INPUT .\imagenes\mapeado.jpg
+INPUT imagenes\mapeado.jpg
+INPUT .\imagenes\mapeado.jpg
+INPUT .\imagenes\mapeado.jpg
+INPUT .\imagenes\mapeado.jpg
+INPUT .\imagenes\mapeado.jpg
 INPUT .\imagenes\esquematico RT9013.pdf
 INPUT .\imagenes\esquematico RT9013.pdf
 INPUT imagenes\esquematico RT9013.pdf
@@ -1211,13 +1239,6 @@ INPUT .\imagenes\acondicionamiento RT9013.jpg
 INPUT .\imagenes\acondicionamiento RT9013.jpg
 INPUT .\imagenes\acondicionamiento RT9013.jpg
 INPUT .\imagenes\acondicionamiento RT9013.jpg
-INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
-INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
-INPUT imagenes\gráfica_comparativa_variables_medioambientales.png
-INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
-INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
-INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
-INPUT .\imagenes\gráfica_comparativa_variables_medioambientales.png
 INPUT .\capitulos\conclusiones.tex
 INPUT .\capitulos\conclusiones.tex
 INPUT .\capitulos\conclusiones.tex
