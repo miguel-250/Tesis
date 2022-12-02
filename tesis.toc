@@ -41,6 +41,7 @@
 \contentsline {section}{\numberline {2.3}Arduino (IDE) y sensores}{43}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Multiplexado}{44}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Alimentación}{44}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Regulador RT9013}{44}{subsection.2.5.1}%
 \contentsline {section}{\numberline {2.6}Evaluación económica}{46}{section.2.6}%
 \contentsline {section}{Conclusiones capítulo 2}{47}{table.caption.45}%
 \contentsline {section}{CONCLUSIONES GENERALES}{48}{section*.46}%

@@ -57,47 +57,50 @@ Warning--empty journal in arevaloleonDegradacionArteColonial2018
 Warning--missing publisher in calvomanuelConservacionRestauracionPintura2002
 Warning--empty journal in ripa2004termitas
 Warning--empty journal in rodriguezcodigo
+Warning--empty author in PorQueLlamaa
+Warning--empty journal in PorQueLlamaa
+Warning--empty year in PorQueLlamaa
 
 Done.
-You've used 69 entries,
+You've used 70 entries,
             4087 wiz_defined-function locations,
-            1226 strings with 21136 characters,
-and the built_in function-call counts, 39560 in all, are:
-= -- 3366
-> -- 615
+            1230 strings with 21319 characters,
+and the built_in function-call counts, 39832 in all, are:
+= -- 3383
+> -- 616
 < -- 302
-+ -- 363
++ -- 364
 - -- 97
-* -- 1707
-:= -- 6563
-add.period$ -- 137
-call.type$ -- 69
-change.case$ -- 67
+* -- 1725
+:= -- 6611
+add.period$ -- 139
+call.type$ -- 70
+change.case$ -- 68
 chr.to.int$ -- 639
-cite$ -- 77
-duplicate$ -- 3065
-empty$ -- 3287
+cite$ -- 81
+duplicate$ -- 3092
+empty$ -- 3315
 format.name$ -- 112
-if$ -- 9140
+if$ -- 9196
 int.to.chr$ -- 0
-int.to.str$ -- 69
-missing$ -- 478
-newline$ -- 230
+int.to.str$ -- 70
+missing$ -- 482
+newline$ -- 235
 num.names$ -- 69
-pop$ -- 1005
+pop$ -- 1021
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3193
+skip$ -- 3212
 stack$ -- 0
-substring$ -- 1570
-swap$ -- 2265
+substring$ -- 1571
+swap$ -- 2274
 text.length$ -- 89
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 69
-warning$ -- 8
+type$ -- 70
+warning$ -- 11
 while$ -- 178
-width$ -- 71
-write$ -- 652
-(There were 8 warnings)
+width$ -- 72
+write$ -- 660
+(There were 11 warnings)
