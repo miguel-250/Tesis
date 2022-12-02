@@ -1297,13 +1297,6 @@ INPUT .\capitulos\apendix.tex
 INPUT capitulos\apendix.tex
 INPUT .\capitulos\apendix.tex
 INPUT capitulos\apendix.tex
-INPUT .\imagenes\pcb placa.jpg
-INPUT .\imagenes\pcb placa.jpg
-INPUT imagenes\pcb placa.jpg
-INPUT .\imagenes\pcb placa.jpg
-INPUT .\imagenes\pcb placa.jpg
-INPUT .\imagenes\pcb placa.jpg
-INPUT .\imagenes\pcb placa.jpg
 INPUT tesis.aux
 INPUT .\caratula.aux
 INPUT caratula.aux
