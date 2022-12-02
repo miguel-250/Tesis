@@ -55,7 +55,9 @@
     los daños que las diferentes variables (temperatura, humedad, ruido y CO2) inciden en el deterioro de los objetos de la colección para los diferentes materiales que en ella se encuentran.
 
     En base a esto se diseñó una placa de circuito impreso que estará presente en los Nodos (epígrafe \ref{subsec: nodos}) de las vitrinas.
-    Este diseño posee características genéricas brinando la posibilidad de añadir o quitar sensores conforme a la ubicación del hardware.\\
+    Este diseño posee características genéricas brinando la posibilidad de añadir o quitar sensores conforme a la ubicación del hardware.
+
+    \newpage
 
     Este hardware corrige la deficiencias obtenidas durante la prueba de concepto, tales como:
       \begin{enumerate}
@@ -78,7 +80,7 @@
         \caption{Vista 3D placa}
         \label{imag:vista3D_placa}
     \end{subfigure}
-        \caption{Placa para Nodos en las vitrinas}
+        \caption{Placa para Nodos en las vitrinas (Ver anexo ...)}
         \label{imag:placa_impresa}
     \end{figure}
 
@@ -222,7 +224,7 @@ En la tabla \ref{tab:señales_calidad_aire} se muestran las especificaciones par
 
 \textbf{Distribución pines de la interfaz}
 
-La interfaz del sensor SGP30 del paquete DFN posee 6 pines como se muestra en la figura \ref{imag:interfaz_sgp30}.Para comprender esta figura se elabora la tabla \ref{tab:asignacion_pines} donde se le asigna a cada número la descripción correspondiente. A continuación la tabla \ref{tab:asignacion_pines}:
+La interfaz del sensor SGP30 del paquete DFN posee 6 pines como se muestra en la figura \ref{imag:interfaz_sgp30}. Para comprender esta figura se elabora la tabla \ref{tab:asignacion_pines} donde se le asigna a cada número la descripción correspondiente. A continuación la tabla \ref{tab:asignacion_pines}:
 
 \begin{table}[H]
     \centering
@@ -254,9 +256,16 @@ La interfaz del sensor SGP30 del paquete DFN posee 6 pines como se muestra en la
 
 Para la instalación de este sensor se le anexó al submódulo 3 (figura \ref{imag:ubicacion_submodulo3}) un compartimiento donde estaría ubicado el mismo.
 
-El módulo de la vibración basado en el sensor de vibración SW-420, modelo TZT y el comparador LM393 sirve para detectar cualquier tipo de señal de vibración más allá del umbral de vibración.
+El módulo de la vibración basado en el sensor de vibración SW-420, modelo TZT y el comparador LM393 (figura \ref{imag:TZT}), sirve para detectar cualquier tipo de señal de vibración más allá del umbral de vibración.
 Cuando no existen señales de vibración, este pequeño módulo se encarga de dar a conocer esto mediante un indicador LED de estado bajo y alto, según correspondiera; se caracteriza por tener una única señal de salida digital que
 puede ser tratada mediante un dispositivo externo, como un microcontrolador, así se puede llevar a cabo una función específica.\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6.5cm, height=5cm]{imagenes/sensor TZT.jpg}
+    \caption{Sensor TZT-LM393}
+    \label{imag:TZT}
+\end{figure}
 
 Este sensor posee características específicas que lo hacen idóneo para el análisis de los niveles de vibraciones presentes en la colección procedentes del exterior de la misma a causa, principalmente, del paso de los vehículos por la calle.\\
 
@@ -287,6 +296,32 @@ monoxide, ammonia, hydrogen, alcohol and smoke of cigarette, essence and etc. Th
 \begin{itemize}
     \item Air cleaner, fresh-air system, intelligent integrated ceiling, air quality detector, ventilator, air-condition
 \end{itemize}
+
+\textbf{Distribución pines}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6.5cm, height=5cm]{imagenes/sensor zp07.jpg}
+    \caption{Sensor ZP07-MP503}
+    \label{imag:ZP07}
+\end{figure}
+
+En la imágen anterior se aprecia la vista frontal del sensor de calidad de aire ZP07-MP503 con la numeración de los pines. Esta numeración se emplea en la tabla \ref{tab:pines_ZP07} para el análisis de la descripción de los mismos.
+
+\begin{table}[H]
+    \centering
+    \caption{Distribución pines}
+    \label{tab:pines_ZP07}
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \rowcolor[HTML]{9698ED} 
+    Pin & Nombre & Función                          \\ \hline
+    1   & GND    & Entrada de alimentación negativa \\ \hline
+    2   & 5V     & Entrada de alimentación positiva \\ \hline
+    3   & A      & Señal de salida A                \\ \hline
+    4   & B      & Señal de salida B                \\ \hline
+    \end{tabular}
+\end{table}
 
 
 \subsection{Sensor de luz BH1750}
@@ -389,7 +424,7 @@ El RT9013 consume 0.7uA típicos en modo de apagado y tiene un tiempo de encendi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=5.5cm, height=6cm]{imagenes/esquematico RT9013.pdf}
+    \includegraphics[width=4.5cm, height=5cm]{imagenes/esquematico RT9013.pdf}
     \caption{Configuración de pines}
     \subcaption*{Fuente: Datasheet fabricante}
     \label{imag:pines_RT9013}
@@ -397,7 +432,7 @@ El RT9013 consume 0.7uA típicos en modo de apagado y tiene un tiempo de encendi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=12cm, height=7cm]{imagenes/acondicionamiento RT9013.jpg}
+    \includegraphics[width=11cm, height=6cm]{imagenes/acondicionamiento RT9013.jpg}
     \caption{Acondicionamiento}
     \subcaption*{Fuente: Datasheet fabricante}
     \label{imag:acondicionamiento_RT9013}
@@ -417,17 +452,17 @@ En la siguiente tabla se relaciona lo que se considera como presupuesto mínimo 
     \centering
     \caption{Relación de precios de los componentes del sistema}
     \label{tab:precios_componentes}
-    \begin{tabular}{|l|l|r|r|}
+    \begin{tabular}{|l|l|r|}
     \hline
-    \cellcolor[HTML]{9698ED}Elemento    & \cellcolor[HTML]{9698ED}Precio unitario  & \cellcolor[HTML]{9698ED}Cantidad  & \cellcolor[HTML]{9698ED}Precio total  \\ \hline
-    ESP-12F                             & VDD - Alimentación                       & 3                                 & \$6                                   \\ \hline
-    Sensor DHT22                        & VDD - Alimentación                       & 3                                 & \$6                                   \\ \hline
-    Sensor SGP30                        & VDD - Alimentación                       & 3                                 & \$6                                   \\ \hline
-    Sensor TZT-LM393                    & VDD - Alimentación                       & 3                                 & \$6                                   \\ \hline
-    Sensor ZP07-MP503                   & VDD - Alimentación                       & 3                                 & \$6                                   \\ \hline
-    Sensor BH1750                       & VDD - Alimentación                       & 3                                 & \$6                                   \\ \hline
-    Lector tarjeta SD                   & VDD - Alimentación                       & 3                                 & \$6                                   \\ \hline
-                                        &                                          &                                   & \$300                                 \\ \hline
+    \cellcolor[HTML]{9698ED}Elemento    & \cellcolor[HTML]{9698ED}Precio unitario  \\ \hline
+    ESP-12F                             & ...                                      \\ \hline
+    Sensor DHT22                        & \$3.82                                   \\ \hline
+    Sensor SGP30                        & \$6.34                                   \\ \hline
+    Sensor TZT-LM393                    & \$2.14                                   \\ \hline
+    Sensor ZP07-MP503                   & \$2.22                                   \\ \hline
+    Sensor BH1750                       & ...                                      \\ \hline
+    Lector tarjeta SD                   & ...                                      \\ \hline
+                                        & Total:                                   \\ \hline
     \end{tabular}
 \end{table}
 

@@ -1205,6 +1205,20 @@ INPUT .\imagenes\asignación_pines.jpg
 INPUT .\imagenes\asignación_pines.jpg
 INPUT .\imagenes\asignación_pines.jpg
 INPUT .\imagenes\asignación_pines.jpg
+INPUT .\imagenes\sensor TZT.jpg
+INPUT .\imagenes\sensor TZT.jpg
+INPUT imagenes\sensor TZT.jpg
+INPUT .\imagenes\sensor TZT.jpg
+INPUT .\imagenes\sensor TZT.jpg
+INPUT .\imagenes\sensor TZT.jpg
+INPUT .\imagenes\sensor TZT.jpg
+INPUT .\imagenes\sensor zp07.jpg
+INPUT .\imagenes\sensor zp07.jpg
+INPUT imagenes\sensor zp07.jpg
+INPUT .\imagenes\sensor zp07.jpg
+INPUT .\imagenes\sensor zp07.jpg
+INPUT .\imagenes\sensor zp07.jpg
+INPUT .\imagenes\sensor zp07.jpg
 INPUT .\imagenes\Sensor BH1750.jpg
 INPUT .\imagenes\Sensor BH1750.jpg
 INPUT imagenes\Sensor BH1750.jpg
@@ -1283,6 +1297,13 @@ INPUT .\capitulos\apendix.tex
 INPUT capitulos\apendix.tex
 INPUT .\capitulos\apendix.tex
 INPUT capitulos\apendix.tex
+INPUT .\imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
 INPUT tesis.aux
 INPUT .\caratula.aux
 INPUT caratula.aux
