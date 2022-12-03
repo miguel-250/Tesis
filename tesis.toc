@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{Listado de símbolos, términos especiales y abreviaturas no normalizadas}{I}{section*.5}%
-\contentsline {section}{Índice de figuras}{II}{section*.6}%
+\contentsline {section}{Índice de figuras}{III}{section*.6}%
 \contentsline {section}{Índice de tablas}{III}{section*.7}%
 \contentsline {section}{Resumen}{IV}{section*.7}%
 \contentsline {section}{Abstract}{V}{section*.7}%
@@ -38,12 +38,12 @@
 \contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire ZP07-MP503}{40}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Sensor de luz BH1750}{42}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Módulo lector tarjetas SD}{43}{subsection.2.2.6}%
-\contentsline {section}{\numberline {2.3}Arduino (IDE) y sensores}{43}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Multiplexado}{44}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Alimentación}{44}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Regulador RT9013}{44}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2.6}Evaluación económica}{46}{section.2.6}%
-\contentsline {section}{Conclusiones capítulo 2}{47}{table.caption.45}%
-\contentsline {section}{CONCLUSIONES GENERALES}{48}{section*.46}%
-\contentsline {chapter}{Recomendaciones}{49}{section*.47}%
-\contentsline {chapter}{Anexos}{57}{section*.49}%
+\contentsline {section}{\numberline {2.3}Arduino (IDE) y sensores}{44}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Multiplexado}{45}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Alimentación}{47}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Regulador RT9013}{47}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}Evaluación económica}{49}{section.2.6}%
+\contentsline {section}{Conclusiones capítulo 2}{50}{table.caption.50}%
+\contentsline {section}{CONCLUSIONES GENERALES}{51}{section*.51}%
+\contentsline {chapter}{Recomendaciones}{52}{section*.52}%
+\contentsline {chapter}{Anexos}{60}{section*.54}%

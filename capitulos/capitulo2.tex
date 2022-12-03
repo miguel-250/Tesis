@@ -356,7 +356,39 @@ En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicion
 
 \subsection{Módulo lector tarjetas SD}
 
-...
+Los sistemas de supervisión convencionales incorporan la característica de poder
+almacenar datos históricos del sistema que supervisan. A medida que se incorporan sensores se hace necesario llevar un registro de estos datos. Esto permitirá en el futuro conocer cómo se ha
+estado comportando el sistema acorde a los valores registrados e incluso detectar fallos. 
+
+A través del empleo de este módulo se facilita la elaboración de tablas comparativas y el análisis de máximos y mínimos.
+
+Este módulo de tarjeta SD se conecta fácilmente como un periférico al microcontrolador. A través de la programación, puede leer y escribir en la tarjeta SD.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=5.5cm, height=2cm]{imagenes/libreria SD.jpg}
+    \caption{Librería <SD.h>}
+    \label{imag:libreria_SD}
+\end{figure}
+
+En el presente sistema de monitoreo este módulo es empleado para almacenar en un archivo de extensión .txt, el registro de los valores de temperatura, humedad, ruido y CO2 cada cinco minutos. Este archivo luego es procesado en Excel para obtener las 
+gráficas y establecer comparaciones.
+
+En la figura \ref{imag:modulo_SD} se puede observar el modelo del módulo lector de SD a emplear en el sistema.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm, height=5cm]{imagenes/modulo SD.jpg}
+    \caption{Módulo SD}
+    \label{imag:modulo_SD}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm, height=6cm]{imagenes/codigo SD.jpg}
+    \caption{Almacenamiento datos en SD}
+    \label{imag:almacenamiento_SD}
+\end{figure}
 
 \section{Arduino (IDE) y sensores}
 
@@ -387,11 +419,38 @@ de entradas analógicas para poder incorporar mayor cantidad de sensores con se�
 
 El multiplexor empleado (CD74HC4051) posee la característica de poder conectar varios sensores a un solo pin analógico.
 
-El 74HC4051 es un multiplexor/demultiplexor de 8 bit y, por lo tanto, construye interruptores bidireccionales que permiten usar cualquier entrada analógica como salida y viceversa. El valor más importante es el voltaje máximo de entrada con 5V para el multiplexor analógico. El 5V encaja bien con todos los microcontroladores basados en Arduino y ESP8266.
+El 74HC4051 es un multiplexor/demultiplexor de 8 bit y, por lo tanto, construye interruptores bidireccionales que permiten usar cualquier entrada analógica como salida y viceversa. El valor más importante es el voltaje máximo de entrada con 5V para el multiplexor analógico. El 5V encaja bien con todos los microcontroladores basados en Arduino y ESP8266.\\
 
 En la siguiente figura se puede observar la distribución de los pines de este microcontrolador.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6.5cm, height=5cm]{imagenes/multiplexor.jpg}
+    \caption{Multiplexor 74HC4051}
+    \label{imag:multiplexor}
+\end{figure}
 
+\newpage
+
+En correspondencia con la figura anterior se elabora la tabla \ref{tab:pines_74HC4051} con la descripción correspondiente a cada uno los pines de este multiplexor.
+
+\begin{table}[H]
+    \centering
+    \caption{Multiplexor 74HC4051}
+    \label{tab:pines_74HC4051}
+    \begin{tabular}{|l|l|}
+    \hline
+    \rowcolor[HTML]{9698ED} 
+    Pin     & Descipción y conección                                            \\ \hline
+    A0...A7 & Entradas analógicas para multiplexación y demultiplexación        \\ \hline
+    GND     & Conexión a tierra                                                 \\ \hline
+    VCC     & Alimentación positiva (2V...6V)                                   \\ \hline
+    S0...S2 & Líneas de selección (8 bits)                                      \\ \hline
+    A       & Entrada analógica común                                           \\ \hline
+    E       & Habilitación                                                      \\ \hline
+    VEE     & Alimentación negativa (voltajes negativos de 0...-6)              \\ \hline
+    \end{tabular}
+\end{table}
 
 
 

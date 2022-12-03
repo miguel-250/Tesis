@@ -21,6 +21,10 @@
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Sensor ZP07-MP503\relax }}{41}{figure.caption.38}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Sensor BH1750\relax }}{42}{figure.caption.40}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{43}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Mapeo de los valores de los sensores\relax }}{44}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Configuración de pines\relax }}{46}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Acondicionamiento\relax }}{46}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Librería <SD.h>\relax }}{43}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Módulo SD\relax }}{44}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Almacenamiento datos en SD\relax }}{44}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Mapeo de los valores de los sensores\relax }}{45}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Multiplexor 74HC4051\relax }}{46}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Configuración de pines\relax }}{48}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Acondicionamiento\relax }}{49}{figure.caption.49}%
