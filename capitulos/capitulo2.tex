@@ -100,7 +100,7 @@
 
 En la tabla \ref{tab:relacion_sensores} se relaciona el sensor a emplear según la variable a medir.
 
-    \begin{table}[h]
+    \begin{table}[H]
         \centering
         \caption{Relación sensores}
         \label{tab:relacion_sensores}
@@ -171,6 +171,24 @@ Secuencia de números de pines: De izquierda a derecha 1,2,3,4 (tabla \ref{tab:p
     4   & GND                \\ \hline
     \end{tabular}
 \end{table}
+
+En la figura a continuación, se muestra como se implementa este sensor en el IDE de Arduino.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\linewidth}
+    \includegraphics[width=\linewidth]{imagenes/libreria DHT.jpg}
+    \caption{Librería para sensor DHT}
+    \label{imag:libreria_DHT}
+\end{subfigure}
+\begin{subfigure}[b]{0.45\linewidth}
+    \includegraphics[width=\linewidth]{imagenes/lectura DHT.jpg}
+    \caption{Sección de código para DHT}
+    \label{imag:codigo_DHT}
+\end{subfigure}
+    \caption{IDE Arduino y sensor DHT}
+    \label{imag:arduino_DHT}
+\end{figure}
 
 \subsection{Sensor de CO2 SGP30}
 
@@ -266,6 +284,8 @@ puede ser tratada mediante un dispositivo externo, como un microcontrolador, as�
     \caption{Sensor TZT-LM393}
     \label{imag:TZT}
 \end{figure}
+
+\newpage
 
 Este sensor posee características específicas que lo hacen idóneo para el análisis de los niveles de vibraciones presentes en la colección procedentes del exterior de la misma a causa, principalmente, del paso de los vehículos por la calle.\\
 
@@ -374,7 +394,7 @@ Este módulo de tarjeta SD se conecta fácilmente como un periférico al microco
 En el presente sistema de monitoreo este módulo es empleado para almacenar en un archivo de extensión .txt, el registro de los valores de temperatura, humedad, ruido y CO2 cada cinco minutos. Este archivo luego es procesado en Excel para obtener las 
 gráficas y establecer comparaciones.
 
-En la figura \ref{imag:modulo_SD} se puede observar el modelo del módulo lector de SD a emplear en el sistema.
+En la figura \ref{imag:modulo_SD} se puede observar el modelo del módulo lector de SD a emplear en el sistema, meintras que en la figura \ref{imag:almacenamiento_SD} se muestra la forma en que, mediante el código, se almacenan los datos en la SD y en la figura \ref{imag:datos_en_SD} se puede observar cómo queda almacenada la información de dichos datos. 
 
 \begin{figure}[H]
     \centering
@@ -388,6 +408,13 @@ En la figura \ref{imag:modulo_SD} se puede observar el modelo del módulo lector
     \includegraphics[width=7cm, height=6cm]{imagenes/codigo SD.jpg}
     \caption{Almacenamiento datos en SD}
     \label{imag:almacenamiento_SD}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12.5cm, height=4cm]{imagenes/archivo txt.jpg}
+    \caption{Archivo de datos almacenado en la SD}
+    \label{imag:datos_en_SD}
 \end{figure}
 
 \section{Arduino (IDE) y sensores}

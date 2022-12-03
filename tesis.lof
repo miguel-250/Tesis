@@ -14,17 +14,19 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Placa para Nodos en las vitrinas (Ver anexo ...)\relax }}{34}{figure.caption.27}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Sensor DHT22\relax }}{35}{figure.caption.29}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Dimensiones sensor DHT22\relax }}{36}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Sensor SGP30\relax }}{37}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagrama funcional SGP30\relax }}{38}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Interfaz SGP30\relax }}{39}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Sensor TZT-LM393\relax }}{40}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Sensor ZP07-MP503\relax }}{41}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Sensor BH1750\relax }}{42}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{43}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Librería <SD.h>\relax }}{43}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Módulo SD\relax }}{44}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Almacenamiento datos en SD\relax }}{44}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Mapeo de los valores de los sensores\relax }}{45}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Multiplexor 74HC4051\relax }}{46}{figure.caption.46}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Configuración de pines\relax }}{48}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Acondicionamiento\relax }}{49}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces IDE Arduino y sensor DHT\relax }}{37}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Sensor SGP30\relax }}{37}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagrama funcional SGP30\relax }}{38}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Interfaz SGP30\relax }}{40}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Sensor TZT-LM393\relax }}{40}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Sensor ZP07-MP503\relax }}{42}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Sensor BH1750\relax }}{43}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Acondicionamiento sensor BH1750\relax }}{43}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Librería <SD.h>\relax }}{44}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Módulo SD\relax }}{44}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Almacenamiento datos en SD\relax }}{45}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Archivo de datos almacenado en la SD\relax }}{45}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Mapeo de los valores de los sensores\relax }}{46}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Multiplexor 74HC4051\relax }}{46}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Configuración de pines\relax }}{48}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Acondicionamiento\relax }}{49}{figure.caption.51}%

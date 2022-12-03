@@ -963,9 +963,9 @@ INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT tesis.lof
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+OUTPUT tesis.lof
 INPUT .\capitulos\indice3.tex
 INPUT .\capitulos\indice3.tex
 INPUT .\capitulos\indice3.tex
@@ -1184,6 +1184,20 @@ INPUT .\imagenes\dht22 dimensiones.jpg
 INPUT .\imagenes\dht22 dimensiones.jpg
 INPUT .\imagenes\dht22 dimensiones.jpg
 INPUT .\imagenes\dht22 dimensiones.jpg
+INPUT .\imagenes\libreria DHT.jpg
+INPUT .\imagenes\libreria DHT.jpg
+INPUT imagenes\libreria DHT.jpg
+INPUT .\imagenes\libreria DHT.jpg
+INPUT .\imagenes\libreria DHT.jpg
+INPUT .\imagenes\libreria DHT.jpg
+INPUT .\imagenes\libreria DHT.jpg
+INPUT .\imagenes\lectura DHT.jpg
+INPUT .\imagenes\lectura DHT.jpg
+INPUT imagenes\lectura DHT.jpg
+INPUT .\imagenes\lectura DHT.jpg
+INPUT .\imagenes\lectura DHT.jpg
+INPUT .\imagenes\lectura DHT.jpg
+INPUT .\imagenes\lectura DHT.jpg
 INPUT .\imagenes\sgp30.jpg
 INPUT .\imagenes\sgp30.jpg
 INPUT imagenes\sgp30.jpg
@@ -1254,6 +1268,13 @@ INPUT .\imagenes\codigo SD.jpg
 INPUT .\imagenes\codigo SD.jpg
 INPUT .\imagenes\codigo SD.jpg
 INPUT .\imagenes\codigo SD.jpg
+INPUT .\imagenes\archivo txt.jpg
+INPUT .\imagenes\archivo txt.jpg
+INPUT imagenes\archivo txt.jpg
+INPUT .\imagenes\archivo txt.jpg
+INPUT .\imagenes\archivo txt.jpg
+INPUT .\imagenes\archivo txt.jpg
+INPUT .\imagenes\archivo txt.jpg
 INPUT .\imagenes\mapeado.jpg
 INPUT .\imagenes\mapeado.jpg
 INPUT imagenes\mapeado.jpg
