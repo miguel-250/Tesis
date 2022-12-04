@@ -55,7 +55,7 @@
     los daños que las diferentes variables (temperatura, humedad, ruido y CO2) inciden en el deterioro de los objetos de la colección para los diferentes materiales que en ella se encuentran.
 
     En base a esto se diseñó una placa de circuito impreso que estará presente en los Nodos (epígrafe \ref{subsec: nodos}) de las vitrinas.
-    Este diseño posee características genéricas brinando la posibilidad de añadir o quitar sensores conforme a la ubicación del hardware.
+    Este diseño posee características genéricas brinando la posibilidad de añadir o quitar sensores conforme a la ubicación del hardware (Anexo 2).
 
     \newpage
 
@@ -85,7 +85,7 @@
     \end{figure}
 
 
-\section{Sensores} \label{sec:sensores}
+\section{Sensores y módulos} \label{sec:sensores}
 
     La secuencia de sensores pertenecientes al sistema es selecta, puesto que se tomaron los sensores teniendo en cuenta varios elementos:
 
@@ -155,6 +155,8 @@ Utiliza tecnología exclusiva de recolección de señales digitales y tecnologí
     \subcaption*{Fuente: Datasheet fabricante}
     \label{imag:dimensiones_dht22}
 \end{figure}
+
+\newpage
 
 Secuencia de números de pines: De izquierda a derecha 1,2,3,4 (tabla \ref{tab:pines_DHT})
 
@@ -300,21 +302,20 @@ Este sensor posee características específicas que lo hacen idóneo para el an�
 
 \subsection{Sensor de calidad de aire ZP07-MP503}
 
-ZP07 air-quality module adopts flat surface semiconductor gas sensor. The module has good sensitivity to volatile organic gases such as formaldehyde, benzene, carbon
-monoxide, ammonia, hydrogen, alcohol and smoke of cigarette, essence and etc. The module has been aging, debugged, adjusted and calibrated. So it has good consistency and high sensitivity.\\
+El módulo de calidad del aire ZP07 adopta un sensor de gas semiconductor de superficie plana. El módulo tiene buena sensibilidad a los gases orgánicos volátiles como formaldehído, benceno, monóxido de carbono, amoníaco, hidrógeno, alcohol y humo de cigarrillo, esencia, etc. El módulo ha sido envejecido, depurado, ajustado y calibrado. Tiene tan buena consistencia y alta sensibilidad.\\
 
 \textbf{Características}
 \begin{itemize}
-    \item High sensitivity
-    \item Low power consumption, long life
-    \item Calibrated before shipment
-    \item 10 seconds to 3 minutes with auto-preheating function
-    \item Faulty auto-check, High cost-effective
+    \item Alta sencibilidad
+    \item Bajo consumo de energía, larga vida.
+    \item Calibrado antes de su envío
+    \item 10 segundos a 3 minutos con función de precalentamiento automático.
+    \item Comprobación automática defectuosa, alta rentabilidad.
 \end{itemize}
 
 \textbf{Aplicaciones}
 \begin{itemize}
-    \item Air cleaner, fresh-air system, intelligent integrated ceiling, air quality detector, ventilator, air-condition
+    \item Filtro de aire, sistema de aire fresco, techo integrado inteligente, detector de calidad del aire, ventilador, aire acondicionado.
 \end{itemize}
 
 \textbf{Distribución pines}
@@ -373,6 +374,20 @@ En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicion
     \subcaption*{Fuente: Datasheet fabricante}
     \label{imag:acondicionamiento_BH1750}
 \end{figure}
+
+\subsection{Módulo RTC DS3231}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm, height=5cm]{imagenes/RTC.jpg}
+    \caption{Módulo reloj de tiempo real RTC-DS3231}
+    \label{imag:RTC-DS3231}
+\end{figure}
+
+El módulo DS3231 es un Reloj de Tiempo Real (Real Time Clock) que será empleado para almacenar la fecha y hora de cada medicion que se realice.
+
+Este módulo ... 
+
 
 \subsection{Módulo lector tarjetas SD}
 
@@ -492,7 +507,7 @@ El RT9013 es un regulador LDO de 500 mA de alto rendimiento que ofrece PSRR extr
 
 La corriente de reposo RT9013 es tan baja como 25uA, lo que prolonga aún más la vida útil de la batería. El RT9013 también funciona con condensadores cerámicos de baja ESR, lo que reduce la cantidad de espacio de placa necesario para las aplicaciones de energía, lo que es fundamental en los dispositivos inalámbricos de mano.
 
-El RT9013 consume 0.7uA típicos en modo de apagado y tiene un tiempo de encendido rápido de menos de 40us. Las otras características incluyen voltaje de caída ultrabajo, alta precisión de salida, protección de limitación de corriente y alta relación de rechazo de ondulación. Disponible en el paquete SC-82, SOT-23-5, SC-70-5 y WDFN-6L 2x2.\\
+El RT9013 consume 0.7uA típicos en modo de apagado y tiene un tiempo de encendido rápido de menos de 40us. Las otras características incluyen voltaje de caída ultrabajo, alta precisión de salida, protección de limitación de corriente y alta relación de rechazo de ondulación. Disponible en el paquete SC-82, SOT-23-5, SC-70-5 y WDFN-6L 2x2.
 
 \textbf{Características}
 
@@ -508,11 +523,9 @@ El RT9013 consume 0.7uA típicos en modo de apagado y tiene un tiempo de encendi
     \item Entrada de apagado controlado por lógica TTL
 \end{itemize}
 
-\vspace{1cm}
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=4.5cm, height=5cm]{imagenes/esquematico RT9013.pdf}
+    \includegraphics[width=3.5cm, height=4cm]{imagenes/esquematico RT9013.pdf}
     \caption{Configuración de pines}
     \subcaption*{Fuente: Datasheet fabricante}
     \label{imag:pines_RT9013}
@@ -543,19 +556,26 @@ En la siguiente tabla se relaciona lo que se considera como presupuesto mínimo 
     \begin{tabular}{|l|l|r|}
     \hline
     \cellcolor[HTML]{9698ED}Elemento    & \cellcolor[HTML]{9698ED}Precio unitario  \\ \hline
-    ESP-12F                             & \$1.22                                      \\ \hline
+    ESP-12F                             & \$1.22                                   \\ \hline
     Sensor DHT22                        & \$3.82                                   \\ \hline
     Sensor SGP30                        & \$6.34                                   \\ \hline
     Sensor TZT-LM393                    & \$2.14                                   \\ \hline
     Sensor ZP07-MP503                   & \$2.22                                   \\ \hline
     Sensor BH1750                       & \$1.00                                   \\ \hline
     Lector tarjeta SD                   & \$0.66                                   \\ \hline
-                                        & Total: \$17.40                                  \\ \hline
+    RTC DS3231                          & \$                                       \\ \hline
+                                        & Total: \$17.40                           \\ \hline
     \end{tabular}
 \end{table}
 
 También se tuvo en cuenta el empleo de la mínima instrumentación, de tal forma que cuando se decida instalar el sistema, no se necesita adquirir nada más fuera de lo analizado para que se obtengan los datos esperados.
 Los precios fueron tomados del mercado alternativo de Aliexpress\footnote{http://www.aliexpress.com}.\\
 
+\newpage
+
 \addcontentsline{toc}{section}{Conclusiones capítulo 2}
         \textbf{\Large Conclusiones capítulo 2}\newline
+
+        En este capítulo se establecieron los componentes para el diseño del Sistema de Supervisión, así como la realización del diseño y simulación del hardware del mismo.
+        Se trabajó en obtener mejoras en dicho hardware a partir del desarrollo de una prueba de concepto.
+        Se hizo un análisis de la instrumentación empleada en el sistema y sus características, así como la necesidad del empleo de la multiplexación y las mejoras en cuanto a potenciar un menor consumo.

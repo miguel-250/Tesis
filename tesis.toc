@@ -31,19 +31,20 @@
 \contentsline {section}{Introducción}{31}{section*.23}%
 \contentsline {section}{\numberline {2.1}Descripción del sistema}{31}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Nuevo prototipo de Nodo}{33}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Sensores}{34}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Sensores y módulos}{34}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Sensor de temperatura y humedad DHT22}{35}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Sensor de CO2 SGP30}{37}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Sensor de vibración TZT-LM393}{40}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Sensor de calidad de aire ZP07-MP503}{41}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Sensor de luz BH1750}{42}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Módulo lector tarjetas SD}{43}{subsection.2.2.6}%
-\contentsline {section}{\numberline {2.3}Arduino (IDE) y sensores}{45}{section.2.3}%
+\contentsline {subsection}{\numberline {2.2.6}Módulo RTC DS3231}{44}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Módulo lector tarjetas SD}{44}{subsection.2.2.7}%
+\contentsline {section}{\numberline {2.3}Arduino (IDE) y sensores}{46}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Multiplexado}{46}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Alimentación}{47}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Regulador RT9013}{47}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2.6}Evaluación económica}{49}{section.2.6}%
-\contentsline {section}{Conclusiones capítulo 2}{50}{table.caption.52}%
-\contentsline {section}{CONCLUSIONES GENERALES}{51}{section*.53}%
-\contentsline {chapter}{Recomendaciones}{52}{section*.54}%
-\contentsline {chapter}{Anexos}{60}{section*.56}%
+\contentsline {section}{\numberline {2.5}Alimentación}{48}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Regulador RT9013}{48}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}Evaluación económica}{50}{section.2.6}%
+\contentsline {section}{Conclusiones capítulo 2}{51}{table.caption.53}%
+\contentsline {section}{CONCLUSIONES GENERALES}{52}{section*.54}%
+\contentsline {chapter}{Recomendaciones}{53}{section*.55}%
+\contentsline {chapter}{Anexos}{61}{section*.57}%

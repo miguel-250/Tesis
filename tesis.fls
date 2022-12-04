@@ -1247,6 +1247,13 @@ INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
 INPUT .\imagenes\acondicionamientos sensor BH1750.jpg
+INPUT .\imagenes\RTC.jpg
+INPUT .\imagenes\RTC.jpg
+INPUT imagenes\RTC.jpg
+INPUT .\imagenes\RTC.jpg
+INPUT .\imagenes\RTC.jpg
+INPUT .\imagenes\RTC.jpg
+INPUT .\imagenes\RTC.jpg
 INPUT .\imagenes\libreria SD.jpg
 INPUT .\imagenes\libreria SD.jpg
 INPUT imagenes\libreria SD.jpg
@@ -1346,6 +1353,83 @@ INPUT .\capitulos\apendix.tex
 INPUT capitulos\apendix.tex
 INPUT .\capitulos\apendix.tex
 INPUT capitulos\apendix.tex
+INPUT .\imagenes\codigo1.jpg
+INPUT .\imagenes\codigo1.jpg
+INPUT imagenes\codigo1.jpg
+INPUT .\imagenes\codigo1.jpg
+INPUT .\imagenes\codigo1.jpg
+INPUT .\imagenes\codigo1.jpg
+INPUT .\imagenes\codigo1.jpg
+INPUT .\imagenes\codigo2.jpg
+INPUT .\imagenes\codigo2.jpg
+INPUT imagenes\codigo2.jpg
+INPUT .\imagenes\codigo2.jpg
+INPUT .\imagenes\codigo2.jpg
+INPUT .\imagenes\codigo2.jpg
+INPUT .\imagenes\codigo2.jpg
+INPUT .\imagenes\codigo3.jpg
+INPUT .\imagenes\codigo3.jpg
+INPUT imagenes\codigo3.jpg
+INPUT .\imagenes\codigo3.jpg
+INPUT .\imagenes\codigo3.jpg
+INPUT .\imagenes\codigo3.jpg
+INPUT .\imagenes\codigo3.jpg
+INPUT .\imagenes\codigo4.jpg
+INPUT .\imagenes\codigo4.jpg
+INPUT imagenes\codigo4.jpg
+INPUT .\imagenes\codigo4.jpg
+INPUT .\imagenes\codigo4.jpg
+INPUT .\imagenes\codigo4.jpg
+INPUT .\imagenes\codigo4.jpg
+INPUT .\imagenes\codigo5.jpg
+INPUT .\imagenes\codigo5.jpg
+INPUT imagenes\codigo5.jpg
+INPUT .\imagenes\codigo5.jpg
+INPUT .\imagenes\codigo5.jpg
+INPUT .\imagenes\codigo5.jpg
+INPUT .\imagenes\codigo5.jpg
+INPUT .\imagenes\codigo6.jpg
+INPUT .\imagenes\codigo6.jpg
+INPUT imagenes\codigo6.jpg
+INPUT .\imagenes\codigo6.jpg
+INPUT .\imagenes\codigo6.jpg
+INPUT .\imagenes\codigo6.jpg
+INPUT .\imagenes\codigo6.jpg
+INPUT .\imagenes\codigo7.jpg
+INPUT .\imagenes\codigo7.jpg
+INPUT imagenes\codigo7.jpg
+INPUT .\imagenes\codigo7.jpg
+INPUT .\imagenes\codigo7.jpg
+INPUT .\imagenes\codigo7.jpg
+INPUT .\imagenes\codigo7.jpg
+INPUT .\imagenes\codigo8.jpg
+INPUT .\imagenes\codigo8.jpg
+INPUT imagenes\codigo8.jpg
+INPUT .\imagenes\codigo8.jpg
+INPUT .\imagenes\codigo8.jpg
+INPUT .\imagenes\codigo8.jpg
+INPUT .\imagenes\codigo8.jpg
+INPUT .\imagenes\codigo9.jpg
+INPUT .\imagenes\codigo9.jpg
+INPUT imagenes\codigo9.jpg
+INPUT .\imagenes\codigo9.jpg
+INPUT .\imagenes\codigo9.jpg
+INPUT .\imagenes\codigo9.jpg
+INPUT .\imagenes\codigo9.jpg
+INPUT .\imagenes\codigo10.jpg
+INPUT .\imagenes\codigo10.jpg
+INPUT imagenes\codigo10.jpg
+INPUT .\imagenes\codigo10.jpg
+INPUT .\imagenes\codigo10.jpg
+INPUT .\imagenes\codigo10.jpg
+INPUT .\imagenes\codigo10.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
+INPUT .\imagenes\pcb placa.jpg
 INPUT tesis.aux
 INPUT .\caratula.aux
 INPUT caratula.aux
