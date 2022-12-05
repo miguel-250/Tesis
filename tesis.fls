@@ -840,10 +840,33 @@ INPUT .\caratula.tex
 INPUT caratula.tex
 INPUT .\caratula.tex
 INPUT caratula.tex
+INPUT .\imagenes\uo.jpg
+INPUT .\imagenes\uo.jpg
+INPUT imagenes\uo.jpg
+INPUT .\imagenes\uo.jpg
+INPUT .\imagenes\uo.jpg
+INPUT .\imagenes\uo.jpg
+INPUT .\imagenes\uo.jpg
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT .\imagenes\trabajo de diploma.jpg
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT C:\Users\Migue\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
+INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\capitulos\carátula2.tex
 INPUT .\capitulos\carátula2.tex
 INPUT .\capitulos\carátula2.tex
@@ -864,12 +887,6 @@ INPUT .\imagenes\identidad en blanco y negro.jpg
 INPUT .\imagenes\trabajo de diploma.jpg
 INPUT imagenes\trabajo de diploma.jpg
 INPUT .\imagenes\trabajo de diploma.jpg
-INPUT .\imagenes\trabajo de diploma.jpg
-INPUT .\imagenes\trabajo de diploma.jpg
-INPUT .\imagenes\trabajo de diploma.jpg
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\capitulos\pagina_firmas.tex
 INPUT .\capitulos\pagina_firmas.tex
 INPUT .\capitulos\pagina_firmas.tex
@@ -897,7 +914,6 @@ INPUT capitulos\dedicatoria.tex
 INPUT .\capitulos\dedicatoria.tex
 INPUT capitulos\dedicatoria.tex
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1r8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1ri8t.tfm
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1ri8t.vf
 INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1ri8r.tfm
@@ -911,8 +927,6 @@ INPUT .\capitulos\agradecimientos.tex
 INPUT capitulos\agradecimientos.tex
 INPUT .\capitulos\agradecimientos.tex
 INPUT capitulos\agradecimientos.tex
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\capitulos\listado.tex
 INPUT .\capitulos\listado.tex
 INPUT .\capitulos\listado.tex
@@ -990,9 +1004,6 @@ INPUT .\capitulos\resumen.tex
 INPUT capitulos\resumen.tex
 INPUT .\capitulos\resumen.tex
 INPUT capitulos\resumen.tex
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8t.tfm
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\vf\urw\arial\ua1b8t.vf
-INPUT C:\Users\Migue\AppData\Local\Programs\MiKTeX\fonts\tfm\urw\arial\ua1b8r.tfm
 INPUT .\capitulos\abstract.tex
 INPUT .\capitulos\abstract.tex
 INPUT .\capitulos\abstract.tex
@@ -1254,6 +1265,13 @@ INPUT .\imagenes\RTC.jpg
 INPUT .\imagenes\RTC.jpg
 INPUT .\imagenes\RTC.jpg
 INPUT .\imagenes\RTC.jpg
+INPUT .\imagenes\conexiones RTC.jpg
+INPUT .\imagenes\conexiones RTC.jpg
+INPUT imagenes\conexiones RTC.jpg
+INPUT .\imagenes\conexiones RTC.jpg
+INPUT .\imagenes\conexiones RTC.jpg
+INPUT .\imagenes\conexiones RTC.jpg
+INPUT .\imagenes\conexiones RTC.jpg
 INPUT .\imagenes\libreria SD.jpg
 INPUT .\imagenes\libreria SD.jpg
 INPUT imagenes\libreria SD.jpg

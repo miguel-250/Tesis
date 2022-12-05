@@ -1,7 +1,7 @@
 \chapter{Diseño e Implementación del sistema basado en IoT}\label{cap: }
 
 \addcontentsline{toc}{section}{Introducción}
-        \textbf{\Large Introducción}\newline
+        \textbf{\Large Introducción}\vspace{0.5cm}
         
     En este capítulo se comentan los pasos seguidos para la implementación del sistema: se realiza la descripción de este sistema, los sensores que incorpora y la descripción de los mismos. 
     Se explica la relación que se establece entre el IDE Arduino y los sensores, así como el empleo de la multiplexación. Además, se explican las características de la alimentación empleada y la evaluación económica del proyecto.
@@ -23,7 +23,7 @@
       \label{imag:prueba_concepto}
     \end{figure}
 
-    Los submódulos fueron instalados en una sola vitrina y de manera separada a conveniencia de los investigadores y los especialistas del museo, el submodulo 1 y 2 se optó por ubicarlos en la parte baja de la vitrina (figura \ref{imag:ubicacion_submodulos1y2_vitrina}) en aras de que no rompiera el ambiente artístico de la colección,
+    Los submódulos fueron instalados en una sola vitrina y de manera separada a conveniencia de los investigadores y los especialistas del museo, el submódulo 1 y 2 se optó por ubicarlos en la parte baja de la vitrina (figura \ref{imag:ubicacion_submodulos1y2_vitrina}) en aras de que no rompiera el ambiente artístico de la colección,
     y el submódulo 3 es ubicado en la parte superior de la vitrina (figura \ref{imag:ubicacion_submodulo3}) para recolectar la mayor cantidad de información posible.
 
     \begin{figure}[H]
@@ -54,8 +54,8 @@
     La solución implementada a través de la prueba de concepto permitió obtener la data de cuatro sensores de los 9 previstos durante 4 meses lo que ha posibilitado continuar la investigación para inferir
     los daños que las diferentes variables (temperatura, humedad, ruido y CO2) inciden en el deterioro de los objetos de la colección para los diferentes materiales que en ella se encuentran.
 
-    En base a esto se diseñó una placa de circuito impreso que estará presente en los Nodos (epígrafe \ref{subsec: nodos}) de las vitrinas.
-    Este diseño posee características genéricas brinando la posibilidad de añadir o quitar sensores conforme a la ubicación del hardware (Anexo 2).
+    Basado en esto se diseñó una placa de circuito impreso que estará presente en los Nodos (epígrafe \ref{subsec: nodos}) de las vitrinas.
+    Este diseño posee características genéricas brindando la posibilidad de añadir o quitar sensores conforme a la ubicación del hardware.
 
     \newpage
 
@@ -80,7 +80,7 @@
         \caption{Vista 3D placa}
         \label{imag:vista3D_placa}
     \end{subfigure}
-        \caption{Placa para Nodos en las vitrinas (Ver anexo ...)}
+        \caption{Placa para Nodos en las vitrinas (Anexo 2)}
         \label{imag:placa_impresa}
     \end{figure}
 
@@ -274,7 +274,7 @@ La interfaz del sensor SGP30 del paquete DFN posee 6 pines como se muestra en la
 
 \subsection{Sensor de vibración TZT-LM393}
 
-Para la instalación de este sensor se le anexó al submódulo 3 (figura \ref{imag:ubicacion_submodulo3}) un compartimiento donde estaría ubicado el mismo.
+Para la instalación de este sensor se le anexó al submódulo 3 (figura \ref{imag:prueba_concepto}) un compartimiento donde estaría ubicado el mismo.
 
 El módulo de la vibración basado en el sensor de vibración SW-420, modelo TZT y el comparador LM393 (figura \ref{imag:TZT}), sirve para detectar cualquier tipo de señal de vibración más allá del umbral de vibración.
 Cuando no existen señales de vibración, este pequeño módulo se encarga de dar a conocer esto mediante un indicador LED de estado bajo y alto, según correspondiera; se caracteriza por tener una única señal de salida digital que
@@ -302,11 +302,11 @@ Este sensor posee características específicas que lo hacen idóneo para el an�
 
 \subsection{Sensor de calidad de aire ZP07-MP503}
 
-El módulo de calidad del aire ZP07 adopta un sensor de gas semiconductor de superficie plana. El módulo tiene buena sensibilidad a los gases orgánicos volátiles como formaldehído, benceno, monóxido de carbono, amoníaco, hidrógeno, alcohol y humo de cigarrillo, esencia, etc. El módulo ha sido envejecido, depurado, ajustado y calibrado. Tiene tan buena consistencia y alta sensibilidad.\\
+El módulo de calidad del aire ZP07 adopta un sensor de gas semiconductor de superficie plana. El módulo tiene buena sensibilidad a los gases orgánicos volátiles como formaldehído, benceno, monóxido de carbono, amoníaco, hidrógeno, alcohol y humo de cigarrillo, esencia, etc. El módulo ha sido envejecido, depurado, ajustado y calibrado. Tiene buena consistencia y alta sensibilidad.\\
 
 \textbf{Características}
 \begin{itemize}
-    \item Alta sencibilidad
+    \item Alta sensibilidad
     \item Bajo consumo de energía, larga vida.
     \item Calibrado antes de su envío
     \item 10 segundos a 3 minutos con función de precalentamiento automático.
@@ -327,7 +327,7 @@ El módulo de calidad del aire ZP07 adopta un sensor de gas semiconductor de sup
     \label{imag:ZP07}
 \end{figure}
 
-En la imágen anterior se aprecia la vista frontal del sensor de calidad de aire ZP07-MP503 con la numeración de los pines. Esta numeración se emplea en la tabla \ref{tab:pines_ZP07} para el análisis de la descripción de los mismos.
+En la imagen anterior se aprecia la vista frontal del sensor de calidad de aire ZP07-MP503 con la numeración de los pines. Esta numeración se emplea en la tabla \ref{tab:pines_ZP07} para el análisis de la descripción de los mismos.
 
 \begin{table}[H]
     \centering
@@ -365,7 +365,7 @@ El Módulo BH1750 es un sensor de iluminación digital para medición de flujo l
 \end{itemize}
 
 Para su correcto funcionamiento, este sensor debe ir acompañado de una serie de componentes electrónicos para su acondicionamiento.
-En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicionamiento brindado por el fabricante.
+En la siguiente figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicionamiento brindado por el fabricante.
 
 \begin{figure}[H]
     \centering
@@ -384,12 +384,51 @@ En la figura \ref{imag:acondicionamiento_BH1750} se puede observar el acondicion
     \label{imag:RTC-DS3231}
 \end{figure}
 
-El módulo DS3231 es un Reloj de Tiempo Real (Real Time Clock) que será empleado para almacenar la fecha y hora de cada medicion que se realice.
+El DS3231 es un reloj I2C en tiempo real (RTC) extremadamente preciso y de bajo costo con un oscilador de cristal (TCXO) y cristal integrados compensados por temperatura.
 
-Este módulo ... 
+El dispositivo incorpora una entrada de batería y mantiene la hora exacta cuando se interrumpe la alimentación principal del dispositivo. La integración del resonador de cristal mejora la precisión a largo plazo del dispositivo y reduce el recuento de piezas en una línea de fabricación.
 
+El RTC mantiene información sobre segundos, minutos, horas, día, fecha, mes y año. La fecha al final del mes se ajusta automáticamente a los meses con menos de 31 días, incluidas las correcciones del año bisiesto. El reloj funciona en formato de 24 horas o de 12 horas con un indicador AM / PM. Dos horas del día programables.
 
-\subsection{Módulo lector tarjetas SD}
+Se proporcionan alarmas y una salida de onda cuadrada programable. La dirección y los datos se transfieren en serie a través de un bus bidireccional I2C.
+
+Una referencia de voltaje de precisión compensada y un circuito comparador monitorean el estado de VCC para detectar fallas de energía, para proporcionar una salida de reinicio y para cambiar automáticamente a la fuente de respaldo cuando sea necesario. Además, el pin RST se monitorea como una entrada de botón para generar un reinicio de uP.
+
+Este módulo DS3231 será empleado para almacenar la fecha y hora de cada medición que se realice cada 5 minutos.
+
+\newpage
+
+En la siguiente figura se puede observar el esquema típico de conexiones de este módulo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm, height=5.6cm]{imagenes/conexiones RTC.jpg}
+    \caption{Conexiones del DS3231}
+    \label{imag:conexiones_DS3231}
+\end{figure}
+
+\textbf{Características}
+
+El RTC de alta precisión administra completamente todas las funciones de hora normal.
+
+\begin{itemize}
+    \item El reloj de tiempo real cuenta los segundos, los minutos, las horas, la fecha del mes, el mes, el día de la semana y el año, con una compensación de año bisiesto válida hasta 2100
+    \item Precisión ± 2 ppm de 0 °C a + 40 °C
+    \item Precisión ± 3.5 ppm de -40 °C a + 85 °C
+    \item Salida del sensor de temperatura digital: precisión de ± 3 °C
+    \item Registrarse para el ajuste de envejecimiento
+    \item RST Output / Pushbutton Reset Debounce Input
+    \item Dos alarmas de hora del día
+    \item Señal de salida de onda cuadrada programable
+    \item La interfaz en serie simple se conecta a la mayoría de los microcontroladores
+    \item Interfaz I2C rápida (400kHz)
+    \item Entrada de batería de respaldo para el cronometraje continuo
+    \item La operación de baja potencia prolonga el tiempo de ejecución de la batería de respaldo
+    \item Operación 3.3V
+    \item Rangos de temperatura de funcionamiento: comercial (0 °C a + 70 °C) e industrial (-40 °C a + 85 °C)
+\end{itemize}
+
+\subsection{Módulo para tarjetas SD}
 
 Los sistemas de supervisión convencionales incorporan la característica de poder
 almacenar datos históricos del sistema que supervisan. A medida que se incorporan sensores se hace necesario llevar un registro de estos datos. Esto permitirá en el futuro conocer cómo se ha
@@ -409,7 +448,7 @@ Este módulo de tarjeta SD se conecta fácilmente como un periférico al microco
 En el presente sistema de monitoreo este módulo es empleado para almacenar en un archivo de extensión .txt, el registro de los valores de temperatura, humedad, ruido y CO2 cada cinco minutos. Este archivo luego es procesado en Excel para obtener las 
 gráficas y establecer comparaciones.
 
-En la figura \ref{imag:modulo_SD} se puede observar el modelo del módulo lector de SD a emplear en el sistema, meintras que en la figura \ref{imag:almacenamiento_SD} se muestra la forma en que, mediante el código, se almacenan los datos en la SD y en la figura \ref{imag:datos_en_SD} se puede observar cómo queda almacenada la información de dichos datos. 
+En la figura \ref{imag:modulo_SD} se puede observar el modelo del módulo lector de SD a emplear en el sistema, mientras que en la figura \ref{imag:almacenamiento_SD} se muestra la forma en que, mediante el código, se almacenan los datos en la SD y en la figura \ref{imag:datos_en_SD} se puede observar cómo queda almacenada la información de dichos datos. 
 
 \begin{figure}[H]
     \centering
@@ -461,18 +500,18 @@ de entradas analógicas para poder incorporar mayor cantidad de sensores con se�
 
 El multiplexor empleado (CD74HC4051) posee la característica de poder conectar varios sensores a un solo pin analógico.
 
-El 74HC4051 es un multiplexor/demultiplexor de 8 bit y, por lo tanto, construye interruptores bidireccionales que permiten usar cualquier entrada analógica como salida y viceversa. El valor más importante es el voltaje máximo de entrada con 5V para el multiplexor analógico. El 5V encaja bien con todos los microcontroladores basados en Arduino y ESP8266.\\
+El 74HC4051 es un multiplexor/demultiplexor de 8 bit y, por lo tanto, construye interruptores bidireccionales que permiten usar cualquier entrada analógica como salida y viceversa. El valor más importante es el voltaje máximo de entrada con 5V para el multiplexor analógico. El 5V encaja bien con todos los microcontroladores basados en Arduino y ESP8266.
+
+\newpage
 
 En la siguiente figura se puede observar la distribución de los pines de este microcontrolador.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=6.5cm, height=5cm]{imagenes/multiplexor.jpg}
+    \includegraphics[width=7cm, height=5cm]{imagenes/multiplexor.jpg}
     \caption{Multiplexor 74HC4051}
     \label{imag:multiplexor}
 \end{figure}
-
-\newpage
 
 En correspondencia con la figura anterior se elabora la tabla \ref{tab:pines_74HC4051} con la descripción correspondiente a cada uno los pines de este multiplexor.
 
@@ -571,10 +610,8 @@ En la siguiente tabla se relaciona lo que se considera como presupuesto mínimo 
 También se tuvo en cuenta el empleo de la mínima instrumentación, de tal forma que cuando se decida instalar el sistema, no se necesita adquirir nada más fuera de lo analizado para que se obtengan los datos esperados.
 Los precios fueron tomados del mercado alternativo de Aliexpress\footnote{http://www.aliexpress.com}.\\
 
-\newpage
-
 \addcontentsline{toc}{section}{Conclusiones capítulo 2}
-        \textbf{\Large Conclusiones capítulo 2}\newline
+        \textbf{\Large Conclusiones capítulo 2}\vspace{0.5cm}
 
         En este capítulo se establecieron los componentes para el diseño del Sistema de Supervisión, así como la realización del diseño y simulación del hardware del mismo.
         Se trabajó en obtener mejoras en dicho hardware a partir del desarrollo de una prueba de concepto.
